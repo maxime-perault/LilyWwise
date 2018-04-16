@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{84EA8792-12FE-4E5E-950A-F7C12BDA81C4}" SchemaVersion="85" RootDocumentID="{A173F46B-135A-44AE-857B-948A706A6FBF}">
+	<Events>
+		<WorkUnit Name="Character" ID="{84EA8792-12FE-4E5E-950A-F7C12BDA81C4}" OwnerID="{A173F46B-135A-44AE-857B-948A706A6FBF}" PersistMode="Nested">
+			<ChildrenList>
+				<Folder Name="Cabane_foleys" ID="{F2D07FE4-7391-4AFC-89AF-EE2A63E9D56D}" ShortID="233690251">
+					<ChildrenList>
+						<Event Name="Play_Door_close" ID="{C52B164E-FBFF-4417-B06E-8271A8961D91}">
+							<ChildrenList>
+								<Action Name="" ID="{9C46CCAF-71C0-4B45-8B63-99BEBFFA5F01}" ShortID="81189479">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Door_close" ID="{6A98D64A-B1C7-4499-A48F-FB336164AD94}" WorkUnitID="{5B924862-92FF-490C-A2A6-85F175E8DAE0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Door_open" ID="{1954321B-CE9F-481D-8ED9-22A81A81153A}">
+							<ChildrenList>
+								<Action Name="" ID="{5061AC39-36D7-46BA-BF2A-92D455B9CECB}" ShortID="164895615">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Door_open" ID="{031FECEF-785D-462B-A583-BFAB8F6D6858}" WorkUnitID="{5B924862-92FF-490C-A2A6-85F175E8DAE0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Character_foleys" ID="{2E9ACE3B-D9EC-4812-88DF-9C460FDF5615}" ShortID="63167781">
+					<ChildrenList>
+						<Folder Name="Fireflies" ID="{3534B8BD-66EB-4363-80CC-BB987A725BC4}" ShortID="1055042861">
+							<ChildrenList>
+								<Event Name="Play_Fireflies_idle" ID="{B94228AF-14E6-4369-9E9B-EC44B4005B20}">
+									<ChildrenList>
+										<Action Name="" ID="{A3B61E32-B25D-496A-AA87-45AA39906085}" ShortID="683024565">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Fireflies_idle" ID="{47A79040-B205-40F4-A6AA-F9F08829F034}" WorkUnitID="{5B924862-92FF-490C-A2A6-85F175E8DAE0}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Fireflies_idle_bocal" ID="{EDCC9DD4-50B6-41F3-A289-5D379670A29D}">
+									<ChildrenList>
+										<Action Name="" ID="{0201D526-C6F5-4721-991E-9E60F203D2A1}" ShortID="190167784">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Fireflies_idle_bocal" ID="{1E46CE79-12A9-49B6-BF0F-9A43010913CD}" WorkUnitID="{5B924862-92FF-490C-A2A6-85F175E8DAE0}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Fireflies_pickup" ID="{D8849530-F811-47D0-B50E-46685D9A6CDA}">
+									<ChildrenList>
+										<Action Name="" ID="{0EF5FF08-10A3-48D3-9F25-409145438FBA}" ShortID="686201232">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Fireflies_pickup" ID="{A179CD23-56E8-4D32-B980-27B94D0B441F}" WorkUnitID="{5B924862-92FF-490C-A2A6-85F175E8DAE0}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Footsteps" ID="{496381CE-0E22-4061-9436-BD4D5CD64938}" ShortID="950078291">
+							<ChildrenList>
+								<Event Name="Play_FS_Cabane" ID="{A2FC91A9-01E6-44E6-9AB0-38CCBB0AB8A5}">
+									<ChildrenList>
+										<Action Name="" ID="{7EC26C3B-F412-4A3A-9C54-458ADBC8B651}" ShortID="744669089">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="FS_Cabane" ID="{A2CD90F9-B14D-48A4-A6E6-0CD31A9EE63F}" WorkUnitID="{5B924862-92FF-490C-A2A6-85F175E8DAE0}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_FS_Grass" ID="{E9FE1124-8CDF-46AE-B7B9-21E6515A4D10}">
+									<ChildrenList>
+										<Action Name="" ID="{EEBA5D5A-A501-4E2E-97EE-FB22603361E2}" ShortID="450024514">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="FS_Grass" ID="{6E7E15C0-EA2E-406B-B087-9295B10E9C06}" WorkUnitID="{5B924862-92FF-490C-A2A6-85F175E8DAE0}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_FS_Dirt" ID="{B0029247-BBD1-4C69-B723-B81222D3E8C5}">
+									<ChildrenList>
+										<Action Name="" ID="{D02F1687-6CAA-46E2-9864-6FD02605594E}" ShortID="848382382">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="FS_Dirt" ID="{2F872530-F77C-4DCC-943F-496E19BE0D9E}" WorkUnitID="{5B924862-92FF-490C-A2A6-85F175E8DAE0}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Lightzone" ID="{94C9F8B4-B657-4BDC-BD85-C390441FC7B6}" ShortID="873971867">
+							<ChildrenList>
+								<Event Name="Play_Lightzone_Expand" ID="{87261BDF-76F9-404C-A1B3-8A52325350AF}">
+									<ChildrenList>
+										<Action Name="" ID="{A90C3544-C028-461F-8D9C-06897F4C6845}" ShortID="62012048">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Lightzone_Expand" ID="{BA7A61EB-7755-4154-ACB5-9D940411B6F3}" WorkUnitID="{5B924862-92FF-490C-A2A6-85F175E8DAE0}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

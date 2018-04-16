@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{6FCABF8B-629D-44A0-B42C-BAFC2CE137DD}" SchemaVersion="85">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{6FCABF8B-629D-44A0-B42C-BAFC2CE137DD}" PersistMode="Standalone">
+			<ChildrenList>
+				<WorkUnit Name="Ambiances_WU" ID="{821171D9-99CF-4A05-9D60-15EC54E6949F}" PersistMode="Reference"/>
+				<WorkUnit Name="Character_WU" ID="{5B924862-92FF-490C-A2A6-85F175E8DAE0}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

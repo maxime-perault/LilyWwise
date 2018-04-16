@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="128">
+	<RootPaths>
+		<ProjectRoot>D:\Softwares\GitProjects\LilyWwise\Wwise_Lily\</ProjectRoot>
+		<SourceFilesRoot>D:\Softwares\GitProjects\LilyWwise\Wwise_Lily\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>D:\Softwares\GitProjects\LilyWwise\Wwise_Lily\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>D:\Softwares\GitProjects\LilyWwise\Wwise_Lily\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3411909911" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Lily_Soundbank</ObjectPath>
+			<ShortName>Lily_Soundbank</ShortName>
+			<Path>Lily_Soundbank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2425019269" Name="Play_AMB_O1" ObjectPath="\Events\Default Work Unit\Ambiances\O1\Play_AMB_O1"/>
+				<Event Id="2292458263" Name="Play_Door_close" ObjectPath="\Events\Default Work Unit\Character\Cabane_foleys\Play_Door_close"/>
+				<Event Id="1660008929" Name="Play_Door_open" ObjectPath="\Events\Default Work Unit\Character\Cabane_foleys\Play_Door_open"/>
+				<Event Id="1973086714" Name="Play_Fireflies_idle" ObjectPath="\Events\Default Work Unit\Character\Character_foleys\Fireflies\Play_Fireflies_idle"/>
+				<Event Id="3038914928" Name="Play_Fireflies_idle_bocal" ObjectPath="\Events\Default Work Unit\Character\Character_foleys\Fireflies\Play_Fireflies_idle_bocal"/>
+				<Event Id="1831923560" Name="Play_Fireflies_pickup" ObjectPath="\Events\Default Work Unit\Character\Character_foleys\Fireflies\Play_Fireflies_pickup"/>
+				<Event Id="3322572638" Name="Play_FS_Cabane" ObjectPath="\Events\Default Work Unit\Character\Character_foleys\Footsteps\Play_FS_Cabane"/>
+				<Event Id="3373521485" Name="Play_FS_Dirt" ObjectPath="\Events\Default Work Unit\Character\Character_foleys\Footsteps\Play_FS_Dirt"/>
+				<Event Id="2129450016" Name="Play_FS_Grass" ObjectPath="\Events\Default Work Unit\Character\Character_foleys\Footsteps\Play_FS_Grass"/>
+				<Event Id="353474919" Name="Play_Lightzone_Expand" ObjectPath="\Events\Default Work Unit\Character\Character_foleys\Lightzone\Play_Lightzone_Expand"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="4134339" Language="SFX">
+					<ShortName>Wind_base_5.wav</ShortName>
+					<Path>SFX\Wind_base_5_1617AFA0.wem</Path>
+				</File>
+				<File Id="8516310" Language="SFX">
+					<ShortName>Wind_base_4.wav</ShortName>
+					<Path>SFX\Wind_base_4_1617AFA0.wem</Path>
+				</File>
+				<File Id="24064258" Language="SFX">
+					<ShortName>FS_Grass_5.wav</ShortName>
+					<Path>SFX\FS_Grass_5_1617AFA0.wem</Path>
+				</File>
+				<File Id="40597509" Language="SFX">
+					<ShortName>FS_Dirt_8.wav</ShortName>
+					<Path>SFX\FS_Dirt_8_1617AFA0.wem</Path>
+				</File>
+				<File Id="53823901" Language="SFX">
+					<ShortName>FS_Creak_4.wav</ShortName>
+					<Path>SFX\FS_Creak_4_1617AFA0.wem</Path>
+				</File>
+				<File Id="79180153" Language="SFX">
+					<ShortName>FS_Wood_6.wav</ShortName>
+					<Path>SFX\FS_Wood_6_1617AFA0.wem</Path>
+				</File>
+				<File Id="99575669" Language="SFX">
+					<ShortName>FS_Dirt_5.wav</ShortName>
+					<Path>SFX\FS_Dirt_5_1617AFA0.wem</Path>
+				</File>
+				<File Id="130593866" Language="SFX">
+					<ShortName>Lightzone_expand_1.wav</ShortName>
+					<Path>SFX\Lightzone_expand_1_1617AFA0.wem</Path>
+				</File>
+				<File Id="164419082" Language="SFX">
+					<ShortName>FS_Wood_1.wav</ShortName>
+					<Path>SFX\FS_Wood_1_1617AFA0.wem</Path>
+				</File>
+				<File Id="164819211" Language="SFX">
+					<ShortName>Door_close.wav</ShortName>
+					<Path>SFX\Door_close_1C9C67B2.wem</Path>
+				</File>
+				<File Id="166251350" Language="SFX">
+					<ShortName>FS_Grass_3.wav</ShortName>
+					<Path>SFX\FS_Grass_3_1617AFA0.wem</Path>
+				</File>
+				<File Id="218288067" Language="SFX">
+					<ShortName>FS_Wood_3.wav</ShortName>
+					<Path>SFX\FS_Wood_3_1617AFA0.wem</Path>
+				</File>
+				<File Id="226958419" Language="SFX">
+					<ShortName>FS_Dirt_4.wav</ShortName>
+					<Path>SFX\FS_Dirt_4_1617AFA0.wem</Path>
+				</File>
+				<File Id="231491770" Language="SFX">
+					<ShortName>FS_Wood_5.wav</ShortName>
+					<Path>SFX\FS_Wood_5_1617AFA0.wem</Path>
+				</File>
+				<File Id="251543091" Language="SFX">
+					<ShortName>FS_Creak_5.wav</ShortName>
+					<Path>SFX\FS_Creak_5_73BB8CB6.wem</Path>
+				</File>
+				<File Id="252750255" Language="SFX">
+					<ShortName>Wind_base_6.wav</ShortName>
+					<Path>SFX\Wind_base_6_1617AFA0.wem</Path>
+				</File>
+				<File Id="264765481" Language="SFX">
+					<ShortName>Wind_base_1.wav</ShortName>
+					<Path>SFX\Wind_base_1_1617AFA0.wem</Path>
+				</File>
+				<File Id="270736712" Language="SFX">
+					<ShortName>Fireflies_idle_1.wav</ShortName>
+					<Path>SFX\Fireflies_idle_1_1617AFA0.wem</Path>
+				</File>
+				<File Id="279557552" Language="SFX">
+					<ShortName>FS_Dirt_3.wav</ShortName>
+					<Path>SFX\FS_Dirt_3_1617AFA0.wem</Path>
+				</File>
+				<File Id="304393150" Language="SFX">
+					<ShortName>Silence 3.wav</ShortName>
+					<Path>SFX\Silence 3_1617AFA0.wem</Path>
+				</File>
+				<File Id="405520064" Language="SFX">
+					<ShortName>FS_Creak_6.wav</ShortName>
+					<Path>SFX\FS_Creak_6_1617AFA0.wem</Path>
+				</File>
+				<File Id="418610338" Language="SFX">
+					<ShortName>Leaves_8.wav</ShortName>
+					<Path>SFX\Leaves_8_1617AFA0.wem</Path>
+				</File>
+				<File Id="434641292" Language="SFX">
+					<ShortName>Silence 5.wav</ShortName>
+					<Path>SFX\Silence 5_1617AFA0.wem</Path>
+				</File>
+				<File Id="435523954" Language="SFX">
+					<ShortName>FS_Dirt_2.wav</ShortName>
+					<Path>SFX\FS_Dirt_2_1617AFA0.wem</Path>
+				</File>
+				<File Id="509637114" Language="SFX">
+					<ShortName>FS_Dirt_7.wav</ShortName>
+					<Path>SFX\FS_Dirt_7_1617AFA0.wem</Path>
+				</File>
+				<File Id="517917573" Language="SFX">
+					<ShortName>FS_Wood_2.wav</ShortName>
+					<Path>SFX\FS_Wood_2_1617AFA0.wem</Path>
+				</File>
+				<File Id="521026246" Language="SFX">
+					<ShortName>Silence.wav</ShortName>
+					<Path>SFX\Silence_1617AFA0.wem</Path>
+				</File>
+				<File Id="528515471" Language="SFX">
+					<ShortName>Fireflies_idle_bocal_1.wav</ShortName>
+					<Path>SFX\Fireflies_idle_bocal_1_1617AFA0.wem</Path>
+				</File>
+				<File Id="533531499" Language="SFX">
+					<ShortName>Leaves_6.wav</ShortName>
+					<Path>SFX\Leaves_6_1617AFA0.wem</Path>
+				</File>
+				<File Id="556945693" Language="SFX">
+					<ShortName>Wind_base_2.wav</ShortName>
+					<Path>SFX\Wind_base_2_1617AFA0.wem</Path>
+				</File>
+				<File Id="670179210" Language="SFX">
+					<ShortName>FS_Grass_4.wav</ShortName>
+					<Path>SFX\FS_Grass_4_1617AFA0.wem</Path>
+				</File>
+				<File Id="697412504" Language="SFX">
+					<ShortName>FS_Dirt_1.wav</ShortName>
+					<Path>SFX\FS_Dirt_1_1617AFA0.wem</Path>
+				</File>
+				<File Id="713096762" Language="SFX">
+					<ShortName>FS_Grass_2.wav</ShortName>
+					<Path>SFX\FS_Grass_2_1617AFA0.wem</Path>
+				</File>
+				<File Id="720995574" Language="SFX">
+					<ShortName>Silence 2.wav</ShortName>
+					<Path>SFX\Silence 2_1617AFA0.wem</Path>
+				</File>
+				<File Id="727414544" Language="SFX">
+					<ShortName>Silence 4.wav</ShortName>
+					<Path>SFX\Silence 4_1617AFA0.wem</Path>
+				</File>
+				<File Id="733624479" Language="SFX">
+					<ShortName>FS_Wood_4.wav</ShortName>
+					<Path>SFX\FS_Wood_4_1617AFA0.wem</Path>
+				</File>
+				<File Id="758934239" Language="SFX">
+					<ShortName>FS_Creak_1.wav</ShortName>
+					<Path>SFX\FS_Creak_1_862D35E5.wem</Path>
+				</File>
+				<File Id="785858130" Language="SFX">
+					<ShortName>Wind_base_8.wav</ShortName>
+					<Path>SFX\Wind_base_8_1617AFA0.wem</Path>
+				</File>
+				<File Id="793951061" Language="SFX">
+					<ShortName>Silence 6.wav</ShortName>
+					<Path>SFX\Silence 6_1617AFA0.wem</Path>
+				</File>
+				<File Id="812407516" Language="SFX">
+					<ShortName>Wind_base_3.wav</ShortName>
+					<Path>SFX\Wind_base_3_1617AFA0.wem</Path>
+				</File>
+				<File Id="847831048" Language="SFX">
+					<ShortName>Wind_base_7.wav</ShortName>
+					<Path>SFX\Wind_base_7_1617AFA0.wem</Path>
+				</File>
+				<File Id="884539936" Language="SFX">
+					<ShortName>Leaves_2.wav</ShortName>
+					<Path>SFX\Leaves_2_1617AFA0.wem</Path>
+				</File>
+				<File Id="899592111" Language="SFX">
+					<ShortName>Leaves_5.wav</ShortName>
+					<Path>SFX\Leaves_5_1617AFA0.wem</Path>
+				</File>
+				<File Id="941065455" Language="SFX">
+					<ShortName>FS_Grass_9.wav</ShortName>
+					<Path>SFX\FS_Grass_9_1617AFA0.wem</Path>
+				</File>
+				<File Id="944670862" Language="SFX">
+					<ShortName>FS_Grass_10.wav</ShortName>
+					<Path>SFX\FS_Grass_10_1617AFA0.wem</Path>
+				</File>
+				<File Id="948112215" Language="SFX">
+					<ShortName>Leaves_4.wav</ShortName>
+					<Path>SFX\Leaves_4_1617AFA0.wem</Path>
+				</File>
+				<File Id="975061060" Language="SFX">
+					<ShortName>FS_Grass_8.wav</ShortName>
+					<Path>SFX\FS_Grass_8_1617AFA0.wem</Path>
+				</File>
+				<File Id="980652938" Language="SFX">
+					<ShortName>FS_Creak_3.wav</ShortName>
+					<Path>SFX\FS_Creak_3_1617AFA0.wem</Path>
+				</File>
+				<File Id="989136631" Language="SFX">
+					<ShortName>Leaves_1.wav</ShortName>
+					<Path>SFX\Leaves_1_1617AFA0.wem</Path>
+				</File>
+				<File Id="1017177356" Language="SFX">
+					<ShortName>FS_Grass_1.wav</ShortName>
+					<Path>SFX\FS_Grass_1_1617AFA0.wem</Path>
+				</File>
+				<File Id="1022328389" Language="SFX">
+					<ShortName>FS_Dirt_6.wav</ShortName>
+					<Path>SFX\FS_Dirt_6_1617AFA0.wem</Path>
+				</File>
+				<File Id="1029013991" Language="SFX">
+					<ShortName>Fireflies_pickup_1.wav</ShortName>
+					<Path>SFX\Fireflies_pickup_1_1617AFA0.wem</Path>
+				</File>
+				<File Id="1041240613" Language="SFX">
+					<ShortName>FS_Grass_7.wav</ShortName>
+					<Path>SFX\FS_Grass_7_1617AFA0.wem</Path>
+				</File>
+				<File Id="1045286107" Language="SFX">
+					<ShortName>Door_open.wav</ShortName>
+					<Path>SFX\Door_open_1C9C67B2.wem</Path>
+				</File>
+				<File Id="1046988004" Language="SFX">
+					<ShortName>Leaves_7.wav</ShortName>
+					<Path>SFX\Leaves_7_1617AFA0.wem</Path>
+				</File>
+				<File Id="1052842670" Language="SFX">
+					<ShortName>FS_Grass_6.wav</ShortName>
+					<Path>SFX\FS_Grass_6_1617AFA0.wem</Path>
+				</File>
+				<File Id="1054689394" Language="SFX">
+					<ShortName>FS_Creak_2.wav</ShortName>
+					<Path>SFX\FS_Creak_2_1617AFA0.wem</Path>
+				</File>
+				<File Id="1059929105" Language="SFX">
+					<ShortName>Leaves_3.wav</ShortName>
+					<Path>SFX\Leaves_3_1617AFA0.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

@@ -1,0 +1,72 @@
+Event	ID	Name			Wwise Object Path	Notes
+	353474919	Play_Lightzone_Expand			\Default Work Unit\Character\Character_foleys\Lightzone\Play_Lightzone_Expand	
+	1660008929	Play_Door_open			\Default Work Unit\Character\Cabane_foleys\Play_Door_open	
+	1831923560	Play_Fireflies_pickup			\Default Work Unit\Character\Character_foleys\Fireflies\Play_Fireflies_pickup	
+	1973086714	Play_Fireflies_idle			\Default Work Unit\Character\Character_foleys\Fireflies\Play_Fireflies_idle	
+	2129450016	Play_FS_Grass			\Default Work Unit\Character\Character_foleys\Footsteps\Play_FS_Grass	
+	2292458263	Play_Door_close			\Default Work Unit\Character\Cabane_foleys\Play_Door_close	
+	2425019269	Play_AMB_O1			\Default Work Unit\Ambiances\O1\Play_AMB_O1	
+	3038914928	Play_Fireflies_idle_bocal			\Default Work Unit\Character\Character_foleys\Fireflies\Play_Fireflies_idle_bocal	
+	3322572638	Play_FS_Cabane			\Default Work Unit\Character\Character_foleys\Footsteps\Play_FS_Cabane	
+	3373521485	Play_FS_Dirt			\Default Work Unit\Character\Character_foleys\Footsteps\Play_FS_Dirt	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	4134339	Wind_base_5	D:\Softwares\GitProjects\LilyWwise\Wwise_Lily\.cache\Windows\SFX\Wind_base_5_1617AFA0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances_WU\Ambiances\O1\AMB_O1\Wind\Wind_base_5		117522
+	8516310	Wind_base_4	D:\Softwares\GitProjects\LilyWwise\Wwise_Lily\.cache\Windows\SFX\Wind_base_4_1617AFA0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances_WU\Ambiances\O1\AMB_O1\Wind\Wind_base_4		117732
+	24064258	FS_Grass_5	D:\Softwares\GitProjects\LilyWwise\Wwise_Lily\.cache\Windows\SFX\FS_Grass_5_1617AFA0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character_WU\Character_foleys\Footsteps\FS_Grass\FS_Grass_5		5464
+	40597509	FS_Dirt_8	D:\Softwares\GitProjects\LilyWwise\Wwise_Lily\.cache\Windows\SFX\FS_Dirt_8_1617AFA0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character_WU\Character_foleys\Footsteps\FS_Dirt\FS_Dirt_8		3361
+	53823901	FS_Creak_4	D:\Softwares\GitProjects\LilyWwise\Wwise_Lily\.cache\Windows\SFX\FS_Creak_4_1617AFA0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character_WU\Character_foleys\Footsteps\FS_Cabane\FS_Creaks\FS_Creak_4	Too long ?	30693
+	79180153	FS_Wood_6	D:\Softwares\GitProjects\LilyWwise\Wwise_Lily\.cache\Windows\SFX\FS_Wood_6_1617AFA0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character_WU\Character_foleys\Footsteps\FS_Cabane\FS_Wood\FS_Wood_6		6393
+	99575669	FS_Dirt_5	D:\Softwares\GitProjects\LilyWwise\Wwise_Lily\.cache\Windows\SFX\FS_Dirt_5_1617AFA0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character_WU\Character_foleys\Footsteps\FS_Dirt\FS_Dirt_5		6215
+	130593866	Lightzone_Expand	D:\Softwares\GitProjects\LilyWwise\Wwise_Lily\.cache\Windows\SFX\Lightzone_expand_1_1617AFA0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character_WU\Character_foleys\Lightzone\Lightzone_Expand		64996
+	164419082	FS_Wood_1	D:\Softwares\GitProjects\LilyWwise\Wwise_Lily\.cache\Windows\SFX\FS_Wood_1_1617AFA0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character_WU\Character_foleys\Footsteps\FS_Cabane\FS_Wood\FS_Wood_1		6447
+	164819211	Door_close	D:\Softwares\GitProjects\LilyWwise\Wwise_Lily\.cache\Windows\SFX\Door_close_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character_WU\Cabane_foleys\Door_close		344300
+	166251350	FS_Grass_3	D:\Softwares\GitProjects\LilyWwise\Wwise_Lily\.cache\Windows\SFX\FS_Grass_3_1617AFA0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character_WU\Character_foleys\Footsteps\FS_Grass\FS_Grass_3		6261
+	218288067	FS_Wood_3	D:\Softwares\GitProjects\LilyWwise\Wwise_Lily\.cache\Windows\SFX\FS_Wood_3_1617AFA0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character_WU\Character_foleys\Footsteps\FS_Cabane\FS_Wood\FS_Wood_3		6213
+	226958419	FS_Dirt_4	D:\Softwares\GitProjects\LilyWwise\Wwise_Lily\.cache\Windows\SFX\FS_Dirt_4_1617AFA0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character_WU\Character_foleys\Footsteps\FS_Dirt\FS_Dirt_4		6082
+	231491770	FS_Wood_5	D:\Softwares\GitProjects\LilyWwise\Wwise_Lily\.cache\Windows\SFX\FS_Wood_5_1617AFA0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character_WU\Character_foleys\Footsteps\FS_Cabane\FS_Wood\FS_Wood_5		6166
+	251543091	FS_Creak_5	D:\Softwares\GitProjects\LilyWwise\Wwise_Lily\.cache\Windows\SFX\FS_Creak_5_73BB8CB6.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character_WU\Character_foleys\Footsteps\FS_Cabane\FS_Creaks\FS_Creak_5		7353
+	252750255	Wind_base_6	D:\Softwares\GitProjects\LilyWwise\Wwise_Lily\.cache\Windows\SFX\Wind_base_6_1617AFA0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances_WU\Ambiances\O1\AMB_O1\Wind\Wind_base_6		117851
+	264765481	Wind_base_1	D:\Softwares\GitProjects\LilyWwise\Wwise_Lily\.cache\Windows\SFX\Wind_base_1_1617AFA0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances_WU\Ambiances\O1\AMB_O1\Wind\Wind_base_1		117592
+	270736712	Fireflies_idle_1	D:\Softwares\GitProjects\LilyWwise\Wwise_Lily\.cache\Windows\SFX\Fireflies_idle_1_1617AFA0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character_WU\Character_foleys\Fireflies\Fireflies_idle\Fireflies_idle_1		99960
+	279557552	FS_Dirt_3	D:\Softwares\GitProjects\LilyWwise\Wwise_Lily\.cache\Windows\SFX\FS_Dirt_3_1617AFA0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character_WU\Character_foleys\Footsteps\FS_Dirt\FS_Dirt_3		6754
+	304393150	Silence 3	D:\Softwares\GitProjects\LilyWwise\Wwise_Lily\.cache\Windows\SFX\Silence 3_1617AFA0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character_WU\Character_foleys\Footsteps\FS_Cabane\FS_Creaks\Silence 3		27371
+	405520064	FS_Creak_6	D:\Softwares\GitProjects\LilyWwise\Wwise_Lily\.cache\Windows\SFX\FS_Creak_6_1617AFA0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character_WU\Character_foleys\Footsteps\FS_Cabane\FS_Creaks\FS_Creak_6		7774
+	418610338	Leaves_8	D:\Softwares\GitProjects\LilyWwise\Wwise_Lily\.cache\Windows\SFX\Leaves_8_1617AFA0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances_WU\Ambiances\O1\AMB_O1\Leaves\Leaves_8		171115
+	434641292	Silence 5	D:\Softwares\GitProjects\LilyWwise\Wwise_Lily\.cache\Windows\SFX\Silence 5_1617AFA0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character_WU\Character_foleys\Footsteps\FS_Cabane\FS_Creaks\Silence 5		27371
+	435523954	FS_Dirt_2	D:\Softwares\GitProjects\LilyWwise\Wwise_Lily\.cache\Windows\SFX\FS_Dirt_2_1617AFA0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character_WU\Character_foleys\Footsteps\FS_Dirt\FS_Dirt_2		9511
+	509637114	FS_Dirt_7	D:\Softwares\GitProjects\LilyWwise\Wwise_Lily\.cache\Windows\SFX\FS_Dirt_7_1617AFA0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character_WU\Character_foleys\Footsteps\FS_Dirt\FS_Dirt_7		7381
+	517917573	FS_Wood_2	D:\Softwares\GitProjects\LilyWwise\Wwise_Lily\.cache\Windows\SFX\FS_Wood_2_1617AFA0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character_WU\Character_foleys\Footsteps\FS_Cabane\FS_Wood\FS_Wood_2		6216
+	521026246	Silence	D:\Softwares\GitProjects\LilyWwise\Wwise_Lily\.cache\Windows\SFX\Silence_1617AFA0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character_WU\Character_foleys\Footsteps\FS_Cabane\FS_Creaks\Silence		27371
+	528515471	Fireflies_idle_bocal_1	D:\Softwares\GitProjects\LilyWwise\Wwise_Lily\.cache\Windows\SFX\Fireflies_idle_bocal_1_1617AFA0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character_WU\Character_foleys\Fireflies\Fireflies_idle_bocal\Fireflies_idle_bocal_1		261333
+	533531499	Leaves_6	D:\Softwares\GitProjects\LilyWwise\Wwise_Lily\.cache\Windows\SFX\Leaves_6_1617AFA0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances_WU\Ambiances\O1\AMB_O1\Leaves\Leaves_6		104797
+	556945693	Wind_base_2	D:\Softwares\GitProjects\LilyWwise\Wwise_Lily\.cache\Windows\SFX\Wind_base_2_1617AFA0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances_WU\Ambiances\O1\AMB_O1\Wind\Wind_base_2		117704
+	670179210	FS_Grass_4	D:\Softwares\GitProjects\LilyWwise\Wwise_Lily\.cache\Windows\SFX\FS_Grass_4_1617AFA0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character_WU\Character_foleys\Footsteps\FS_Grass\FS_Grass_4		4841
+	697412504	FS_Dirt_1	D:\Softwares\GitProjects\LilyWwise\Wwise_Lily\.cache\Windows\SFX\FS_Dirt_1_1617AFA0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character_WU\Character_foleys\Footsteps\FS_Dirt\FS_Dirt_1		8275
+	713096762	FS_Grass_2	D:\Softwares\GitProjects\LilyWwise\Wwise_Lily\.cache\Windows\SFX\FS_Grass_2_1617AFA0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character_WU\Character_foleys\Footsteps\FS_Grass\FS_Grass_2		6148
+	720995574	Silence 2	D:\Softwares\GitProjects\LilyWwise\Wwise_Lily\.cache\Windows\SFX\Silence 2_1617AFA0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character_WU\Character_foleys\Footsteps\FS_Cabane\FS_Creaks\Silence 2		27371
+	727414544	Silence 4	D:\Softwares\GitProjects\LilyWwise\Wwise_Lily\.cache\Windows\SFX\Silence 4_1617AFA0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character_WU\Character_foleys\Footsteps\FS_Cabane\FS_Creaks\Silence 4		27371
+	733624479	FS_Wood_4	D:\Softwares\GitProjects\LilyWwise\Wwise_Lily\.cache\Windows\SFX\FS_Wood_4_1617AFA0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character_WU\Character_foleys\Footsteps\FS_Cabane\FS_Wood\FS_Wood_4		6071
+	758934239	FS_Creak_1	D:\Softwares\GitProjects\LilyWwise\Wwise_Lily\.cache\Windows\SFX\FS_Creak_1_862D35E5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character_WU\Character_foleys\Footsteps\FS_Cabane\FS_Creaks\FS_Creak_1		6540
+	785858130	Wind_base_8	D:\Softwares\GitProjects\LilyWwise\Wwise_Lily\.cache\Windows\SFX\Wind_base_8_1617AFA0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances_WU\Ambiances\O1\AMB_O1\Wind\Wind_base_8		187870
+	793951061	Silence 6	D:\Softwares\GitProjects\LilyWwise\Wwise_Lily\.cache\Windows\SFX\Silence 6_1617AFA0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character_WU\Character_foleys\Footsteps\FS_Cabane\FS_Creaks\Silence 6		27371
+	812407516	Wind_base_3	D:\Softwares\GitProjects\LilyWwise\Wwise_Lily\.cache\Windows\SFX\Wind_base_3_1617AFA0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances_WU\Ambiances\O1\AMB_O1\Wind\Wind_base_3		117837
+	847831048	Wind_base_7	D:\Softwares\GitProjects\LilyWwise\Wwise_Lily\.cache\Windows\SFX\Wind_base_7_1617AFA0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances_WU\Ambiances\O1\AMB_O1\Wind\Wind_base_7		117458
+	884539936	Leaves_2	D:\Softwares\GitProjects\LilyWwise\Wwise_Lily\.cache\Windows\SFX\Leaves_2_1617AFA0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances_WU\Ambiances\O1\AMB_O1\Leaves\Leaves_2		105976
+	899592111	Leaves_5	D:\Softwares\GitProjects\LilyWwise\Wwise_Lily\.cache\Windows\SFX\Leaves_5_1617AFA0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances_WU\Ambiances\O1\AMB_O1\Leaves\Leaves_5		106559
+	941065455	FS_Grass_9	D:\Softwares\GitProjects\LilyWwise\Wwise_Lily\.cache\Windows\SFX\FS_Grass_9_1617AFA0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character_WU\Character_foleys\Footsteps\FS_Grass\FS_Grass_9		5858
+	944670862	FS_Grass_10	D:\Softwares\GitProjects\LilyWwise\Wwise_Lily\.cache\Windows\SFX\FS_Grass_10_1617AFA0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character_WU\Character_foleys\Footsteps\FS_Grass\FS_Grass_10		6238
+	948112215	Leaves_4	D:\Softwares\GitProjects\LilyWwise\Wwise_Lily\.cache\Windows\SFX\Leaves_4_1617AFA0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances_WU\Ambiances\O1\AMB_O1\Leaves\Leaves_4		109777
+	975061060	FS_Grass_8	D:\Softwares\GitProjects\LilyWwise\Wwise_Lily\.cache\Windows\SFX\FS_Grass_8_1617AFA0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character_WU\Character_foleys\Footsteps\FS_Grass\FS_Grass_8		4800
+	980652938	FS_Creak_3	D:\Softwares\GitProjects\LilyWwise\Wwise_Lily\.cache\Windows\SFX\FS_Creak_3_1617AFA0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character_WU\Character_foleys\Footsteps\FS_Cabane\FS_Creaks\FS_Creak_3	Too long ?	20532
+	989136631	Leaves_1	D:\Softwares\GitProjects\LilyWwise\Wwise_Lily\.cache\Windows\SFX\Leaves_1_1617AFA0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances_WU\Ambiances\O1\AMB_O1\Leaves\Leaves_1		108650
+	1017177356	FS_Grass_1	D:\Softwares\GitProjects\LilyWwise\Wwise_Lily\.cache\Windows\SFX\FS_Grass_1_1617AFA0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character_WU\Character_foleys\Footsteps\FS_Grass\FS_Grass_1		6668
+	1022328389	FS_Dirt_6	D:\Softwares\GitProjects\LilyWwise\Wwise_Lily\.cache\Windows\SFX\FS_Dirt_6_1617AFA0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character_WU\Character_foleys\Footsteps\FS_Dirt\FS_Dirt_6		5759
+	1029013991	Fireflies_pickup	D:\Softwares\GitProjects\LilyWwise\Wwise_Lily\.cache\Windows\SFX\Fireflies_pickup_1_1617AFA0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character_WU\Character_foleys\Fireflies\Fireflies_pickup		158331
+	1041240613	FS_Grass_7	D:\Softwares\GitProjects\LilyWwise\Wwise_Lily\.cache\Windows\SFX\FS_Grass_7_1617AFA0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character_WU\Character_foleys\Footsteps\FS_Grass\FS_Grass_7		5828
+	1045286107	Door_open	D:\Softwares\GitProjects\LilyWwise\Wwise_Lily\.cache\Windows\SFX\Door_open_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character_WU\Cabane_foleys\Door_open		284648
+	1046988004	Leaves_7	D:\Softwares\GitProjects\LilyWwise\Wwise_Lily\.cache\Windows\SFX\Leaves_7_1617AFA0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances_WU\Ambiances\O1\AMB_O1\Leaves\Leaves_7		114739
+	1052842670	FS_Grass_6	D:\Softwares\GitProjects\LilyWwise\Wwise_Lily\.cache\Windows\SFX\FS_Grass_6_1617AFA0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character_WU\Character_foleys\Footsteps\FS_Grass\FS_Grass_6		8066
+	1054689394	FS_Creak_2	D:\Softwares\GitProjects\LilyWwise\Wwise_Lily\.cache\Windows\SFX\FS_Creak_2_1617AFA0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character_WU\Character_foleys\Footsteps\FS_Cabane\FS_Creaks\FS_Creak_2		13658
+	1059929105	Leaves_3	D:\Softwares\GitProjects\LilyWwise\Wwise_Lily\.cache\Windows\SFX\Leaves_3_1617AFA0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances_WU\Ambiances\O1\AMB_O1\Leaves\Leaves_3		106215
+

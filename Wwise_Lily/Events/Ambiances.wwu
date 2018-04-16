@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{EDF099EF-7CA4-4D68-9584-78359919806C}" SchemaVersion="85" RootDocumentID="{A173F46B-135A-44AE-857B-948A706A6FBF}">
+	<Events>
+		<WorkUnit Name="Ambiances" ID="{EDF099EF-7CA4-4D68-9584-78359919806C}" OwnerID="{A173F46B-135A-44AE-857B-948A706A6FBF}" PersistMode="Nested">
+			<ChildrenList>
+				<Folder Name="O1" ID="{2E32617C-92AC-43C4-8A2F-34693155A1C5}" ShortID="1046437087">
+					<ChildrenList>
+						<Event Name="Play_AMB_O1" ID="{ED195764-3D0D-4FF1-B572-51BB0BA10371}">
+							<ChildrenList>
+								<Action Name="" ID="{E561B4B4-A3E2-4290-B3E0-CE2E12085745}" ShortID="128722528">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AMB_O1" ID="{CC2576D9-0B63-4F8B-8347-2963D3200FE2}" WorkUnitID="{821171D9-99CF-4A05-9D60-15EC54E6949F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
