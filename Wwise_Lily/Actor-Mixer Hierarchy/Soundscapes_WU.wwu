@@ -1,0 +1,2764 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{70C4634E-397D-4AD0-AEA2-DE40622061AE}" SchemaVersion="85" RootDocumentID="{6FCABF8B-629D-44A0-B42C-BAFC2CE137DD}">
+	<AudioObjects>
+		<WorkUnit Name="Soundscapes_WU" ID="{70C4634E-397D-4AD0-AEA2-DE40622061AE}" OwnerID="{6FCABF8B-629D-44A0-B42C-BAFC2CE137DD}" PersistMode="Nested">
+			<ChildrenList>
+				<ActorMixer Name="Soundscapes" ID="{9A0ED59C-66AC-4A3F-8204-80F4CBECA9D8}" ShortID="1023077433">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Soundscape_Comp" ID="{5C5994E9-4BAE-4CFB-9CA9-3178858C8A7C}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Music" ID="{C14F24B8-F74A-4BF7-B290-DA0BE623E5C6}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<ActorMixer Name="O1" ID="{2F9812D5-2DF4-41F9-AC4C-7849CA3C813B}" ShortID="195127041">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="Soundscape_O1" ID="{0852E595-2A2B-4099-9B6D-B5700FFEE637}" ShortID="153366341">
+									<PropertyList>
+										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
+										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="7"/>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+										<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<BlendContainer Name="Chord 1" ID="{56C179C3-A9E2-4E04-A963-74481EF29A00}" ShortID="977201863">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{8F0A0973-C05E-450E-B922-54EB56F3AB6A}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Min" Type="Real64" Value="-5"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="SFX_Comp" ID="{94D2B765-DB8D-469E-97ED-DEEB9595516F}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<RandomSequenceContainer Name="Basse_Chord1" ID="{4932ED09-4EB0-4CBC-84F2-7E7D9852B3DB}" ShortID="76434362">
+													<PropertyList>
+														<Property Name="Lowpass" Type="int16">
+															<ValueList>
+																<Value>70</Value>
+															</ValueList>
+														</Property>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-7</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="Basse_Chord1_C" ID="{4E21BEA5-A0EB-4E23-AB7F-4261915A0DD2}" ShortID="438140521">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Basse_Chord1_C" ID="{534EB2DD-18CC-46FF-AD03-7C0B4B8D7BFE}" ShortID="330102612">
+																	<PropertyList>
+																		<Property Name="FadeInDuration" Type="Real64" Value="2.98429319371728"/>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="3.96160558464223"/>
+																		<Property Name="FadeOutShape" Type="int16" Value="1"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>Basse_Chord1_C.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Basse_Chord1_C" ID="{534EB2DD-18CC-46FF-AD03-7C0B4B8D7BFE}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Basse_Chord1_C2" ID="{DA63A838-A353-4594-97D3-80D553A21E0C}" ShortID="761403919">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Basse_Chord1_C2" ID="{D3D459CB-879A-404B-9A98-748E3CA72B00}" ShortID="859652496">
+																	<PropertyList>
+																		<Property Name="FadeInDuration" Type="Real64" Value="3.01047120418848"/>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="3.99650959860384"/>
+																		<Property Name="FadeOutShape" Type="int16" Value="1"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>Basse_Chord1_C2.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Basse_Chord1_C2" ID="{D3D459CB-879A-404B-9A98-748E3CA72B00}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Basse_Chord1_D#" ID="{3AABDFCC-98D2-4499-A9C6-608920E84C64}" ShortID="176591018">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Basse_Chord1_D#" ID="{C34674A9-C29E-459E-B644-A1E59F8E70E9}" ShortID="359064628">
+																	<PropertyList>
+																		<Property Name="FadeInDuration" Type="Real64" Value="2.99301919720768"/>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="3.98778359511344"/>
+																		<Property Name="FadeOutShape" Type="int16" Value="1"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>Basse_Chord1_D#.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Basse_Chord1_D#" ID="{C34674A9-C29E-459E-B644-A1E59F8E70E9}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Basse_Chord1_G#" ID="{F31316FA-26C4-4C1B-8469-59D21E435453}" ShortID="667798003">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Basse_Chord1_G#" ID="{FE11A591-6AC3-4C7F-B119-ACE23BC929E8}" ShortID="690361961">
+																	<PropertyList>
+																		<Property Name="FadeInDuration" Type="Real64" Value="2.99301919720768"/>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="3.96160558464223"/>
+																		<Property Name="FadeOutShape" Type="int16" Value="1"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>Basse_Chord1_G#.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Basse_Chord1_G#" ID="{FE11A591-6AC3-4C7F-B119-ACE23BC929E8}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</RandomSequenceContainer>
+												<RandomSequenceContainer Name="Cello1_Chord1" ID="{B18269D7-81D0-49DE-B5ED-C2260536C5B1}" ShortID="335293150">
+													<PropertyList>
+														<Property Name="3DPositionSource" Type="int16" Value="0"/>
+														<Property Name="Lowpass" Type="int16">
+															<ValueList>
+																<Value>70</Value>
+															</ValueList>
+														</Property>
+														<Property Name="OverridePositioning" Type="bool" Value="True"/>
+														<Property Name="PositioningType" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="Cello1_Chord1_C" ID="{5CFB6CDF-9C87-4B04-8D3B-6BB5EE97B266}" ShortID="89039083">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Cello1_Chord1_C" ID="{8D4581EB-97FE-4DAC-A0A5-D22FC501FD06}" ShortID="969291542">
+																	<PropertyList>
+																		<Property Name="FadeInDuration" Type="Real64" Value="3.01047120418848"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>Cello1_Chord1_C.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Cello1_Chord1_C" ID="{8D4581EB-97FE-4DAC-A0A5-D22FC501FD06}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Cello1_Chord1_C2" ID="{70FE03E7-A506-43CA-BF8D-ECD7EDAAF8CE}" ShortID="451574732">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Cello1_Chord1_C2" ID="{79898A00-BE5E-4FAE-B0C8-E490357BC6C8}" ShortID="184521980">
+																	<PropertyList>
+																		<Property Name="FadeInDuration" Type="Real64" Value="3.01047120418848"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>Cello1_Chord1_C2.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Cello1_Chord1_C2" ID="{79898A00-BE5E-4FAE-B0C8-E490357BC6C8}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Cello1_Chord1_D#" ID="{E676DBCA-72C0-49F7-9AB7-2263B95A4590}" ShortID="576379296">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Cello1_Chord1_D#" ID="{F36C385B-B584-4403-8F2F-38D02FAAD3A0}" ShortID="230854021">
+																	<PropertyList>
+																		<Property Name="FadeInDuration" Type="Real64" Value="2.99301919720768"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>Cello1_Chord1_D#.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Cello1_Chord1_D#" ID="{F36C385B-B584-4403-8F2F-38D02FAAD3A0}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Cello1_Chord1_G#" ID="{8B8299AC-7DAB-478F-B4B5-AB4CD12F3EF2}" ShortID="876917841">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Cello1_Chord1_G#" ID="{B0539E94-3BB6-4B4C-A016-7776049AF82C}" ShortID="840530151">
+																	<PropertyList>
+																		<Property Name="FadeInDuration" Type="Real64" Value="3.02792321116928"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>Cello1_Chord1_G#.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Cello1_Chord1_G#" ID="{B0539E94-3BB6-4B4C-A016-7776049AF82C}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+													<PositioningInfo>
+														<Position Name="" ID="{7B462662-AA8A-4DC3-A815-3FFD14E483CC}">
+															<PropertyList>
+																<Property Name="NewPathForEachSound" Type="bool" Value="True"/>
+															</PropertyList>
+															<ChildrenList>
+																<Path2D Name="Cello1_Chord1_Path" ID="{1F035473-D7F6-4E0F-ACFC-43D9017AAA12}">
+																	<PointList>
+																		<Point>
+																			<XPos>27</XPos>
+																			<YPos>50</YPos>
+																			<Flags>12</Flags>
+																			<Time>0</Time>
+																		</Point>
+																	</PointList>
+																</Path2D>
+																<Path2D Name="Cello1_Chord1_Path_01" ID="{AF7AE72A-4499-41BD-8DD7-0EF589CEFC53}">
+																	<PointList>
+																		<Point>
+																			<XPos>-27</XPos>
+																			<YPos>50</YPos>
+																			<Flags>12</Flags>
+																			<Time>0</Time>
+																		</Point>
+																	</PointList>
+																</Path2D>
+															</ChildrenList>
+														</Position>
+													</PositioningInfo>
+												</RandomSequenceContainer>
+												<RandomSequenceContainer Name="Cello2_Chord1" ID="{5AF063B7-B9BB-4F60-91DD-289CA4CF20C8}" ShortID="102828987">
+													<PropertyList>
+														<Property Name="3DPositionSource" Type="int16" Value="0"/>
+														<Property Name="Lowpass" Type="int16">
+															<ValueList>
+																<Value>70</Value>
+															</ValueList>
+														</Property>
+														<Property Name="OverridePositioning" Type="bool" Value="True"/>
+														<Property Name="PositioningType" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="Cello2_Chord1_C" ID="{59C5FA7F-7196-4C78-9D7B-F35FAB7EE78F}" ShortID="273260369">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Cello2_Chord1_C" ID="{F3302F56-A253-4786-A258-C45E0A76F4E0}" ShortID="289365213">
+																	<PropertyList>
+																		<Property Name="FadeInDuration" Type="Real64" Value="3.00174520069808"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>Cello2_Chord1_C.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Cello2_Chord1_C" ID="{F3302F56-A253-4786-A258-C45E0A76F4E0}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Cello2_Chord1_C2" ID="{5CE76A5A-19A0-4ACD-9011-8E6160F866A6}" ShortID="607151868">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Cello2_Chord1_C2" ID="{EFA6EBE9-05CD-4C23-BD46-85F6EC86E6F3}" ShortID="211973114">
+																	<PropertyList>
+																		<Property Name="FadeInDuration" Type="Real64" Value="3.01919720767888"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>Cello2_Chord1_C2.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Cello2_Chord1_C2" ID="{EFA6EBE9-05CD-4C23-BD46-85F6EC86E6F3}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Cello2_Chord1_D#" ID="{FA19E903-C939-4708-B6CF-4421D1E5D930}" ShortID="32614995">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Cello2_Chord1_D#" ID="{44F0FAF0-09B0-4E52-BA25-E03C29590CD3}" ShortID="70817551">
+																	<PropertyList>
+																		<Property Name="FadeInDuration" Type="Real64" Value="3.01919720767888"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>Cello2_Chord1_D#.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Cello2_Chord1_D#" ID="{44F0FAF0-09B0-4E52-BA25-E03C29590CD3}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Cello2_Chord1_G#" ID="{CE3704E7-F7D1-45EC-83C5-60E8840C0CBB}" ShortID="333072847">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Cello2_Chord1_G#" ID="{5D10D0C3-9BDC-4BA9-A978-227639C95942}" ShortID="858465382">
+																	<PropertyList>
+																		<Property Name="FadeInDuration" Type="Real64" Value="3.02792321116929"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>Cello2_Chord1_G#.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Cello2_Chord1_G#" ID="{5D10D0C3-9BDC-4BA9-A978-227639C95942}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+													<PositioningInfo>
+														<Position Name="" ID="{2F9C80C7-13AF-4B92-B8D7-975B531B0E73}">
+															<PropertyList>
+																<Property Name="NewPathForEachSound" Type="bool" Value="True"/>
+															</PropertyList>
+															<ChildrenList>
+																<Path2D Name="Cello2_Chord1_Path" ID="{00547F6E-393A-45BF-877C-1538A43FE8E8}">
+																	<PointList>
+																		<Point>
+																			<XPos>-27</XPos>
+																			<YPos>50</YPos>
+																			<Flags>12</Flags>
+																			<Time>0</Time>
+																		</Point>
+																	</PointList>
+																</Path2D>
+																<Path2D Name="Cello2_Chord1_Path_01" ID="{577C7936-B997-423E-81D8-EEEA3235B526}">
+																	<PointList>
+																		<Point>
+																			<XPos>27</XPos>
+																			<YPos>50</YPos>
+																			<Flags>12</Flags>
+																			<Time>0</Time>
+																		</Point>
+																	</PointList>
+																</Path2D>
+															</ChildrenList>
+														</Position>
+													</PositioningInfo>
+												</RandomSequenceContainer>
+												<RandomSequenceContainer Name="Violin_Chord1" ID="{2ECC15B1-DB05-49F8-9164-434CC73A31AF}" ShortID="305598272">
+													<PropertyList>
+														<Property Name="Lowpass" Type="int16">
+															<ValueList>
+																<Value>70</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="Violin1_Chord1_C" ID="{F7A25C97-838A-41A9-9CC4-A20DB4C6D96E}" ShortID="314519427">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Violin1_Chord1_C" ID="{FF3DBD85-114D-44EC-A5C7-414567C9A53D}" ShortID="291011283">
+																	<PropertyList>
+																		<Property Name="FadeInDuration" Type="Real64" Value="2.98429319371728"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>Violin1_Chord1_C.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Violin1_Chord1_C" ID="{FF3DBD85-114D-44EC-A5C7-414567C9A53D}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Violin1_Chord1_C2" ID="{07A9493D-9AC1-4CFD-AAD9-FD16CB3DAA1A}" ShortID="904677297">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Violin1_Chord1_C2" ID="{66C933DA-18D1-4F48-9133-6F2467B6A227}" ShortID="491689498">
+																	<PropertyList>
+																		<Property Name="FadeInDuration" Type="Real64" Value="2.97556719022688"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>Violin1_Chord1_C2.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Violin1_Chord1_C2" ID="{66C933DA-18D1-4F48-9133-6F2467B6A227}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Violin1_Chord1_D#" ID="{A5074E0E-7B71-44D3-87E9-E04DD75617C4}" ShortID="774619921">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Violin1_Chord1_D#" ID="{6C920FC4-ACD8-4CE9-84BF-06D26ABBDF4D}" ShortID="566623442">
+																	<PropertyList>
+																		<Property Name="FadeInDuration" Type="Real64" Value="2.97556719022688"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>Violin1_Chord1_D#.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Violin1_Chord1_D#" ID="{6C920FC4-ACD8-4CE9-84BF-06D26ABBDF4D}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Violin1_Chord1_G#" ID="{E2CE1984-7F87-4734-B328-40E563105A64}" ShortID="42207318">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Violin1_Chord1_G#" ID="{2D42CDAB-6575-4EBE-8D2C-0985120BD5EC}" ShortID="158518473">
+																	<PropertyList>
+																		<Property Name="FadeInDuration" Type="Real64" Value="2.96684118673648"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>Violin1_Chord1_G#.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Violin1_Chord1_G#" ID="{2D42CDAB-6575-4EBE-8D2C-0985120BD5EC}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</RandomSequenceContainer>
+												<RandomSequenceContainer Name="Choir1_Chord1" ID="{51ABA1CC-86A6-490A-A61A-DCCB3FF7E0A0}" ShortID="492970026">
+													<PropertyList>
+														<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-18</Value>
+															</ValueList>
+															<RTPCList>
+																<RTPC Name="" ID="{F54C8F14-51D7-4D8E-8BCF-8BA41CA1171D}" ShortID="670010475">
+																	<ReferenceList>
+																		<Reference Name="ControlInput">
+																			<ObjectRef Name="Choir_volume" ID="{A42AE4D6-E22E-4CEC-909C-8C65E4C3E991}" WorkUnitID="{1E3B6552-E6BB-443B-B824-2B9CB7F998C7}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<Curve Name="" ID="{AAC75799-94D5-490A-82D7-3712C105AC17}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>-0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>100</XPos>
+																				<YPos>-200</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</RTPC>
+															</RTPCList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="Choir1_Chord1_C" ID="{298B19DF-BF87-469B-AED8-6D5E623774F6}" ShortID="513882691">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Choir1_Chord1_C" ID="{433FAE6F-8299-4E5E-9549-B9CF507A6A52}" ShortID="387092953">
+																	<Language>SFX</Language>
+																	<AudioFile>Choir1_Chord1_C.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Choir1_Chord1_C" ID="{433FAE6F-8299-4E5E-9549-B9CF507A6A52}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Choir1_Chord1_C2" ID="{822FA3C6-E337-4B4E-94ED-B99697D3D82D}" ShortID="779875619">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Choir1_Chord1_C2" ID="{BD5C3D5C-2B47-4CEC-844F-BA078EF67A2C}" ShortID="863497148">
+																	<Language>SFX</Language>
+																	<AudioFile>Choir1_Chord1_C2.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Choir1_Chord1_C2" ID="{BD5C3D5C-2B47-4CEC-844F-BA078EF67A2C}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Choir1_Chord1_D#" ID="{C4267B4B-9DEE-491B-8ED0-E99CA0A6A1DA}" ShortID="200335341">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Choir1_Chord1_D#" ID="{A55F8DAB-DF75-4972-BE55-3A25A15A1E88}" ShortID="635440901">
+																	<Language>SFX</Language>
+																	<AudioFile>Choir1_Chord1_D#.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Choir1_Chord1_D#" ID="{A55F8DAB-DF75-4972-BE55-3A25A15A1E88}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Choir1_Chord1_G#" ID="{2D3FA15E-A334-4563-BD63-A20B219360F4}" ShortID="742887672">
+															<PropertyList>
+																<Property Name="Inclusion" Type="bool">
+																	<ValueList>
+																		<Value>False</Value>
+																	</ValueList>
+																</Property>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Choir1_Chord1_G#" ID="{0E98645D-4711-4528-9AE5-6785219D20E9}" ShortID="525439324">
+																	<Language>SFX</Language>
+																	<AudioFile>Choir1_Chord1_G#.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Choir1_Chord1_G#" ID="{0E98645D-4711-4528-9AE5-6785219D20E9}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</RandomSequenceContainer>
+												<RandomSequenceContainer Name="MusicBox" ID="{4F89BB70-98E6-4E39-9424-1C1D3962835D}" ShortID="9823406">
+													<PropertyList>
+														<Property Name="InitialDelay" Type="Real64">
+															<ValueList>
+																<Value>5</Value>
+															</ValueList>
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{FFD865CE-86DB-4C96-A9F1-861987F10AA3}">
+																		<PropertyList>
+																			<Property Name="Enabled" Type="bool" Value="True"/>
+																			<Property Name="Max" Type="Real64" Value="1"/>
+																			<Property Name="Min" Type="Real64" Value="-1"/>
+																		</PropertyList>
+																	</Modifier>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+														<Property Name="Lowpass" Type="int16">
+															<ValueList>
+																<Value>55</Value>
+															</ValueList>
+														</Property>
+														<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-8</Value>
+															</ValueList>
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{21A1E47C-FC23-4CF9-8D1A-3E0E1BCBC749}">
+																		<PropertyList>
+																			<Property Name="Enabled" Type="bool" Value="True"/>
+																			<Property Name="Min" Type="Real64" Value="-2"/>
+																		</PropertyList>
+																	</Modifier>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="MB_Chord1_1" ID="{58921256-B6EE-449B-93CA-0F405CBE2C0D}" ShortID="108995387">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="MB_Chord1_1" ID="{85748106-6232-4BF5-9120-8E5F9B613C8E}" ShortID="489208138">
+																	<Language>SFX</Language>
+																	<AudioFile>MB_Chord1_1.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="MB_Chord1_1" ID="{85748106-6232-4BF5-9120-8E5F9B613C8E}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="MB_Chord1_2" ID="{76968DF9-B383-484E-A374-9EE1D99F6053}" ShortID="618261676">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="MB_Chord1_2" ID="{4AF18EF6-809E-45AD-A718-F1BDF3AD77E2}" ShortID="942815216">
+																	<Language>SFX</Language>
+																	<AudioFile>MB_Chord1_2.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="MB_Chord1_2" ID="{4AF18EF6-809E-45AD-A718-F1BDF3AD77E2}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="MB_Chord1_3" ID="{EA336122-ABA6-4505-8148-4713BEDFF4B3}" ShortID="173342545">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="MB_Chord1_3" ID="{1C822213-D02D-45E8-A443-E0EE5532C918}" ShortID="961542847">
+																	<Language>SFX</Language>
+																	<AudioFile>MB_Chord1_3.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="MB_Chord1_3" ID="{1C822213-D02D-45E8-A443-E0EE5532C918}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="MB_Chord1_4" ID="{9B14B3B6-B011-4E4F-9507-40212A2D4413}" ShortID="70931482">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="MB_Chord1_4" ID="{FBC9723A-FCF7-4CDD-A507-0E0F8BE4FC8B}" ShortID="316822053">
+																	<Language>SFX</Language>
+																	<AudioFile>MB_Chord1_4.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="MB_Chord1_4" ID="{FBC9723A-FCF7-4CDD-A507-0E0F8BE4FC8B}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="MB_Chord1_5" ID="{54546F01-5F8F-4B7B-BDC5-D988860A5F37}" ShortID="762609671">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="MB_Chord1_5" ID="{ECAD2513-71A1-4727-8C7E-512714C4C0F6}" ShortID="236376704">
+																	<Language>SFX</Language>
+																	<AudioFile>MB_Chord1_5.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="MB_Chord1_5" ID="{ECAD2513-71A1-4727-8C7E-512714C4C0F6}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="MB_Chord1_6" ID="{0E99731E-BE92-49CF-B3EE-A208B6897CB9}" ShortID="731203962">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="MB_Chord1_6" ID="{627194E0-D35F-4C5A-81A8-F69E5C75ED71}" ShortID="129928058">
+																	<Language>SFX</Language>
+																	<AudioFile>MB_Chord1_6.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="MB_Chord1_6" ID="{627194E0-D35F-4C5A-81A8-F69E5C75ED71}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="MB_Chord1_7" ID="{E2A8FB27-47C7-4494-85DD-FF7FBE2E4545}" ShortID="537810593">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="MB_Chord1_7" ID="{03E6B18D-78F9-416B-92B0-AD835360F2DB}" ShortID="1031982075">
+																	<Language>SFX</Language>
+																	<AudioFile>MB_Chord1_7.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="MB_Chord1_7" ID="{03E6B18D-78F9-416B-92B0-AD835360F2DB}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="MB_Chord1_8" ID="{C302E9C7-1181-483F-9362-AD6A03BC22FA}" ShortID="966976392">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="MB_Chord1_8" ID="{7C415670-266D-41EC-A7C8-541DE6B104B2}" ShortID="51243529">
+																	<Language>SFX</Language>
+																	<AudioFile>MB_Chord1_8.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="MB_Chord1_8" ID="{7C415670-266D-41EC-A7C8-541DE6B104B2}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="MB_Chord1_9" ID="{583858CC-5E5E-4688-B199-FE813EC94BBE}" ShortID="88887716">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="MB_Chord1_9" ID="{DEE7EC29-6608-493E-8224-6F9DAA0474EC}" ShortID="580373676">
+																	<Language>SFX</Language>
+																	<AudioFile>MB_Chord1_9.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="MB_Chord1_9" ID="{DEE7EC29-6608-493E-8224-6F9DAA0474EC}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="MB_Chord1_10" ID="{B3D33774-BB26-490D-8B65-ED1B339BFE33}" ShortID="108875462">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="MB_Chord1_10" ID="{ADE4416E-09E6-4405-8331-A1B4B44DED0E}" ShortID="430194624">
+																	<Language>SFX</Language>
+																	<AudioFile>MB_Chord1_10.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="MB_Chord1_10" ID="{ADE4416E-09E6-4405-8331-A1B4B44DED0E}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Silence_1" ID="{96933EC8-ECAE-458A-9FB3-20464040394B}" ShortID="191488976">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Silence_1" ID="{55B77D95-FA54-44BE-B0B9-4AA68079F3A9}" ShortID="564700334">
+																	<Language>SFX</Language>
+																	<AudioFile>Silence_1.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Silence_1" ID="{55B77D95-FA54-44BE-B0B9-4AA68079F3A9}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Silence_01" ID="{BB86D83D-6D1C-4821-9E1B-1FD5A0444EAE}" ShortID="223170766">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Silence_1" ID="{1FE9BB9A-F5D9-4192-A622-B32462F7E7C2}" ShortID="200977502">
+																	<Language>SFX</Language>
+																	<AudioFile>Silence_1.wav</AudioFile>
+																	<ConvertedFileIDList>
+																		<File ID="564700334"/>
+																	</ConvertedFileIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Silence_1" ID="{1FE9BB9A-F5D9-4192-A622-B32462F7E7C2}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Silence_02" ID="{C0F87AF1-B492-4C59-8204-2A9AE45F0658}" ShortID="138763509">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Silence_1" ID="{7235CBED-28CA-48AC-BFED-C7076D16C63C}" ShortID="550359766">
+																	<Language>SFX</Language>
+																	<AudioFile>Silence_1.wav</AudioFile>
+																	<ConvertedFileIDList>
+																		<File ID="564700334"/>
+																	</ConvertedFileIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Silence_1" ID="{7235CBED-28CA-48AC-BFED-C7076D16C63C}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Silence_03" ID="{EA734717-0FBB-4DCA-966C-23F622C3A245}" ShortID="671801621">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Silence_1" ID="{CEFD4D9F-279E-4728-9A2C-CB341E3CC9D3}" ShortID="377127821">
+																	<Language>SFX</Language>
+																	<AudioFile>Silence_1.wav</AudioFile>
+																	<ConvertedFileIDList>
+																		<File ID="564700334"/>
+																	</ConvertedFileIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Silence_1" ID="{CEFD4D9F-279E-4728-9A2C-CB341E3CC9D3}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Silence_04" ID="{31331DCB-5BF6-4E1D-A6EA-EF2BDD914763}" ShortID="26482789">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Silence_1" ID="{1EF88EC4-BB8E-4BEF-A022-9BEEC755F61A}" ShortID="751238004">
+																	<Language>SFX</Language>
+																	<AudioFile>Silence_1.wav</AudioFile>
+																	<ConvertedFileIDList>
+																		<File ID="564700334"/>
+																	</ConvertedFileIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Silence_1" ID="{1EF88EC4-BB8E-4BEF-A022-9BEEC755F61A}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Silence_05" ID="{1F235E7F-CABF-4CE4-BC15-451CCA29C38D}" ShortID="523392846">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Silence_1" ID="{62C07952-6E63-4FF0-B127-F85C8FB72845}" ShortID="555393433">
+																	<Language>SFX</Language>
+																	<AudioFile>Silence_1.wav</AudioFile>
+																	<ConvertedFileIDList>
+																		<File ID="564700334"/>
+																	</ConvertedFileIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Silence_1" ID="{62C07952-6E63-4FF0-B127-F85C8FB72845}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</RandomSequenceContainer>
+											</ChildrenList>
+										</BlendContainer>
+										<BlendContainer Name="Chord 2" ID="{D671BD5C-6024-4CF8-B286-E9F26B3691E0}" ShortID="693719526">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{D648AB42-CC24-469A-AC86-27245A35F5F6}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Min" Type="Real64" Value="-5"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<RandomSequenceContainer Name="Basse_Chord2" ID="{33E8B6F4-29F9-4121-99D9-A8AC95F2125B}" ShortID="491979127">
+													<PropertyList>
+														<Property Name="Lowpass" Type="int16">
+															<ValueList>
+																<Value>70</Value>
+															</ValueList>
+														</Property>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-7</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="Basse_Chord2_A#" ID="{4399197E-B069-4CAB-9C10-0E181678385E}" ShortID="108470141">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Basse_Chord2_A#" ID="{FD30073C-A51C-4402-80C7-8DECEA747ED8}" ShortID="284516908">
+																	<PropertyList>
+																		<Property Name="FadeInDuration" Type="Real64" Value="3.01919720767888"/>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="3.96160558464223"/>
+																		<Property Name="FadeOutShape" Type="int16" Value="1"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>Basse_Chord2_A#.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Basse_Chord2_A#" ID="{FD30073C-A51C-4402-80C7-8DECEA747ED8}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Basse_Chord2_A#2" ID="{9E4B628E-0B1C-48A4-B2ED-AFFA4FAEC792}" ShortID="44338266">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Basse_Chord2_A#2" ID="{14BF2B21-954C-4CBE-951D-E86AF13BEF84}" ShortID="963055388">
+																	<PropertyList>
+																		<Property Name="FadeInDuration" Type="Real64" Value="3.02792321116929"/>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="3.95287958115183"/>
+																		<Property Name="FadeOutShape" Type="int16" Value="1"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>Basse_Chord2_A#2.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Basse_Chord2_A#2" ID="{14BF2B21-954C-4CBE-951D-E86AF13BEF84}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Basse_Chord2_C#" ID="{B176AD9B-6471-4E69-B520-4982665CCB42}" ShortID="714808638">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Basse_Chord2_C#" ID="{001DC7CC-F358-4DC6-A8CE-B0E0A9537E31}" ShortID="29241057">
+																	<PropertyList>
+																		<Property Name="FadeInDuration" Type="Real64" Value="3.00174520069808"/>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="3.97033158813263"/>
+																		<Property Name="FadeOutShape" Type="int16" Value="1"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>Basse_Chord2_C#.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Basse_Chord2_C#" ID="{001DC7CC-F358-4DC6-A8CE-B0E0A9537E31}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Basse_Chord2_F#" ID="{617FF215-E85B-43B9-8560-5E870FCFA96F}" ShortID="578187773">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Basse_Chord2_F#" ID="{D15E0E49-44B6-486F-A6BB-51C79960D68E}" ShortID="600468184">
+																	<PropertyList>
+																		<Property Name="FadeInDuration" Type="Real64" Value="2.94938917975567"/>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="3.96160558464223"/>
+																		<Property Name="FadeOutShape" Type="int16" Value="1"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>Basse_Chord2_F#.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Basse_Chord2_F#" ID="{D15E0E49-44B6-486F-A6BB-51C79960D68E}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</RandomSequenceContainer>
+												<RandomSequenceContainer Name="Cello1_Chord2" ID="{57E1019A-2F0B-4DFA-A705-5D0CC74C60D5}" ShortID="447310429">
+													<PropertyList>
+														<Property Name="3DPositionSource" Type="int16" Value="0"/>
+														<Property Name="Lowpass" Type="int16">
+															<ValueList>
+																<Value>70</Value>
+															</ValueList>
+														</Property>
+														<Property Name="OverridePositioning" Type="bool" Value="True"/>
+														<Property Name="PositioningType" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="Cello1_Chord2_A#" ID="{78E92D97-9CAE-4E3D-8568-C246EFB8DE99}" ShortID="913893360">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Cello1_Chord2_A#" ID="{5486C49A-7621-4960-A50D-255C8ACACCBF}" ShortID="33949529">
+																	<PropertyList>
+																		<Property Name="FadeInDuration" Type="Real64" Value="2.96684118673647"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>Cello1_Chord2_A#.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Cello1_Chord2_A#" ID="{5486C49A-7621-4960-A50D-255C8ACACCBF}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Cello1_Chord2_A#2" ID="{8B504AEE-C40B-4AAB-AC01-1C48427EBA2D}" ShortID="1046811436">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Cello1_Chord2_A#2" ID="{094817AC-70AF-4992-932C-91072E28BF16}" ShortID="737729661">
+																	<PropertyList>
+																		<Property Name="FadeInDuration" Type="Real64" Value="2.97556719022688"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>Cello1_Chord2_A#2.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Cello1_Chord2_A#2" ID="{094817AC-70AF-4992-932C-91072E28BF16}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Cello1_Chord2_C#" ID="{09ED11B7-51D9-4218-AA46-1B648E1B4CD4}" ShortID="251697965">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Cello1_Chord2_C#" ID="{0E3F3F64-E789-4854-B1F1-B00C3248854D}" ShortID="469665985">
+																	<PropertyList>
+																		<Property Name="FadeInDuration" Type="Real64" Value="2.98429319371728"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>Cello1_Chord2_C#.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Cello1_Chord2_C#" ID="{0E3F3F64-E789-4854-B1F1-B00C3248854D}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Cello1_Chord2_F#" ID="{2F4AD596-CDFC-4D4E-86E8-9B16F63C8A69}" ShortID="314336886">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Cello1_Chord2_F#" ID="{4700D1FA-683C-43EF-A2A8-82E97DB02E69}" ShortID="754185012">
+																	<PropertyList>
+																		<Property Name="FadeInDuration" Type="Real64" Value="2.96684118673648"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>Cello1_Chord2_F#.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Cello1_Chord2_F#" ID="{4700D1FA-683C-43EF-A2A8-82E97DB02E69}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+													<PositioningInfo>
+														<Position Name="" ID="{DD099EE9-1F62-42D2-938F-D8BE6E9E2D14}">
+															<PropertyList>
+																<Property Name="NewPathForEachSound" Type="bool" Value="True"/>
+															</PropertyList>
+															<ChildrenList>
+																<Path2D Name="Cello1_Chord2_Path" ID="{5749FF02-7ECA-431A-ABF5-682CB00B4CCC}">
+																	<PointList>
+																		<Point>
+																			<XPos>27</XPos>
+																			<YPos>50</YPos>
+																			<Flags>12</Flags>
+																			<Time>0</Time>
+																		</Point>
+																	</PointList>
+																</Path2D>
+																<Path2D Name="Cello1_Chord2_Path_01" ID="{12748BB8-2779-467E-8076-6D081726E261}">
+																	<PointList>
+																		<Point>
+																			<XPos>-27</XPos>
+																			<YPos>50</YPos>
+																			<Flags>12</Flags>
+																			<Time>0</Time>
+																		</Point>
+																	</PointList>
+																</Path2D>
+															</ChildrenList>
+														</Position>
+													</PositioningInfo>
+												</RandomSequenceContainer>
+												<RandomSequenceContainer Name="Cello2_Chord2" ID="{779735F5-1DC8-445B-93BF-1E63F47ABC23}" ShortID="411153742">
+													<PropertyList>
+														<Property Name="3DPositionSource" Type="int16" Value="0"/>
+														<Property Name="Lowpass" Type="int16">
+															<ValueList>
+																<Value>70</Value>
+															</ValueList>
+														</Property>
+														<Property Name="OverridePositioning" Type="bool" Value="True"/>
+														<Property Name="PositioningType" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="Cello2_Chord2_A#" ID="{3E2D05FD-72D0-4DBD-9027-733947DEF2BA}" ShortID="565759785">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Cello2_Chord2_A#" ID="{64638510-F09D-4B30-A620-02C190E5275F}" ShortID="163889126">
+																	<PropertyList>
+																		<Property Name="FadeInDuration" Type="Real64" Value="2.98429319371728"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>Cello2_Chord2_A#.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Cello2_Chord2_A#" ID="{64638510-F09D-4B30-A620-02C190E5275F}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Cello2_Chord2_A#2" ID="{06049F94-4800-4C84-8200-8E742108A120}" ShortID="823127959">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Cello2_Chord2_A#2" ID="{49AEA02F-FD50-4D94-A51B-10DBB3EFEDF2}" ShortID="52183310">
+																	<PropertyList>
+																		<Property Name="FadeInDuration" Type="Real64" Value="2.98429319371728"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>Cello2_Chord2_A#2.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Cello2_Chord2_A#2" ID="{49AEA02F-FD50-4D94-A51B-10DBB3EFEDF2}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Cello2_Chord2_C#" ID="{1578F711-5964-421C-BF20-B605E94A44E7}" ShortID="84952659">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Cello2_Chord2_C#" ID="{56AFBFCD-7AC8-49A2-BB43-465EAB37A30B}" ShortID="788424090">
+																	<PropertyList>
+																		<Property Name="FadeInDuration" Type="Real64" Value="3.01919720767888"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>Cello2_Chord2_C#.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Cello2_Chord2_C#" ID="{56AFBFCD-7AC8-49A2-BB43-465EAB37A30B}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Cello2_Chord2_F#" ID="{84D2F93B-6ACA-4313-8E7B-7F3C499B90DB}" ShortID="824711927">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Cello2_Chord2_F#" ID="{21AF2886-12F7-4EAD-9942-AD23549CA2F5}" ShortID="928542328">
+																	<PropertyList>
+																		<Property Name="FadeInDuration" Type="Real64" Value="2.97556719022688"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>Cello2_Chord2_F#.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Cello2_Chord2_F#" ID="{21AF2886-12F7-4EAD-9942-AD23549CA2F5}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+													<PositioningInfo>
+														<Position Name="" ID="{224D074C-E2E4-4B5C-8BAE-6EEF1DD82BF1}">
+															<PropertyList>
+																<Property Name="NewPathForEachSound" Type="bool" Value="True"/>
+															</PropertyList>
+															<ChildrenList>
+																<Path2D Name="Cello2_Chord2_Path" ID="{1678FDC7-0681-4A62-83C2-A33AF79BEA92}">
+																	<PointList>
+																		<Point>
+																			<XPos>-27</XPos>
+																			<YPos>50</YPos>
+																			<Flags>12</Flags>
+																			<Time>0</Time>
+																		</Point>
+																	</PointList>
+																</Path2D>
+																<Path2D Name="Cello2_Chord2_Path_01" ID="{726E947B-AE9F-49D7-9DEE-92989CC1228D}">
+																	<PointList>
+																		<Point>
+																			<XPos>27</XPos>
+																			<YPos>50</YPos>
+																			<Flags>12</Flags>
+																			<Time>0</Time>
+																		</Point>
+																	</PointList>
+																</Path2D>
+															</ChildrenList>
+														</Position>
+													</PositioningInfo>
+												</RandomSequenceContainer>
+												<RandomSequenceContainer Name="Violin1_Chord2" ID="{D442ABF1-AD55-4A3C-8BE3-A89DF56BB896}" ShortID="282942472">
+													<PropertyList>
+														<Property Name="Lowpass" Type="int16">
+															<ValueList>
+																<Value>70</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="Violin1_Chord2_A#" ID="{E4493EDD-2D7B-44F9-9380-39DD510BCC47}" ShortID="367236979">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Violin1_Chord2_A#" ID="{B7C9FB0F-92C8-4673-AA33-6EBBE3BA13C0}" ShortID="310786580">
+																	<PropertyList>
+																		<Property Name="FadeInDuration" Type="Real64" Value="2.98429319371728"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>Violin1_Chord2_A#.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Violin1_Chord2_A#" ID="{B7C9FB0F-92C8-4673-AA33-6EBBE3BA13C0}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Violin1_Chord2_A#2" ID="{E9EFC506-30E0-4AF0-BE22-477F4A1403F8}" ShortID="309243949">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Violin1_Chord2_A#2" ID="{C31C1E22-05D2-4ED5-A443-AC145A3DD899}" ShortID="603617795">
+																	<PropertyList>
+																		<Property Name="FadeInDuration" Type="Real64" Value="2.97556719022688"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>Violin1_Chord2_A#2.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Violin1_Chord2_A#2" ID="{C31C1E22-05D2-4ED5-A443-AC145A3DD899}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Violin1_Chord2_C#" ID="{F473B53A-3F84-4D69-8B36-3491FE08A098}" ShortID="568165835">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Violin1_Chord2_C#" ID="{1F4F9B89-482F-42D3-94BF-00C546758922}" ShortID="122949961">
+																	<PropertyList>
+																		<Property Name="FadeInDuration" Type="Real64" Value="2.97556719022688"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>Violin1_Chord2_C#.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Violin1_Chord2_C#" ID="{1F4F9B89-482F-42D3-94BF-00C546758922}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Violin1_Chord2_F#" ID="{82958210-1A8D-444F-A322-F672FB1DE021}" ShortID="359957139">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Violin1_Chord2_F#" ID="{D6D487A3-E875-4B75-93AE-B4DB8F84B57D}" ShortID="778240587">
+																	<PropertyList>
+																		<Property Name="FadeInDuration" Type="Real64" Value="2.96684118673647"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>Violin1_Chord2_F#.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Violin1_Chord2_F#" ID="{D6D487A3-E875-4B75-93AE-B4DB8F84B57D}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</RandomSequenceContainer>
+												<RandomSequenceContainer Name="Choir1_Chord2" ID="{63BC9289-E52F-4DB3-B286-61ECFE4534AB}" ShortID="661028523">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-18</Value>
+															</ValueList>
+															<RTPCList>
+																<RTPC Name="" ID="{29CFBFF6-FEBF-4089-A761-5305D25B8952}" ShortID="389318192">
+																	<ReferenceList>
+																		<Reference Name="ControlInput">
+																			<ObjectRef Name="Choir_volume" ID="{A42AE4D6-E22E-4CEC-909C-8C65E4C3E991}" WorkUnitID="{1E3B6552-E6BB-443B-B824-2B9CB7F998C7}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<Curve Name="" ID="{147631BD-FE48-4246-B9F0-8BDF3E150ABB}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>100</XPos>
+																				<YPos>-200</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</RTPC>
+															</RTPCList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="Choir1_Chord2_A#" ID="{1BEE726F-68D1-4BE8-AC4D-BBBFB99997FB}" ShortID="197834305">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Choir1_Chord2_A#" ID="{B0B782C6-D623-48E8-821E-28D0FE1BA288}" ShortID="739125222">
+																	<Language>SFX</Language>
+																	<AudioFile>Choir1_Chord2_A#.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Choir1_Chord2_A#" ID="{B0B782C6-D623-48E8-821E-28D0FE1BA288}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Choir1_Chord2_A#2" ID="{649C41CF-F6EB-478C-B424-7C42A019CE96}" ShortID="629535663">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Choir1_Chord2_A#2" ID="{BE57104C-2080-4ED0-934B-BD8EE2AAB613}" ShortID="174051045">
+																	<Language>SFX</Language>
+																	<AudioFile>Choir1_Chord2_A#2.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Choir1_Chord2_A#2" ID="{BE57104C-2080-4ED0-934B-BD8EE2AAB613}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Choir1_Chord2_C#" ID="{82CA70C8-49E6-4DD1-9A9F-83941B8E4C85}" ShortID="404802963">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Choir1_Chord2_C#" ID="{81F3FC62-A0EB-4202-9FDF-26CDB7CC9E68}" ShortID="802414184">
+																	<Language>SFX</Language>
+																	<AudioFile>Choir1_Chord2_C#.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Choir1_Chord2_C#" ID="{81F3FC62-A0EB-4202-9FDF-26CDB7CC9E68}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Choir1_Chord2_F#" ID="{3B3D4974-3271-443D-A1D3-E202A16B640E}" ShortID="924044839">
+															<PropertyList>
+																<Property Name="Inclusion" Type="bool">
+																	<ValueList>
+																		<Value>False</Value>
+																	</ValueList>
+																</Property>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Choir1_Chord2_F#" ID="{220DD6FC-C974-444E-9439-F6C5087FC398}" ShortID="616325913">
+																	<Language>SFX</Language>
+																	<AudioFile>Choir1_Chord2_F#.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Choir1_Chord2_F#" ID="{220DD6FC-C974-444E-9439-F6C5087FC398}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</RandomSequenceContainer>
+												<RandomSequenceContainer Name="MusicBox_Chord2" ID="{0DF100ED-76A9-41FD-89F1-D3529C9D1F56}" ShortID="974680551">
+													<PropertyList>
+														<Property Name="InitialDelay" Type="Real64">
+															<ValueList>
+																<Value>5</Value>
+															</ValueList>
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{F45A7E0D-67C2-49DB-8231-3B978C00C1A2}">
+																		<PropertyList>
+																			<Property Name="Enabled" Type="bool" Value="True"/>
+																			<Property Name="Max" Type="Real64" Value="1"/>
+																			<Property Name="Min" Type="Real64" Value="-1"/>
+																		</PropertyList>
+																	</Modifier>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+														<Property Name="Lowpass" Type="int16">
+															<ValueList>
+																<Value>55</Value>
+															</ValueList>
+														</Property>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-8</Value>
+															</ValueList>
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{B0C9FF32-38BE-4D9E-AC6F-58FCF68C930B}">
+																		<PropertyList>
+																			<Property Name="Enabled" Type="bool" Value="True"/>
+																			<Property Name="Min" Type="Real64" Value="-2"/>
+																		</PropertyList>
+																	</Modifier>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="MB_Chord2_1" ID="{755F2FEC-0976-4357-AD7F-D966F319588C}" ShortID="436374163">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="MB_Chord2_1" ID="{8FF3E8F5-40AA-449D-9E82-417FB986F127}" ShortID="1048469612">
+																	<Language>SFX</Language>
+																	<AudioFile>MB_Chord2_1.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="MB_Chord2_1" ID="{8FF3E8F5-40AA-449D-9E82-417FB986F127}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="MB_Chord2_2" ID="{458A8479-624C-4223-BD3F-49C64CF402FE}" ShortID="118381421">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="MB_Chord2_2" ID="{CFE7C359-225E-4DB6-8226-388A8B1D5835}" ShortID="489308659">
+																	<Language>SFX</Language>
+																	<AudioFile>MB_Chord2_2.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="MB_Chord2_2" ID="{CFE7C359-225E-4DB6-8226-388A8B1D5835}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="MB_Chord2_3" ID="{1FEF23A5-584A-4C71-8E3D-BB3DE60187A6}" ShortID="483032260">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="MB_Chord2_3" ID="{2FFB25F5-19A6-4E26-B563-8F8E8D975A91}" ShortID="1031561793">
+																	<Language>SFX</Language>
+																	<AudioFile>MB_Chord2_3.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="MB_Chord2_3" ID="{2FFB25F5-19A6-4E26-B563-8F8E8D975A91}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="MB_Chord2_4" ID="{36FD18A1-9E0F-4F1A-B3A3-0EDF935DAB59}" ShortID="405654567">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="MB_Chord2_4" ID="{AD0E9DF2-DC8E-4BCD-92E0-A0A6FE618F0D}" ShortID="94931193">
+																	<Language>SFX</Language>
+																	<AudioFile>MB_Chord2_4.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="MB_Chord2_4" ID="{AD0E9DF2-DC8E-4BCD-92E0-A0A6FE618F0D}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="MB_Chord2_5" ID="{E8D4ADFB-7D85-4C93-978C-CF2F75784950}" ShortID="595533332">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="MB_Chord2_5" ID="{18EB621A-4011-4586-9ED8-C57ED33434FB}" ShortID="432399095">
+																	<Language>SFX</Language>
+																	<AudioFile>MB_Chord2_5.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="MB_Chord2_5" ID="{18EB621A-4011-4586-9ED8-C57ED33434FB}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="MB_Chord2_6" ID="{C5B11CF3-7DCF-42FB-92C6-9E5413CEE9A2}" ShortID="389676763">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="MB_Chord2_6" ID="{62FA9D37-4880-47F6-9E0D-62D655AEFFE6}" ShortID="182123825">
+																	<Language>SFX</Language>
+																	<AudioFile>MB_Chord2_6.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="MB_Chord2_6" ID="{62FA9D37-4880-47F6-9E0D-62D655AEFFE6}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="MB_Chord2_7" ID="{7E0CA80D-F4F7-4BF2-BDDD-075EEB3ABEB4}" ShortID="953536487">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="MB_Chord2_7" ID="{2C02CAEC-87C9-4322-9DAA-68BEF91CFB39}" ShortID="873870296">
+																	<Language>SFX</Language>
+																	<AudioFile>MB_Chord2_7.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="MB_Chord2_7" ID="{2C02CAEC-87C9-4322-9DAA-68BEF91CFB39}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="MB_Chord2_8" ID="{F50834F1-915D-49C8-AE1A-2BFABEC1A53B}" ShortID="769241349">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="MB_Chord2_8" ID="{5BB89700-D2C1-45A0-A18C-F34C9E28D6BD}" ShortID="1001717517">
+																	<Language>SFX</Language>
+																	<AudioFile>MB_Chord2_8.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="MB_Chord2_8" ID="{5BB89700-D2C1-45A0-A18C-F34C9E28D6BD}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="MB_Chord2_9" ID="{11CBF0D7-CAC0-4F69-A2BA-DB81BB233022}" ShortID="850279966">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="MB_Chord2_9" ID="{B73520AF-7879-4982-8989-DA5C9A3C55AD}" ShortID="390531564">
+																	<Language>SFX</Language>
+																	<AudioFile>MB_Chord2_9.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="MB_Chord2_9" ID="{B73520AF-7879-4982-8989-DA5C9A3C55AD}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="MB_Chord2_10" ID="{E48FBEA2-7DA0-48CB-BE90-00B4B9BFF607}" ShortID="317138230">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="MB_Chord2_10" ID="{D4EE1162-785C-472F-88CF-05F0DA7F6092}" ShortID="436392131">
+																	<Language>SFX</Language>
+																	<AudioFile>MB_Chord2_10.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="MB_Chord2_10" ID="{D4EE1162-785C-472F-88CF-05F0DA7F6092}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Silence_1" ID="{67965121-5722-4032-B2C5-B9685A6D8FAC}" ShortID="334894008">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Silence_1" ID="{F5ECC5C1-AEC2-4FC2-98D0-9B2EECE7809C}" ShortID="1044183041">
+																	<Language>SFX</Language>
+																	<AudioFile>Silence_1.wav</AudioFile>
+																	<ConvertedFileIDList>
+																		<File ID="564700334"/>
+																	</ConvertedFileIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Silence_1" ID="{F5ECC5C1-AEC2-4FC2-98D0-9B2EECE7809C}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Silence_01" ID="{8CD4B86C-FBC0-4A7C-B65A-7779F334B451}" ShortID="917899162">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Silence_1" ID="{88965303-D100-4FAC-A980-613C6DF9BDDF}" ShortID="916865390">
+																	<Language>SFX</Language>
+																	<AudioFile>Silence_1.wav</AudioFile>
+																	<ConvertedFileIDList>
+																		<File ID="564700334"/>
+																	</ConvertedFileIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Silence_1" ID="{88965303-D100-4FAC-A980-613C6DF9BDDF}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Silence_02" ID="{248FE128-EB48-4AC0-B8A3-2938C55A2DDD}" ShortID="125538495">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Silence_1" ID="{0D927F75-05A1-4284-B9D2-1C7907A02E17}" ShortID="135338352">
+																	<Language>SFX</Language>
+																	<AudioFile>Silence_1.wav</AudioFile>
+																	<ConvertedFileIDList>
+																		<File ID="564700334"/>
+																	</ConvertedFileIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Silence_1" ID="{0D927F75-05A1-4284-B9D2-1C7907A02E17}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Silence_03" ID="{DFE2C93C-C6E2-4A5B-8663-395CD2728D37}" ShortID="729675966">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Silence_1" ID="{03B40D40-EA20-4072-90D8-9E4E6228C7A6}" ShortID="246410982">
+																	<Language>SFX</Language>
+																	<AudioFile>Silence_1.wav</AudioFile>
+																	<ConvertedFileIDList>
+																		<File ID="564700334"/>
+																	</ConvertedFileIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Silence_1" ID="{03B40D40-EA20-4072-90D8-9E4E6228C7A6}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Silence_04" ID="{67444931-5BEC-4F70-B83F-8823E44DDF25}" ShortID="140341550">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Silence_1" ID="{A1D271D7-1FA6-4C89-BA2B-FC27E5120B2F}" ShortID="165152820">
+																	<Language>SFX</Language>
+																	<AudioFile>Silence_1.wav</AudioFile>
+																	<ConvertedFileIDList>
+																		<File ID="564700334"/>
+																	</ConvertedFileIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Silence_1" ID="{A1D271D7-1FA6-4C89-BA2B-FC27E5120B2F}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Silence_05" ID="{FF2489F7-A9EA-499A-8D4A-1ACBE1A28FEF}" ShortID="887891430">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Silence_1" ID="{359DA6F0-6D46-446D-9D69-552E4E56CF15}" ShortID="610686335">
+																	<Language>SFX</Language>
+																	<AudioFile>Silence_1.wav</AudioFile>
+																	<ConvertedFileIDList>
+																		<File ID="564700334"/>
+																	</ConvertedFileIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Silence_1" ID="{359DA6F0-6D46-446D-9D69-552E4E56CF15}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</RandomSequenceContainer>
+											</ChildrenList>
+										</BlendContainer>
+										<BlendContainer Name="Chord 4" ID="{6E2E44C9-C8A0-4B52-85CA-B4299ADFA085}" ShortID="221423749">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<RandomSequenceContainer Name="Basse_Chord4" ID="{9C0A81EE-D7BE-4586-8672-BC8D45F3D06A}" ShortID="1018579939">
+													<PropertyList>
+														<Property Name="Lowpass" Type="int16">
+															<ValueList>
+																<Value>70</Value>
+															</ValueList>
+														</Property>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-7</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="Basse_Chord4_A#" ID="{7B69927B-FC23-4962-881E-1A805AC17D00}" ShortID="839745538">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Basse_Chord4_A#" ID="{CC0757DF-F345-43F6-9C07-79852E15BDD4}" ShortID="681068141">
+																	<PropertyList>
+																		<Property Name="FadeInDuration" Type="Real64" Value="2.97556719022688"/>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="3.94415357766143"/>
+																		<Property Name="FadeOutShape" Type="int16" Value="1"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>Basse_Chord4_A#.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Basse_Chord4_A#" ID="{CC0757DF-F345-43F6-9C07-79852E15BDD4}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Basse_Chord4_D#" ID="{7907D8EB-5B0D-4026-A4D8-E1E43494E4F9}" ShortID="896390252">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Basse_Chord4_D#" ID="{40003655-1F37-4EED-AA4F-0C8AC4234AF8}" ShortID="377189122">
+																	<PropertyList>
+																		<Property Name="FadeInDuration" Type="Real64" Value="2.97556719022688"/>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="3.99650959860384"/>
+																		<Property Name="FadeOutShape" Type="int16" Value="1"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>Basse_Chord4_D#.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Basse_Chord4_D#" ID="{40003655-1F37-4EED-AA4F-0C8AC4234AF8}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Basse_Chord4_D#2" ID="{68C566C5-FD95-4456-B0AC-E343E87441F6}" ShortID="959099361">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Basse_Chord4_D#2" ID="{FDCE706F-A015-49FB-8EB6-79B48FD84CB1}" ShortID="301557645">
+																	<PropertyList>
+																		<Property Name="FadeInDuration" Type="Real64" Value="2.98429319371728"/>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="3.97033158813264"/>
+																		<Property Name="FadeOutShape" Type="int16" Value="1"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>Basse_Chord4_D#2.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Basse_Chord4_D#2" ID="{FDCE706F-A015-49FB-8EB6-79B48FD84CB1}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Basse_Chord4_G" ID="{7A46393B-2501-420B-A037-201AA5EE3CDC}" ShortID="888170805">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Basse_Chord4_G" ID="{0C023424-CA50-4676-930D-30318D2D5D00}" ShortID="1023317269">
+																	<PropertyList>
+																		<Property Name="FadeInDuration" Type="Real64" Value="3.01919720767888"/>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="3.98778359511344"/>
+																		<Property Name="FadeOutShape" Type="int16" Value="1"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>Basse_Chord4_G.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Basse_Chord4_G" ID="{0C023424-CA50-4676-930D-30318D2D5D00}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</RandomSequenceContainer>
+												<RandomSequenceContainer Name="Cello1_Chord4" ID="{014F0309-CEF0-4A72-8EC9-F30730C0BCB2}" ShortID="636460164">
+													<PropertyList>
+														<Property Name="3DPositionSource" Type="int16" Value="0"/>
+														<Property Name="Lowpass" Type="int16">
+															<ValueList>
+																<Value>70</Value>
+															</ValueList>
+														</Property>
+														<Property Name="OverridePositioning" Type="bool" Value="True"/>
+														<Property Name="PositioningType" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="Cello1_Chord4_A#" ID="{44FB2472-236F-42BE-96F9-EA7EA4D03290}" ShortID="980360200">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Cello1_Chord4_A#" ID="{DB0AB835-8631-4684-B39A-5E60829A6112}" ShortID="247174852">
+																	<PropertyList>
+																		<Property Name="FadeInDuration" Type="Real64" Value="2.98429319371728"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>Cello1_Chord4_A#.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Cello1_Chord4_A#" ID="{DB0AB835-8631-4684-B39A-5E60829A6112}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Cello1_Chord4_D#" ID="{E42FB411-31E7-4A06-BCCF-5617F57D84FB}" ShortID="680134810">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Cello1_Chord4_D#" ID="{29085132-CB5C-49EC-80FA-7BCEBFFA8E40}" ShortID="662159836">
+																	<PropertyList>
+																		<Property Name="FadeInDuration" Type="Real64" Value="2.99301919720768"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>Cello1_Chord4_D#.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Cello1_Chord4_D#" ID="{29085132-CB5C-49EC-80FA-7BCEBFFA8E40}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Cello1_Chord4_D#2" ID="{1B5F56A9-34C9-49DC-B917-D444B1719BD3}" ShortID="93219662">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Cello1_Chord4_D#2" ID="{5C69636C-1435-4535-B4D8-121C0E1C7DDA}" ShortID="1024708174">
+																	<PropertyList>
+																		<Property Name="FadeInDuration" Type="Real64" Value="2.99301919720768"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>Cello1_Chord4_D#2.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Cello1_Chord4_D#2" ID="{5C69636C-1435-4535-B4D8-121C0E1C7DDA}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Cello1_Chord4_G" ID="{20B06975-2887-4600-B10A-99CC69BBCADB}" ShortID="701399977">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Cello1_Chord4_G" ID="{36400C6C-02BC-4C5A-B201-8A8F610CF9C6}" ShortID="1049621057">
+																	<PropertyList>
+																		<Property Name="FadeInDuration" Type="Real64" Value="3.01047120418848"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>Cello1_Chord4_G.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Cello1_Chord4_G" ID="{36400C6C-02BC-4C5A-B201-8A8F610CF9C6}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+													<PositioningInfo>
+														<Position Name="" ID="{DD723D9E-F42B-4AB5-94D6-F948A56FCF55}">
+															<PropertyList>
+																<Property Name="NewPathForEachSound" Type="bool" Value="True"/>
+															</PropertyList>
+															<ChildrenList>
+																<Path2D Name="Cello1_Chord4_Path" ID="{DD6A89B3-B7FF-458B-8D71-866E40DC8B14}">
+																	<PointList>
+																		<Point>
+																			<XPos>27</XPos>
+																			<YPos>50</YPos>
+																			<Flags>12</Flags>
+																			<Time>0</Time>
+																		</Point>
+																	</PointList>
+																</Path2D>
+																<Path2D Name="Cello1_Chord4_Path_01" ID="{195B26B4-41FE-4B40-8EA5-72B257CA0716}">
+																	<PointList>
+																		<Point>
+																			<XPos>-27</XPos>
+																			<YPos>50</YPos>
+																			<Flags>12</Flags>
+																			<Time>0</Time>
+																		</Point>
+																	</PointList>
+																</Path2D>
+															</ChildrenList>
+														</Position>
+													</PositioningInfo>
+												</RandomSequenceContainer>
+												<RandomSequenceContainer Name="Cello2_Chord4" ID="{FC3FDAEF-672F-4291-80B8-2D56D6B8F9AD}" ShortID="770179462">
+													<PropertyList>
+														<Property Name="3DPositionSource" Type="int16" Value="0"/>
+														<Property Name="Lowpass" Type="int16">
+															<ValueList>
+																<Value>70</Value>
+															</ValueList>
+														</Property>
+														<Property Name="OverridePositioning" Type="bool" Value="True"/>
+														<Property Name="PositioningType" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="Cello2_Chord4_A#" ID="{A351773A-2A53-47EE-8205-5B5E6884E172}" ShortID="865251612">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Cello2_Chord4_A#" ID="{1AD239D3-CCE6-48E2-BD05-734679FE263E}" ShortID="1064002806">
+																	<PropertyList>
+																		<Property Name="FadeInDuration" Type="Real64" Value="2.96684118673647"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>Cello2_Chord4_A#.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Cello2_Chord4_A#" ID="{1AD239D3-CCE6-48E2-BD05-734679FE263E}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Cello2_Chord4_D#" ID="{8ABBB19D-6AE9-40CA-BE8B-8702EDB8E90B}" ShortID="8349690">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Cello2_Chord4_D#" ID="{7A6AB7D6-46BA-459F-8C3D-929FAECC83F6}" ShortID="682243682">
+																	<PropertyList>
+																		<Property Name="FadeInDuration" Type="Real64" Value="2.99301919720768"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>Cello2_Chord4_D#.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Cello2_Chord4_D#" ID="{7A6AB7D6-46BA-459F-8C3D-929FAECC83F6}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Cello2_Chord4_D#2" ID="{2EF886B6-019E-4D21-9625-2034C7FFFA2F}" ShortID="708018503">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Cello2_Chord4_D#2" ID="{E2FA34B9-B048-4DD6-B21E-585A4D6A7E46}" ShortID="778750776">
+																	<PropertyList>
+																		<Property Name="FadeInDuration" Type="Real64" Value="2.99301919720768"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>Cello2_Chord4_D#2.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Cello2_Chord4_D#2" ID="{E2FA34B9-B048-4DD6-B21E-585A4D6A7E46}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Cello2_Chord4_G" ID="{DC5EB198-41DA-4892-9DC3-F7E064313223}" ShortID="556499284">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Cello2_Chord4_G" ID="{17DD94E3-7275-4F1A-B1E8-E3C2F192D218}" ShortID="624860615">
+																	<PropertyList>
+																		<Property Name="FadeInDuration" Type="Real64" Value="2.99301919720768"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>Cello2_Chord4_G.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Cello2_Chord4_G" ID="{17DD94E3-7275-4F1A-B1E8-E3C2F192D218}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+													<PositioningInfo>
+														<Position Name="" ID="{83056F2B-FF10-4F94-9AEF-013988F05CDF}">
+															<PropertyList>
+																<Property Name="NewPathForEachSound" Type="bool" Value="True"/>
+															</PropertyList>
+															<ChildrenList>
+																<Path2D Name="Cello2_Chord4_Path" ID="{53C55620-5B1A-4C61-A7C5-F4F442AFEBA6}">
+																	<PointList>
+																		<Point>
+																			<XPos>-27</XPos>
+																			<YPos>50</YPos>
+																			<Flags>12</Flags>
+																			<Time>0</Time>
+																		</Point>
+																	</PointList>
+																</Path2D>
+																<Path2D Name="Cello2_Chord4_Path_01" ID="{CFD264FF-549B-40C4-A4E2-E3877DC193C2}">
+																	<PointList>
+																		<Point>
+																			<XPos>27</XPos>
+																			<YPos>50</YPos>
+																			<Flags>12</Flags>
+																			<Time>0</Time>
+																		</Point>
+																	</PointList>
+																</Path2D>
+															</ChildrenList>
+														</Position>
+													</PositioningInfo>
+												</RandomSequenceContainer>
+												<RandomSequenceContainer Name="Violin1_Chord4" ID="{6B1ECC22-DE33-4BE7-9B56-CA3998EE1D69}" ShortID="255573523">
+													<PropertyList>
+														<Property Name="Lowpass" Type="int16">
+															<ValueList>
+																<Value>70</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="Violin1_Chord4_A#" ID="{02620F84-DBC6-4E22-B3C4-299CDEC350B4}" ShortID="795015412">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Violin1_Chord4_A#" ID="{1E6F65B7-F1A8-4DD4-B9BA-A4F4F45B5B38}" ShortID="767478543">
+																	<PropertyList>
+																		<Property Name="FadeInDuration" Type="Real64" Value="3.01047120418848"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>Violin1_Chord4_A#.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Violin1_Chord4_A#" ID="{1E6F65B7-F1A8-4DD4-B9BA-A4F4F45B5B38}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Violin1_Chord4_D#" ID="{C826293C-C6DF-464F-9212-26E1E586F8B9}" ShortID="112497239">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Violin1_Chord4_D#" ID="{8C88B976-91F0-4238-9EE5-B31EC11AE465}" ShortID="227118963">
+																	<PropertyList>
+																		<Property Name="FadeInDuration" Type="Real64" Value="2.97556719022688"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>Violin1_Chord4_D#.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Violin1_Chord4_D#" ID="{8C88B976-91F0-4238-9EE5-B31EC11AE465}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Violin1_Chord4_D#2" ID="{8E2712A4-406F-4155-8D6F-83089C0E36BE}" ShortID="359902057">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Violin1_Chord4_D#2" ID="{9FCB721E-4648-49E8-B005-0E0D77E21B5A}" ShortID="288616110">
+																	<PropertyList>
+																		<Property Name="FadeInDuration" Type="Real64" Value="3.00174520069808"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>Violin1_Chord4_D#2.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Violin1_Chord4_D#2" ID="{9FCB721E-4648-49E8-B005-0E0D77E21B5A}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Violin1_Chord4_G" ID="{8BCA4D59-14B1-4C42-8573-BDDA084D491B}" ShortID="549446692">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Violin1_Chord4_G" ID="{299BE109-3F2B-4351-972D-2605DE1EBA8D}" ShortID="167495663">
+																	<PropertyList>
+																		<Property Name="FadeInDuration" Type="Real64" Value="3.00174520069808"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>Violin1_Chord4_G.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Violin1_Chord4_G" ID="{299BE109-3F2B-4351-972D-2605DE1EBA8D}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</RandomSequenceContainer>
+												<RandomSequenceContainer Name="Choir1_Chord4" ID="{A698CD81-1216-40AD-A0A0-F57AFA363BC3}" ShortID="1002466780">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-18</Value>
+															</ValueList>
+															<RTPCList>
+																<RTPC Name="" ID="{5906A18F-18E5-4014-9B20-E0EA3C8F59C9}" ShortID="129766175">
+																	<ReferenceList>
+																		<Reference Name="ControlInput">
+																			<ObjectRef Name="Choir_volume" ID="{A42AE4D6-E22E-4CEC-909C-8C65E4C3E991}" WorkUnitID="{1E3B6552-E6BB-443B-B824-2B9CB7F998C7}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<Curve Name="" ID="{C032BE36-64CE-45D9-AF58-524C940414B3}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>100</XPos>
+																				<YPos>-200</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</RTPC>
+															</RTPCList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="Choir1_Chord4_A#" ID="{5A4E2153-2F1F-465A-B478-460738549DD5}" ShortID="382095241">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Choir1_Chord4_A#" ID="{5CB6D8D2-8506-429E-8276-04287B510252}" ShortID="487660714">
+																	<Language>SFX</Language>
+																	<AudioFile>Choir1_Chord4_A#.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Choir1_Chord4_A#" ID="{5CB6D8D2-8506-429E-8276-04287B510252}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Choir1_Chord4_C2" ID="{67766C4E-FD9C-40EE-A819-D7A51DF29ED5}" ShortID="604973677">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Choir1_Chord4_C2" ID="{03B3C144-F208-43E9-941B-5D62143F5CA9}" ShortID="248411711">
+																	<Language>SFX</Language>
+																	<AudioFile>Choir1_Chord4_C2.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Choir1_Chord4_C2" ID="{03B3C144-F208-43E9-941B-5D62143F5CA9}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Choir1_Chord4_D#" ID="{AF6FF9AC-C71C-4A14-9DF6-413F4CE3A03A}" ShortID="363653648">
+															<PropertyList>
+																<Property Name="Inclusion" Type="bool">
+																	<ValueList>
+																		<Value>False</Value>
+																	</ValueList>
+																</Property>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Choir1_Chord4_D#" ID="{2A5AF68A-B7BE-4E3B-9058-D2C4CA6C3242}" ShortID="822333782">
+																	<Language>SFX</Language>
+																	<AudioFile>Choir1_Chord4_D#.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Choir1_Chord4_D#" ID="{2A5AF68A-B7BE-4E3B-9058-D2C4CA6C3242}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Choir1_Chord4_G" ID="{BDBAA717-6227-476E-8679-9750BF083B52}" ShortID="465184863">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Choir1_Chord4_G" ID="{AAABBB77-3F1A-4726-886B-586AB443687F}" ShortID="613046743">
+																	<Language>SFX</Language>
+																	<AudioFile>Choir1_Chord4_G.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Choir1_Chord4_G" ID="{AAABBB77-3F1A-4726-886B-586AB443687F}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</RandomSequenceContainer>
+											</ChildrenList>
+										</BlendContainer>
+									</ChildrenList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+						</ActorMixer>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

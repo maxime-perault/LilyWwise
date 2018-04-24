@@ -9,7 +9,7 @@
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+							<ObjectRef Name="Ambiances" ID="{0AD14AD0-E5CB-468E-A303-5CC134C8D29D}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -26,6 +26,11 @@
 								<BlendContainer Name="AMB_O1" ID="{CC2576D9-0B63-4F8B-8347-2963D3200FE2}" ShortID="446661734">
 									<PropertyList>
 										<Property Name="OverrideConversion" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>8</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -45,7 +50,7 @@
 																<PropertyList>
 																	<Property Name="Enabled" Type="bool" Value="True"/>
 																	<Property Name="Max" Type="Real64" Value="200"/>
-																	<Property Name="Min" Type="Real64" Value="-250"/>
+																	<Property Name="Min" Type="Real64" Value="-200"/>
 																</PropertyList>
 															</Modifier>
 														</ModifierInfo>
@@ -53,8 +58,9 @@
 												</Property>
 												<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
 												<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
-												<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="3"/>
+												<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="5"/>
 												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+												<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="4"/>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
 														<Value>-4</Value>
@@ -251,10 +257,13 @@
 												</Property>
 												<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
 												<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
-												<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="3"/>
+												<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="4"/>
 												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
-												<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
+												<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="4"/>
 												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>1</Value>
+													</ValueList>
 													<ModifierList>
 														<ModifierInfo>
 															<Modifier Name="" ID="{887CC734-B01D-43D6-BB41-4810E55279C6}">
@@ -334,6 +343,13 @@
 													</ActiveSourceList>
 												</Sound>
 												<Sound Name="Leaves_4" ID="{BF0D3302-F59D-4C91-BE71-FAAE8B008346}" ShortID="249999524">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-7</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
@@ -391,6 +407,13 @@
 													</ActiveSourceList>
 												</Sound>
 												<Sound Name="Leaves_7" ID="{E4D466F6-9C3E-4258-9729-5A2A43DC71E0}" ShortID="246231934">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-7</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
@@ -410,6 +433,26 @@
 													</ActiveSourceList>
 												</Sound>
 												<Sound Name="Leaves_8" ID="{39C3BE7B-9E56-43D1-8C6B-EB3591033B67}" ShortID="523712639">
+													<PropertyList>
+														<Property Name="Pitch" Type="int32">
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{1F34AF01-3269-42C9-A118-124F3A4DE5E3}">
+																		<PropertyList>
+																			<Property Name="Enabled" Type="bool" Value="True"/>
+																			<Property Name="Max" Type="Real64" Value="150"/>
+																			<Property Name="Min" Type="Real64" Value="-150"/>
+																		</PropertyList>
+																	</Modifier>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-7</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
@@ -429,6 +472,590 @@
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="StrangeBirds_AMB" ID="{374714C9-C00B-428E-A391-2AC668701380}" ShortID="953012867">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{EFE33B4F-C702-4B53-8556-4FD8D32B1654}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="150"/>
+																	<Property Name="Min" Type="Real64" Value="-150"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="5"/>
+												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+												<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="4"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-9</Value>
+													</ValueList>
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{B693E77A-4F25-4DB5-B131-7AF709EDE76E}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Min" Type="Real64" Value="-5"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Strange bird - 15" ID="{AE4730B2-3760-4966-A2D4-43030D1F461D}" ShortID="322365145">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Strange bird - 15" ID="{C754B32C-9B0F-4D1D-90A8-913B55E59E8C}" ShortID="1017215148">
+															<Language>SFX</Language>
+															<AudioFile>Strange bird - 15.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Strange bird - 15" ID="{C754B32C-9B0F-4D1D-90A8-913B55E59E8C}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Strange bird - 16" ID="{C1645DD1-6268-4BE1-845C-B6481A5BB011}" ShortID="431752684">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Strange bird - 16" ID="{EE7265D2-C305-40AD-B351-284E9D4339CC}" ShortID="533915366">
+															<Language>SFX</Language>
+															<AudioFile>Strange bird - 16.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Strange bird - 16" ID="{EE7265D2-C305-40AD-B351-284E9D4339CC}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Strange bird - 17" ID="{EC5FC732-B91C-42F5-9395-9AF77EE53DBA}" ShortID="184897851">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Strange bird - 17" ID="{10AAEE13-4B14-4B7C-BC87-44299E3C8BEF}" ShortID="771917576">
+															<Language>SFX</Language>
+															<AudioFile>Strange bird - 17.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Strange bird - 17" ID="{10AAEE13-4B14-4B7C-BC87-44299E3C8BEF}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Strange bird - 18" ID="{55217F2D-A441-4EF6-94B1-2088680EA23B}" ShortID="43121018">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Strange bird - 18" ID="{C19E610D-729F-493A-906E-3A3FCFD918BC}" ShortID="202589565">
+															<Language>SFX</Language>
+															<AudioFile>Strange bird - 18.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Strange bird - 18" ID="{C19E610D-729F-493A-906E-3A3FCFD918BC}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Strange bird - 19" ID="{8C646D32-3206-4DC1-A787-35FFF6618963}" ShortID="626404659">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Strange bird - 19" ID="{644033F3-30CA-4A0B-8AF8-A19A466EFE58}" ShortID="695653368">
+															<Language>SFX</Language>
+															<AudioFile>Strange bird - 19.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Strange bird - 19" ID="{644033F3-30CA-4A0B-8AF8-A19A466EFE58}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Strange bird - 20" ID="{82A5FDDA-50F1-4FE6-9C38-1C7858EE6D2A}" ShortID="108317238">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Strange bird - 20" ID="{65CAB032-0CD9-451D-AFBD-F7F585FA0A79}" ShortID="910058763">
+															<Language>SFX</Language>
+															<AudioFile>Strange bird - 20.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Strange bird - 20" ID="{65CAB032-0CD9-451D-AFBD-F7F585FA0A79}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Strange bird - 21" ID="{C6302138-6CE7-495C-936D-4AB3AD2581F7}" ShortID="151769471">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Strange bird - 21" ID="{F9EDBBD9-57EC-43D0-9E01-EFB9EA9E01EB}" ShortID="80562585">
+															<Language>SFX</Language>
+															<AudioFile>Strange bird - 21.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Strange bird - 21" ID="{F9EDBBD9-57EC-43D0-9E01-EFB9EA9E01EB}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Silence_1" ID="{4E6C2072-28C9-4725-9F00-FB10FBB4F706}" ShortID="1054248023">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Silence_1" ID="{93B16647-1540-44D8-A097-F0CD0AB1EF35}" ShortID="674521463">
+															<Language>SFX</Language>
+															<AudioFile>Silence_1.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Silence_1" ID="{93B16647-1540-44D8-A097-F0CD0AB1EF35}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Silence_01" ID="{32D63988-B2BB-4BA2-90FC-D5E6ED456F21}" ShortID="76706641">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Silence_1" ID="{E8337B33-0391-4485-B8E3-9DBCE3BB3D72}" ShortID="986749960">
+															<Language>SFX</Language>
+															<AudioFile>Silence_1.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="674521463"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Silence_1" ID="{E8337B33-0391-4485-B8E3-9DBCE3BB3D72}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Silence_02" ID="{7253C8C5-5818-4FBE-A9FB-F7661651C637}" ShortID="140396528">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Silence_1" ID="{085338C7-3AAD-433B-8BC5-C51F2295E646}" ShortID="520803740">
+															<Language>SFX</Language>
+															<AudioFile>Silence_1.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="674521463"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Silence_1" ID="{085338C7-3AAD-433B-8BC5-C51F2295E646}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Silence_03" ID="{B998336A-B011-4432-BE5E-50D501B2442A}" ShortID="181999466">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Silence_1" ID="{3EB2D90E-AFB7-4664-9F82-8829D27299E6}" ShortID="548731461">
+															<Language>SFX</Language>
+															<AudioFile>Silence_1.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="674521463"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Silence_1" ID="{3EB2D90E-AFB7-4664-9F82-8829D27299E6}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Silence_04" ID="{3491D227-DDD2-49F2-96BE-5FA0EB9D6B1A}" ShortID="603640187">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Silence_1" ID="{CDAF881F-4E7D-41DC-B24D-B71BDAEEC75A}" ShortID="748193447">
+															<Language>SFX</Language>
+															<AudioFile>Silence_1.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="674521463"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Silence_1" ID="{CDAF881F-4E7D-41DC-B24D-B71BDAEEC75A}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Silence_05" ID="{BE036F0D-821A-4423-AB5E-F3C7B7405E54}" ShortID="444740622">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Silence_1" ID="{63E7DD3A-A882-4AE1-A369-650AD560AF97}" ShortID="937040298">
+															<Language>SFX</Language>
+															<AudioFile>Silence_1.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="674521463"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Silence_1" ID="{63E7DD3A-A882-4AE1-A369-650AD560AF97}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Silence_06" ID="{5FB5316F-1480-42EC-972A-E8E2B89FD031}" ShortID="1048576896">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Silence_1" ID="{1AF98E26-5971-4E1E-9E9F-090896F34F1C}" ShortID="130595018">
+															<Language>SFX</Language>
+															<AudioFile>Silence_1.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="674521463"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Silence_1" ID="{1AF98E26-5971-4E1E-9E9F-090896F34F1C}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="StrangeBirds_Step" ID="{0B2F285D-E39F-4064-9B12-10ED5FD2627B}" ShortID="143800881">
+											<PropertyList>
+												<Property Name="3DPositionSource" Type="int16" Value="0"/>
+												<Property Name="InitialDelay" Type="Real64">
+													<ValueList>
+														<Value>7</Value>
+													</ValueList>
+												</Property>
+												<Property Name="OverridePositioning" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+												<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="5">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{1ADE18E9-3091-485C-9B55-793F5275788E}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="10"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+												<Property Name="PositioningType" Type="int16" Value="1"/>
+												<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="4"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-14</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Strange bird - 1" ID="{04ECC24B-1EC5-407A-88B4-0BF1FD400B3C}" ShortID="136309437">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Strange bird - 1" ID="{780F70E7-2126-4139-9C5F-E586F577832F}" ShortID="389833922">
+															<Language>SFX</Language>
+															<AudioFile>Strange bird - 1.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Strange bird - 1" ID="{780F70E7-2126-4139-9C5F-E586F577832F}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Strange bird - 2" ID="{749F9F78-B61C-4ABB-BF29-AF0E547765F5}" ShortID="723804694">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Strange bird - 2" ID="{8A52E896-D158-49D9-BFB3-715C69BB307D}" ShortID="485035320">
+															<Language>SFX</Language>
+															<AudioFile>Strange bird - 2.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Strange bird - 2" ID="{8A52E896-D158-49D9-BFB3-715C69BB307D}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Strange bird - 3" ID="{E1DBC2D9-CC0F-4E87-B3B9-91CB2D12CB51}" ShortID="610559125">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Strange bird - 3" ID="{12BA009B-C743-4183-8705-E9F7144E0932}" ShortID="702854486">
+															<Language>SFX</Language>
+															<AudioFile>Strange bird - 3.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Strange bird - 3" ID="{12BA009B-C743-4183-8705-E9F7144E0932}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Strange bird - 4" ID="{99EB5C2E-92F1-490A-BFD6-965AD8C19514}" ShortID="835482663">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Strange bird - 4" ID="{5D34E040-662F-4634-8B66-C43C8AED701D}" ShortID="483872452">
+															<Language>SFX</Language>
+															<AudioFile>Strange bird - 4.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Strange bird - 4" ID="{5D34E040-662F-4634-8B66-C43C8AED701D}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Strange bird - 5" ID="{86FC8208-6D74-4661-99BB-F89B9AFA3572}" ShortID="678398320">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Strange bird - 5" ID="{F7A6F4F1-B88D-4371-B77E-E1A74F8EE550}" ShortID="864732128">
+															<Language>SFX</Language>
+															<AudioFile>Strange bird - 5.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Strange bird - 5" ID="{F7A6F4F1-B88D-4371-B77E-E1A74F8EE550}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Strange bird - 6" ID="{AE5C40F7-3EB0-47BB-95D0-5C44495F9ADD}" ShortID="286252317">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Strange bird - 6" ID="{29114F4D-DC0B-4B4E-BE1B-64F26E2EE92F}" ShortID="603945166">
+															<Language>SFX</Language>
+															<AudioFile>Strange bird - 6.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Strange bird - 6" ID="{29114F4D-DC0B-4B4E-BE1B-64F26E2EE92F}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Strange bird - 7" ID="{869C4EFF-63BC-458D-9BF3-AD73D5857978}" ShortID="667855968">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Strange bird - 7" ID="{C4C0F2F9-4F7A-4EF1-9F1A-2DE8C09F9B98}" ShortID="735430141">
+															<Language>SFX</Language>
+															<AudioFile>Strange bird - 7.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Strange bird - 7" ID="{C4C0F2F9-4F7A-4EF1-9F1A-2DE8C09F9B98}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Strange bird - 8" ID="{1E85A6A1-95C9-4E06-9792-75FEEA9EF12E}" ShortID="810260018">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Strange bird - 8" ID="{BFD85BF6-FE2C-4A49-B84D-A0B9E06A76CF}" ShortID="626744241">
+															<Language>SFX</Language>
+															<AudioFile>Strange bird - 8.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Strange bird - 8" ID="{BFD85BF6-FE2C-4A49-B84D-A0B9E06A76CF}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Strange bird - 13" ID="{261D8728-5ED6-4D96-847F-E945D560A942}" ShortID="467210061">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Strange bird - 13" ID="{D292F85F-CFB8-4FDB-ADA1-38CC86DEFBDA}" ShortID="678447746">
+															<Language>SFX</Language>
+															<AudioFile>Strange bird - 13.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Strange bird - 13" ID="{D292F85F-CFB8-4FDB-ADA1-38CC86DEFBDA}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Strange bird - 10" ID="{C958CB02-5C7D-4F9E-B742-00198523240E}" ShortID="497551532">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Strange bird - 10" ID="{157ED204-D7DB-460D-A436-722CEAFDC4A2}" ShortID="259027135">
+															<Language>SFX</Language>
+															<AudioFile>Strange bird - 10.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Strange bird - 10" ID="{157ED204-D7DB-460D-A436-722CEAFDC4A2}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<PositioningInfo>
+												<Position Name="" ID="{80ADEE4E-CA27-4648-9977-93A447298238}">
+													<ChildrenList>
+														<Path2D Name="StrangeBirds_Step_Path" ID="{28F7DFC3-DEE7-4D6B-B51D-ECEB139F18E8}">
+															<PropertyList>
+																<Property Name="RandomX" Type="Real64" Value="50"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>50</YPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+													</ChildrenList>
+												</Position>
+											</PositioningInfo>
 										</RandomSequenceContainer>
 									</ChildrenList>
 								</BlendContainer>

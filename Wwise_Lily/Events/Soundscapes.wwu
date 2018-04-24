@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{18029C21-36BA-447B-9F35-854E0B36B1B5}" SchemaVersion="85" RootDocumentID="{A173F46B-135A-44AE-857B-948A706A6FBF}">
+	<Events>
+		<WorkUnit Name="Soundscapes" ID="{18029C21-36BA-447B-9F35-854E0B36B1B5}" OwnerID="{A173F46B-135A-44AE-857B-948A706A6FBF}" PersistMode="Nested">
+			<ChildrenList>
+				<Folder Name="O1" ID="{6D946B09-613E-45C5-AB10-C873A46F1F2D}" ShortID="692632435">
+					<ChildrenList>
+						<Event Name="Play_Soundscape_O1" ID="{232464F8-A54C-45EE-AFE9-54E6D5D95233}">
+							<ChildrenList>
+								<Action Name="" ID="{B7C19FC3-40A3-4092-8E3C-62515646B09B}" ShortID="448230950">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Soundscape_O1" ID="{0852E595-2A2B-4099-9B6D-B5700FFEE637}" WorkUnitID="{70C4634E-397D-4AD0-AEA2-DE40622061AE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

@@ -31,6 +31,7 @@
 				<Event Id="3373521485" Name="Play_FS_Dirt" ObjectPath="\Events\Default Work Unit\Character\Character_foleys\Footsteps\Play_FS_Dirt"/>
 				<Event Id="2129450016" Name="Play_FS_Grass" ObjectPath="\Events\Default Work Unit\Character\Character_foleys\Footsteps\Play_FS_Grass"/>
 				<Event Id="353474919" Name="Play_Lightzone_Expand" ObjectPath="\Events\Default Work Unit\Character\Character_foleys\Lightzone\Play_Lightzone_Expand"/>
+				<Event Id="3152312914" Name="Play_Soundscape_O1" ObjectPath="\Events\Default Work Unit\Soundscapes\O1\Play_Soundscape_O1"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="4134339" Language="SFX">
@@ -45,25 +46,69 @@
 					<ShortName>FS_Grass_5.wav</ShortName>
 					<Path>SFX\FS_Grass_5_1617AFA0.wem</Path>
 				</File>
+				<File Id="29241057" Language="SFX">
+					<ShortName>Basse_Chord2_C#.wav</ShortName>
+					<Path>SFX\Basse_Chord2_C#_4CB893D7.wem</Path>
+				</File>
+				<File Id="33949529" Language="SFX">
+					<ShortName>Cello1_Chord2_A#.wav</ShortName>
+					<Path>SFX\Cello1_Chord2_A#_5E9F1B84.wem</Path>
+				</File>
 				<File Id="40597509" Language="SFX">
 					<ShortName>FS_Dirt_8.wav</ShortName>
 					<Path>SFX\FS_Dirt_8_1617AFA0.wem</Path>
+				</File>
+				<File Id="51243529" Language="SFX">
+					<ShortName>MB_Chord1_8.wav</ShortName>
+					<Path>SFX\MB_Chord1_8_27A9F4A4.wem</Path>
+				</File>
+				<File Id="52183310" Language="SFX">
+					<ShortName>Cello2_Chord2_A#2.wav</ShortName>
+					<Path>SFX\Cello2_Chord2_A#2_5582F2D8.wem</Path>
 				</File>
 				<File Id="53823901" Language="SFX">
 					<ShortName>FS_Creak_4.wav</ShortName>
 					<Path>SFX\FS_Creak_4_1617AFA0.wem</Path>
 				</File>
+				<File Id="70817551" Language="SFX">
+					<ShortName>Cello2_Chord1_D#.wav</ShortName>
+					<Path>SFX\Cello2_Chord1_D#_E01B4B8D.wem</Path>
+				</File>
 				<File Id="79180153" Language="SFX">
 					<ShortName>FS_Wood_6.wav</ShortName>
 					<Path>SFX\FS_Wood_6_1617AFA0.wem</Path>
+				</File>
+				<File Id="80562585" Language="SFX">
+					<ShortName>Strange bird - 21.wav</ShortName>
+					<Path>SFX\Strange bird - 21_1617AFA0.wem</Path>
+				</File>
+				<File Id="94931193" Language="SFX">
+					<ShortName>MB_Chord2_4.wav</ShortName>
+					<Path>SFX\MB_Chord2_4_27A9F4A4.wem</Path>
 				</File>
 				<File Id="99575669" Language="SFX">
 					<ShortName>FS_Dirt_5.wav</ShortName>
 					<Path>SFX\FS_Dirt_5_1617AFA0.wem</Path>
 				</File>
+				<File Id="122949961" Language="SFX">
+					<ShortName>Violin1_Chord2_C#.wav</ShortName>
+					<Path>SFX\Violin1_Chord2_C#_9EB0640C.wem</Path>
+				</File>
+				<File Id="129928058" Language="SFX">
+					<ShortName>MB_Chord1_6.wav</ShortName>
+					<Path>SFX\MB_Chord1_6_27A9F4A4.wem</Path>
+				</File>
 				<File Id="130593866" Language="SFX">
 					<ShortName>Lightzone_expand_1.wav</ShortName>
 					<Path>SFX\Lightzone_expand_1_1617AFA0.wem</Path>
+				</File>
+				<File Id="158518473" Language="SFX">
+					<ShortName>Violin1_Chord1_G#.wav</ShortName>
+					<Path>SFX\Violin1_Chord1_G#_F4A8A6DF.wem</Path>
+				</File>
+				<File Id="163889126" Language="SFX">
+					<ShortName>Cello2_Chord2_A#.wav</ShortName>
+					<Path>SFX\Cello2_Chord2_A#_5582F2D8.wem</Path>
 				</File>
 				<File Id="164419082" Language="SFX">
 					<ShortName>FS_Wood_1.wav</ShortName>
@@ -77,6 +122,30 @@
 					<ShortName>FS_Grass_3.wav</ShortName>
 					<Path>SFX\FS_Grass_3_1617AFA0.wem</Path>
 				</File>
+				<File Id="167495663" Language="SFX">
+					<ShortName>Violin1_Chord4_G.wav</ShortName>
+					<Path>SFX\Violin1_Chord4_G_8F4E7778.wem</Path>
+				</File>
+				<File Id="174051045" Language="SFX">
+					<ShortName>Choir1_Chord2_A#2.wav</ShortName>
+					<Path>SFX\Choir1_Chord2_A#2_27A9F4A4.wem</Path>
+				</File>
+				<File Id="182123825" Language="SFX">
+					<ShortName>MB_Chord2_6.wav</ShortName>
+					<Path>SFX\MB_Chord2_6_27A9F4A4.wem</Path>
+				</File>
+				<File Id="184521980" Language="SFX">
+					<ShortName>Cello1_Chord1_C2.wav</ShortName>
+					<Path>SFX\Cello1_Chord1_C2_C2366B63.wem</Path>
+				</File>
+				<File Id="202589565" Language="SFX">
+					<ShortName>Strange bird - 18.wav</ShortName>
+					<Path>SFX\Strange bird - 18_1617AFA0.wem</Path>
+				</File>
+				<File Id="211973114" Language="SFX">
+					<ShortName>Cello2_Chord1_C2.wav</ShortName>
+					<Path>SFX\Cello2_Chord1_C2_E01B4B8D.wem</Path>
+				</File>
 				<File Id="218288067" Language="SFX">
 					<ShortName>FS_Wood_3.wav</ShortName>
 					<Path>SFX\FS_Wood_3_1617AFA0.wem</Path>
@@ -85,9 +154,29 @@
 					<ShortName>FS_Dirt_4.wav</ShortName>
 					<Path>SFX\FS_Dirt_4_1617AFA0.wem</Path>
 				</File>
+				<File Id="227118963" Language="SFX">
+					<ShortName>Violin1_Chord4_D#.wav</ShortName>
+					<Path>SFX\Violin1_Chord4_D#_D20B01C7.wem</Path>
+				</File>
+				<File Id="230854021" Language="SFX">
+					<ShortName>Cello1_Chord1_D#.wav</ShortName>
+					<Path>SFX\Cello1_Chord1_D#_DB57535C.wem</Path>
+				</File>
 				<File Id="231491770" Language="SFX">
 					<ShortName>FS_Wood_5.wav</ShortName>
 					<Path>SFX\FS_Wood_5_1617AFA0.wem</Path>
+				</File>
+				<File Id="236376704" Language="SFX">
+					<ShortName>MB_Chord1_5.wav</ShortName>
+					<Path>SFX\MB_Chord1_5_27A9F4A4.wem</Path>
+				</File>
+				<File Id="247174852" Language="SFX">
+					<ShortName>Cello1_Chord4_A#.wav</ShortName>
+					<Path>SFX\Cello1_Chord4_A#_C21B09E2.wem</Path>
+				</File>
+				<File Id="248411711" Language="SFX">
+					<ShortName>Choir1_Chord4_C2.wav</ShortName>
+					<Path>SFX\Choir1_Chord4_C2_27A9F4A4.wem</Path>
 				</File>
 				<File Id="251543091" Language="SFX">
 					<ShortName>FS_Creak_5.wav</ShortName>
@@ -96,6 +185,10 @@
 				<File Id="252750255" Language="SFX">
 					<ShortName>Wind_base_6.wav</ShortName>
 					<Path>SFX\Wind_base_6_1617AFA0.wem</Path>
+				</File>
+				<File Id="259027135" Language="SFX">
+					<ShortName>Strange bird - 10.wav</ShortName>
+					<Path>SFX\Strange bird - 10_1617AFA0.wem</Path>
 				</File>
 				<File Id="264765481" Language="SFX">
 					<ShortName>Wind_base_1.wav</ShortName>
@@ -109,9 +202,61 @@
 					<ShortName>FS_Dirt_3.wav</ShortName>
 					<Path>SFX\FS_Dirt_3_1617AFA0.wem</Path>
 				</File>
+				<File Id="284516908" Language="SFX">
+					<ShortName>Basse_Chord2_A#.wav</ShortName>
+					<Path>SFX\Basse_Chord2_A#_7251E96B.wem</Path>
+				</File>
+				<File Id="288616110" Language="SFX">
+					<ShortName>Violin1_Chord4_D#2.wav</ShortName>
+					<Path>SFX\Violin1_Chord4_D#2_A92DA869.wem</Path>
+				</File>
+				<File Id="289365213" Language="SFX">
+					<ShortName>Cello2_Chord1_C.wav</ShortName>
+					<Path>SFX\Cello2_Chord1_C_F5ED58A7.wem</Path>
+				</File>
+				<File Id="291011283" Language="SFX">
+					<ShortName>Violin1_Chord1_C.wav</ShortName>
+					<Path>SFX\Violin1_Chord1_C_E6F3D4EF.wem</Path>
+				</File>
+				<File Id="301557645" Language="SFX">
+					<ShortName>Basse_Chord4_D#2.wav</ShortName>
+					<Path>SFX\Basse_Chord4_D#2_B0A51965.wem</Path>
+				</File>
 				<File Id="304393150" Language="SFX">
 					<ShortName>Silence 3.wav</ShortName>
 					<Path>SFX\Silence 3_1617AFA0.wem</Path>
+				</File>
+				<File Id="310786580" Language="SFX">
+					<ShortName>Violin1_Chord2_A#.wav</ShortName>
+					<Path>SFX\Violin1_Chord2_A#_C21B09E2.wem</Path>
+				</File>
+				<File Id="316822053" Language="SFX">
+					<ShortName>MB_Chord1_4.wav</ShortName>
+					<Path>SFX\MB_Chord1_4_27A9F4A4.wem</Path>
+				</File>
+				<File Id="330102612" Language="SFX">
+					<ShortName>Basse_Chord1_C.wav</ShortName>
+					<Path>SFX\Basse_Chord1_C_844243C2.wem</Path>
+				</File>
+				<File Id="359064628" Language="SFX">
+					<ShortName>Basse_Chord1_D#.wav</ShortName>
+					<Path>SFX\Basse_Chord1_D#_E3D6AA31.wem</Path>
+				</File>
+				<File Id="377189122" Language="SFX">
+					<ShortName>Basse_Chord4_D#.wav</ShortName>
+					<Path>SFX\Basse_Chord4_D#_0325E6AD.wem</Path>
+				</File>
+				<File Id="387092953" Language="SFX">
+					<ShortName>Choir1_Chord1_C.wav</ShortName>
+					<Path>SFX\Choir1_Chord1_C_27A9F4A4.wem</Path>
+				</File>
+				<File Id="389833922" Language="SFX">
+					<ShortName>Strange bird - 1.wav</ShortName>
+					<Path>SFX\Strange bird - 1_1617AFA0.wem</Path>
+				</File>
+				<File Id="390531564" Language="SFX">
+					<ShortName>MB_Chord2_9.wav</ShortName>
+					<Path>SFX\MB_Chord2_9_27A9F4A4.wem</Path>
 				</File>
 				<File Id="405520064" Language="SFX">
 					<ShortName>FS_Creak_6.wav</ShortName>
@@ -121,6 +266,14 @@
 					<ShortName>Leaves_8.wav</ShortName>
 					<Path>SFX\Leaves_8_1617AFA0.wem</Path>
 				</File>
+				<File Id="430194624" Language="SFX">
+					<ShortName>MB_Chord1_10.wav</ShortName>
+					<Path>SFX\MB_Chord1_10_27A9F4A4.wem</Path>
+				</File>
+				<File Id="432399095" Language="SFX">
+					<ShortName>MB_Chord2_5.wav</ShortName>
+					<Path>SFX\MB_Chord2_5_27A9F4A4.wem</Path>
+				</File>
 				<File Id="434641292" Language="SFX">
 					<ShortName>Silence 5.wav</ShortName>
 					<Path>SFX\Silence 5_1617AFA0.wem</Path>
@@ -128,6 +281,38 @@
 				<File Id="435523954" Language="SFX">
 					<ShortName>FS_Dirt_2.wav</ShortName>
 					<Path>SFX\FS_Dirt_2_1617AFA0.wem</Path>
+				</File>
+				<File Id="436392131" Language="SFX">
+					<ShortName>MB_Chord2_10.wav</ShortName>
+					<Path>SFX\MB_Chord2_10_27A9F4A4.wem</Path>
+				</File>
+				<File Id="469665985" Language="SFX">
+					<ShortName>Cello1_Chord2_C#.wav</ShortName>
+					<Path>SFX\Cello1_Chord2_C#_37792D1E.wem</Path>
+				</File>
+				<File Id="483872452" Language="SFX">
+					<ShortName>Strange bird - 4.wav</ShortName>
+					<Path>SFX\Strange bird - 4_1617AFA0.wem</Path>
+				</File>
+				<File Id="485035320" Language="SFX">
+					<ShortName>Strange bird - 2.wav</ShortName>
+					<Path>SFX\Strange bird - 2_1617AFA0.wem</Path>
+				</File>
+				<File Id="487660714" Language="SFX">
+					<ShortName>Choir1_Chord4_A#.wav</ShortName>
+					<Path>SFX\Choir1_Chord4_A#_27A9F4A4.wem</Path>
+				</File>
+				<File Id="489208138" Language="SFX">
+					<ShortName>MB_Chord1_1.wav</ShortName>
+					<Path>SFX\MB_Chord1_1_27A9F4A4.wem</Path>
+				</File>
+				<File Id="489308659" Language="SFX">
+					<ShortName>MB_Chord2_2.wav</ShortName>
+					<Path>SFX\MB_Chord2_2_27A9F4A4.wem</Path>
+				</File>
+				<File Id="491689498" Language="SFX">
+					<ShortName>Violin1_Chord1_C2.wav</ShortName>
+					<Path>SFX\Violin1_Chord1_C2_D20B01C7.wem</Path>
 				</File>
 				<File Id="509637114" Language="SFX">
 					<ShortName>FS_Dirt_7.wav</ShortName>
@@ -149,17 +334,93 @@
 					<ShortName>Leaves_6.wav</ShortName>
 					<Path>SFX\Leaves_6_1617AFA0.wem</Path>
 				</File>
+				<File Id="533915366" Language="SFX">
+					<ShortName>Strange bird - 16.wav</ShortName>
+					<Path>SFX\Strange bird - 16_1617AFA0.wem</Path>
+				</File>
 				<File Id="556945693" Language="SFX">
 					<ShortName>Wind_base_2.wav</ShortName>
 					<Path>SFX\Wind_base_2_1617AFA0.wem</Path>
+				</File>
+				<File Id="564700334" Language="SFX">
+					<ShortName>Silence_1.wav</ShortName>
+					<Path>SFX\Silence_1_27A9F4A4.wem</Path>
+				</File>
+				<File Id="566623442" Language="SFX">
+					<ShortName>Violin1_Chord1_D#.wav</ShortName>
+					<Path>SFX\Violin1_Chord1_D#_D20B01C7.wem</Path>
+				</File>
+				<File Id="580373676" Language="SFX">
+					<ShortName>MB_Chord1_9.wav</ShortName>
+					<Path>SFX\MB_Chord1_9_27A9F4A4.wem</Path>
+				</File>
+				<File Id="600468184" Language="SFX">
+					<ShortName>Basse_Chord2_F#.wav</ShortName>
+					<Path>SFX\Basse_Chord2_F#_92FB3AD9.wem</Path>
+				</File>
+				<File Id="603617795" Language="SFX">
+					<ShortName>Violin1_Chord2_A#2.wav</ShortName>
+					<Path>SFX\Violin1_Chord2_A#2_6E49FB75.wem</Path>
+				</File>
+				<File Id="603945166" Language="SFX">
+					<ShortName>Strange bird - 6.wav</ShortName>
+					<Path>SFX\Strange bird - 6_1617AFA0.wem</Path>
+				</File>
+				<File Id="613046743" Language="SFX">
+					<ShortName>Choir1_Chord4_G.wav</ShortName>
+					<Path>SFX\Choir1_Chord4_G_27A9F4A4.wem</Path>
+				</File>
+				<File Id="624860615" Language="SFX">
+					<ShortName>Cello2_Chord4_G.wav</ShortName>
+					<Path>SFX\Cello2_Chord4_G_DB57535C.wem</Path>
+				</File>
+				<File Id="626744241" Language="SFX">
+					<ShortName>Strange bird - 8.wav</ShortName>
+					<Path>SFX\Strange bird - 8_1617AFA0.wem</Path>
+				</File>
+				<File Id="635440901" Language="SFX">
+					<ShortName>Choir1_Chord1_D#.wav</ShortName>
+					<Path>SFX\Choir1_Chord1_D#_27A9F4A4.wem</Path>
+				</File>
+				<File Id="662159836" Language="SFX">
+					<ShortName>Cello1_Chord4_D#.wav</ShortName>
+					<Path>SFX\Cello1_Chord4_D#_CEC9FAFD.wem</Path>
 				</File>
 				<File Id="670179210" Language="SFX">
 					<ShortName>FS_Grass_4.wav</ShortName>
 					<Path>SFX\FS_Grass_4_1617AFA0.wem</Path>
 				</File>
+				<File Id="674521463" Language="SFX">
+					<ShortName>Silence_1.wav</ShortName>
+					<Path>SFX\Silence_1_1617AFA0.wem</Path>
+				</File>
+				<File Id="678447746" Language="SFX">
+					<ShortName>Strange bird - 13.wav</ShortName>
+					<Path>SFX\Strange bird - 13_1617AFA0.wem</Path>
+				</File>
+				<File Id="681068141" Language="SFX">
+					<ShortName>Basse_Chord4_A#.wav</ShortName>
+					<Path>SFX\Basse_Chord4_A#_AC5FC511.wem</Path>
+				</File>
+				<File Id="682243682" Language="SFX">
+					<ShortName>Cello2_Chord4_D#.wav</ShortName>
+					<Path>SFX\Cello2_Chord4_D#_0EBC17BB.wem</Path>
+				</File>
+				<File Id="690361961" Language="SFX">
+					<ShortName>Basse_Chord1_G#.wav</ShortName>
+					<Path>SFX\Basse_Chord1_G#_48FE8F4B.wem</Path>
+				</File>
+				<File Id="695653368" Language="SFX">
+					<ShortName>Strange bird - 19.wav</ShortName>
+					<Path>SFX\Strange bird - 19_1617AFA0.wem</Path>
+				</File>
 				<File Id="697412504" Language="SFX">
 					<ShortName>FS_Dirt_1.wav</ShortName>
 					<Path>SFX\FS_Dirt_1_1617AFA0.wem</Path>
+				</File>
+				<File Id="702854486" Language="SFX">
+					<ShortName>Strange bird - 3.wav</ShortName>
+					<Path>SFX\Strange bird - 3_1617AFA0.wem</Path>
 				</File>
 				<File Id="713096762" Language="SFX">
 					<ShortName>FS_Grass_2.wav</ShortName>
@@ -177,25 +438,89 @@
 					<ShortName>FS_Wood_4.wav</ShortName>
 					<Path>SFX\FS_Wood_4_1617AFA0.wem</Path>
 				</File>
+				<File Id="735430141" Language="SFX">
+					<ShortName>Strange bird - 7.wav</ShortName>
+					<Path>SFX\Strange bird - 7_1617AFA0.wem</Path>
+				</File>
+				<File Id="737729661" Language="SFX">
+					<ShortName>Cello1_Chord2_A#2.wav</ShortName>
+					<Path>SFX\Cello1_Chord2_A#2_9EB0640C.wem</Path>
+				</File>
+				<File Id="739125222" Language="SFX">
+					<ShortName>Choir1_Chord2_A#.wav</ShortName>
+					<Path>SFX\Choir1_Chord2_A#_27A9F4A4.wem</Path>
+				</File>
+				<File Id="754185012" Language="SFX">
+					<ShortName>Cello1_Chord2_F#.wav</ShortName>
+					<Path>SFX\Cello1_Chord2_F#_F4A8A6DF.wem</Path>
+				</File>
 				<File Id="758934239" Language="SFX">
 					<ShortName>FS_Creak_1.wav</ShortName>
 					<Path>SFX\FS_Creak_1_862D35E5.wem</Path>
+				</File>
+				<File Id="767478543" Language="SFX">
+					<ShortName>Violin1_Chord4_A#.wav</ShortName>
+					<Path>SFX\Violin1_Chord4_A#_38B30F40.wem</Path>
+				</File>
+				<File Id="771917576" Language="SFX">
+					<ShortName>Strange bird - 17.wav</ShortName>
+					<Path>SFX\Strange bird - 17_1617AFA0.wem</Path>
+				</File>
+				<File Id="778240587" Language="SFX">
+					<ShortName>Violin1_Chord2_F#.wav</ShortName>
+					<Path>SFX\Violin1_Chord2_F#_5E9F1B84.wem</Path>
+				</File>
+				<File Id="778750776" Language="SFX">
+					<ShortName>Cello2_Chord4_D#2.wav</ShortName>
+					<Path>SFX\Cello2_Chord4_D#2_8A40B512.wem</Path>
 				</File>
 				<File Id="785858130" Language="SFX">
 					<ShortName>Wind_base_8.wav</ShortName>
 					<Path>SFX\Wind_base_8_1617AFA0.wem</Path>
 				</File>
+				<File Id="788424090" Language="SFX">
+					<ShortName>Cello2_Chord2_C#.wav</ShortName>
+					<Path>SFX\Cello2_Chord2_C#_E01B4B8D.wem</Path>
+				</File>
 				<File Id="793951061" Language="SFX">
 					<ShortName>Silence 6.wav</ShortName>
 					<Path>SFX\Silence 6_1617AFA0.wem</Path>
+				</File>
+				<File Id="802414184" Language="SFX">
+					<ShortName>Choir1_Chord2_C#.wav</ShortName>
+					<Path>SFX\Choir1_Chord2_C#_27A9F4A4.wem</Path>
 				</File>
 				<File Id="812407516" Language="SFX">
 					<ShortName>Wind_base_3.wav</ShortName>
 					<Path>SFX\Wind_base_3_1617AFA0.wem</Path>
 				</File>
+				<File Id="840530151" Language="SFX">
+					<ShortName>Cello1_Chord1_G#.wav</ShortName>
+					<Path>SFX\Cello1_Chord1_G#_A1503170.wem</Path>
+				</File>
 				<File Id="847831048" Language="SFX">
 					<ShortName>Wind_base_7.wav</ShortName>
 					<Path>SFX\Wind_base_7_1617AFA0.wem</Path>
+				</File>
+				<File Id="858465382" Language="SFX">
+					<ShortName>Cello2_Chord1_G#.wav</ShortName>
+					<Path>SFX\Cello2_Chord1_G#_AE0FB17A.wem</Path>
+				</File>
+				<File Id="859652496" Language="SFX">
+					<ShortName>Basse_Chord1_C2.wav</ShortName>
+					<Path>SFX\Basse_Chord1_C2_BED28536.wem</Path>
+				</File>
+				<File Id="863497148" Language="SFX">
+					<ShortName>Choir1_Chord1_C2.wav</ShortName>
+					<Path>SFX\Choir1_Chord1_C2_27A9F4A4.wem</Path>
+				</File>
+				<File Id="864732128" Language="SFX">
+					<ShortName>Strange bird - 5.wav</ShortName>
+					<Path>SFX\Strange bird - 5_1617AFA0.wem</Path>
+				</File>
+				<File Id="873870296" Language="SFX">
+					<ShortName>MB_Chord2_7.wav</ShortName>
+					<Path>SFX\MB_Chord2_7_27A9F4A4.wem</Path>
 				</File>
 				<File Id="884539936" Language="SFX">
 					<ShortName>Leaves_2.wav</ShortName>
@@ -205,9 +530,21 @@
 					<ShortName>Leaves_5.wav</ShortName>
 					<Path>SFX\Leaves_5_1617AFA0.wem</Path>
 				</File>
+				<File Id="910058763" Language="SFX">
+					<ShortName>Strange bird - 20.wav</ShortName>
+					<Path>SFX\Strange bird - 20_1617AFA0.wem</Path>
+				</File>
+				<File Id="928542328" Language="SFX">
+					<ShortName>Cello2_Chord2_F#.wav</ShortName>
+					<Path>SFX\Cello2_Chord2_F#_C329F4F6.wem</Path>
+				</File>
 				<File Id="941065455" Language="SFX">
 					<ShortName>FS_Grass_9.wav</ShortName>
 					<Path>SFX\FS_Grass_9_1617AFA0.wem</Path>
+				</File>
+				<File Id="942815216" Language="SFX">
+					<ShortName>MB_Chord1_2.wav</ShortName>
+					<Path>SFX\MB_Chord1_2_27A9F4A4.wem</Path>
 				</File>
 				<File Id="944670862" Language="SFX">
 					<ShortName>FS_Grass_10.wav</ShortName>
@@ -216,6 +553,18 @@
 				<File Id="948112215" Language="SFX">
 					<ShortName>Leaves_4.wav</ShortName>
 					<Path>SFX\Leaves_4_1617AFA0.wem</Path>
+				</File>
+				<File Id="961542847" Language="SFX">
+					<ShortName>MB_Chord1_3.wav</ShortName>
+					<Path>SFX\MB_Chord1_3_27A9F4A4.wem</Path>
+				</File>
+				<File Id="963055388" Language="SFX">
+					<ShortName>Basse_Chord2_A#2.wav</ShortName>
+					<Path>SFX\Basse_Chord2_A#2_77C4B258.wem</Path>
+				</File>
+				<File Id="969291542" Language="SFX">
+					<ShortName>Cello1_Chord1_C.wav</ShortName>
+					<Path>SFX\Cello1_Chord1_C_7588D431.wem</Path>
 				</File>
 				<File Id="975061060" Language="SFX">
 					<ShortName>FS_Grass_8.wav</ShortName>
@@ -229,17 +578,41 @@
 					<ShortName>Leaves_1.wav</ShortName>
 					<Path>SFX\Leaves_1_1617AFA0.wem</Path>
 				</File>
+				<File Id="1001717517" Language="SFX">
+					<ShortName>MB_Chord2_8.wav</ShortName>
+					<Path>SFX\MB_Chord2_8_27A9F4A4.wem</Path>
+				</File>
 				<File Id="1017177356" Language="SFX">
 					<ShortName>FS_Grass_1.wav</ShortName>
 					<Path>SFX\FS_Grass_1_1617AFA0.wem</Path>
+				</File>
+				<File Id="1017215148" Language="SFX">
+					<ShortName>Strange bird - 15.wav</ShortName>
+					<Path>SFX\Strange bird - 15_1617AFA0.wem</Path>
 				</File>
 				<File Id="1022328389" Language="SFX">
 					<ShortName>FS_Dirt_6.wav</ShortName>
 					<Path>SFX\FS_Dirt_6_1617AFA0.wem</Path>
 				</File>
+				<File Id="1023317269" Language="SFX">
+					<ShortName>Basse_Chord4_G.wav</ShortName>
+					<Path>SFX\Basse_Chord4_G_5B92F82C.wem</Path>
+				</File>
+				<File Id="1024708174" Language="SFX">
+					<ShortName>Cello1_Chord4_D#2.wav</ShortName>
+					<Path>SFX\Cello1_Chord4_D#2_DB57535C.wem</Path>
+				</File>
 				<File Id="1029013991" Language="SFX">
 					<ShortName>Fireflies_pickup_1.wav</ShortName>
 					<Path>SFX\Fireflies_pickup_1_1617AFA0.wem</Path>
+				</File>
+				<File Id="1031561793" Language="SFX">
+					<ShortName>MB_Chord2_3.wav</ShortName>
+					<Path>SFX\MB_Chord2_3_27A9F4A4.wem</Path>
+				</File>
+				<File Id="1031982075" Language="SFX">
+					<ShortName>MB_Chord1_7.wav</ShortName>
+					<Path>SFX\MB_Chord1_7_27A9F4A4.wem</Path>
 				</File>
 				<File Id="1041240613" Language="SFX">
 					<ShortName>FS_Grass_7.wav</ShortName>
@@ -253,6 +626,14 @@
 					<ShortName>Leaves_7.wav</ShortName>
 					<Path>SFX\Leaves_7_1617AFA0.wem</Path>
 				</File>
+				<File Id="1048469612" Language="SFX">
+					<ShortName>MB_Chord2_1.wav</ShortName>
+					<Path>SFX\MB_Chord2_1_27A9F4A4.wem</Path>
+				</File>
+				<File Id="1049621057" Language="SFX">
+					<ShortName>Cello1_Chord4_G.wav</ShortName>
+					<Path>SFX\Cello1_Chord4_G_38B30F40.wem</Path>
+				</File>
 				<File Id="1052842670" Language="SFX">
 					<ShortName>FS_Grass_6.wav</ShortName>
 					<Path>SFX\FS_Grass_6_1617AFA0.wem</Path>
@@ -264,6 +645,10 @@
 				<File Id="1059929105" Language="SFX">
 					<ShortName>Leaves_3.wav</ShortName>
 					<Path>SFX\Leaves_3_1617AFA0.wem</Path>
+				</File>
+				<File Id="1064002806" Language="SFX">
+					<ShortName>Cello2_Chord4_A#.wav</ShortName>
+					<Path>SFX\Cello2_Chord4_A#_5E9F1B84.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>

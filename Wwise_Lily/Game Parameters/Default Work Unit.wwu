@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{1E3B6552-E6BB-443B-B824-2B9CB7F998C7}" SchemaVersion="85">
 	<GameParameters>
-		<WorkUnit Name="Default Work Unit" ID="{1E3B6552-E6BB-443B-B824-2B9CB7F998C7}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{1E3B6552-E6BB-443B-B824-2B9CB7F998C7}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Soundscape" ID="{8ECF1E6B-D8AD-43D8-A4E7-55369D0E6421}" ShortID="295541734">
+					<ChildrenList>
+						<GameParameter Name="Choir_volume" ID="{A42AE4D6-E22E-4CEC-909C-8C65E4C3E991}">
+							<PropertyList>
+								<Property Name="BindToBuiltInParam" Type="int16" Value="1"/>
+								<Property Name="InitialValue" Type="Real64" Value="100"/>
+								<Property Name="RTPCRamping" Type="int16" Value="1"/>
+							</PropertyList>
+						</GameParameter>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
 	</GameParameters>
 </WwiseDocument>
