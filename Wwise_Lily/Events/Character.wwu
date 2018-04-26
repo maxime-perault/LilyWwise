@@ -120,43 +120,29 @@
 						</Folder>
 						<Folder Name="Footsteps" ID="{496381CE-0E22-4061-9436-BD4D5CD64938}" ShortID="950078291">
 							<ChildrenList>
-								<Event Name="Play_FS_Cabane" ID="{A2FC91A9-01E6-44E6-9AB0-38CCBB0AB8A5}">
+								<Event Name="FS_Walk" ID="{FC6B600E-0DDA-4198-A966-7B3BE7C7AB09}">
 									<ChildrenList>
-										<Action Name="" ID="{7EC26C3B-F412-4A3A-9C54-458ADBC8B651}" ShortID="744669089">
+										<Action Name="" ID="{C5EBA396-F80D-46C3-B573-380466CC52D1}" ShortID="919919298">
 											<PropertyList>
 												<Property Name="ActionType" Type="int16" Value="1"/>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="FS_Cabane" ID="{A2CD90F9-B14D-48A4-A6E6-0CD31A9EE63F}" WorkUnitID="{5B924862-92FF-490C-A2A6-85F175E8DAE0}"/>
+													<ObjectRef Name="FS_Walk" ID="{F12248C4-C475-4F52-BB8D-10A3B2D63713}" WorkUnitID="{5B924862-92FF-490C-A2A6-85F175E8DAE0}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
 									</ChildrenList>
 								</Event>
-								<Event Name="Play_FS_Grass" ID="{E9FE1124-8CDF-46AE-B7B9-21E6515A4D10}">
+								<Event Name="FS_Run" ID="{C71A9259-5DAE-4844-9B81-B2A56EB73C5C}">
 									<ChildrenList>
-										<Action Name="" ID="{EEBA5D5A-A501-4E2E-97EE-FB22603361E2}" ShortID="450024514">
+										<Action Name="" ID="{D4CED8EA-915E-4A94-A0FE-07D67151D157}" ShortID="481492692">
 											<PropertyList>
 												<Property Name="ActionType" Type="int16" Value="1"/>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="FS_Grass" ID="{6E7E15C0-EA2E-406B-B087-9295B10E9C06}" WorkUnitID="{5B924862-92FF-490C-A2A6-85F175E8DAE0}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="Play_FS_Dirt" ID="{B0029247-BBD1-4C69-B723-B81222D3E8C5}">
-									<ChildrenList>
-										<Action Name="" ID="{D02F1687-6CAA-46E2-9864-6FD02605594E}" ShortID="848382382">
-											<PropertyList>
-												<Property Name="ActionType" Type="int16" Value="1"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="FS_Dirt" ID="{2F872530-F77C-4DCC-943F-496E19BE0D9E}" WorkUnitID="{5B924862-92FF-490C-A2A6-85F175E8DAE0}"/>
+													<ObjectRef Name="FS_Run" ID="{4C2DC2F8-583A-44B9-A348-6C8ECDC72784}" WorkUnitID="{5B924862-92FF-490C-A2A6-85F175E8DAE0}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>

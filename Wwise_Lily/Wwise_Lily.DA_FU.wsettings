@@ -11,10 +11,12 @@
 				<Property Name="Event Action List\{B0029247-BBD1-4C69-B723-B81222D3E8C5}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{B94228AF-14E6-4369-9E9B-EC44B4005B20}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{C52B164E-FBFF-4417-B06E-8271A8961D91}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{C71A9259-5DAE-4844-9B81-B2A56EB73C5C}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{D8849530-F811-47D0-B50E-46685D9A6CDA}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{E9FE1124-8CDF-46AE-B7B9-21E6515A4D10}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{ED195764-3D0D-4FF1-B572-51BB0BA10371}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{EDCC9DD4-50B6-41F3-A289-5D379670A29D}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{FC6B600E-0DDA-4198-A966-7B3BE7C7AB09}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="EventView\FilterMode1" Type="int32" Value="2"/>
 				<Property Name="ExternalSourcesInputPath" Type="string">
 					<ValueList>
@@ -45,7 +47,7 @@
 				<Property Name="OverrideOriginalFolder\Path" Type="string" Value="Originals"/>
 				<Property Name="ProjectExplorer\FirstVisible_10_1" Type="string" Value="{4C96B38B-3DB4-40C7-91C9-665510E38993}"/>
 				<Property Name="ProjectExplorer\FirstVisible_11_1" Type="string" Value="{23EC2DE3-3ED8-4B82-AC99-92E25F2E4C6B}"/>
-				<Property Name="ProjectExplorer\FirstVisible_1_1" Type="string" Value="{5EA7BBF8-64C0-4A50-8821-A07E8BE21D68}"/>
+				<Property Name="ProjectExplorer\FirstVisible_1_1" Type="string" Value="{2388DAEA-9775-46C6-A2ED-C5222A397756}"/>
 				<Property Name="ProjectExplorer\FirstVisible_3_1" Type="string" Value="{A69BF0FC-D84A-487C-ABDD-56F71CB2A126}"/>
 				<Property Name="ProjectExplorer\FirstVisible_4_1" Type="string" Value="{CB6175F1-6080-4A23-92EF-0807E304D0C1}"/>
 				<Property Name="ProjectExplorer\FirstVisible_6_1" Type="string" Value="{C98E673F-A24C-48A8-960F-10565FFE70A0}"/>
@@ -63,9 +65,9 @@
 				<Property Name="ProjectExplorer\x64_Expanded_1_1" Type="string" Value="2KQUFaYdKkGhfnXKDCFJ8yoAUxvqkmFPvwoe9Z9XmwA="/>
 				<Property Name="ProjectExplorer\x64_Expanded_20_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_21_1" Type="string" Value=""/>
-				<Property Name="ProjectExplorer\x64_Expanded_2_1" Type="string" Value="leVSCCsqmUCbbbVwD/7mNwFJ7vOj7/9Aq61zbJMGxfnVEpgv9C35QaxMeEnKPIE7i7/Kb51ioES0LLr8LOE33fmQzaJNsaRIpuYM0xqe5j/MoatRpoYKSaYa3Ms/9+CgYkiSW/+SDEmipoXxdeja4NlxEYLPmQVKnWAV7FTmlJ+c1Q6arGY/SoIEgPTL7KnYTmPEcH050Equot5AYiBhrslELm6gyFJLhcq0KZrfoIVcvXHWJGD4TLKG6fJrNpHgtzOLdqCLv02/BYPi0u7v4rv8NwO7k85NtsO6fcvmFjvDecFW4qkETqljdEge8poAcLuJT+aYOU6UJBwdOWKDXQ=="/>
-				<Property Name="ProjectExplorer\x64_Expanded_3_1" Type="string" Value="vbg0NetmY0OAzLuYenJbxHxhMi6sksRDii80aTFVocUhnAIYujZ7RJ81hU4LNrG1a/RzoVoTrkSFe5SKcGpvvwlrlG0+YcVFqxDIc6RvHy07zpou7NkSSIjfnEYP31YV5H/Q8pFz/EqJr+4qY+nVbe+Z8O2kfGhNlYR4NZkZgGySh+qE/hJeTpUK98Er2oHE"/>
-				<Property Name="ProjectExplorer\x64_Expanded_4_1" Type="string" Value=""/>
+				<Property Name="ProjectExplorer\x64_Expanded_2_1" Type="string" Value="i7/Kb51ioES0LLr8LOE33WJIklv/kgxJoqaF8XXo2uDZcRGCz5kFSp1gFexU5pSftzOLdqCLv02/BYPi0u7v4rv8NwO7k85NtsO6fcvmFjs="/>
+				<Property Name="ProjectExplorer\x64_Expanded_3_1" Type="string" Value="zoFjSSIOYUCUNr1NXNZJOL24NDXrZmNDgMy7mHpyW8R8YTIurJLEQ4ovNGkxVaHFIZwCGLo2e0SfNYVOCzaxtWv0c6FaE65EhXuUinBqb78Ja5RtPmHFRasQyHOkbx8tO86aLuzZEkiI35xGD99WFeR/0PKRc/xKia/uKmPp1W3vmfDtpHxoTZWEeDWZGYBskofqhP4SXk6VCvfBK9qBxA=="/>
+				<Property Name="ProjectExplorer\x64_Expanded_4_1" Type="string" Value="E7PIkzysLUec9OQTCtYP5aKYNp3rkXZOoGzE0UkljD8="/>
 				<Property Name="ProjectExplorer\x64_Expanded_5_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_6_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_7_1" Type="string" Value="ax7Pjq3Y2EOk51U2nQ5kIVJlOx675jtEuCQrnLf5mMc="/>
