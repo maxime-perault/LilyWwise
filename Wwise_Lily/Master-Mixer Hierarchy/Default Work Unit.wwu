@@ -8,6 +8,15 @@
 						<Reference Name="AudioDevice">
 							<ObjectRef Name="System" ID="{AEA1E0E2-9254-425D-99EA-40313B44E6DE}" WorkUnitID="{148CC002-987D-4B1D-A6D8-70B22E74D3D4}"/>
 						</Reference>
+						<Reference Name="Effect0">
+							<Custom>
+								<Effect Name="Wwise Recorder (Custom)" ID="{F67CACFB-4D7F-4A03-A868-C4D251DD4C88}" ShortID="811311814" PluginName="Wwise Recorder" CompanyID="0" PluginID="132" PluginType="3">
+									<PropertyList>
+										<Property Name="AuthoringFilename" Type="string" Value="D:\ENJMIN\_Projets M1\Lily\Video\Footage\Record.wav"/>
+									</PropertyList>
+								</Effect>
+							</Custom>
+						</Reference>
 					</ReferenceList>
 					<ChildrenList>
 						<Bus Name="Music" ID="{C14F24B8-F74A-4BF7-B290-DA0BE623E5C6}"/>
