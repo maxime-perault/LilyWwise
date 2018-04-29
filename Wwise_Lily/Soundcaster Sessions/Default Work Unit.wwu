@@ -73,7 +73,7 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="Choir_volume" ID="{A42AE4D6-E22E-4CEC-909C-8C65E4C3E991}"/>
-							<Value>100</Value>
+							<Value>2000</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="SS_Air_Freefall" ID="{2F2DFE37-4F9E-4D94-83D8-53CCA39781AD}"/>
@@ -86,7 +86,7 @@
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true"/>
 					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="Wood" ID="{03B20491-53B4-4ED6-B470-D17DB07C2B38}"/>
+						<CurrentSwitchRef Name="Water" ID="{2F42A614-8FCD-40DE-AC43-9619BA9BEA8D}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>

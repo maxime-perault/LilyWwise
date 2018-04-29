@@ -4,6 +4,13 @@
 		<WorkUnit Name="Soundscapes_WU" ID="{70C4634E-397D-4AD0-AEA2-DE40622061AE}" OwnerID="{6FCABF8B-629D-44A0-B42C-BAFC2CE137DD}" PersistMode="Nested">
 			<ChildrenList>
 				<ActorMixer Name="Soundscapes" ID="{9A0ED59C-66AC-4A3F-8204-80F4CBECA9D8}" ShortID="1023077433">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>3</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Soundscape_Comp" ID="{5C5994E9-4BAE-4CFB-9CA9-3178858C8A7C}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
@@ -600,7 +607,7 @@
 																				<Flags>5</Flags>
 																			</Point>
 																			<Point>
-																				<XPos>100</XPos>
+																				<XPos>2000</XPos>
 																				<YPos>-200</YPos>
 																				<Flags>37</Flags>
 																			</Point>
@@ -1629,7 +1636,7 @@
 																				<Flags>5</Flags>
 																			</Point>
 																			<Point>
-																				<XPos>100</XPos>
+																				<XPos>2000</XPos>
 																				<YPos>-200</YPos>
 																				<Flags>37</Flags>
 																			</Point>
@@ -2646,7 +2653,7 @@
 																				<Flags>5</Flags>
 																			</Point>
 																			<Point>
-																				<XPos>100</XPos>
+																				<XPos>2000</XPos>
 																				<YPos>-200</YPos>
 																				<Flags>37</Flags>
 																			</Point>

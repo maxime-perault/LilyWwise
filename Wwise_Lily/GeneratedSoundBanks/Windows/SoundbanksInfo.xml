@@ -149,6 +149,10 @@
 					<ShortName>Violin1_Chord4_G.wav</ShortName>
 					<Path>SFX\Violin1_Chord4_G_1AC56C82.wem</Path>
 				</File>
+				<File Id="169573181" Language="SFX">
+					<ShortName>FS_Rocks_1.wav</ShortName>
+					<Path>SFX\FS_Rocks_1_1617AFA0.wem</Path>
+				</File>
 				<File Id="174051045" Language="SFX">
 					<ShortName>Choir1_Chord2_A#2.wav</ShortName>
 					<Path>SFX\Choir1_Chord2_A#2_27A9F4A4.wem</Path>
@@ -197,9 +201,17 @@
 					<ShortName>MB_Chord1_5.wav</ShortName>
 					<Path>SFX\MB_Chord1_5_27A9F4A4.wem</Path>
 				</File>
+				<File Id="243639402" Language="SFX">
+					<ShortName>FS_Rocks_6.wav</ShortName>
+					<Path>SFX\FS_Rocks_6_1617AFA0.wem</Path>
+				</File>
 				<File Id="247174852" Language="SFX">
 					<ShortName>Cello1_Chord4_A#.wav</ShortName>
 					<Path>SFX\Cello1_Chord4_A#_15E89C66.wem</Path>
+				</File>
+				<File Id="248203770" Language="SFX">
+					<ShortName>FS_Rocks_2.wav</ShortName>
+					<Path>SFX\FS_Rocks_2_1617AFA0.wem</Path>
 				</File>
 				<File Id="248411711" Language="SFX">
 					<ShortName>Choir1_Chord4_C2.wav</ShortName>
@@ -281,6 +293,10 @@
 					<ShortName>FS_Dirt_L1_6.wav</ShortName>
 					<Path>SFX\FS_Dirt_L1_6_1617AFA0.wem</Path>
 				</File>
+				<File Id="332215298" Language="SFX">
+					<ShortName>FS_Rocks_3.wav</ShortName>
+					<Path>SFX\FS_Rocks_3_1617AFA0.wem</Path>
+				</File>
 				<File Id="337508884" Language="SFX">
 					<ShortName>FS_Dirt_Run_3.wav</ShortName>
 					<Path>SFX\FS_Dirt_Run_3_1617AFA0.wem</Path>
@@ -292,6 +308,10 @@
 				<File Id="365401169" Language="SFX">
 					<ShortName>Fs_Grass_Run_2.wav</ShortName>
 					<Path>SFX\Fs_Grass_Run_2_1617AFA0.wem</Path>
+				</File>
+				<File Id="373451019" Language="SFX">
+					<ShortName>FS_Rocks_4.wav</ShortName>
+					<Path>SFX\FS_Rocks_4_1617AFA0.wem</Path>
 				</File>
 				<File Id="377189122" Language="SFX">
 					<ShortName>Basse_Chord4_D#.wav</ShortName>
@@ -468,6 +488,10 @@
 				<File Id="603617795" Language="SFX">
 					<ShortName>Violin1_Chord2_A#2.wav</ShortName>
 					<Path>SFX\Violin1_Chord2_A#2_F91CC76F.wem</Path>
+				</File>
+				<File Id="603721627" Language="SFX">
+					<ShortName>FS_Rocks_5.wav</ShortName>
+					<Path>SFX\FS_Rocks_5_1617AFA0.wem</Path>
 				</File>
 				<File Id="603945166" Language="SFX">
 					<ShortName>Strange bird - 6.wav</ShortName>
@@ -708,6 +732,10 @@
 				<File Id="963055388" Language="SFX">
 					<ShortName>Basse_Chord2_A#2.wav</ShortName>
 					<Path>SFX\Basse_Chord2_A#2_B5CF4EE5.wem</Path>
+				</File>
+				<File Id="967586964" Language="SFX">
+					<ShortName>FS_Rocks_7.wav</ShortName>
+					<Path>SFX\FS_Rocks_7_1617AFA0.wem</Path>
 				</File>
 				<File Id="969291542" Language="SFX">
 					<ShortName>Cello1_Chord1_C.wav</ShortName>
