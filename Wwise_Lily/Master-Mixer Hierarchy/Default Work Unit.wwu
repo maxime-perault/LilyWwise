@@ -22,6 +22,13 @@
 						<Bus Name="Music" ID="{C14F24B8-F74A-4BF7-B290-DA0BE623E5C6}"/>
 						<Bus Name="SFX" ID="{8C3931D1-175E-42B3-B35D-8A6C6C7EC6E5}"/>
 						<Bus Name="Ambiances" ID="{0AD14AD0-E5CB-468E-A303-5CC134C8D29D}"/>
+						<Bus Name="Hallus" ID="{8DA5A66A-2AC3-4CC4-86F0-DEE15F168ED7}">
+							<ReferenceList>
+								<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+									<ObjectRef Name="Medium" ID="{AEB3F175-958B-45F2-A4C2-3FBD4F456568}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+								</Reference>
+							</ReferenceList>
+						</Bus>
 					</ChildrenList>
 				</Bus>
 			</ChildrenList>

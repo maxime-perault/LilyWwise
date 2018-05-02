@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{55D3C94C-8131-48D1-B711-B6E327AFFD0E}" SchemaVersion="85" RootDocumentID="{A173F46B-135A-44AE-857B-948A706A6FBF}">
+	<Events>
+		<WorkUnit Name="Hallucinations" ID="{55D3C94C-8131-48D1-B711-B6E327AFFD0E}" OwnerID="{A173F46B-135A-44AE-857B-948A706A6FBF}" PersistMode="Nested">
+			<ChildrenList>
+				<Folder Name="O1" ID="{5FB46345-F994-4E61-8D3D-B9B86EEFD322}" ShortID="467072431">
+					<ChildrenList>
+						<Event Name="Play_Hallucinations_O1" ID="{68B70C5D-B329-46EF-82CC-896956FDD980}">
+							<ChildrenList>
+								<Action Name="" ID="{4384BEA7-7F66-40DA-8BC9-66AF5B04284D}" ShortID="616069544">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Hallucinations_O1" ID="{F5DC520E-EBA4-4914-B82A-B0BF0D96BAEB}" WorkUnitID="{36049A18-7C47-4CC2-8517-DBF2E8F943B3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
