@@ -1,3 +1,12 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	1622844561	AMB_State			\Default Work Unit\AMB_State	
+
+State	ID	Name	State Group			Notes
+	0	None	AMB_State			
+	1584861493	S1	AMB_State			
+	1651971937	O1	AMB_State			
+	1700763266	Cabane1	AMB_State			
+
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	504532776	Brick			\Factory Reflect Acoustic Textures\Textures\Brick	
 	513139656	Mountain			\Factory Reflect Acoustic Textures\Textures\Mountain	

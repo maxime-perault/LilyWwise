@@ -7,7 +7,7 @@
 					<PropertyList>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>3</Value>
+								<Value>1</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -1072,6 +1072,37 @@
 											</PositioningInfo>
 										</RandomSequenceContainer>
 									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="AMB_State" ID="{78CBE9AB-3BE5-44B1-BE8D-72119E53C82E}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="O1" ID="{78E80E31-EAA1-4A16-89A6-E43BD286DDDD}"/>
+												<State Name="" ID="{26B02F3D-58D7-442F-BBD1-8E42B4EFA6FD}" ShortID="1043135981"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Cabane1" ID="{D1471503-FD89-4F58-A6D8-86EB42D0AD7B}"/>
+												<State Name="" ID="{3EF6E877-0443-4B41-AE83-CD0FC4AECCEA}" ShortID="185598999">
+													<PropertyList>
+														<Property Name="Lowpass" Type="int16" Value="60"/>
+														<Property Name="Volume" Type="Real64" Value="-2"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="S1" ID="{4145D28B-2F04-4F88-9003-188F7AFD3B0D}"/>
+												<State Name="" ID="{0F3CA537-2F8A-4DF3-BF40-105168602917}" ShortID="977458968">
+													<PropertyList>
+														<Property Name="Lowpass" Type="int16" Value="60"/>
+														<Property Name="Volume" Type="Real64" Value="-96"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
 								</BlendContainer>
 							</ChildrenList>
 						</ActorMixer>

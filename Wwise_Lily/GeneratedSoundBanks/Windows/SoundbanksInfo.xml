@@ -32,6 +32,7 @@
 				<Event Id="4053674083" Name="Play_Hallucinations_O1" ObjectPath="\Events\Default Work Unit\Hallucinations\O1\Play_Hallucinations_O1"/>
 				<Event Id="353474919" Name="Play_Lightzone_Expand" ObjectPath="\Events\Default Work Unit\Character\Character_foleys\Lightzone\Play_Lightzone_Expand"/>
 				<Event Id="3152312914" Name="Play_Soundscape_O1" ObjectPath="\Events\Default Work Unit\Soundscapes\O1\Play_Soundscape_O1"/>
+				<Event Id="3085202470" Name="Play_Soundscape_S1" ObjectPath="\Events\Default Work Unit\Soundscapes\S1\Play_Soundscape_S1"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="534106" Language="SFX">
@@ -1469,6 +1470,10 @@
 				<File Id="852413161" Language="SFX">
 					<ShortName>Hallu_ToutVaBien_11.wav</ShortName>
 					<Path>SFX\Hallu_ToutVaBien_11_1617AFA0.wem</Path>
+				</File>
+				<File Id="852766592" Language="SFX">
+					<ShortName>Soundscape - S1_4 (Preview 1).wav</ShortName>
+					<Path>SFX\Soundscape - S1_4 (Preview 1)_889A0AED.wem</Path>
 				</File>
 				<File Id="855663368" Language="SFX">
 					<ShortName>Hallu_VoleLuciole_3.wav</ShortName>

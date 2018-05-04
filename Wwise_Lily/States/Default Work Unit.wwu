@@ -1,6 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{104533CE-FFBB-4289-BFBF-7F1BBFF4E2A6}" SchemaVersion="85">
 	<States>
-		<WorkUnit Name="Default Work Unit" ID="{104533CE-FFBB-4289-BFBF-7F1BBFF4E2A6}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{104533CE-FFBB-4289-BFBF-7F1BBFF4E2A6}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="AMB_State" ID="{78CBE9AB-3BE5-44B1-BE8D-72119E53C82E}">
+					<ChildrenList>
+						<State Name="None" ID="{897B763B-022B-42EB-8BC0-AC47ADD86A2C}"/>
+						<State Name="O1" ID="{78E80E31-EAA1-4A16-89A6-E43BD286DDDD}"/>
+						<State Name="Cabane1" ID="{D1471503-FD89-4F58-A6D8-86EB42D0AD7B}"/>
+						<State Name="S1" ID="{4145D28B-2F04-4F88-9003-188F7AFD3B0D}"/>
+					</ChildrenList>
+					<TransitionList>
+						<Transition>
+							<StartState Name="O1" ID="{78E80E31-EAA1-4A16-89A6-E43BD286DDDD}"/>
+							<EndState Name="Cabane1" ID="{D1471503-FD89-4F58-A6D8-86EB42D0AD7B}"/>
+							<Time>1.6</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Cabane1" ID="{D1471503-FD89-4F58-A6D8-86EB42D0AD7B}"/>
+							<EndState Name="S1" ID="{4145D28B-2F04-4F88-9003-188F7AFD3B0D}"/>
+							<Time>1.6</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+					</TransitionList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
 	</States>
 </WwiseDocument>
