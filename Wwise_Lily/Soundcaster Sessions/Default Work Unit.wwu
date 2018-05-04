@@ -97,7 +97,7 @@
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="O1" ID="{78E80E31-EAA1-4A16-89A6-E43BD286DDDD}"/>
+						<CurrentStateRef Name="S1" ID="{4145D28B-2F04-4F88-9003-188F7AFD3B0D}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="Dirt" ID="{D0E90812-3044-482D-97C5-AB576E59876B}"/>
