@@ -4,6 +4,13 @@
 		<WorkUnit Name="Hallucinations_WU" ID="{36049A18-7C47-4CC2-8517-DBF2E8F943B3}" OwnerID="{6FCABF8B-629D-44A0-B42C-BAFC2CE137DD}" PersistMode="Nested">
 			<ChildrenList>
 				<ActorMixer Name="O1" ID="{3B273704-3C47-47BA-ABCB-42F0B95566AC}" ShortID="1030655127">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-3</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="SFX_Comp" ID="{94D2B765-DB8D-469E-97ED-DEEB9595516F}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>

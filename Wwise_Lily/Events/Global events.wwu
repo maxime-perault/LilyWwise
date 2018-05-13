@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{4613B13D-0451-42D0-BD7A-5533B5617ED0}" SchemaVersion="85" RootDocumentID="{A173F46B-135A-44AE-857B-948A706A6FBF}">
+	<Events>
+		<WorkUnit Name="Global events" ID="{4613B13D-0451-42D0-BD7A-5533B5617ED0}" OwnerID="{A173F46B-135A-44AE-857B-948A706A6FBF}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Restart_StopAll" ID="{275D9B7B-5AA8-46CB-9190-65B3784FB0F0}">
+					<ChildrenList>
+						<Action Name="" ID="{0351BDB6-4350-4550-94B2-0A4F23AA92DE}" ShortID="894368199">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="3"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList/>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
