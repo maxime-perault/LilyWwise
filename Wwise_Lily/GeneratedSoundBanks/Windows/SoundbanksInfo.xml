@@ -33,6 +33,7 @@
 				<Event Id="353474919" Name="Play_Lightzone_Expand" ObjectPath="\Events\Default Work Unit\Character\Character_foleys\Lightzone\Play_Lightzone_Expand"/>
 				<Event Id="3152312914" Name="Play_Soundscape_O1" ObjectPath="\Events\Default Work Unit\Soundscapes\O1\Play_Soundscape_O1"/>
 				<Event Id="3085202470" Name="Play_Soundscape_S1" ObjectPath="\Events\Default Work Unit\Soundscapes\S1\Play_Soundscape_S1"/>
+				<Event Id="2008024594" Name="Restart_StopAll" ObjectPath="\Events\Default Work Unit\Global events\Restart_StopAll"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="534106" Language="SFX">

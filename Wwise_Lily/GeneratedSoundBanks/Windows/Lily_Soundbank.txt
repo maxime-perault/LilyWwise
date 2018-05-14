@@ -4,6 +4,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	1660008929	Play_Door_open			\Default Work Unit\Character\Cabane_foleys\Play_Door_open	
 	1831923560	Play_Fireflies_pickup			\Default Work Unit\Character\Character_foleys\Fireflies\Play_Fireflies_pickup	
 	1973086714	Play_Fireflies_idle			\Default Work Unit\Character\Character_foleys\Fireflies\Play_Fireflies_idle	
+	2008024594	Restart_StopAll			\Default Work Unit\Global events\Restart_StopAll	
 	2292458263	Play_Door_close			\Default Work Unit\Character\Cabane_foleys\Play_Door_close	
 	2425019269	Play_AMB_O1			\Default Work Unit\Ambiances\O1\Play_AMB_O1	
 	3038914928	Play_Fireflies_idle_bocal			\Default Work Unit\Character\Character_foleys\Fireflies\Play_Fireflies_idle_bocal	
