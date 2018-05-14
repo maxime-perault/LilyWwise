@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{0206CCDB-C58E-43B4-BE9A-B372D21E3FC7}" SchemaVersion="85" RootDocumentID="{A173F46B-135A-44AE-857B-948A706A6FBF}">
+	<Events>
+		<WorkUnit Name="Voices" ID="{0206CCDB-C58E-43B4-BE9A-B372D21E3FC7}" OwnerID="{A173F46B-135A-44AE-857B-948A706A6FBF}" PersistMode="Nested">
+			<ChildrenList>
+				<Folder Name="O1" ID="{60F3E4F0-CB5D-4A8D-9558-F285EB7A8692}" ShortID="1050781800">
+					<ChildrenList>
+						<Event Name="Voiceline_3" ID="{22AA84AD-0345-4AF0-8496-8547CADCBBC1}">
+							<ChildrenList>
+								<Action Name="" ID="{F6EC10FB-9F43-4DB6-B641-E63F131125D2}" ShortID="227443050">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Voiceline_3" ID="{5457281F-19CD-48D7-A3DB-501656D68A96}" WorkUnitID="{7C80B148-1430-4EB5-800F-0CC3571B9E3C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Voiceline_5" ID="{0E358048-65EA-4247-B8D1-0CAEF4B85AC6}">
+							<ChildrenList>
+								<Action Name="" ID="{0E7E30A3-4502-42B7-8ED2-DE19FC52C581}" ShortID="1061790047">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Voiceline_5" ID="{9C79A245-7ACC-43E0-A653-11A7361CDD2F}" WorkUnitID="{7C80B148-1430-4EB5-800F-0CC3571B9E3C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

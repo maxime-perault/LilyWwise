@@ -34,6 +34,8 @@
 				<Event Id="3152312914" Name="Play_Soundscape_O1" ObjectPath="\Events\Default Work Unit\Soundscapes\O1\Play_Soundscape_O1"/>
 				<Event Id="3085202470" Name="Play_Soundscape_S1" ObjectPath="\Events\Default Work Unit\Soundscapes\S1\Play_Soundscape_S1"/>
 				<Event Id="2008024594" Name="Restart_StopAll" ObjectPath="\Events\Default Work Unit\Global events\Restart_StopAll"/>
+				<Event Id="1724119377" Name="Voiceline_3" ObjectPath="\Events\Default Work Unit\Voices\O1\Voiceline_3"/>
+				<Event Id="1724119383" Name="Voiceline_5" ObjectPath="\Events\Default Work Unit\Voices\O1\Voiceline_5"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="534106" Language="SFX">
@@ -872,6 +874,10 @@
 					<ShortName>Hallu_Arrete_3.wav</ShortName>
 					<Path>SFX\Hallu_Arrete_3_1617AFA0.wem</Path>
 				</File>
+				<File Id="506917203" Language="SFX">
+					<ShortName>Voiceline 5.wav</ShortName>
+					<Path>SFX\Voiceline 5_1617AFA0.wem</Path>
+				</File>
 				<File Id="514230072" Language="SFX">
 					<ShortName>FS_Dirt_L2_5.wav</ShortName>
 					<Path>SFX\FS_Dirt_L2_5_1617AFA0.wem</Path>
@@ -1511,6 +1517,10 @@
 				<File Id="873870296" Language="SFX">
 					<ShortName>MB_Chord2_7.wav</ShortName>
 					<Path>SFX\MB_Chord2_7_27A9F4A4.wem</Path>
+				</File>
+				<File Id="876013684" Language="SFX">
+					<ShortName>Voiceline 3.wav</ShortName>
+					<Path>SFX\Voiceline 3_1617AFA0.wem</Path>
 				</File>
 				<File Id="876127988" Language="SFX">
 					<ShortName>Hallu_Peindre_1.wav</ShortName>

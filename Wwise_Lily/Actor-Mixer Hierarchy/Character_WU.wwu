@@ -3251,7 +3251,13 @@
 					</ChildrenList>
 				</ActorMixer>
 				<ActorMixer Name="Cabane_foleys" ID="{2BE09644-D4EF-4D37-836F-3DF89E8E944E}" ShortID="276820443">
+					<PropertyList>
+						<Property Name="PositioningType" Type="int16" Value="1"/>
+					</PropertyList>
 					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Door_Attenuation" ID="{4A15CF79-F5E8-42A2-91EA-426CA4F6D333}" WorkUnitID="{F9486E4D-3A45-4423-A197-A386E047703F}"/>
+						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
 						</Reference>

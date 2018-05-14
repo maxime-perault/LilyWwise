@@ -32,7 +32,7 @@
 								<DuckItem>
 									<BusRef Name="Ambiances" ID="{0AD14AD0-E5CB-468E-A303-5CC134C8D29D}"/>
 									<DuckingParam>
-										<Volume>-5</Volume>
+										<Volume>-6</Volume>
 										<FadeInTime>1</FadeInTime>
 										<FadeOutTime>0.5</FadeOutTime>
 										<FadeCurve>FadeLinear</FadeCurve>
@@ -41,6 +41,7 @@
 								</DuckItem>
 							</DuckingList>
 						</Bus>
+						<Bus Name="Voices" ID="{3BBF9C36-986D-47FB-BD33-5D8560856EAD}"/>
 					</ChildrenList>
 				</Bus>
 			</ChildrenList>
