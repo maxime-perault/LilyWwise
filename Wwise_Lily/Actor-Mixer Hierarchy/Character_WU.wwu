@@ -2975,7 +2975,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="Lightzone_Expand" ID="{BA7A61EB-7755-4154-ACB5-9D940411B6F3}" ShortID="806879209">
+								<Sound Name="Lightzone_Expanddd" ID="{BA7A61EB-7755-4154-ACB5-9D940411B6F3}" ShortID="806879209">
 									<PropertyList>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
@@ -2985,10 +2985,10 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+											<ObjectRef Name="SFX_Comp" ID="{94D2B765-DB8D-469E-97ED-DEEB9595516F}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
 										</Reference>
 										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+											<ObjectRef Name="SFX" ID="{8C3931D1-175E-42B3-B35D-8A6C6C7EC6E5}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
@@ -3001,6 +3001,163 @@
 										<ActiveSource Name="Lightzone_expand_1" ID="{3573D685-9F54-4645-88D7-F2B574BA15F7}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
+								<BlendContainer Name="Lightzone" ID="{245C1BCD-D497-416E-A2E9-FDE7DCEF95C9}" ShortID="96714690">
+									<PropertyList>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
+										<Property Name="UseMaxSoundPerInstance" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-1</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="Lightzone_Expand" ID="{34CFEDA7-E8E6-4E85-9D10-B509951B7339}" ShortID="734922564">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{6B1D7AEB-BADA-4F2D-A378-13599DCBD85C}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-1</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="SFX_Comp" ID="{94D2B765-DB8D-469E-97ED-DEEB9595516F}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="SFX" ID="{8C3931D1-175E-42B3-B35D-8A6C6C7EC6E5}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Lightzone_expand" ID="{7306076F-40AA-4E17-917F-3E9072BF6431}" ShortID="804908789">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Lightzone_expand" ID="{EF8FE6F7-4B19-415C-A764-ADF410D4B4DF}" ShortID="580400921">
+															<Language>SFX</Language>
+															<AudioFile>Lightzone_expand.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Lightzone_expand" ID="{EF8FE6F7-4B19-415C-A764-ADF410D4B4DF}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Lightzone_expand_v2" ID="{848D2A60-00E2-4A77-B277-FDA84D8E9B6B}" ShortID="781521934">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Lightzone_expand_v2" ID="{A314E874-752E-4A99-8A25-96F25225BE08}" ShortID="880345116">
+															<Language>SFX</Language>
+															<AudioFile>Lightzone_expand_v2.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Lightzone_expand_v2" ID="{A314E874-752E-4A99-8A25-96F25225BE08}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<Sound Name="Lightzone_Active" ID="{5AD6D9F8-D477-45C9-8729-4FE2E95C858E}" ShortID="827497712">
+											<PropertyList>
+												<Property Name="InitialDelay" Type="Real64">
+													<ValueList>
+														<Value>0.25</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Lowpass" Type="int16">
+													<RTPCList>
+														<RTPC Name="" ID="{B98E950D-B24A-4203-ABCC-05C10876E05B}" ShortID="399882055">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="Lily_Lightzone" ID="{2B392B8F-2EE5-4C63-8A64-CB444148DD22}" WorkUnitID="{1E3B6552-E6BB-443B-B824-2B9CB7F998C7}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{3D4FE0A1-8CC9-4CD6-892B-7DE62C28B4C7}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="65537"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>100</YPos>
+																		<Flags>5</Flags>
+																		<SegmentShape>Exp1</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-2</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="SFX_Comp" ID="{94D2B765-DB8D-469E-97ED-DEEB9595516F}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="SFX" ID="{8C3931D1-175E-42B3-B35D-8A6C6C7EC6E5}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Lightzone_active" ID="{359A5C2C-1A87-437E-BF4C-C41EF6903841}" ShortID="40041059">
+													<Language>SFX</Language>
+													<AudioFile>Lightzone_active.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Lightzone_active" ID="{359A5C2C-1A87-437E-BF4C-C41EF6903841}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</BlendContainer>
 							</ChildrenList>
 						</ActorMixer>
 						<ActorMixer Name="Fireflies" ID="{768B33B7-8BA0-4DBF-BF05-83E2D2EEEFE2}" ShortID="298323312">

@@ -15,6 +15,16 @@
 						</GameParameter>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="Lightzone" ID="{09AA3C96-3E8F-4E60-A4C0-0C6325039CB0}" ShortID="468372863">
+					<ChildrenList>
+						<GameParameter Name="Lily_Lightzone" ID="{2B392B8F-2EE5-4C63-8A64-CB444148DD22}">
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="100"/>
+								<Property Name="RTPCRamping" Type="int16" Value="1"/>
+							</PropertyList>
+						</GameParameter>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>

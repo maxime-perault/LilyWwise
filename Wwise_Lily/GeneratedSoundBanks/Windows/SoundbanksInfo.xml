@@ -96,6 +96,10 @@
 					<ShortName>Cello1_Chord2_A#.wav</ShortName>
 					<Path>SFX\Cello1_Chord2_A#_3A726230.wem</Path>
 				</File>
+				<File Id="40041059" Language="SFX">
+					<ShortName>Lightzone_active.wav</ShortName>
+					<Path>SFX\Lightzone_active_1617AFA0.wem</Path>
+				</File>
 				<File Id="40323235" Language="SFX">
 					<ShortName>FS_Dirt_Run_13.wav</ShortName>
 					<Path>SFX\FS_Dirt_Run_13_1617AFA0.wem</Path>
@@ -223,10 +227,6 @@
 				<File Id="129928058" Language="SFX">
 					<ShortName>MB_Chord1_6.wav</ShortName>
 					<Path>SFX\MB_Chord1_6_27A9F4A4.wem</Path>
-				</File>
-				<File Id="130593866" Language="SFX">
-					<ShortName>Lightzone_expand_1.wav</ShortName>
-					<Path>SFX\Lightzone_expand_1_1617AFA0.wem</Path>
 				</File>
 				<File Id="132178024" Language="SFX">
 					<ShortName>Hallu_Perdue_11.wav</ShortName>
@@ -996,6 +996,10 @@
 					<ShortName>MB_Chord1_9.wav</ShortName>
 					<Path>SFX\MB_Chord1_9_27A9F4A4.wem</Path>
 				</File>
+				<File Id="580400921" Language="SFX">
+					<ShortName>Lightzone_expand.wav</ShortName>
+					<Path>SFX\Lightzone_expand_1617AFA0.wem</Path>
+				</File>
 				<File Id="581632281" Language="SFX">
 					<ShortName>FS_Dirt_L2_3.wav</ShortName>
 					<Path>SFX\FS_Dirt_L2_3_1617AFA0.wem</Path>
@@ -1571,6 +1575,10 @@
 				<File Id="878727978" Language="SFX">
 					<ShortName>Fs_Grass_Run_1.wav</ShortName>
 					<Path>SFX\Fs_Grass_Run_1_1617AFA0.wem</Path>
+				</File>
+				<File Id="880345116" Language="SFX">
+					<ShortName>Lightzone_expand_v2.wav</ShortName>
+					<Path>SFX\Lightzone_expand_v2_1617AFA0.wem</Path>
 				</File>
 				<File Id="884539936" Language="SFX">
 					<ShortName>Leaves_2.wav</ShortName>

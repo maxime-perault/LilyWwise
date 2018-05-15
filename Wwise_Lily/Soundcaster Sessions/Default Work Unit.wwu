@@ -18,7 +18,7 @@
 							<Position X="0" Y="2"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Lightzone_Expand" ID="{BA7A61EB-7755-4154-ACB5-9D940411B6F3}" WorkUnitID="{5B924862-92FF-490C-A2A6-85F175E8DAE0}"/>
+							<ObjectRef Name="Lightzone_Expanddd" ID="{BA7A61EB-7755-4154-ACB5-9D940411B6F3}" WorkUnitID="{5B924862-92FF-490C-A2A6-85F175E8DAE0}"/>
 							<Position X="1" Y="0"/>
 						</Module>
 						<Module>
@@ -28,6 +28,10 @@
 						<Module>
 							<ObjectRef Name="Play_AMB_Lake" ID="{6C10A59F-7F3F-4680-8093-02D825074345}" WorkUnitID="{EDF099EF-7CA4-4D68-9584-78359919806C}"/>
 							<Position X="1" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Lightzone_Expand" ID="{87261BDF-76F9-404C-A1B3-8A52325350AF}" WorkUnitID="{84EA8792-12FE-4E5E-950A-F7C12BDA81C4}"/>
+							<Position X="1" Y="3"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="Play_Door_close" ID="{C52B164E-FBFF-4417-B06E-8271A8961D91}" WorkUnitID="{84EA8792-12FE-4E5E-950A-F7C12BDA81C4}"/>
@@ -90,6 +94,10 @@
 						<RTPCValue>
 							<GameParameterRef Name="SS_Air_Presence" ID="{E3B7811A-7B2F-490F-B44F-5FE51B468041}"/>
 							<Value>75</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Lily_Lightzone" ID="{2B392B8F-2EE5-4C63-8A64-CB444148DD22}"/>
+							<Value>100</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="SS_Air_TimeOfDay" ID="{536FA72C-8C7E-4C8B-AE03-EF34FDADC314}"/>
