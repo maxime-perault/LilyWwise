@@ -21,8 +21,10 @@
 			<ShortName>Lily_Soundbank</ShortName>
 			<Path>Lily_Soundbank.bnk</Path>
 			<IncludedEvents>
+				<Event Id="1638063245" Name="CrowsFlight" ObjectPath="\Events\Default Work Unit\Enemies\Crows\CrowsFlight"/>
 				<Event Id="362749134" Name="FS_Run" ObjectPath="\Events\Default Work Unit\Character\Character_foleys\Footsteps\FS_Run"/>
 				<Event Id="3599755568" Name="FS_Walk" ObjectPath="\Events\Default Work Unit\Character\Character_foleys\Footsteps\FS_Walk"/>
+				<Event Id="3855816568" Name="Play_AMB_Lake" ObjectPath="\Events\Default Work Unit\Ambiances\O1\Play_AMB_Lake"/>
 				<Event Id="2425019269" Name="Play_AMB_O1" ObjectPath="\Events\Default Work Unit\Ambiances\O1\Play_AMB_O1"/>
 				<Event Id="2292458263" Name="Play_Door_close" ObjectPath="\Events\Default Work Unit\Character\Cabane_foleys\Play_Door_close"/>
 				<Event Id="1660008929" Name="Play_Door_open" ObjectPath="\Events\Default Work Unit\Character\Cabane_foleys\Play_Door_open"/>
@@ -137,6 +139,10 @@
 				<File Id="65256664" Language="SFX">
 					<ShortName>Hallu_Merveilleux_5.wav</ShortName>
 					<Path>SFX\Hallu_Merveilleux_5_1617AFA0.wem</Path>
+				</File>
+				<File Id="66260836" Language="SFX">
+					<ShortName>CrowsFlight_v1_1.wav</ShortName>
+					<Path>SFX\CrowsFlight_v1_1_1617AFA0.wem</Path>
 				</File>
 				<File Id="68237742" Language="SFX">
 					<ShortName>FS_Dirt_Run_8.wav</ShortName>
@@ -458,6 +464,10 @@
 					<ShortName>Strange bird - 10.wav</ShortName>
 					<Path>SFX\Strange bird - 10_1617AFA0.wem</Path>
 				</File>
+				<File Id="260176225" Language="SFX">
+					<ShortName>CrowsFlight_v1_6.wav</ShortName>
+					<Path>SFX\CrowsFlight_v1_6_1617AFA0.wem</Path>
+				</File>
 				<File Id="264765481" Language="SFX">
 					<ShortName>Wind_base_1.wav</ShortName>
 					<Path>SFX\Wind_base_1_1617AFA0.wem</Path>
@@ -473,6 +483,10 @@
 				<File Id="270736712" Language="SFX">
 					<ShortName>Fireflies_idle_1.wav</ShortName>
 					<Path>SFX\Fireflies_idle_1_1617AFA0.wem</Path>
+				</File>
+				<File Id="272017487" Language="SFX">
+					<ShortName>Lake_2.wav</ShortName>
+					<Path>SFX\Lake_2_1617AFA0.wem</Path>
 				</File>
 				<File Id="275838306" Language="SFX">
 					<ShortName>Hallu_EcouteMoi_1.wav</ShortName>
@@ -534,6 +548,10 @@
 					<ShortName>Hallu_HeyOh_18.wav</ShortName>
 					<Path>SFX\Hallu_HeyOh_18_1617AFA0.wem</Path>
 				</File>
+				<File Id="294760158" Language="SFX">
+					<ShortName>CrowsFlight_v1_2.wav</ShortName>
+					<Path>SFX\CrowsFlight_v1_2_1617AFA0.wem</Path>
+				</File>
 				<File Id="301557645" Language="SFX">
 					<ShortName>Basse_Chord4_D#2.wav</ShortName>
 					<Path>SFX\Basse_Chord4_D#2_07E1D2B0.wem</Path>
@@ -549,6 +567,10 @@
 				<File Id="304393150" Language="SFX">
 					<ShortName>Silence 3.wav</ShortName>
 					<Path>SFX\Silence 3_1617AFA0.wem</Path>
+				</File>
+				<File Id="306310774" Language="SFX">
+					<ShortName>Lake_1.wav</ShortName>
+					<Path>SFX\Lake_1_1617AFA0.wem</Path>
 				</File>
 				<File Id="307429444" Language="SFX">
 					<ShortName>Hallu_FermeLesYeux_10.wav</ShortName>
@@ -617,6 +639,10 @@
 				<File Id="352661268" Language="SFX">
 					<ShortName>Hallu_ToujoursLa_24.wav</ShortName>
 					<Path>SFX\Hallu_ToujoursLa_24_1617AFA0.wem</Path>
+				</File>
+				<File Id="358377701" Language="SFX">
+					<ShortName>CrowsFlight_v1_4.wav</ShortName>
+					<Path>SFX\CrowsFlight_v1_4_1617AFA0.wem</Path>
 				</File>
 				<File Id="359064628" Language="SFX">
 					<ShortName>Basse_Chord1_D#.wav</ShortName>
@@ -1250,6 +1276,10 @@
 					<ShortName>Hallu_Envole_6.wav</ShortName>
 					<Path>SFX\Hallu_Envole_6_1617AFA0.wem</Path>
 				</File>
+				<File Id="719968271" Language="SFX">
+					<ShortName>CrowsFlight_v1_3.wav</ShortName>
+					<Path>SFX\CrowsFlight_v1_3_1617AFA0.wem</Path>
+				</File>
 				<File Id="720995574" Language="SFX">
 					<ShortName>Silence 2.wav</ShortName>
 					<Path>SFX\Silence 2_1617AFA0.wem</Path>
@@ -1402,6 +1432,10 @@
 					<ShortName>Hallu_ToutVaBien_2.wav</ShortName>
 					<Path>SFX\Hallu_ToutVaBien_2_1617AFA0.wem</Path>
 				</File>
+				<File Id="800180867" Language="SFX">
+					<ShortName>CrowsFlight_v1_5.wav</ShortName>
+					<Path>SFX\CrowsFlight_v1_5_1617AFA0.wem</Path>
+				</File>
 				<File Id="802414184" Language="SFX">
 					<ShortName>Choir1_Chord2_C#.wav</ShortName>
 					<Path>SFX\Choir1_Chord2_C#_27A9F4A4.wem</Path>
@@ -1541,6 +1575,10 @@
 				<File Id="884539936" Language="SFX">
 					<ShortName>Leaves_2.wav</ShortName>
 					<Path>SFX\Leaves_2_1617AFA0.wem</Path>
+				</File>
+				<File Id="891651356" Language="SFX">
+					<ShortName>CrowsFlight_v1_7.wav</ShortName>
+					<Path>SFX\CrowsFlight_v1_7_1617AFA0.wem</Path>
 				</File>
 				<File Id="897528244" Language="SFX">
 					<ShortName>Hallu_HeyOh_3.wav</ShortName>

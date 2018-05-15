@@ -9,6 +9,7 @@
 				<WorkUnit Name="Hallucinations" ID="{55D3C94C-8131-48D1-B711-B6E327AFFD0E}" PersistMode="Reference"/>
 				<WorkUnit Name="Global events" ID="{4613B13D-0451-42D0-BD7A-5533B5617ED0}" PersistMode="Reference"/>
 				<WorkUnit Name="Voices" ID="{0206CCDB-C58E-43B4-BE9A-B372D21E3FC7}" PersistMode="Reference"/>
+				<WorkUnit Name="Enemies" ID="{895344F0-F06B-4DA8-BB4E-81D5A3713E53}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

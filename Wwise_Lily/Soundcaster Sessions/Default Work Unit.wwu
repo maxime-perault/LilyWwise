@@ -14,6 +14,10 @@
 							<Position X="0" Y="1"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="CrowsFlight" ID="{684C4B73-B2B6-4F78-A165-F81583200EDD}" WorkUnitID="{895344F0-F06B-4DA8-BB4E-81D5A3713E53}"/>
+							<Position X="0" Y="2"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Lightzone_Expand" ID="{BA7A61EB-7755-4154-ACB5-9D940411B6F3}" WorkUnitID="{5B924862-92FF-490C-A2A6-85F175E8DAE0}"/>
 							<Position X="1" Y="0"/>
 						</Module>
@@ -52,6 +56,10 @@
 						<Module>
 							<ObjectRef Name="Voiceline_3" ID="{22AA84AD-0345-4AF0-8496-8547CADCBBC1}" WorkUnitID="{0206CCDB-C58E-43B4-BE9A-B372D21E3FC7}"/>
 							<Position X="3" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Voiceline_5" ID="{0E358048-65EA-4247-B8D1-0CAEF4B85AC6}" WorkUnitID="{0206CCDB-C58E-43B4-BE9A-B372D21E3FC7}"/>
+							<Position X="3" Y="4"/>
 						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">

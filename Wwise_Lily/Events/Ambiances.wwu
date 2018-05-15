@@ -20,22 +20,22 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_AMB_Lake" ID="{6C10A59F-7F3F-4680-8093-02D825074345}">
+							<ChildrenList>
+								<Action Name="" ID="{E616D8DA-B5FA-4EEB-91A2-FCF1CFB60A0F}" ShortID="41571508">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AMB_Lake" ID="{B42BA08A-E1CB-4870-A134-AA982AB5E1DC}" WorkUnitID="{821171D9-99CF-4A05-9D60-15EC54E6949F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
-				<Event Name="Play_AMB_Lake" ID="{6C10A59F-7F3F-4680-8093-02D825074345}">
-					<ChildrenList>
-						<Action Name="" ID="{E616D8DA-B5FA-4EEB-91A2-FCF1CFB60A0F}" ShortID="41571508">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="AMB_Lake" ID="{B42BA08A-E1CB-4870-A134-AA982AB5E1DC}" WorkUnitID="{821171D9-99CF-4A05-9D60-15EC54E6949F}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

@@ -8,6 +8,7 @@
 				<WorkUnit Name="Soundscapes_WU" ID="{70C4634E-397D-4AD0-AEA2-DE40622061AE}" PersistMode="Reference"/>
 				<WorkUnit Name="Hallucinations_WU" ID="{36049A18-7C47-4CC2-8517-DBF2E8F943B3}" PersistMode="Reference"/>
 				<WorkUnit Name="Voices_WU" ID="{7C80B148-1430-4EB5-800F-0CC3571B9E3C}" PersistMode="Reference"/>
+				<WorkUnit Name="Enemies_WU" ID="{73945224-B814-474B-AE5A-97EAD58E2739}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{895344F0-F06B-4DA8-BB4E-81D5A3713E53}" SchemaVersion="85" RootDocumentID="{A173F46B-135A-44AE-857B-948A706A6FBF}">
+	<Events>
+		<WorkUnit Name="Enemies" ID="{895344F0-F06B-4DA8-BB4E-81D5A3713E53}" OwnerID="{A173F46B-135A-44AE-857B-948A706A6FBF}" PersistMode="Nested">
+			<ChildrenList>
+				<Folder Name="Crows" ID="{62799685-A5DE-40CF-924E-AAAD7C5261B5}" ShortID="590736751">
+					<ChildrenList>
+						<Event Name="CrowsFlight" ID="{684C4B73-B2B6-4F78-A165-F81583200EDD}">
+							<ChildrenList>
+								<Action Name="" ID="{A65832E7-D0B1-48B3-91A3-A07DFD0704F4}" ShortID="173545689">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Flight" ID="{43CA41CA-4018-469B-8A2A-42D836589223}" WorkUnitID="{73945224-B814-474B-AE5A-97EAD58E2739}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

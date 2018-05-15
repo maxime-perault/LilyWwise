@@ -2976,6 +2976,13 @@
 							</ReferenceList>
 							<ChildrenList>
 								<Sound Name="Lightzone_Expand" ID="{BA7A61EB-7755-4154-ACB5-9D940411B6F3}" ShortID="806879209">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-8</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
