@@ -34,6 +34,20 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_HowlingWind" ID="{0FDB54DE-A34E-4387-8504-F41D053F92EF}">
+							<ChildrenList>
+								<Action Name="" ID="{62015E5B-0561-4B49-AF12-6484D8160BF6}" ShortID="1065456304">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="HowlingWind" ID="{599C2C2E-BF64-4D60-956A-52980EFC147D}" WorkUnitID="{821171D9-99CF-4A05-9D60-15EC54E6949F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

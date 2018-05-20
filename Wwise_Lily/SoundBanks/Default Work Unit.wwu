@@ -10,6 +10,7 @@
 						<ObjectRef Name="Play_Fireflies_idle_bocal" ID="{EDCC9DD4-50B6-41F3-A289-5D379670A29D}" WorkUnitID="{84EA8792-12FE-4E5E-950A-F7C12BDA81C4}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Voiceline_5" ID="{0E358048-65EA-4247-B8D1-0CAEF4B85AC6}" WorkUnitID="{0206CCDB-C58E-43B4-BE9A-B372D21E3FC7}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Fireflies_idle" ID="{B94228AF-14E6-4369-9E9B-EC44B4005B20}" WorkUnitID="{84EA8792-12FE-4E5E-950A-F7C12BDA81C4}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_HowlingWind" ID="{0FDB54DE-A34E-4387-8504-F41D053F92EF}" WorkUnitID="{EDF099EF-7CA4-4D68-9584-78359919806C}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Door_close" ID="{C52B164E-FBFF-4417-B06E-8271A8961D91}" WorkUnitID="{84EA8792-12FE-4E5E-950A-F7C12BDA81C4}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Soundscape_S1" ID="{7424A775-6FCF-44D5-B87D-B08A2A416A1D}" WorkUnitID="{18029C21-36BA-447B-9F35-854E0B36B1B5}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Soundscape_O1" ID="{232464F8-A54C-45EE-AFE9-54E6D5D95233}" WorkUnitID="{18029C21-36BA-447B-9F35-854E0B36B1B5}" Filter="7" Origin="Manual"/>

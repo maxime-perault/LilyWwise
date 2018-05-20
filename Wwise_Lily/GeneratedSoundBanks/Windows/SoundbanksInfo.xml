@@ -32,6 +32,7 @@
 				<Event Id="3038914928" Name="Play_Fireflies_idle_bocal" ObjectPath="\Events\Default Work Unit\Character\Character_foleys\Fireflies\Play_Fireflies_idle_bocal"/>
 				<Event Id="1831923560" Name="Play_Fireflies_pickup" ObjectPath="\Events\Default Work Unit\Character\Character_foleys\Fireflies\Play_Fireflies_pickup"/>
 				<Event Id="4053674083" Name="Play_Hallucinations_O1" ObjectPath="\Events\Default Work Unit\Hallucinations\O1\Play_Hallucinations_O1"/>
+				<Event Id="3210990662" Name="Play_HowlingWind" ObjectPath="\Events\Default Work Unit\Ambiances\O1\Play_HowlingWind"/>
 				<Event Id="353474919" Name="Play_Lightzone_Expand" ObjectPath="\Events\Default Work Unit\Character\Character_foleys\Lightzone\Play_Lightzone_Expand"/>
 				<Event Id="3152312914" Name="Play_Soundscape_O1" ObjectPath="\Events\Default Work Unit\Soundscapes\O1\Play_Soundscape_O1"/>
 				<Event Id="3085202470" Name="Play_Soundscape_S1" ObjectPath="\Events\Default Work Unit\Soundscapes\S1\Play_Soundscape_S1"/>
@@ -127,6 +128,10 @@
 				<File Id="52183310" Language="SFX">
 					<ShortName>Cello2_Chord2_A#2.wav</ShortName>
 					<Path>SFX\Cello2_Chord2_A#2_15E89C66.wem</Path>
+				</File>
+				<File Id="53060964" Language="SFX">
+					<ShortName>HowlingWind_4.wav</ShortName>
+					<Path>SFX\HowlingWind_4_1617AFA0.wem</Path>
 				</File>
 				<File Id="53823901" Language="SFX">
 					<ShortName>FS_Creak_4.wav</ShortName>
@@ -247,6 +252,10 @@
 				<File Id="141733355" Language="SFX">
 					<ShortName>Hallu_NeMignorePas_6.wav</ShortName>
 					<Path>SFX\Hallu_NeMignorePas_6_1617AFA0.wem</Path>
+				</File>
+				<File Id="149551929" Language="SFX">
+					<ShortName>HowlingWind_6.wav</ShortName>
+					<Path>SFX\HowlingWind_6_1617AFA0.wem</Path>
 				</File>
 				<File Id="154616519" Language="SFX">
 					<ShortName>FS_Dirt_L3_4.wav</ShortName>
@@ -487,6 +496,10 @@
 				<File Id="272017487" Language="SFX">
 					<ShortName>Lake_2.wav</ShortName>
 					<Path>SFX\Lake_2_1617AFA0.wem</Path>
+				</File>
+				<File Id="275035885" Language="SFX">
+					<ShortName>HowlingWind_2.wav</ShortName>
+					<Path>SFX\HowlingWind_2_1617AFA0.wem</Path>
 				</File>
 				<File Id="275838306" Language="SFX">
 					<ShortName>Hallu_EcouteMoi_1.wav</ShortName>
@@ -1212,6 +1225,10 @@
 					<ShortName>Cello2_Chord4_D#.wav</ShortName>
 					<Path>SFX\Cello2_Chord4_D#_0EBC17BB.wem</Path>
 				</File>
+				<File Id="682933099" Language="SFX">
+					<ShortName>HowlingWind_5.wav</ShortName>
+					<Path>SFX\HowlingWind_5_1617AFA0.wem</Path>
+				</File>
 				<File Id="685327890" Language="SFX">
 					<ShortName>Hallu_HeyOh_8.wav</ShortName>
 					<Path>SFX\Hallu_HeyOh_8_1617AFA0.wem</Path>
@@ -1431,6 +1448,10 @@
 				<File Id="798073799" Language="SFX">
 					<ShortName>FS_Water_L2_1.wav</ShortName>
 					<Path>SFX\FS_Water_L2_1_1617AFA0.wem</Path>
+				</File>
+				<File Id="799053184" Language="SFX">
+					<ShortName>HowlingWind_3.wav</ShortName>
+					<Path>SFX\HowlingWind_3_1617AFA0.wem</Path>
 				</File>
 				<File Id="799610969" Language="SFX">
 					<ShortName>Hallu_ToutVaBien_2.wav</ShortName>
@@ -1663,6 +1684,10 @@
 				<File Id="944448885" Language="SFX">
 					<ShortName>Hallu_Doucement_5.wav</ShortName>
 					<Path>SFX\Hallu_Doucement_5_1617AFA0.wem</Path>
+				</File>
+				<File Id="946310470" Language="SFX">
+					<ShortName>HowlingWind_1.wav</ShortName>
+					<Path>SFX\HowlingWind_1_1617AFA0.wem</Path>
 				</File>
 				<File Id="946400661" Language="SFX">
 					<ShortName>Hallu_HeyOh_6.wav</ShortName>
