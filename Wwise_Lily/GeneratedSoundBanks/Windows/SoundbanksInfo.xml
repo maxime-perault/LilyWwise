@@ -31,6 +31,7 @@
 				<Event Id="3599755568" Name="FS_Walk" ObjectPath="\Events\Default Work Unit\Character\Character_foleys\Footsteps\FS_Walk"/>
 				<Event Id="3419686739" Name="Jump_Land" ObjectPath="\Events\Default Work Unit\Character\Marelle_Foleys\Jump_Land"/>
 				<Event Id="2743389932" Name="Lily_Dash" ObjectPath="\Events\Default Work Unit\Character\Marelle_Foleys\Lily_Dash"/>
+				<Event Id="3571843573" Name="Play_AAM_Music" ObjectPath="\Events\Default Work Unit\Soundscapes\Arbre aux masques\Play_AAM_Music"/>
 				<Event Id="3855816568" Name="Play_AMB_Lake" ObjectPath="\Events\Default Work Unit\Ambiances\O1\Play_AMB_Lake"/>
 				<Event Id="2425019269" Name="Play_AMB_O1" ObjectPath="\Events\Default Work Unit\Ambiances\O1\Play_AMB_O1"/>
 				<Event Id="2292458263" Name="Play_Door_close" ObjectPath="\Events\Default Work Unit\Character\Cabane_foleys\Play_Door_close"/>
@@ -156,6 +157,10 @@
 				<File Id="53823901" Language="SFX">
 					<ShortName>FS_Creak_4.wav</ShortName>
 					<Path>SFX\FS_Creak_4_1617AFA0.wem</Path>
+				</File>
+				<File Id="53871227" Language="SFX">
+					<ShortName>Lily - Arbre aux masques (Preview 2).wav</ShortName>
+					<Path>SFX\Lily - Arbre aux masques (Preview 2)_46E16232.wem</Path>
 				</File>
 				<File Id="53926397" Language="SFX">
 					<ShortName>JumpLanding_1.wav</ShortName>
@@ -508,6 +513,10 @@
 				<File Id="237550400" Language="SFX">
 					<ShortName>CrowIdle_4.wav</ShortName>
 					<Path>SFX\CrowIdle_4_1617AFA0.wem</Path>
+				</File>
+				<File Id="237820176" Language="SFX">
+					<ShortName>Lily - Arbre aux masques (Preview 2).wav</ShortName>
+					<Path>SFX\Lily - Arbre aux masques (Preview 2)_FAFD1CAD.wem</Path>
 				</File>
 				<File Id="243639402" Language="SFX">
 					<ShortName>FS_Rocks_6.wav</ShortName>
@@ -1357,6 +1366,10 @@
 					<ShortName>Hallu_FermeLesYeux_8.wav</ShortName>
 					<Path>SFX\Hallu_FermeLesYeux_8_1617AFA0.wem</Path>
 				</File>
+				<File Id="667013001" Language="SFX">
+					<ShortName>Soundscape - S1_4 (Preview 3) (Master final 1).wav</ShortName>
+					<Path>SFX\Soundscape - S1_4 (Preview 3) (Master final 1)_3E42E451.wem</Path>
+				</File>
 				<File Id="667826289" Language="SFX">
 					<ShortName>FS_Dirt_Run_4.wav</ShortName>
 					<Path>SFX\FS_Dirt_Run_4_1617AFA0.wem</Path>
@@ -1716,10 +1729,6 @@
 				<File Id="852413161" Language="SFX">
 					<ShortName>Hallu_ToutVaBien_11.wav</ShortName>
 					<Path>SFX\Hallu_ToutVaBien_11_1617AFA0.wem</Path>
-				</File>
-				<File Id="852766592" Language="SFX">
-					<ShortName>Soundscape - S1_4 (Preview 1).wav</ShortName>
-					<Path>SFX\Soundscape - S1_4 (Preview 1)_5CD69ADB.wem</Path>
 				</File>
 				<File Id="853372079" Language="SFX">
 					<ShortName>JumpLanding_4.wav</ShortName>

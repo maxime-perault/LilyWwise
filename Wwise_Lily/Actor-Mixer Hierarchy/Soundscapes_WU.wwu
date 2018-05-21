@@ -2801,9 +2801,17 @@
 											<Language>SFX</Language>
 											<AudioFile>Soundscape - S1_4 (Preview 1).wav</AudioFile>
 										</AudioFileSource>
+										<AudioFileSource Name="Soundscape - S1_4 (Preview 3) (Master final 1)" ID="{EBDBF056-9850-40E1-A675-4CBAD4443910}" ShortID="667013001">
+											<PropertyList>
+												<Property Name="LoopEnd" Type="Real64" Value="116.007452480404"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Soundscape - S1_4 (Preview 3) (Master final 1).wav</AudioFile>
+										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Soundscape - S1_4 (Preview 1)" ID="{1ED4F811-2A78-4D1B-8851-7613AA5781C7}" Platform="Linked"/>
+										<ActiveSource Name="Soundscape - S1_4 (Preview 3) (Master final 1)" ID="{EBDBF056-9850-40E1-A675-4CBAD4443910}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
@@ -2837,6 +2845,105 @@
 										<ActiveSource Name="Soundscape - O2 v2 (Preview 2)" ID="{55BF6054-429A-4527-89DD-7833A6691EBA}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
+							</ChildrenList>
+						</ActorMixer>
+						<ActorMixer Name="Arbre aux masques" ID="{EABC0458-70FE-468B-BA8D-33F252B18B08}" ShortID="621720379">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="AAM_Music" ID="{5477D0FE-E78E-43FA-A2BC-1CB39B6C0855}" ShortID="57030970">
+									<PropertyList>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+										<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Piano" ID="{1D82F132-F08B-4647-9E06-C9D36681D755}" ShortID="884891897">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-2</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Lily - Arbre aux masques (Preview 2)" ID="{36CB300C-0C63-4F20-93F1-C0476CA796CF}" ShortID="53871227">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="1.31727403078754"/>
+														<Property Name="FadeInShape" Type="int16" Value="7"/>
+														<Property Name="TrimBegin" Type="Real64" Value="58.9133133133133"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Lily - Arbre aux masques (Preview 2).wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Lily - Arbre aux masques (Preview 2)" ID="{36CB300C-0C63-4F20-93F1-C0476CA796CF}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Choeur" ID="{805E9B94-90F4-434C-B208-EF168C5FFC8A}" ShortID="652645845">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-5</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Lily - Arbre aux masques (Preview 2)" ID="{741EC15F-613D-45EC-98A7-1DE742C63531}" ShortID="237820176">
+													<PropertyList>
+														<Property Name="CrossfadeDuration" Type="Real64" Value="1"/>
+														<Property Name="FadeInDuration" Type="Real64" Value="3.49614479344208"/>
+														<Property Name="FadeInShape" Type="int16" Value="7"/>
+														<Property Name="LoopBegin" Type="Real64" Value="40.9402483564646"/>
+														<Property Name="LoopEnd" Type="Real64" Value="60.1043497952407"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="60.2657476295114"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Lily - Arbre aux masques (Preview 2).wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Lily - Arbre aux masques (Preview 2)" ID="{741EC15F-613D-45EC-98A7-1DE742C63531}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<Playlist>
+										<ItemRef Name="Piano" ID="{1D82F132-F08B-4647-9E06-C9D36681D755}"/>
+										<ItemRef Name="Choeur" ID="{805E9B94-90F4-434C-B208-EF168C5FFC8A}"/>
+									</Playlist>
+								</RandomSequenceContainer>
 							</ChildrenList>
 						</ActorMixer>
 					</ChildrenList>

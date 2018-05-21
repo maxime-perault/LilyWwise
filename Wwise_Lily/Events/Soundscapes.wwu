@@ -52,6 +52,24 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="Arbre aux masques" ID="{FC2816E7-B357-4051-BF58-F24A40247363}" ShortID="57392908">
+					<ChildrenList>
+						<Event Name="Play_AAM_Music" ID="{90A24355-A362-4791-A3D5-EC7CF109B3C9}">
+							<ChildrenList>
+								<Action Name="" ID="{7DC15339-F998-41BE-9D58-2DFD14C3264B}" ShortID="108600493">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AAM_Music" ID="{5477D0FE-E78E-43FA-A2BC-1CB39B6C0855}" WorkUnitID="{70C4634E-397D-4AD0-AEA2-DE40622061AE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
