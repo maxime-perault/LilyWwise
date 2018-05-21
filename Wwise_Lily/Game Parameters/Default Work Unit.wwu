@@ -25,6 +25,11 @@
 						</GameParameter>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="Crows" ID="{DF55F493-418E-41E2-9444-1AC49B3E691D}" ShortID="887692912">
+					<ChildrenList>
+						<GameParameter Name="CrowsDisintegration" ID="{EA45A344-3B8F-4879-98B1-B1A5DE53FA96}"/>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>

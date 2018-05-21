@@ -3056,7 +3056,7 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<Sound Name="Lightzone_expand" ID="{7306076F-40AA-4E17-917F-3E9072BF6431}" ShortID="804908789">
+												<Sound Name="Lightzone_expand_v3" ID="{26B183E4-F65E-44D0-8115-0B699EBC688E}" ShortID="859438804">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
@@ -3066,32 +3066,13 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Lightzone_expand" ID="{EF8FE6F7-4B19-415C-A764-ADF410D4B4DF}" ShortID="580400921">
+														<AudioFileSource Name="Lightzone_expand_v3" ID="{3EDB7D4A-05CB-4DBD-A27C-FFB77EA1B2B4}" ShortID="658699776">
 															<Language>SFX</Language>
-															<AudioFile>Lightzone_expand.wav</AudioFile>
+															<AudioFile>Lightzone_expand_v3.wav</AudioFile>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="Lightzone_expand" ID="{EF8FE6F7-4B19-415C-A764-ADF410D4B4DF}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="Lightzone_expand_v2" ID="{848D2A60-00E2-4A77-B277-FDA84D8E9B6B}" ShortID="781521934">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="Lightzone_expand_v2" ID="{A314E874-752E-4A99-8A25-96F25225BE08}" ShortID="880345116">
-															<Language>SFX</Language>
-															<AudioFile>Lightzone_expand_v2.wav</AudioFile>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="Lightzone_expand_v2" ID="{A314E874-752E-4A99-8A25-96F25225BE08}" Platform="Linked"/>
+														<ActiveSource Name="Lightzone_expand_v3" ID="{3EDB7D4A-05CB-4DBD-A27C-FFB77EA1B2B4}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
@@ -3132,9 +3113,21 @@
 														</RTPC>
 													</RTPCList>
 												</Property>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{8DD190BC-6243-408E-B7A5-679520B69F78}">
+																<PropertyList>
+																	<Property Name="Max" Type="Real64" Value="100"/>
+																	<Property Name="Min" Type="Real64" Value="-100"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>-2</Value>
+														<Value>-1</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>
@@ -3147,13 +3140,13 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Lightzone_active" ID="{359A5C2C-1A87-437E-BF4C-C41EF6903841}" ShortID="40041059">
+												<AudioFileSource Name="Lightzone_active_v2 (avec fade in au cas ou)" ID="{3BC22E59-E02A-4B25-8BB2-05FC74C04776}" ShortID="1047620931">
 													<Language>SFX</Language>
-													<AudioFile>Lightzone_active.wav</AudioFile>
+													<AudioFile>Lightzone_active_v2 (avec fade in au cas ou).wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Lightzone_active" ID="{359A5C2C-1A87-437E-BF4C-C41EF6903841}" Platform="Linked"/>
+												<ActiveSource Name="Lightzone_active_v2 (avec fade in au cas ou)" ID="{3BC22E59-E02A-4B25-8BB2-05FC74C04776}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>

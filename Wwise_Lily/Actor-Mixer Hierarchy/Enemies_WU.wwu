@@ -19,44 +19,7 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<RandomSequenceContainer Name="Flight" ID="{43CA41CA-4018-469B-8A2A-42D836589223}" ShortID="428408973">
-							<PropertyList>
-								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
-								<Property Name="Pitch" Type="int32">
-									<ModifierList>
-										<ModifierInfo>
-											<Modifier Name="" ID="{C1B89F75-E4A8-49E9-AAEE-6BAA2AF7027C}">
-												<PropertyList>
-													<Property Name="Enabled" Type="bool" Value="True"/>
-													<Property Name="Max" Type="Real64" Value="100"/>
-													<Property Name="Min" Type="Real64" Value="-200"/>
-												</PropertyList>
-											</Modifier>
-										</ModifierInfo>
-									</ModifierList>
-								</Property>
-								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
-								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
-								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
-								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.5"/>
-								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
-								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="4"/>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-5</Value>
-									</ValueList>
-									<ModifierList>
-										<ModifierInfo>
-											<Modifier Name="" ID="{A10E52E4-284F-46BF-848E-E43D602B32C5}">
-												<PropertyList>
-													<Property Name="Enabled" Type="bool" Value="True"/>
-													<Property Name="Min" Type="Real64" Value="-5"/>
-												</PropertyList>
-											</Modifier>
-										</ModifierInfo>
-									</ModifierList>
-								</Property>
-							</PropertyList>
+						<ActorMixer Name="CrowsFlight" ID="{B38AFE52-6AAB-4B13-B754-F278FA425B4E}" ShortID="396844981">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
@@ -66,178 +29,564 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="CrowsFlight_v1_1" ID="{4B21A0ED-1D8D-46B8-9C7E-06D9805BD963}" ShortID="200557618">
+								<RandomSequenceContainer Name="Flight v2" ID="{39E3DFE6-E288-4A8C-BF07-D4BA6CF704A6}" ShortID="891317997">
+									<PropertyList>
+										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{19DCF809-F07C-417E-B9A0-18A0214DD6D2}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="100"/>
+															<Property Name="Min" Type="Real64" Value="-200"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
+										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.5"/>
+										<Property Name="PositioningType" Type="int16" Value="1"/>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="4"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{B2D3539A-28D2-4312-B008-42682F6258B4}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Min" Type="Real64" Value="-4"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="CrowsFlight_Attenuation" ID="{CBADAC66-50F3-45DA-8837-030A8E00A4DD}" WorkUnitID="{F9486E4D-3A45-4423-A197-A386E047703F}"/>
+										</Reference>
 										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+											<ObjectRef Name="SFX_Comp" ID="{94D2B765-DB8D-469E-97ED-DEEB9595516F}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
 										</Reference>
 										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+											<ObjectRef Name="SFX" ID="{8C3931D1-175E-42B3-B35D-8A6C6C7EC6E5}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="CrowsFlight_v1_1" ID="{E95C0411-E88F-4CE6-8B1C-85D4FDCAB5C5}" ShortID="66260836">
-											<Language>SFX</Language>
-											<AudioFile>CrowsFlight_v1_1.wav</AudioFile>
-										</AudioFileSource>
+										<Sound Name="CrowsFlight_v2_1" ID="{E7E43F61-FAD1-40C4-AF00-13A7FAC33C33}" ShortID="317359191">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="CrowsFlight_v2_1" ID="{37602DC0-112D-4637-9CEF-EFAD5D83E88D}" ShortID="383041373">
+													<Language>SFX</Language>
+													<AudioFile>CrowsFlight_v2_1.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="CrowsFlight_v2_1" ID="{37602DC0-112D-4637-9CEF-EFAD5D83E88D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="CrowsFlight_v2_2" ID="{12EC0B75-7AF1-4566-8E01-2C0117E1C023}" ShortID="549624542">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="CrowsFlight_v2_2" ID="{2D3BA52C-AA32-41AC-A400-96009BD28E7F}" ShortID="120680585">
+													<Language>SFX</Language>
+													<AudioFile>CrowsFlight_v2_2.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="CrowsFlight_v2_2" ID="{2D3BA52C-AA32-41AC-A400-96009BD28E7F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="CrowsFlight_v2_3" ID="{5C6679F8-86BB-48ED-80B0-95EFA42C1E4A}" ShortID="174276028">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="CrowsFlight_v2_3" ID="{9567FB9B-67FD-4049-A4CC-F3F5CBFF947D}" ShortID="601150563">
+													<Language>SFX</Language>
+													<AudioFile>CrowsFlight_v2_3.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="CrowsFlight_v2_3" ID="{9567FB9B-67FD-4049-A4CC-F3F5CBFF947D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="CrowsFlight_v2_4" ID="{EA6EF83D-BF63-4053-9315-BCE319DD3701}" ShortID="1029889057">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="CrowsFlight_v2_4" ID="{01F9D57D-96E9-4CFD-BB99-BC3C5788A9A2}" ShortID="406299987">
+													<Language>SFX</Language>
+													<AudioFile>CrowsFlight_v2_4.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="CrowsFlight_v2_4" ID="{01F9D57D-96E9-4CFD-BB99-BC3C5788A9A2}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="CrowsFlight_v2_5" ID="{C9D542F0-3612-4D2C-90B6-FEF89FE16D6B}" ShortID="474472657">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="CrowsFlight_v2_5" ID="{F7FE252E-A665-452C-B274-1279C5E7BE6D}" ShortID="385794854">
+													<Language>SFX</Language>
+													<AudioFile>CrowsFlight_v2_5.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="CrowsFlight_v2_5" ID="{F7FE252E-A665-452C-B274-1279C5E7BE6D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="CrowsFlight_v2_6" ID="{0A15951B-0D78-4594-BD52-10BCDDE535DD}" ShortID="842282777">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="CrowsFlight_v2_6" ID="{91AA106C-D427-463D-B761-F561A5821B8E}" ShortID="618324814">
+													<Language>SFX</Language>
+													<AudioFile>CrowsFlight_v2_6.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="CrowsFlight_v2_6" ID="{91AA106C-D427-463D-B761-F561A5821B8E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="CrowsFlight_v2_7" ID="{6EA33882-46E8-4094-9871-23AA47DCEFBF}" ShortID="602294203">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="CrowsFlight_v2_7" ID="{FF757D1A-A062-4DD0-A1EF-38C0790159F6}" ShortID="613771916">
+													<Language>SFX</Language>
+													<AudioFile>CrowsFlight_v2_7.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="CrowsFlight_v2_7" ID="{FF757D1A-A062-4DD0-A1EF-38C0790159F6}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
 									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="CrowsFlight_v1_1" ID="{E95C0411-E88F-4CE6-8B1C-85D4FDCAB5C5}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="CrowsFlight_v1_2" ID="{08E6A347-0453-4B53-8877-70212ADF1AAC}" ShortID="435393698">
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Flight" ID="{43CA41CA-4018-469B-8A2A-42D836589223}" ShortID="428408973">
+									<PropertyList>
+										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{C1B89F75-E4A8-49E9-AAEE-6BAA2AF7027C}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="100"/>
+															<Property Name="Min" Type="Real64" Value="-200"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
+										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.5"/>
+										<Property Name="PositioningType" Type="int16" Value="1"/>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="4"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{A10E52E4-284F-46BF-848E-E43D602B32C5}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Min" Type="Real64" Value="-5"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="CrowsFlight_Attenuation" ID="{CBADAC66-50F3-45DA-8837-030A8E00A4DD}" WorkUnitID="{F9486E4D-3A45-4423-A197-A386E047703F}"/>
+										</Reference>
 										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+											<ObjectRef Name="SFX_Comp" ID="{94D2B765-DB8D-469E-97ED-DEEB9595516F}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
 										</Reference>
 										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+											<ObjectRef Name="SFX" ID="{8C3931D1-175E-42B3-B35D-8A6C6C7EC6E5}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="CrowsFlight_v1_2" ID="{B7F27C20-DFD2-4F95-A5EB-D664D6982A10}" ShortID="294760158">
-											<Language>SFX</Language>
-											<AudioFile>CrowsFlight_v1_2.wav</AudioFile>
-										</AudioFileSource>
+										<Sound Name="CrowsFlight_v1_1" ID="{4B21A0ED-1D8D-46B8-9C7E-06D9805BD963}" ShortID="200557618">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="CrowsFlight_v1_1" ID="{E95C0411-E88F-4CE6-8B1C-85D4FDCAB5C5}" ShortID="66260836">
+													<Language>SFX</Language>
+													<AudioFile>CrowsFlight_v1_1.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="CrowsFlight_v1_1" ID="{E95C0411-E88F-4CE6-8B1C-85D4FDCAB5C5}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="CrowsFlight_v1_2" ID="{08E6A347-0453-4B53-8877-70212ADF1AAC}" ShortID="435393698">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="CrowsFlight_v1_2" ID="{B7F27C20-DFD2-4F95-A5EB-D664D6982A10}" ShortID="294760158">
+													<Language>SFX</Language>
+													<AudioFile>CrowsFlight_v1_2.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="CrowsFlight_v1_2" ID="{B7F27C20-DFD2-4F95-A5EB-D664D6982A10}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="CrowsFlight_v1_3" ID="{C3890FCB-C97C-4E09-BD06-ECC1F7C9BBDE}" ShortID="415103858">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="CrowsFlight_v1_3" ID="{10A9DF9F-5038-408B-989E-8DBBD23C6D57}" ShortID="719968271">
+													<Language>SFX</Language>
+													<AudioFile>CrowsFlight_v1_3.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="CrowsFlight_v1_3" ID="{10A9DF9F-5038-408B-989E-8DBBD23C6D57}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="CrowsFlight_v1_4" ID="{303BCFA6-DA08-43CE-B975-EEB1D2BCE0B9}" ShortID="670086567">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="CrowsFlight_v1_4" ID="{722EB2A1-0ECA-4585-84AC-CE354281DDE1}" ShortID="358377701">
+													<Language>SFX</Language>
+													<AudioFile>CrowsFlight_v1_4.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="CrowsFlight_v1_4" ID="{722EB2A1-0ECA-4585-84AC-CE354281DDE1}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="CrowsFlight_v1_5" ID="{6F0E8104-2DEB-4DC4-9963-BADD87795835}" ShortID="674687525">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="CrowsFlight_v1_5" ID="{50DCD8F4-91B5-4884-9516-070A74444538}" ShortID="800180867">
+													<Language>SFX</Language>
+													<AudioFile>CrowsFlight_v1_5.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="CrowsFlight_v1_5" ID="{50DCD8F4-91B5-4884-9516-070A74444538}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="CrowsFlight_v1_6" ID="{3E3DF1CB-F4C2-4B58-8516-B15C17AE647C}" ShortID="142503340">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="CrowsFlight_v1_6" ID="{35D0D27B-AC79-41EF-8795-A717716377B4}" ShortID="260176225">
+													<Language>SFX</Language>
+													<AudioFile>CrowsFlight_v1_6.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="CrowsFlight_v1_6" ID="{35D0D27B-AC79-41EF-8795-A717716377B4}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="CrowsFlight_v1_7" ID="{E2872CDC-44D9-484F-909C-462C846A5976}" ShortID="865573981">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="CrowsFlight_v1_7" ID="{A1B91412-EC7F-4204-A054-8D50AAF79619}" ShortID="891651356">
+													<Language>SFX</Language>
+													<AudioFile>CrowsFlight_v1_7.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="CrowsFlight_v1_7" ID="{A1B91412-EC7F-4204-A054-8D50AAF79619}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
 									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="CrowsFlight_v1_2" ID="{B7F27C20-DFD2-4F95-A5EB-D664D6982A10}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="CrowsFlight_v1_3" ID="{C3890FCB-C97C-4E09-BD06-ECC1F7C9BBDE}" ShortID="415103858">
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Flight v3" ID="{E76075B3-5141-4731-983C-35D7BEF4637B}" ShortID="53553274">
+									<PropertyList>
+										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{03C31BCA-09F0-4E67-82EF-800B2DD11F15}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="100"/>
+															<Property Name="Min" Type="Real64" Value="-100"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
+										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.5"/>
+										<Property Name="PositioningType" Type="int16" Value="1"/>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="4"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-2</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{1BE981C0-6E34-4122-B6C5-0ED0FD4C12F9}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Min" Type="Real64" Value="-3"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="CrowsFlight_Attenuation" ID="{CBADAC66-50F3-45DA-8837-030A8E00A4DD}" WorkUnitID="{F9486E4D-3A45-4423-A197-A386E047703F}"/>
+										</Reference>
 										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+											<ObjectRef Name="SFX_Comp" ID="{94D2B765-DB8D-469E-97ED-DEEB9595516F}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
 										</Reference>
 										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+											<ObjectRef Name="SFX" ID="{8C3931D1-175E-42B3-B35D-8A6C6C7EC6E5}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="CrowsFlight_v1_3" ID="{10A9DF9F-5038-408B-989E-8DBBD23C6D57}" ShortID="719968271">
-											<Language>SFX</Language>
-											<AudioFile>CrowsFlight_v1_3.wav</AudioFile>
-										</AudioFileSource>
+										<Sound Name="CrowsFlight_v3_1" ID="{53EEB84C-9ACE-4C17-B705-962EA5F5B4FA}" ShortID="222434748">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="CrowsFlight_v3_1" ID="{16FA2B1D-4979-41BC-91BB-53598216CDF0}" ShortID="865044738">
+													<Language>SFX</Language>
+													<AudioFile>CrowsFlight_v3_1.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="CrowsFlight_v3_1" ID="{16FA2B1D-4979-41BC-91BB-53598216CDF0}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="CrowsFlight_v3_2" ID="{8AF5A7E1-C81A-483A-BC65-F6C112D905A7}" ShortID="712142505">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="CrowsFlight_v3_2" ID="{E79B46F0-F8BB-45A6-8EC5-A1D01E5A1FBE}" ShortID="284228734">
+													<Language>SFX</Language>
+													<AudioFile>CrowsFlight_v3_2.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="CrowsFlight_v3_2" ID="{E79B46F0-F8BB-45A6-8EC5-A1D01E5A1FBE}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="CrowsFlight_v3_3" ID="{547B0D09-56AC-45FB-937A-2E4D57F91D5D}" ShortID="401990181">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="CrowsFlight_v3_3" ID="{0E16FC3B-7BDF-401C-93EE-C40530A2CD5F}" ShortID="132929531">
+													<Language>SFX</Language>
+													<AudioFile>CrowsFlight_v3_3.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="CrowsFlight_v3_3" ID="{0E16FC3B-7BDF-401C-93EE-C40530A2CD5F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="CrowsFlight_v3_4" ID="{42143888-AD87-4D32-BE65-BF2CB2883C19}" ShortID="1065201186">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="CrowsFlight_v3_4" ID="{B704EAF1-85C8-4DB0-896C-B3DFD5DFFAC2}" ShortID="17930272">
+													<Language>SFX</Language>
+													<AudioFile>CrowsFlight_v3_4.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="CrowsFlight_v3_4" ID="{B704EAF1-85C8-4DB0-896C-B3DFD5DFFAC2}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="CrowsFlight_v3_5" ID="{E32275C1-B659-4159-98B4-FB0B019CC043}" ShortID="670507148">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="CrowsFlight_v3_5" ID="{158BDBC9-9F67-4380-93DD-950F85590208}" ShortID="694860433">
+													<Language>SFX</Language>
+													<AudioFile>CrowsFlight_v3_5.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="CrowsFlight_v3_5" ID="{158BDBC9-9F67-4380-93DD-950F85590208}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="CrowsFlight_v3_6" ID="{C54DC10E-75C2-4BF7-A8D4-08135392CA10}" ShortID="547598086">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="CrowsFlight_v3_6" ID="{3B9FE61A-DA4D-48FF-9832-77257FCB7F0A}" ShortID="781960183">
+													<Language>SFX</Language>
+													<AudioFile>CrowsFlight_v3_6.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="CrowsFlight_v3_6" ID="{3B9FE61A-DA4D-48FF-9832-77257FCB7F0A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="CrowsFlight_v3_7" ID="{0D667F2A-CF62-4F39-B179-06747E82138C}" ShortID="756220297">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="CrowsFlight_v3_7" ID="{ADD84A58-1BA9-4387-A433-7636B9F78CD1}" ShortID="286829680">
+													<Language>SFX</Language>
+													<AudioFile>CrowsFlight_v3_7.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="CrowsFlight_v3_7" ID="{ADD84A58-1BA9-4387-A433-7636B9F78CD1}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
 									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="CrowsFlight_v1_3" ID="{10A9DF9F-5038-408B-989E-8DBBD23C6D57}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="CrowsFlight_v1_4" ID="{303BCFA6-DA08-43CE-B975-EEB1D2BCE0B9}" ShortID="670086567">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="CrowsFlight_v1_4" ID="{722EB2A1-0ECA-4585-84AC-CE354281DDE1}" ShortID="358377701">
-											<Language>SFX</Language>
-											<AudioFile>CrowsFlight_v1_4.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="CrowsFlight_v1_4" ID="{722EB2A1-0ECA-4585-84AC-CE354281DDE1}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="CrowsFlight_v1_5" ID="{6F0E8104-2DEB-4DC4-9963-BADD87795835}" ShortID="674687525">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="CrowsFlight_v1_5" ID="{50DCD8F4-91B5-4884-9516-070A74444538}" ShortID="800180867">
-											<Language>SFX</Language>
-											<AudioFile>CrowsFlight_v1_5.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="CrowsFlight_v1_5" ID="{50DCD8F4-91B5-4884-9516-070A74444538}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="CrowsFlight_v1_6" ID="{3E3DF1CB-F4C2-4B58-8516-B15C17AE647C}" ShortID="142503340">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="CrowsFlight_v1_6" ID="{35D0D27B-AC79-41EF-8795-A717716377B4}" ShortID="260176225">
-											<Language>SFX</Language>
-											<AudioFile>CrowsFlight_v1_6.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="CrowsFlight_v1_6" ID="{35D0D27B-AC79-41EF-8795-A717716377B4}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="CrowsFlight_v1_7" ID="{E2872CDC-44D9-484F-909C-462C846A5976}" ShortID="865573981">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="CrowsFlight_v1_7" ID="{A1B91412-EC7F-4204-A054-8D50AAF79619}" ShortID="891651356">
-											<Language>SFX</Language>
-											<AudioFile>CrowsFlight_v1_7.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="CrowsFlight_v1_7" ID="{A1B91412-EC7F-4204-A054-8D50AAF79619}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
+								</RandomSequenceContainer>
 							</ChildrenList>
-						</RandomSequenceContainer>
-						<RandomSequenceContainer Name="Flight v2" ID="{39E3DFE6-E288-4A8C-BF07-D4BA6CF704A6}" ShortID="891317997">
-							<PropertyList>
-								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
-								<Property Name="Pitch" Type="int32">
-									<ModifierList>
-										<ModifierInfo>
-											<Modifier Name="" ID="{19DCF809-F07C-417E-B9A0-18A0214DD6D2}">
-												<PropertyList>
-													<Property Name="Enabled" Type="bool" Value="True"/>
-													<Property Name="Max" Type="Real64" Value="100"/>
-													<Property Name="Min" Type="Real64" Value="-200"/>
-												</PropertyList>
-											</Modifier>
-										</ModifierInfo>
-									</ModifierList>
-								</Property>
-								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
-								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
-								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
-								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.5"/>
-								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="4"/>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-5</Value>
-									</ValueList>
-									<ModifierList>
-										<ModifierInfo>
-											<Modifier Name="" ID="{B2D3539A-28D2-4312-B008-42682F6258B4}">
-												<PropertyList>
-													<Property Name="Enabled" Type="bool" Value="True"/>
-													<Property Name="Min" Type="Real64" Value="-4"/>
-												</PropertyList>
-											</Modifier>
-										</ModifierInfo>
-									</ModifierList>
-								</Property>
-							</PropertyList>
+						</ActorMixer>
+						<ActorMixer Name="CrowsSpawn" ID="{70AFC9B2-F359-4B62-B9F3-A840015E00BE}" ShortID="88100021">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
@@ -247,7 +596,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="CrowsFlight_v2_1" ID="{E7E43F61-FAD1-40C4-AF00-13A7FAC33C33}" ShortID="317359191">
+								<BlendContainer Name="Crows_Spawn" ID="{76D99779-711D-4A75-A152-0ECDE6234EB9}" ShortID="657594272">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
@@ -257,166 +606,435 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="CrowsFlight_v2_1" ID="{37602DC0-112D-4637-9CEF-EFAD5D83E88D}" ShortID="383041373">
-											<Language>SFX</Language>
-											<AudioFile>CrowsFlight_v2_1.wav</AudioFile>
-										</AudioFileSource>
+										<RandomSequenceContainer Name="Spawn_Scream" ID="{FECD3A59-0E4F-4C70-8BB3-2955FD61531E}" ShortID="645749130">
+											<PropertyList>
+												<Property Name="InitialDelay" Type="Real64">
+													<ValueList>
+														<Value>0.2</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{A6100C2F-5AA2-4B6C-A1B1-CFB75EBC5793}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="200"/>
+																	<Property Name="Min" Type="Real64" Value="-200"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="4"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-5</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="CrowSpawn_1" ID="{7856A461-A236-4932-924D-BBE0F06A7E20}" ShortID="1056924923">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="CrowSpawn_1" ID="{3AB6293E-BD6F-410D-B9B8-485F2ECE5D68}" ShortID="471293512">
+															<Language>SFX</Language>
+															<AudioFile>CrowSpawn_1.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="CrowSpawn_1" ID="{3AB6293E-BD6F-410D-B9B8-485F2ECE5D68}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="CrowSpawn_2" ID="{1EBB33ED-C1FF-411A-AB1F-6825AEF43B7D}" ShortID="237765926">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="CrowSpawn_2" ID="{3AC98D6C-C309-4DDF-8453-622896B23249}" ShortID="492267550">
+															<Language>SFX</Language>
+															<AudioFile>CrowSpawn_2.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="CrowSpawn_2" ID="{3AC98D6C-C309-4DDF-8453-622896B23249}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="CrowSpawn_3" ID="{827F847B-4B5E-49E7-9234-0C2F15407435}" ShortID="174004764">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="CrowSpawn_3" ID="{7E4F8BC8-24DE-4938-87F1-9DA39C47FB58}" ShortID="48949888">
+															<Language>SFX</Language>
+															<AudioFile>CrowSpawn_3.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="CrowSpawn_3" ID="{7E4F8BC8-24DE-4938-87F1-9DA39C47FB58}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="CrowSpawn_4" ID="{8E191FB6-AD84-4C7E-86EA-932C396A4A98}" ShortID="314624426">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="CrowSpawn_4" ID="{A85B7304-6732-437B-AD44-09380E01488A}" ShortID="559772623">
+															<Language>SFX</Language>
+															<AudioFile>CrowSpawn_4.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="CrowSpawn_4" ID="{A85B7304-6732-437B-AD44-09380E01488A}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="CrowSpawn_5" ID="{3DDD1733-B9C4-4C54-B009-97A55AE6682E}" ShortID="103051661">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="CrowSpawn_5" ID="{9DD5E7CC-0D57-4279-9FCA-7F095D6472B9}" ShortID="350491811">
+															<Language>SFX</Language>
+															<AudioFile>CrowSpawn_5.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="CrowSpawn_5" ID="{9DD5E7CC-0D57-4279-9FCA-7F095D6472B9}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="CrowSpawn_6" ID="{E0289C23-6A4E-4AC9-A8AE-1828A5A7EE7E}" ShortID="109395310">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="CrowSpawn_6" ID="{40081CBF-6944-44B7-B0FE-7D89D3F30516}" ShortID="408128970">
+															<Language>SFX</Language>
+															<AudioFile>CrowSpawn_6.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="CrowSpawn_6" ID="{40081CBF-6944-44B7-B0FE-7D89D3F30516}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Spawn_SFX" ID="{7948C9CE-9709-4C62-A2D9-F65AD0C63786}" ShortID="824283924">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>280</Value>
+													</ValueList>
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{D7369776-05B4-4E58-86CF-4A0A0E1CE1B8}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="200"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="CrowSpawnWings_1" ID="{E6B6E245-8766-4D3E-8998-B63A2CF70090}" ShortID="989224940">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="CrowSpawnWings_1" ID="{72304101-E70A-4F0C-AF87-FE7E89DF2711}" ShortID="79446894">
+															<Language>SFX</Language>
+															<AudioFile>CrowSpawnWings_1.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="CrowSpawnWings_1" ID="{72304101-E70A-4F0C-AF87-FE7E89DF2711}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="CrowSpawnWings_2" ID="{CD290C96-4D1C-4F8B-A278-9F9E1B8F658E}" ShortID="440269823">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="CrowSpawnWings_2" ID="{30EAFCC1-F181-4BFF-92F3-8D4302E3172D}" ShortID="432037764">
+															<Language>SFX</Language>
+															<AudioFile>CrowSpawnWings_2.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="CrowSpawnWings_2" ID="{30EAFCC1-F181-4BFF-92F3-8D4302E3172D}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
 									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="CrowsFlight_v2_1" ID="{37602DC0-112D-4637-9CEF-EFAD5D83E88D}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="CrowsFlight_v2_2" ID="{12EC0B75-7AF1-4566-8E01-2C0117E1C023}" ShortID="549624542">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="CrowsFlight_v2_2" ID="{2D3BA52C-AA32-41AC-A400-96009BD28E7F}" ShortID="120680585">
-											<Language>SFX</Language>
-											<AudioFile>CrowsFlight_v2_2.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="CrowsFlight_v2_2" ID="{2D3BA52C-AA32-41AC-A400-96009BD28E7F}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="CrowsFlight_v2_3" ID="{5C6679F8-86BB-48ED-80B0-95EFA42C1E4A}" ShortID="174276028">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="CrowsFlight_v2_3" ID="{9567FB9B-67FD-4049-A4CC-F3F5CBFF947D}" ShortID="601150563">
-											<Language>SFX</Language>
-											<AudioFile>CrowsFlight_v2_3.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="CrowsFlight_v2_3" ID="{9567FB9B-67FD-4049-A4CC-F3F5CBFF947D}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="CrowsFlight_v2_4" ID="{EA6EF83D-BF63-4053-9315-BCE319DD3701}" ShortID="1029889057">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="CrowsFlight_v2_4" ID="{01F9D57D-96E9-4CFD-BB99-BC3C5788A9A2}" ShortID="406299987">
-											<Language>SFX</Language>
-											<AudioFile>CrowsFlight_v2_4.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="CrowsFlight_v2_4" ID="{01F9D57D-96E9-4CFD-BB99-BC3C5788A9A2}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="CrowsFlight_v2_5" ID="{C9D542F0-3612-4D2C-90B6-FEF89FE16D6B}" ShortID="474472657">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="CrowsFlight_v2_5" ID="{F7FE252E-A665-452C-B274-1279C5E7BE6D}" ShortID="385794854">
-											<Language>SFX</Language>
-											<AudioFile>CrowsFlight_v2_5.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="CrowsFlight_v2_5" ID="{F7FE252E-A665-452C-B274-1279C5E7BE6D}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="CrowsFlight_v2_6" ID="{0A15951B-0D78-4594-BD52-10BCDDE535DD}" ShortID="842282777">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="CrowsFlight_v2_6" ID="{91AA106C-D427-463D-B761-F561A5821B8E}" ShortID="618324814">
-											<Language>SFX</Language>
-											<AudioFile>CrowsFlight_v2_6.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="CrowsFlight_v2_6" ID="{91AA106C-D427-463D-B761-F561A5821B8E}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="CrowsFlight_v2_7" ID="{6EA33882-46E8-4094-9871-23AA47DCEFBF}" ShortID="602294203">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="CrowsFlight_v2_7" ID="{FF757D1A-A062-4DD0-A1EF-38C0790159F6}" ShortID="613771916">
-											<Language>SFX</Language>
-											<AudioFile>CrowsFlight_v2_7.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="CrowsFlight_v2_7" ID="{FF757D1A-A062-4DD0-A1EF-38C0790159F6}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
+								</BlendContainer>
 							</ChildrenList>
-						</RandomSequenceContainer>
-						<RandomSequenceContainer Name="Flight v3" ID="{E76075B3-5141-4731-983C-35D7BEF4637B}" ShortID="53553274">
+						</ActorMixer>
+						<ActorMixer Name="CrowsDeath" ID="{9BA6D75F-5FD1-4D66-9E04-9458605D7472}" ShortID="586905514">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<BlendContainer Name="CrowsDeathBlend" ID="{B726278E-1590-4849-B1CC-82F572218558}" ShortID="413741781">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="Crows_Hurt" ID="{0693F675-FB99-423E-B66C-D3F65716E4FF}" ShortID="788860136">
+											<PropertyList>
+												<Property Name="PositioningType" Type="int16" Value="1"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-5</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="CrowsFlight_Attenuation" ID="{CBADAC66-50F3-45DA-8837-030A8E00A4DD}" WorkUnitID="{F9486E4D-3A45-4423-A197-A386E047703F}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="SFX_Comp" ID="{94D2B765-DB8D-469E-97ED-DEEB9595516F}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="SFX" ID="{8C3931D1-175E-42B3-B35D-8A6C6C7EC6E5}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="CrowHurt_2" ID="{8682B010-6BF6-4677-B0D9-9049D837AB8B}" ShortID="445637769">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="CrowHurt_2" ID="{1990EFA6-65FF-4E10-A21D-5B46252023B4}" ShortID="871429627">
+															<Language>SFX</Language>
+															<AudioFile>CrowHurt_2.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="CrowHurt_2" ID="{1990EFA6-65FF-4E10-A21D-5B46252023B4}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="CrowHurt_3" ID="{F367CD24-B219-4CAD-BA9D-8765D85C57EE}" ShortID="747552731">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="CrowHurt_3" ID="{5BD08A34-C9AF-432B-9125-9470B29E6AE9}" ShortID="330910327">
+															<Language>SFX</Language>
+															<AudioFile>CrowHurt_3.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="CrowHurt_3" ID="{5BD08A34-C9AF-432B-9125-9470B29E6AE9}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="CrowHurt_4" ID="{210E790E-A7E0-46C6-95FD-AC7C651857D3}" ShortID="517698146">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="CrowHurt_4" ID="{925C614F-B5F6-4635-B2F1-935C2B38A6F1}" ShortID="971359459">
+															<Language>SFX</Language>
+															<AudioFile>CrowHurt_4.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="CrowHurt_4" ID="{925C614F-B5F6-4635-B2F1-935C2B38A6F1}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="CrowHurt_5" ID="{7AD0291A-A710-450E-990A-9FCFBD4E6977}" ShortID="310738937">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="CrowHurt_5" ID="{9FE1635D-6A71-414A-A086-D2183FDC75C0}" ShortID="1024929446">
+															<Language>SFX</Language>
+															<AudioFile>CrowHurt_5.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="CrowHurt_5" ID="{9FE1635D-6A71-414A-A086-D2183FDC75C0}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="CrowHurt_6" ID="{5B37BAAE-FC99-4470-A7B7-70723F60B9D3}" ShortID="881160166">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="CrowHurt_6" ID="{A768D11D-66C3-4EC3-A4BC-952A14F6925D}" ShortID="441779564">
+															<Language>SFX</Language>
+															<AudioFile>CrowHurt_6.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="CrowHurt_6" ID="{A768D11D-66C3-4EC3-A4BC-952A14F6925D}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<Sound Name="Crows_Death" ID="{99B32915-75A2-47B2-9283-C10BB0F9E0BB}" ShortID="818031493">
+											<PropertyList>
+												<Property Name="Lowpass" Type="int16">
+													<RTPCList>
+														<RTPC Name="" ID="{F8082569-B82B-4A46-80CF-B96B3DA3E3F5}" ShortID="421321487">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="CrowsDisintegration" ID="{EA45A344-3B8F-4879-98B1-B1A5DE53FA96}" WorkUnitID="{1E3B6552-E6BB-443B-B824-2B9CB7F998C7}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{9FB0C43A-F897-4C58-A231-C65AED20B9D6}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="65537"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>100</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+												<Property Name="PositioningType" Type="int16" Value="1"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-14</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="CrowsFlight_Attenuation" ID="{CBADAC66-50F3-45DA-8837-030A8E00A4DD}" WorkUnitID="{F9486E4D-3A45-4423-A197-A386E047703F}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="SFX_Comp" ID="{94D2B765-DB8D-469E-97ED-DEEB9595516F}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="SFX" ID="{8C3931D1-175E-42B3-B35D-8A6C6C7EC6E5}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Crows_disintegration" ID="{43F752AC-434E-455A-AF4F-C46D06C33177}" ShortID="509740073">
+													<Language>SFX</Language>
+													<AudioFile>Crows_disintegration.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Crows_disintegration" ID="{43F752AC-434E-455A-AF4F-C46D06C33177}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</BlendContainer>
+							</ChildrenList>
+						</ActorMixer>
+						<ActorMixer Name="CrowsIdle" ID="{38F7ABB0-2436-439D-80E2-46CBE1144797}" ShortID="266761304">
 							<PropertyList>
-								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
-								<Property Name="Pitch" Type="int32">
-									<ModifierList>
-										<ModifierInfo>
-											<Modifier Name="" ID="{03C31BCA-09F0-4E67-82EF-800B2DD11F15}">
-												<PropertyList>
-													<Property Name="Enabled" Type="bool" Value="True"/>
-													<Property Name="Max" Type="Real64" Value="100"/>
-													<Property Name="Min" Type="Real64" Value="-100"/>
-												</PropertyList>
-											</Modifier>
-										</ModifierInfo>
-									</ModifierList>
-								</Property>
-								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
-								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
-								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
-								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.5"/>
-								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="4"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-2</Value>
 									</ValueList>
-									<ModifierList>
-										<ModifierInfo>
-											<Modifier Name="" ID="{1BE981C0-6E34-4122-B6C5-0ED0FD4C12F9}">
-												<PropertyList>
-													<Property Name="Enabled" Type="bool" Value="True"/>
-													<Property Name="Min" Type="Real64" Value="-3"/>
-												</PropertyList>
-											</Modifier>
-										</ModifierInfo>
-									</ModifierList>
 								</Property>
 							</PropertyList>
 							<ReferenceList>
@@ -428,8 +1046,45 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="CrowsFlight_v3_1" ID="{53EEB84C-9ACE-4C17-B705-962EA5F5B4FA}" ShortID="222434748">
+								<RandomSequenceContainer Name="Crows_Idle" ID="{D3323196-44EA-4051-86DB-E800B57FC091}" ShortID="860447054">
+									<PropertyList>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{EDAC8516-48E4-44C6-9D33-211F577B5C58}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="300"/>
+															<Property Name="Min" Type="Real64" Value="-200"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
+										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="1.5">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{10576B35-5B85-483E-8552-16F8FEC6D5F2}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="4"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+										<Property Name="PositioningType" Type="int16" Value="1"/>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="4"/>
+									</PropertyList>
 									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="CrowsIdle_Attenuation" ID="{1F46EA18-52DE-4A88-8122-DBA7E443BEE6}" WorkUnitID="{F9486E4D-3A45-4423-A197-A386E047703F}"/>
+										</Reference>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
 										</Reference>
@@ -438,131 +1093,162 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="CrowsFlight_v3_1" ID="{16FA2B1D-4979-41BC-91BB-53598216CDF0}" ShortID="865044738">
-											<Language>SFX</Language>
-											<AudioFile>CrowsFlight_v3_1.wav</AudioFile>
-										</AudioFileSource>
+										<Sound Name="CrowIdle_1" ID="{7C8E14FE-BF9D-4A37-BF37-ED29608CFCB4}" ShortID="428936603">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="CrowIdle_1" ID="{EF76C17E-1F2B-40F1-8316-A626FB2EF305}" ShortID="908384949">
+													<Language>SFX</Language>
+													<AudioFile>CrowIdle_1.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="CrowIdle_1" ID="{EF76C17E-1F2B-40F1-8316-A626FB2EF305}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="CrowIdle_2" ID="{732D3007-B28B-4A6F-AA1A-41109BCC19B6}" ShortID="258084050">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="CrowIdle_2" ID="{CE1C492D-9AEC-4FF2-850A-C03227952E15}" ShortID="959253373">
+													<Language>SFX</Language>
+													<AudioFile>CrowIdle_2.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="CrowIdle_2" ID="{CE1C492D-9AEC-4FF2-850A-C03227952E15}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="CrowIdle_3" ID="{17916903-AE3B-4461-8D89-2176915A4E2B}" ShortID="1041268263">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="CrowIdle_3" ID="{A95C17C7-5535-42D1-A013-CA48CD0FDF37}" ShortID="510473451">
+													<Language>SFX</Language>
+													<AudioFile>CrowIdle_3.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="CrowIdle_3" ID="{A95C17C7-5535-42D1-A013-CA48CD0FDF37}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="CrowIdle_4" ID="{20B31C80-BFD2-4CA8-A498-5C47449D22A7}" ShortID="485662558">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="CrowIdle_4" ID="{68975BF4-44D8-4B66-A7C7-24561C916282}" ShortID="237550400">
+													<Language>SFX</Language>
+													<AudioFile>CrowIdle_4.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="CrowIdle_4" ID="{68975BF4-44D8-4B66-A7C7-24561C916282}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="CrowIdle_5" ID="{B00E433D-D754-4999-8DBF-944A4677AE34}" ShortID="100722023">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="CrowIdle_5" ID="{9AB50844-97F7-4296-BCE8-CA92C22CBF6D}" ShortID="329998043">
+													<Language>SFX</Language>
+													<AudioFile>CrowIdle_5.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="CrowIdle_5" ID="{9AB50844-97F7-4296-BCE8-CA92C22CBF6D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="CrowIdle_6" ID="{2761EAFA-38C1-4FCC-B8D6-75C82A555F06}" ShortID="979729837">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="CrowIdle_6" ID="{F24C3B0E-701A-46EB-B02E-81FF8EDE326E}" ShortID="938927260">
+													<Language>SFX</Language>
+													<AudioFile>CrowIdle_6.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="CrowIdle_6" ID="{F24C3B0E-701A-46EB-B02E-81FF8EDE326E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="CrowIdle_7" ID="{0A4F924A-36AD-4B37-A84A-75567EF7B489}" ShortID="163407662">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="CrowIdle_7" ID="{667D03BB-BD9B-4445-9589-1D957CEB8161}" ShortID="697937147">
+													<Language>SFX</Language>
+													<AudioFile>CrowIdle_7.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="CrowIdle_7" ID="{667D03BB-BD9B-4445-9589-1D957CEB8161}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="CrowIdle_8" ID="{39490FB1-8A3B-47DB-A8C6-5E0C83A59F56}" ShortID="334253860">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="CrowIdle_8" ID="{35F39B78-4E69-4862-A87E-90E989833B68}" ShortID="1040014857">
+													<Language>SFX</Language>
+													<AudioFile>CrowIdle_8.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="CrowIdle_8" ID="{35F39B78-4E69-4862-A87E-90E989833B68}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
 									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="CrowsFlight_v3_1" ID="{16FA2B1D-4979-41BC-91BB-53598216CDF0}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="CrowsFlight_v3_2" ID="{8AF5A7E1-C81A-483A-BC65-F6C112D905A7}" ShortID="712142505">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="CrowsFlight_v3_2" ID="{E79B46F0-F8BB-45A6-8EC5-A1D01E5A1FBE}" ShortID="284228734">
-											<Language>SFX</Language>
-											<AudioFile>CrowsFlight_v3_2.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="CrowsFlight_v3_2" ID="{E79B46F0-F8BB-45A6-8EC5-A1D01E5A1FBE}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="CrowsFlight_v3_3" ID="{547B0D09-56AC-45FB-937A-2E4D57F91D5D}" ShortID="401990181">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="CrowsFlight_v3_3" ID="{0E16FC3B-7BDF-401C-93EE-C40530A2CD5F}" ShortID="132929531">
-											<Language>SFX</Language>
-											<AudioFile>CrowsFlight_v3_3.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="CrowsFlight_v3_3" ID="{0E16FC3B-7BDF-401C-93EE-C40530A2CD5F}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="CrowsFlight_v3_4" ID="{42143888-AD87-4D32-BE65-BF2CB2883C19}" ShortID="1065201186">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="CrowsFlight_v3_4" ID="{B704EAF1-85C8-4DB0-896C-B3DFD5DFFAC2}" ShortID="17930272">
-											<Language>SFX</Language>
-											<AudioFile>CrowsFlight_v3_4.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="CrowsFlight_v3_4" ID="{B704EAF1-85C8-4DB0-896C-B3DFD5DFFAC2}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="CrowsFlight_v3_5" ID="{E32275C1-B659-4159-98B4-FB0B019CC043}" ShortID="670507148">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="CrowsFlight_v3_5" ID="{158BDBC9-9F67-4380-93DD-950F85590208}" ShortID="694860433">
-											<Language>SFX</Language>
-											<AudioFile>CrowsFlight_v3_5.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="CrowsFlight_v3_5" ID="{158BDBC9-9F67-4380-93DD-950F85590208}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="CrowsFlight_v3_6" ID="{C54DC10E-75C2-4BF7-A8D4-08135392CA10}" ShortID="547598086">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="CrowsFlight_v3_6" ID="{3B9FE61A-DA4D-48FF-9832-77257FCB7F0A}" ShortID="781960183">
-											<Language>SFX</Language>
-											<AudioFile>CrowsFlight_v3_6.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="CrowsFlight_v3_6" ID="{3B9FE61A-DA4D-48FF-9832-77257FCB7F0A}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="CrowsFlight_v3_7" ID="{0D667F2A-CF62-4F39-B179-06747E82138C}" ShortID="756220297">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="CrowsFlight_v3_7" ID="{ADD84A58-1BA9-4387-A433-7636B9F78CD1}" ShortID="286829680">
-											<Language>SFX</Language>
-											<AudioFile>CrowsFlight_v3_7.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="CrowsFlight_v3_7" ID="{ADD84A58-1BA9-4387-A433-7636B9F78CD1}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
+								</RandomSequenceContainer>
 							</ChildrenList>
-						</RandomSequenceContainer>
+						</ActorMixer>
 					</ChildrenList>
 				</ActorMixer>
 			</ChildrenList>

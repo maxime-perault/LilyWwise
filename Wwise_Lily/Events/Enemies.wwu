@@ -19,6 +19,48 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Crows_Spawn" ID="{18ADE3A8-7D5E-4BA9-A09E-F9BC71C45DFD}">
+							<ChildrenList>
+								<Action Name="" ID="{6AA167BB-12D6-4A13-B930-D60CFEF29EAB}" ShortID="1024395517">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Crows_Spawn" ID="{76D99779-711D-4A75-A152-0ECDE6234EB9}" WorkUnitID="{73945224-B814-474B-AE5A-97EAD58E2739}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="CrowsDeathBlend" ID="{1D502F38-F908-46FB-84B1-E2FA10978926}">
+							<ChildrenList>
+								<Action Name="" ID="{E4F58597-37E4-402D-85A7-E5300A8F6D6A}" ShortID="629708685">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="CrowsDeathBlend" ID="{B726278E-1590-4849-B1CC-82F572218558}" WorkUnitID="{73945224-B814-474B-AE5A-97EAD58E2739}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Crows_Idle" ID="{AEAAA9FA-4502-49A2-8A82-56894F33BBD0}">
+							<ChildrenList>
+								<Action Name="" ID="{8081CC1C-C7A7-4BC8-840F-0F431964A3F3}" ShortID="707437138">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Crows_Idle" ID="{D3323196-44EA-4051-86DB-E800B57FC091}" WorkUnitID="{73945224-B814-474B-AE5A-97EAD58E2739}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

@@ -21,6 +21,9 @@
 			<ShortName>Lily_Soundbank</ShortName>
 			<Path>Lily_Soundbank.bnk</Path>
 			<IncludedEvents>
+				<Event Id="3055896492" Name="Crows_Idle" ObjectPath="\Events\Default Work Unit\Enemies\Crows\Crows_Idle"/>
+				<Event Id="283520899" Name="Crows_Spawn" ObjectPath="\Events\Default Work Unit\Enemies\Crows\Crows_Spawn"/>
+				<Event Id="3020955044" Name="CrowsDeathBlend" ObjectPath="\Events\Default Work Unit\Enemies\Crows\CrowsDeathBlend"/>
 				<Event Id="1638063245" Name="CrowsFlight" ObjectPath="\Events\Default Work Unit\Enemies\Crows\CrowsFlight"/>
 				<Event Id="362749134" Name="FS_Run" ObjectPath="\Events\Default Work Unit\Character\Character_foleys\Footsteps\FS_Run"/>
 				<Event Id="3599755568" Name="FS_Walk" ObjectPath="\Events\Default Work Unit\Character\Character_foleys\Footsteps\FS_Walk"/>
@@ -97,10 +100,6 @@
 					<ShortName>Cello1_Chord2_A#.wav</ShortName>
 					<Path>SFX\Cello1_Chord2_A#_3A726230.wem</Path>
 				</File>
-				<File Id="40041059" Language="SFX">
-					<ShortName>Lightzone_active.wav</ShortName>
-					<Path>SFX\Lightzone_active_1617AFA0.wem</Path>
-				</File>
 				<File Id="40323235" Language="SFX">
 					<ShortName>FS_Dirt_Run_13.wav</ShortName>
 					<Path>SFX\FS_Dirt_Run_13_1617AFA0.wem</Path>
@@ -120,6 +119,10 @@
 				<File Id="48639245" Language="SFX">
 					<ShortName>Hallu_JeSais_1.wav</ShortName>
 					<Path>SFX\Hallu_JeSais_1_1617AFA0.wem</Path>
+				</File>
+				<File Id="48949888" Language="SFX">
+					<ShortName>CrowSpawn_3.wav</ShortName>
+					<Path>SFX\CrowSpawn_3_1617AFA0.wem</Path>
 				</File>
 				<File Id="51243529" Language="SFX">
 					<ShortName>MB_Chord1_8.wav</ShortName>
@@ -172,6 +175,10 @@
 				<File Id="79180153" Language="SFX">
 					<ShortName>FS_Wood_6.wav</ShortName>
 					<Path>SFX\FS_Wood_6_1617AFA0.wem</Path>
+				</File>
+				<File Id="79446894" Language="SFX">
+					<ShortName>CrowSpawnWings_1.wav</ShortName>
+					<Path>SFX\CrowSpawnWings_1_1617AFA0.wem</Path>
 				</File>
 				<File Id="80562585" Language="SFX">
 					<ShortName>Strange bird - 21.wav</ShortName>
@@ -429,6 +436,10 @@
 					<ShortName>MB_Chord1_5.wav</ShortName>
 					<Path>SFX\MB_Chord1_5_27A9F4A4.wem</Path>
 				</File>
+				<File Id="237550400" Language="SFX">
+					<ShortName>CrowIdle_4.wav</ShortName>
+					<Path>SFX\CrowIdle_4_1617AFA0.wem</Path>
+				</File>
 				<File Id="243639402" Language="SFX">
 					<ShortName>FS_Rocks_6.wav</ShortName>
 					<Path>SFX\FS_Rocks_6_1617AFA0.wem</Path>
@@ -625,9 +636,17 @@
 					<ShortName>Hallu_TktPas_1.wav</ShortName>
 					<Path>SFX\Hallu_TktPas_1_1617AFA0.wem</Path>
 				</File>
+				<File Id="329998043" Language="SFX">
+					<ShortName>CrowIdle_5.wav</ShortName>
+					<Path>SFX\CrowIdle_5_1617AFA0.wem</Path>
+				</File>
 				<File Id="330102612" Language="SFX">
 					<ShortName>Basse_Chord1_C.wav</ShortName>
 					<Path>SFX\Basse_Chord1_C_372BC442.wem</Path>
+				</File>
+				<File Id="330910327" Language="SFX">
+					<ShortName>CrowHurt_3.wav</ShortName>
+					<Path>SFX\CrowHurt_3_1617AFA0.wem</Path>
 				</File>
 				<File Id="332213063" Language="SFX">
 					<ShortName>FS_Dirt_L1_6.wav</ShortName>
@@ -648,6 +667,10 @@
 				<File Id="347071304" Language="SFX">
 					<ShortName>Hallu_OuVasTu_7.wav</ShortName>
 					<Path>SFX\Hallu_OuVasTu_7_1617AFA0.wem</Path>
+				</File>
+				<File Id="350491811" Language="SFX">
+					<ShortName>CrowSpawn_5.wav</ShortName>
+					<Path>SFX\CrowSpawn_5_1617AFA0.wem</Path>
 				</File>
 				<File Id="352661268" Language="SFX">
 					<ShortName>Hallu_ToujoursLa_24.wav</ShortName>
@@ -737,6 +760,10 @@
 					<ShortName>FS_Dirt_Run_9.wav</ShortName>
 					<Path>SFX\FS_Dirt_Run_9_1617AFA0.wem</Path>
 				</File>
+				<File Id="408128970" Language="SFX">
+					<ShortName>CrowSpawn_6.wav</ShortName>
+					<Path>SFX\CrowSpawn_6_1617AFA0.wem</Path>
+				</File>
 				<File Id="408675169" Language="SFX">
 					<ShortName>Hallu_Lily_8.wav</ShortName>
 					<Path>SFX\Hallu_Lily_8_1617AFA0.wem</Path>
@@ -752,6 +779,10 @@
 				<File Id="430194624" Language="SFX">
 					<ShortName>MB_Chord1_10.wav</ShortName>
 					<Path>SFX\MB_Chord1_10_27A9F4A4.wem</Path>
+				</File>
+				<File Id="432037764" Language="SFX">
+					<ShortName>CrowSpawnWings_2.wav</ShortName>
+					<Path>SFX\CrowSpawnWings_2_1617AFA0.wem</Path>
 				</File>
 				<File Id="432399095" Language="SFX">
 					<ShortName>MB_Chord2_5.wav</ShortName>
@@ -780,6 +811,10 @@
 				<File Id="437864257" Language="SFX">
 					<ShortName>Hallu_Whispers_6.wav</ShortName>
 					<Path>SFX\Hallu_Whispers_6_1617AFA0.wem</Path>
+				</File>
+				<File Id="441779564" Language="SFX">
+					<ShortName>CrowHurt_6.wav</ShortName>
+					<Path>SFX\CrowHurt_6_1617AFA0.wem</Path>
 				</File>
 				<File Id="449290743" Language="SFX">
 					<ShortName>Hallu_Peindre_8.wav</ShortName>
@@ -832,6 +867,10 @@
 				<File Id="469665985" Language="SFX">
 					<ShortName>Cello1_Chord2_C#.wav</ShortName>
 					<Path>SFX\Cello1_Chord2_C#_15E89C66.wem</Path>
+				</File>
+				<File Id="471293512" Language="SFX">
+					<ShortName>CrowSpawn_1.wav</ShortName>
+					<Path>SFX\CrowSpawn_1_1617AFA0.wem</Path>
 				</File>
 				<File Id="474920062" Language="SFX">
 					<ShortName>Hallu_Divers_1.wav</ShortName>
@@ -889,6 +928,10 @@
 					<ShortName>FS_Water_L1_6.wav</ShortName>
 					<Path>SFX\FS_Water_L1_6_1617AFA0.wem</Path>
 				</File>
+				<File Id="492267550" Language="SFX">
+					<ShortName>CrowSpawn_2.wav</ShortName>
+					<Path>SFX\CrowSpawn_2_1617AFA0.wem</Path>
+				</File>
 				<File Id="493019388" Language="SFX">
 					<ShortName>FS_Water_L1_6.wav</ShortName>
 					<Path>SFX\FS_Water_L1_6_14BA5CAB.wem</Path>
@@ -916,6 +959,14 @@
 				<File Id="506917203" Language="SFX">
 					<ShortName>Voiceline 5.wav</ShortName>
 					<Path>SFX\Voiceline 5_1617AFA0.wem</Path>
+				</File>
+				<File Id="509740073" Language="SFX">
+					<ShortName>Crows_disintegration.wav</ShortName>
+					<Path>SFX\Crows_disintegration_1617AFA0.wem</Path>
+				</File>
+				<File Id="510473451" Language="SFX">
+					<ShortName>CrowIdle_3.wav</ShortName>
+					<Path>SFX\CrowIdle_3_1617AFA0.wem</Path>
 				</File>
 				<File Id="514230072" Language="SFX">
 					<ShortName>FS_Dirt_L2_5.wav</ShortName>
@@ -969,6 +1020,10 @@
 					<ShortName>Wind_base_2.wav</ShortName>
 					<Path>SFX\Wind_base_2_1617AFA0.wem</Path>
 				</File>
+				<File Id="559772623" Language="SFX">
+					<ShortName>CrowSpawn_4.wav</ShortName>
+					<Path>SFX\CrowSpawn_4_1617AFA0.wem</Path>
+				</File>
 				<File Id="561268906" Language="SFX">
 					<ShortName>Hallu_ToutVaBien_3.wav</ShortName>
 					<Path>SFX\Hallu_ToutVaBien_3_1617AFA0.wem</Path>
@@ -1008,10 +1063,6 @@
 				<File Id="580373676" Language="SFX">
 					<ShortName>MB_Chord1_9.wav</ShortName>
 					<Path>SFX\MB_Chord1_9_27A9F4A4.wem</Path>
-				</File>
-				<File Id="580400921" Language="SFX">
-					<ShortName>Lightzone_expand.wav</ShortName>
-					<Path>SFX\Lightzone_expand_1617AFA0.wem</Path>
 				</File>
 				<File Id="581632281" Language="SFX">
 					<ShortName>FS_Dirt_L2_3.wav</ShortName>
@@ -1177,6 +1228,10 @@
 					<ShortName>Hallu_Respire_7.wav</ShortName>
 					<Path>SFX\Hallu_Respire_7_1617AFA0.wem</Path>
 				</File>
+				<File Id="658699776" Language="SFX">
+					<ShortName>Lightzone_expand_v3.wav</ShortName>
+					<Path>SFX\Lightzone_expand_v3_1617AFA0.wem</Path>
+				</File>
 				<File Id="658958390" Language="SFX">
 					<ShortName>Hallu_Prudence_7.wav</ShortName>
 					<Path>SFX\Hallu_Prudence_7_1617AFA0.wem</Path>
@@ -1260,6 +1315,10 @@
 				<File Id="696681363" Language="SFX">
 					<ShortName>FS_Water_L2_3.wav</ShortName>
 					<Path>SFX\FS_Water_L2_3_1617AFA0.wem</Path>
+				</File>
+				<File Id="697937147" Language="SFX">
+					<ShortName>CrowIdle_7.wav</ShortName>
+					<Path>SFX\CrowIdle_7_1617AFA0.wem</Path>
 				</File>
 				<File Id="702854486" Language="SFX">
 					<ShortName>Strange bird - 3.wav</ShortName>
@@ -1569,6 +1628,10 @@
 					<ShortName>Hallu_Errance_1.wav</ShortName>
 					<Path>SFX\Hallu_Errance_1_1617AFA0.wem</Path>
 				</File>
+				<File Id="871429627" Language="SFX">
+					<ShortName>CrowHurt_2.wav</ShortName>
+					<Path>SFX\CrowHurt_2_1617AFA0.wem</Path>
+				</File>
 				<File Id="872421936" Language="SFX">
 					<ShortName>Hallu_Sifflements_2.wav</ShortName>
 					<Path>SFX\Hallu_Sifflements_2_1617AFA0.wem</Path>
@@ -1597,10 +1660,6 @@
 					<ShortName>Fs_Grass_Run_1.wav</ShortName>
 					<Path>SFX\Fs_Grass_Run_1_1617AFA0.wem</Path>
 				</File>
-				<File Id="880345116" Language="SFX">
-					<ShortName>Lightzone_expand_v2.wav</ShortName>
-					<Path>SFX\Lightzone_expand_v2_1617AFA0.wem</Path>
-				</File>
 				<File Id="884539936" Language="SFX">
 					<ShortName>Leaves_2.wav</ShortName>
 					<Path>SFX\Leaves_2_1617AFA0.wem</Path>
@@ -1628,6 +1687,10 @@
 				<File Id="908129754" Language="SFX">
 					<ShortName>Hallu_ToujoursLa_10.wav</ShortName>
 					<Path>SFX\Hallu_ToujoursLa_10_1617AFA0.wem</Path>
+				</File>
+				<File Id="908384949" Language="SFX">
+					<ShortName>CrowIdle_1.wav</ShortName>
+					<Path>SFX\CrowIdle_1_1617AFA0.wem</Path>
 				</File>
 				<File Id="909039988" Language="SFX">
 					<ShortName>Hallu_Prudence_9.wav</ShortName>
@@ -1673,6 +1736,10 @@
 					<ShortName>Hallu_OuVasTu_11.wav</ShortName>
 					<Path>SFX\Hallu_OuVasTu_11_1617AFA0.wem</Path>
 				</File>
+				<File Id="938927260" Language="SFX">
+					<ShortName>CrowIdle_6.wav</ShortName>
+					<Path>SFX\CrowIdle_6_1617AFA0.wem</Path>
+				</File>
 				<File Id="941156378" Language="SFX">
 					<ShortName>Hallu_ToutVaBien_4.wav</ShortName>
 					<Path>SFX\Hallu_ToutVaBien_4_1617AFA0.wem</Path>
@@ -1696,6 +1763,10 @@
 				<File Id="948112215" Language="SFX">
 					<ShortName>Leaves_4.wav</ShortName>
 					<Path>SFX\Leaves_4_1617AFA0.wem</Path>
+				</File>
+				<File Id="959253373" Language="SFX">
+					<ShortName>CrowIdle_2.wav</ShortName>
+					<Path>SFX\CrowIdle_2_1617AFA0.wem</Path>
 				</File>
 				<File Id="961542847" Language="SFX">
 					<ShortName>MB_Chord1_3.wav</ShortName>
@@ -1724,6 +1795,10 @@
 				<File Id="969291542" Language="SFX">
 					<ShortName>Cello1_Chord1_C.wav</ShortName>
 					<Path>SFX\Cello1_Chord1_C_DEC941B6.wem</Path>
+				</File>
+				<File Id="971359459" Language="SFX">
+					<ShortName>CrowHurt_4.wav</ShortName>
+					<Path>SFX\CrowHurt_4_1617AFA0.wem</Path>
 				</File>
 				<File Id="971377688" Language="SFX">
 					<ShortName>Hallu_Sifflements_8.wav</ShortName>
@@ -1813,6 +1888,10 @@
 					<ShortName>Cello1_Chord4_D#2.wav</ShortName>
 					<Path>SFX\Cello1_Chord4_D#2_0EBC17BB.wem</Path>
 				</File>
+				<File Id="1024929446" Language="SFX">
+					<ShortName>CrowHurt_5.wav</ShortName>
+					<Path>SFX\CrowHurt_5_1617AFA0.wem</Path>
+				</File>
 				<File Id="1029013991" Language="SFX">
 					<ShortName>Fireflies_pickup_1.wav</ShortName>
 					<Path>SFX\Fireflies_pickup_1_D63222C5.wem</Path>
@@ -1829,6 +1908,10 @@
 					<ShortName>MB_Chord1_7.wav</ShortName>
 					<Path>SFX\MB_Chord1_7_27A9F4A4.wem</Path>
 				</File>
+				<File Id="1040014857" Language="SFX">
+					<ShortName>CrowIdle_8.wav</ShortName>
+					<Path>SFX\CrowIdle_8_1617AFA0.wem</Path>
+				</File>
 				<File Id="1043104323" Language="SFX">
 					<ShortName>Hallu_ToutVaBien_9.wav</ShortName>
 					<Path>SFX\Hallu_ToutVaBien_9_1617AFA0.wem</Path>
@@ -1840,6 +1923,10 @@
 				<File Id="1046988004" Language="SFX">
 					<ShortName>Leaves_7.wav</ShortName>
 					<Path>SFX\Leaves_7_1617AFA0.wem</Path>
+				</File>
+				<File Id="1047620931" Language="SFX">
+					<ShortName>Lightzone_active_v2 (avec fade in au cas ou).wav</ShortName>
+					<Path>SFX\Lightzone_active_v2 (avec fade in au cas ou)_1617AFA0.wem</Path>
 				</File>
 				<File Id="1048306210" Language="SFX">
 					<ShortName>Hallu_Doucement_14.wav</ShortName>
