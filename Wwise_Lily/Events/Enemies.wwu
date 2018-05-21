@@ -63,6 +63,24 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="BlackDoors" ID="{7DECDFE5-5A00-4D72-AD9A-433786DD8DCF}" ShortID="588127126">
+					<ChildrenList>
+						<Event Name="BlackDoor_Open" ID="{203C273D-A280-4479-9998-2BE80A84DE2A}">
+							<ChildrenList>
+								<Action Name="" ID="{51E353C6-0976-4FC9-9CE1-0E3F7693869E}" ShortID="22063516">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="BlackDoor_Open" ID="{30077787-802D-485D-B189-10BFBC1E6235}" WorkUnitID="{73945224-B814-474B-AE5A-97EAD58E2739}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

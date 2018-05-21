@@ -50,6 +50,24 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="Grotte" ID="{13208630-CEAC-4595-A834-13187617DAC5}" ShortID="876846297">
+					<ChildrenList>
+						<Event Name="Play_Eboulement" ID="{7DDAB17E-B39A-4DE4-B44B-A11963EA58A4}">
+							<ChildrenList>
+								<Action Name="" ID="{BEDAD6D0-D576-45DF-BDD7-0730C5F61DD4}" ShortID="627676093">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Eboulement" ID="{DAA793A7-8828-44CF-8350-BA8D705B5712}" WorkUnitID="{821171D9-99CF-4A05-9D60-15EC54E6949F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

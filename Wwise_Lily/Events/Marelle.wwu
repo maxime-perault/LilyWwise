@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{212F64C5-804F-481A-880D-EE5A6528A58F}" SchemaVersion="85" RootDocumentID="{A173F46B-135A-44AE-857B-948A706A6FBF}">
+	<Events>
+		<WorkUnit Name="Marelle" ID="{212F64C5-804F-481A-880D-EE5A6528A58F}" OwnerID="{A173F46B-135A-44AE-857B-948A706A6FBF}" PersistMode="Nested">
+			<ChildrenList>
+				<Folder Name="Feedbacks" ID="{954017AF-0464-495E-AB11-0F4239F0017E}" ShortID="782553066">
+					<ChildrenList>
+						<Event Name="UI_SelectSquare" ID="{541CA297-E823-4378-981B-E0A80604C29A}">
+							<ChildrenList>
+								<Action Name="" ID="{1F7A9F46-63F4-4796-8B7B-67A8776B99D1}" ShortID="461563358">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SelectSquare" ID="{06EA5429-F493-4214-9690-3C04FF338665}" WorkUnitID="{4707833C-D393-4894-AABB-0BB25E90E386}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="UI_ConfirmSquare" ID="{4967D11F-4F71-4346-B711-A233D8CB70DB}">
+							<ChildrenList>
+								<Action Name="" ID="{00F864A4-BE53-4D2A-B051-AE64696A3C09}" ShortID="155158140">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="ConfirmSquare" ID="{FF77D7D0-D340-4FEA-868B-8183F3CC8BA5}" WorkUnitID="{4707833C-D393-4894-AABB-0BB25E90E386}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
