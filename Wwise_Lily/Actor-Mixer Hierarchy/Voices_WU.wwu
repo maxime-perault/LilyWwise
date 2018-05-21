@@ -20,7 +20,7 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<Sound Name="Voiceline_3" ID="{5457281F-19CD-48D7-A3DB-501656D68A96}" ShortID="342459861">
+						<Sound Name="O1_Voiceline_3" ID="{5457281F-19CD-48D7-A3DB-501656D68A96}" ShortID="342459861">
 							<PropertyList>
 								<Property Name="InitialDelay" Type="Real64">
 									<ValueList>
@@ -46,7 +46,7 @@
 								<ActiveSource Name="Voiceline 3" ID="{93BBC901-6F50-4383-8225-33DBC0A15666}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="Voiceline_5" ID="{9C79A245-7ACC-43E0-A653-11A7361CDD2F}" ShortID="159919412">
+						<Sound Name="O1_Voiceline_5" ID="{9C79A245-7ACC-43E0-A653-11A7361CDD2F}" ShortID="159919412">
 							<PropertyList>
 								<Property Name="InitialDelay" Type="Real64">
 									<ValueList>
@@ -70,6 +70,179 @@
 							</ChildrenList>
 							<ActiveSourceList>
 								<ActiveSource Name="Voiceline 5" ID="{467D80CE-3E76-46BC-8244-66B355221B0F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="O1_Voiceline_1" ID="{CC20A414-C839-43DB-98A3-3BCE3B8712A6}" ShortID="316210525">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-5</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Placeholder_VL_O1_1" ID="{914223D4-7B20-4253-888D-8C5710B78BFD}" ShortID="477005173">
+									<Language>SFX</Language>
+									<AudioFile>Placeholder_VL_O1_1.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Placeholder_VL_O1_1" ID="{914223D4-7B20-4253-888D-8C5710B78BFD}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="O1_Voiceline_2" ID="{F9B974E0-1BC7-4086-B415-1E639A6C4430}" ShortID="131392400">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-5</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Placeholder_VL_O1_2" ID="{80013046-5E4A-47FD-AB98-2E5DFAC2E6C0}" ShortID="1058519102">
+									<Language>SFX</Language>
+									<AudioFile>Placeholder_VL_O1_2.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Placeholder_VL_O1_2" ID="{80013046-5E4A-47FD-AB98-2E5DFAC2E6C0}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="O1_Voiceline_4" ID="{C1893FCA-A2CE-45E6-9662-23E2168A37CF}" ShortID="940915151">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-5</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Placeholder_VL_O1_4" ID="{50E0AD01-D665-4191-8263-F3DB1A21D194}" ShortID="1063532131">
+									<Language>SFX</Language>
+									<AudioFile>Placeholder_VL_O1_4.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Placeholder_VL_O1_4" ID="{50E0AD01-D665-4191-8263-F3DB1A21D194}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</ActorMixer>
+				<ActorMixer Name="S1" ID="{068700E4-D192-4C69-BFC2-00F98F4F34D6}" ShortID="1007288927">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="SFX_Comp" ID="{94D2B765-DB8D-469E-97ED-DEEB9595516F}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="S1_Voiceline_1" ID="{33D2F8E8-A62F-48E9-A842-D0458AD8DCFC}" ShortID="978726626">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-5</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Placeholder_VL_S1_1" ID="{62E36F52-DBE9-4499-9299-5C16C2F9BAF2}" ShortID="633389372">
+									<Language>SFX</Language>
+									<AudioFile>Placeholder_VL_S1_1.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Placeholder_VL_S1_1" ID="{62E36F52-DBE9-4499-9299-5C16C2F9BAF2}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="S1_Voiceline_2" ID="{47BE830F-50B1-4B69-B8CB-338DD2C3064C}" ShortID="581785100">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-5</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Placeholder_VL_S1_2" ID="{D4D9A340-9593-43E4-B129-83460676D600}" ShortID="896128067">
+									<Language>SFX</Language>
+									<AudioFile>Placeholder_VL_S1_2.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Placeholder_VL_S1_2" ID="{D4D9A340-9593-43E4-B129-83460676D600}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</ActorMixer>
+				<ActorMixer Name="Grotte" ID="{29337588-C5DE-4BB0-82BD-558F8FFFF7BA}" ShortID="559132263">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="SFX_Comp" ID="{94D2B765-DB8D-469E-97ED-DEEB9595516F}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Grotte_Voiceline_1" ID="{FD3EDAAE-16EF-45A7-A094-489FD17EDD33}" ShortID="141119915">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Placeholder_VL_Grotte_1" ID="{7E26E167-6AC2-46FE-9B92-492CC7A83CD3}" ShortID="817243227">
+									<Language>SFX</Language>
+									<AudioFile>Placeholder_VL_Grotte_1.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Placeholder_VL_Grotte_1" ID="{7E26E167-6AC2-46FE-9B92-492CC7A83CD3}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>

@@ -47,8 +47,14 @@
 				<Event Id="2008024594" Name="Restart_StopAll" ObjectPath="\Events\Default Work Unit\Global events\Restart_StopAll"/>
 				<Event Id="2987232335" Name="UI_ConfirmSquare" ObjectPath="\Events\Default Work Unit\Marelle\Feedbacks\UI_ConfirmSquare"/>
 				<Event Id="455508631" Name="UI_SelectSquare" ObjectPath="\Events\Default Work Unit\Marelle\Feedbacks\UI_SelectSquare"/>
-				<Event Id="1724119377" Name="Voiceline_3" ObjectPath="\Events\Default Work Unit\Voices\O1\Voiceline_3"/>
-				<Event Id="1724119383" Name="Voiceline_5" ObjectPath="\Events\Default Work Unit\Voices\O1\Voiceline_5"/>
+				<Event Id="2877169713" Name="Voiceline_Grotte_1" ObjectPath="\Events\Default Work Unit\Voices\Grotte\Voiceline_Grotte_1"/>
+				<Event Id="4274191526" Name="Voiceline_O1_1" ObjectPath="\Events\Default Work Unit\Voices\O1\Voiceline_O1_1"/>
+				<Event Id="4274191525" Name="Voiceline_O1_2" ObjectPath="\Events\Default Work Unit\Voices\O1\Voiceline_O1_2"/>
+				<Event Id="4274191524" Name="Voiceline_O1_3" ObjectPath="\Events\Default Work Unit\Voices\O1\Voiceline_O1_3"/>
+				<Event Id="4274191523" Name="Voiceline_O1_4" ObjectPath="\Events\Default Work Unit\Voices\O1\Voiceline_O1_4"/>
+				<Event Id="4274191522" Name="Voiceline_O1_5" ObjectPath="\Events\Default Work Unit\Voices\O1\Voiceline_O1_5"/>
+				<Event Id="3008027450" Name="Voiceline_S1_1" ObjectPath="\Events\Default Work Unit\Voices\S1\Voiceline_S1_1"/>
+				<Event Id="3008027449" Name="Voiceline_S1_2" ObjectPath="\Events\Default Work Unit\Voices\S1\Voiceline_S1_2"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="534106" Language="SFX">
@@ -955,6 +961,10 @@
 					<ShortName>Hallu_Divers_1.wav</ShortName>
 					<Path>SFX\Hallu_Divers_1_1617AFA0.wem</Path>
 				</File>
+				<File Id="477005173" Language="SFX">
+					<ShortName>Placeholder_VL_O1_1.wav</ShortName>
+					<Path>SFX\Placeholder_VL_O1_1_1617AFA0.wem</Path>
+				</File>
 				<File Id="477182703" Language="SFX">
 					<ShortName>Fs_Grass_Run_4.wav</ShortName>
 					<Path>SFX\Fs_Grass_Run_4_1617AFA0.wem</Path>
@@ -1262,6 +1272,10 @@
 				<File Id="629171357" Language="SFX">
 					<ShortName>Hallu_Prudence_1.wav</ShortName>
 					<Path>SFX\Hallu_Prudence_1_1617AFA0.wem</Path>
+				</File>
+				<File Id="633389372" Language="SFX">
+					<ShortName>Placeholder_VL_S1_1.wav</ShortName>
+					<Path>SFX\Placeholder_VL_S1_1_1617AFA0.wem</Path>
 				</File>
 				<File Id="635440901" Language="SFX">
 					<ShortName>Choir1_Chord1_D#.wav</ShortName>
@@ -1651,6 +1665,10 @@
 					<ShortName>FS_Water_L1_7.wav</ShortName>
 					<Path>SFX\FS_Water_L1_7_001B65FE.wem</Path>
 				</File>
+				<File Id="817243227" Language="SFX">
+					<ShortName>Placeholder_VL_Grotte_1.wav</ShortName>
+					<Path>SFX\Placeholder_VL_Grotte_1_1617AFA0.wem</Path>
+				</File>
 				<File Id="823517537" Language="SFX">
 					<ShortName>Hallu_CreuseInsipideInutile_1.wav</ShortName>
 					<Path>SFX\Hallu_CreuseInsipideInutile_1_1617AFA0.wem</Path>
@@ -1774,6 +1792,10 @@
 				<File Id="891651356" Language="SFX">
 					<ShortName>CrowsFlight_v1_7.wav</ShortName>
 					<Path>SFX\CrowsFlight_v1_7_1617AFA0.wem</Path>
+				</File>
+				<File Id="896128067" Language="SFX">
+					<ShortName>Placeholder_VL_S1_2.wav</ShortName>
+					<Path>SFX\Placeholder_VL_S1_2_1617AFA0.wem</Path>
 				</File>
 				<File Id="897528244" Language="SFX">
 					<ShortName>Hallu_HeyOh_3.wav</ShortName>
@@ -2095,6 +2117,10 @@
 					<ShortName>FS_Grass_Walk_3.wav</ShortName>
 					<Path>SFX\FS_Grass_Walk_3_1617AFA0.wem</Path>
 				</File>
+				<File Id="1058519102" Language="SFX">
+					<ShortName>Placeholder_VL_O1_2.wav</ShortName>
+					<Path>SFX\Placeholder_VL_O1_2_1617AFA0.wem</Path>
+				</File>
 				<File Id="1059929105" Language="SFX">
 					<ShortName>Leaves_3.wav</ShortName>
 					<Path>SFX\Leaves_3_1617AFA0.wem</Path>
@@ -2102,6 +2128,10 @@
 				<File Id="1061365872" Language="SFX">
 					<ShortName>Hallu_ToujoursLa_6.wav</ShortName>
 					<Path>SFX\Hallu_ToujoursLa_6_1617AFA0.wem</Path>
+				</File>
+				<File Id="1063532131" Language="SFX">
+					<ShortName>Placeholder_VL_O1_4.wav</ShortName>
+					<Path>SFX\Placeholder_VL_O1_4_1617AFA0.wem</Path>
 				</File>
 				<File Id="1063573028" Language="SFX">
 					<ShortName>Hallu_OuVasTu_3.wav</ShortName>

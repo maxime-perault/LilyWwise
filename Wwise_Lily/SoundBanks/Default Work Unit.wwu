@@ -8,15 +8,17 @@
 						<ObjectRef Name="Play_Lightzone_Expand" ID="{87261BDF-76F9-404C-A1B3-8A52325350AF}" WorkUnitID="{84EA8792-12FE-4E5E-950A-F7C12BDA81C4}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="FS_Walk" ID="{FC6B600E-0DDA-4198-A966-7B3BE7C7AB09}" WorkUnitID="{84EA8792-12FE-4E5E-950A-F7C12BDA81C4}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Fireflies_idle_bocal" ID="{EDCC9DD4-50B6-41F3-A289-5D379670A29D}" WorkUnitID="{84EA8792-12FE-4E5E-950A-F7C12BDA81C4}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Voiceline_5" ID="{0E358048-65EA-4247-B8D1-0CAEF4B85AC6}" WorkUnitID="{0206CCDB-C58E-43B4-BE9A-B372D21E3FC7}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Voiceline_O1_5" ID="{0E358048-65EA-4247-B8D1-0CAEF4B85AC6}" WorkUnitID="{0206CCDB-C58E-43B4-BE9A-B372D21E3FC7}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="UI_ConfirmSquare" ID="{4967D11F-4F71-4346-B711-A233D8CB70DB}" WorkUnitID="{212F64C5-804F-481A-880D-EE5A6528A58F}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Fireflies_idle" ID="{B94228AF-14E6-4369-9E9B-EC44B4005B20}" WorkUnitID="{84EA8792-12FE-4E5E-950A-F7C12BDA81C4}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="UI_SelectSquare" ID="{541CA297-E823-4378-981B-E0A80604C29A}" WorkUnitID="{212F64C5-804F-481A-880D-EE5A6528A58F}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_HowlingWind" ID="{0FDB54DE-A34E-4387-8504-F41D053F92EF}" WorkUnitID="{EDF099EF-7CA4-4D68-9584-78359919806C}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Crows_Whispers" ID="{D5FB613A-6897-43F5-9B94-A1EC488F762D}" WorkUnitID="{895344F0-F06B-4DA8-BB4E-81D5A3713E53}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Door_close" ID="{C52B164E-FBFF-4417-B06E-8271A8961D91}" WorkUnitID="{84EA8792-12FE-4E5E-950A-F7C12BDA81C4}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Voiceline_S1_1" ID="{B932FAEB-446C-444A-B76B-D116E28C580E}" WorkUnitID="{0206CCDB-C58E-43B4-BE9A-B372D21E3FC7}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="BlackDoor_Open" ID="{203C273D-A280-4479-9998-2BE80A84DE2A}" WorkUnitID="{895344F0-F06B-4DA8-BB4E-81D5A3713E53}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Soundscape_S1" ID="{7424A775-6FCF-44D5-B87D-B08A2A416A1D}" WorkUnitID="{18029C21-36BA-447B-9F35-854E0B36B1B5}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Voiceline_S1_2" ID="{C495E54E-7EAE-4538-9B21-AD82447FD2F2}" WorkUnitID="{0206CCDB-C58E-43B4-BE9A-B372D21E3FC7}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Jump_Land" ID="{AA9F6466-E4C9-45DB-B1F2-FA8ED14FD53E}" WorkUnitID="{84EA8792-12FE-4E5E-950A-F7C12BDA81C4}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Soundscape_O1" ID="{232464F8-A54C-45EE-AFE9-54E6D5D95233}" WorkUnitID="{18029C21-36BA-447B-9F35-854E0B36B1B5}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_AMB_Lake" ID="{6C10A59F-7F3F-4680-8093-02D825074345}" WorkUnitID="{EDF099EF-7CA4-4D68-9584-78359919806C}" Filter="7" Origin="Manual"/>
@@ -26,11 +28,15 @@
 						<ObjectRef Name="Play_Fireflies_pickup" ID="{D8849530-F811-47D0-B50E-46685D9A6CDA}" WorkUnitID="{84EA8792-12FE-4E5E-950A-F7C12BDA81C4}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Door_open" ID="{1954321B-CE9F-481D-8ED9-22A81A81153A}" WorkUnitID="{84EA8792-12FE-4E5E-950A-F7C12BDA81C4}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="FS_Run" ID="{C71A9259-5DAE-4844-9B81-B2A56EB73C5C}" WorkUnitID="{84EA8792-12FE-4E5E-950A-F7C12BDA81C4}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Voiceline_Grotte_1" ID="{3CB1DFA7-D65E-48AB-86B0-E8778B8914F2}" WorkUnitID="{0206CCDB-C58E-43B4-BE9A-B372D21E3FC7}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Voiceline_O1_2" ID="{25D1FBC5-E070-4913-AAED-F1EAFCF09D96}" WorkUnitID="{0206CCDB-C58E-43B4-BE9A-B372D21E3FC7}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Crows_Idle" ID="{AEAAA9FA-4502-49A2-8A82-56894F33BBD0}" WorkUnitID="{895344F0-F06B-4DA8-BB4E-81D5A3713E53}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Voiceline_3" ID="{22AA84AD-0345-4AF0-8496-8547CADCBBC1}" WorkUnitID="{0206CCDB-C58E-43B4-BE9A-B372D21E3FC7}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Voiceline_O1_1" ID="{C3FA3B30-EF17-4A18-9F75-BCA539AC2C58}" WorkUnitID="{0206CCDB-C58E-43B4-BE9A-B372D21E3FC7}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Voiceline_O1_3" ID="{22AA84AD-0345-4AF0-8496-8547CADCBBC1}" WorkUnitID="{0206CCDB-C58E-43B4-BE9A-B372D21E3FC7}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Lily_Dash" ID="{445AD5AC-8DBF-4B80-96AD-BBDAB4459F90}" WorkUnitID="{84EA8792-12FE-4E5E-950A-F7C12BDA81C4}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Crows_Spawn" ID="{18ADE3A8-7D5E-4BA9-A09E-F9BC71C45DFD}" WorkUnitID="{895344F0-F06B-4DA8-BB4E-81D5A3713E53}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Eboulement" ID="{7DDAB17E-B39A-4DE4-B44B-A11963EA58A4}" WorkUnitID="{EDF099EF-7CA4-4D68-9584-78359919806C}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Voiceline_O1_4" ID="{629A8D4F-C1C0-4E8C-854D-0659BA0BE114}" WorkUnitID="{0206CCDB-C58E-43B4-BE9A-B372D21E3FC7}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="CrowsFlight" ID="{684C4B73-B2B6-4F78-A165-F81583200EDD}" WorkUnitID="{895344F0-F06B-4DA8-BB4E-81D5A3713E53}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_AMB_O1" ID="{ED195764-3D0D-4FF1-B572-51BB0BA10371}" WorkUnitID="{EDF099EF-7CA4-4D68-9584-78359919806C}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
