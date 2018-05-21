@@ -1249,6 +1249,1168 @@
 								</RandomSequenceContainer>
 							</ChildrenList>
 						</ActorMixer>
+						<ActorMixer Name="CrowsWhispers" ID="{20BED8D8-D761-43BF-B847-52C9987CEE11}" ShortID="133213815">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<BlendContainer Name="Crows_Whispers" ID="{EEBD8DE1-59F3-42D7-8441-CC7535E57DE9}" ShortID="515482790">
+									<PropertyList>
+										<Property Name="3DPositionSource" Type="int16" Value="0"/>
+										<Property Name="Lowpass" Type="int16">
+											<RTPCList>
+												<RTPC Name="" ID="{B98F7D34-3CF6-40C5-B618-C4820CD2DB2C}" ShortID="894891538">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="CrowsDisintegration" ID="{EA45A344-3B8F-4879-98B1-B1A5DE53FA96}" WorkUnitID="{1E3B6552-E6BB-443B-B824-2B9CB7F998C7}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{F962DC0B-6D83-43F7-BD2A-2F841DE51758}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="65537"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>0</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>100</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="PositioningType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="CrowsWhispers_Attenuation" ID="{26AC1F45-5FB8-4F87-AE14-C4F1D61F64F5}" WorkUnitID="{F9486E4D-3A45-4423-A197-A386E047703F}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="Whispers_L1" ID="{544BE8C1-429D-426B-AB73-82BB51DE98D3}" ShortID="772804187">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{F1ACDCC7-A14C-4E92-B875-0CE538F88173}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="500"/>
+																	<Property Name="Min" Type="Real64" Value="-200"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
+												<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.25"/>
+												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+												<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="6"/>
+												<Property Name="Volume" Type="Real64">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{7CD532A7-ECFA-49F1-8E44-C0672EDB5339}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Min" Type="Real64" Value="-1.5"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Boss_mvt_L1_1" ID="{79D6593A-C352-4A3F-AC73-4CA2DED00A69}" ShortID="691254214">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Boss_mvt_L1_1" ID="{5CEF7F25-CACD-4513-9058-08F5D20D6851}" ShortID="649347380">
+															<Language>SFX</Language>
+															<AudioFile>Boss_mvt_L1_1.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Boss_mvt_L1_1" ID="{5CEF7F25-CACD-4513-9058-08F5D20D6851}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Boss_mvt_L1_2" ID="{8D031BC0-16FB-4CFD-A47C-EAC495F0E287}" ShortID="858187755">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Boss_mvt_L1_2" ID="{82EA48EC-1BAB-4FC8-BA25-874024E76CB4}" ShortID="521664236">
+															<Language>SFX</Language>
+															<AudioFile>Boss_mvt_L1_2.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Boss_mvt_L1_2" ID="{82EA48EC-1BAB-4FC8-BA25-874024E76CB4}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Boss_mvt_L1_3" ID="{DFD28BDF-A973-4AB7-BF5C-B12CB5141A7A}" ShortID="318558745">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Boss_mvt_L1_3" ID="{F47888A1-E2FC-4A73-BB76-7BBCC5E8C768}" ShortID="603164284">
+															<Language>SFX</Language>
+															<AudioFile>Boss_mvt_L1_3.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Boss_mvt_L1_3" ID="{F47888A1-E2FC-4A73-BB76-7BBCC5E8C768}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Boss_mvt_L1_4" ID="{6CD2D34A-F186-41EB-91C9-C8C1E1967FDC}" ShortID="923392950">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Boss_mvt_L1_4" ID="{AB24B15C-F14A-43CA-8A99-399383FA6293}" ShortID="136488467">
+															<Language>SFX</Language>
+															<AudioFile>Boss_mvt_L1_4.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Boss_mvt_L1_4" ID="{AB24B15C-F14A-43CA-8A99-399383FA6293}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Boss_mvt_L1_5" ID="{E660180B-E941-4465-9561-B98B69F6BBB6}" ShortID="700586689">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Boss_mvt_L1_5" ID="{D4E15B86-0614-4AAA-AB11-08F1A7D53524}" ShortID="140953108">
+															<Language>SFX</Language>
+															<AudioFile>Boss_mvt_L1_5.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Boss_mvt_L1_5" ID="{D4E15B86-0614-4AAA-AB11-08F1A7D53524}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Boss_mvt_L1_6" ID="{F9AEFC0D-C663-4CDE-9AC3-7EB9649125B4}" ShortID="920906134">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Boss_mvt_L1_6" ID="{A959C1B7-F010-4F2C-9BBB-EB1ECA745A17}" ShortID="472579006">
+															<Language>SFX</Language>
+															<AudioFile>Boss_mvt_L1_6.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Boss_mvt_L1_6" ID="{A959C1B7-F010-4F2C-9BBB-EB1ECA745A17}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Boss_mvt_L1_7" ID="{EF397EC8-C06C-47C8-A7C7-8E1C852B9653}" ShortID="403364524">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Boss_mvt_L1_7" ID="{DE20818F-E8E7-4C0D-98C6-7C0B0DE79737}" ShortID="156039610">
+															<Language>SFX</Language>
+															<AudioFile>Boss_mvt_L1_7.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Boss_mvt_L1_7" ID="{DE20818F-E8E7-4C0D-98C6-7C0B0DE79737}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Boss_mvt_L1_8" ID="{D8821A98-FFFC-4C1C-8AA5-CD162E692E7F}" ShortID="106194466">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Boss_mvt_L1_8" ID="{468EDA2A-DD28-4A0A-B572-7CA91C1DC1AF}" ShortID="219024782">
+															<Language>SFX</Language>
+															<AudioFile>Boss_mvt_L1_8.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Boss_mvt_L1_8" ID="{468EDA2A-DD28-4A0A-B572-7CA91C1DC1AF}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Boss_mvt_L1_9" ID="{933331A3-B451-41EE-B4A3-2750EB405B60}" ShortID="832565979">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Boss_mvt_L1_9" ID="{AD61A788-B3F0-4709-979B-C9FD68194E50}" ShortID="176552756">
+															<Language>SFX</Language>
+															<AudioFile>Boss_mvt_L1_9.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Boss_mvt_L1_9" ID="{AD61A788-B3F0-4709-979B-C9FD68194E50}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Boss_mvt_L1_10" ID="{FBDAD2E1-68D7-4A80-AE46-FB94F12C166B}" ShortID="940704457">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Boss_mvt_L1_10" ID="{92F06B52-7381-4573-99CA-AE4189272E85}" ShortID="1009891249">
+															<Language>SFX</Language>
+															<AudioFile>Boss_mvt_L1_10.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Boss_mvt_L1_10" ID="{92F06B52-7381-4573-99CA-AE4189272E85}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Boss_mvt_L1_11" ID="{CAB5292E-4017-46A9-8208-754FF9A69AB6}" ShortID="896835726">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Boss_mvt_L1_11" ID="{A7394508-E49C-437F-890C-52F8DE7EC716}" ShortID="257378748">
+															<Language>SFX</Language>
+															<AudioFile>Boss_mvt_L1_11.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Boss_mvt_L1_11" ID="{A7394508-E49C-437F-890C-52F8DE7EC716}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Boss_mvt_L1_12" ID="{06638E9B-3DD0-482A-A4B5-D75356FA6D91}" ShortID="207800557">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Boss_mvt_L1_12" ID="{9877EBA9-2EE2-4B61-8643-D0F08DA50302}" ShortID="928184125">
+															<Language>SFX</Language>
+															<AudioFile>Boss_mvt_L1_12.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Boss_mvt_L1_12" ID="{9877EBA9-2EE2-4B61-8643-D0F08DA50302}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Boss_mvt_L1_13" ID="{DD516728-1F72-4E33-BF8D-6DCA58F707C4}" ShortID="545360684">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Boss_mvt_L1_13" ID="{27A0E38B-891D-4E81-8F9E-E824642DD6B2}" ShortID="463138714">
+															<Language>SFX</Language>
+															<AudioFile>Boss_mvt_L1_13.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Boss_mvt_L1_13" ID="{27A0E38B-891D-4E81-8F9E-E824642DD6B2}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Boss_mvt_L1_14" ID="{9ADE93EF-4D08-4916-B002-680D2E50BC2F}" ShortID="990253077">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Boss_mvt_L1_14" ID="{1A3A3945-A40C-456F-BBE6-EA36EED4296E}" ShortID="235301677">
+															<Language>SFX</Language>
+															<AudioFile>Boss_mvt_L1_14.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Boss_mvt_L1_14" ID="{1A3A3945-A40C-456F-BBE6-EA36EED4296E}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Boss_mvt_L1_15" ID="{6828BD71-684F-48B1-AE0C-15B9EB860F5D}" ShortID="121954262">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Boss_mvt_L1_15" ID="{0A4F84B3-E08B-4172-99F7-2753AE41B0AE}" ShortID="984541554">
+															<Language>SFX</Language>
+															<AudioFile>Boss_mvt_L1_15.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Boss_mvt_L1_15" ID="{0A4F84B3-E08B-4172-99F7-2753AE41B0AE}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Whispers_L2" ID="{FF85938A-2572-4C24-B2B4-64D623ED20CC}" ShortID="918607293">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{E4B42AD3-CFFE-453E-982D-AA91FF3E5C73}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="500"/>
+																	<Property Name="Min" Type="Real64" Value="-200"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
+												<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.1"/>
+												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+												<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="6"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-96</Value>
+													</ValueList>
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{74389319-A486-4BF9-A4C2-CCB3B38E7FB0}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Min" Type="Real64" Value="-1.5"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Boss_mvt_L1_1" ID="{D935C6A0-C2DC-476E-859C-2CC2D4A3097C}" ShortID="97364897">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Boss_mvt_L1_1" ID="{10682AA6-11C9-4513-A056-086177C98263}" ShortID="210503232">
+															<Language>SFX</Language>
+															<AudioFile>Boss_mvt_L1_1.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="649347380"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Boss_mvt_L1_1" ID="{10682AA6-11C9-4513-A056-086177C98263}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Boss_mvt_L1_2" ID="{B29070F4-7A83-4BBD-9833-9556BF5B9FFE}" ShortID="715853289">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Boss_mvt_L1_2" ID="{8ACD00DD-591A-4B4A-94B8-50AC8CDB470A}" ShortID="727316951">
+															<Language>SFX</Language>
+															<AudioFile>Boss_mvt_L1_2.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="521664236"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Boss_mvt_L1_2" ID="{8ACD00DD-591A-4B4A-94B8-50AC8CDB470A}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Boss_mvt_L1_3" ID="{A1531F57-8401-4872-BB9C-65B410A9C13F}" ShortID="354061232">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Boss_mvt_L1_3" ID="{C9E9B6A2-61AA-4EC7-9026-96A2DCB09F03}" ShortID="516002574">
+															<Language>SFX</Language>
+															<AudioFile>Boss_mvt_L1_3.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="603164284"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Boss_mvt_L1_3" ID="{C9E9B6A2-61AA-4EC7-9026-96A2DCB09F03}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Boss_mvt_L1_4" ID="{4D41F270-D2A5-454D-88E2-BF8918E1D3EA}" ShortID="519797943">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Boss_mvt_L1_4" ID="{F80685C5-5F6B-452F-88BB-1011C8211531}" ShortID="264556219">
+															<Language>SFX</Language>
+															<AudioFile>Boss_mvt_L1_4.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="136488467"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Boss_mvt_L1_4" ID="{F80685C5-5F6B-452F-88BB-1011C8211531}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Boss_mvt_L1_5" ID="{1D32312B-9E5C-4598-BBF3-DB260FF209BF}" ShortID="53511646">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Boss_mvt_L1_5" ID="{FCF68A52-DE7F-4CF7-AAC2-C49EF7167F45}" ShortID="667667476">
+															<Language>SFX</Language>
+															<AudioFile>Boss_mvt_L1_5.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="140953108"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Boss_mvt_L1_5" ID="{FCF68A52-DE7F-4CF7-AAC2-C49EF7167F45}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Boss_mvt_L1_6" ID="{AD06F8E1-4F5B-4DC9-B355-3F8DCF62A84A}" ShortID="375956511">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Boss_mvt_L1_6" ID="{B25476A3-5402-4EA3-A6E2-690DA75AFFF2}" ShortID="434548261">
+															<Language>SFX</Language>
+															<AudioFile>Boss_mvt_L1_6.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="472579006"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Boss_mvt_L1_6" ID="{B25476A3-5402-4EA3-A6E2-690DA75AFFF2}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Boss_mvt_L1_7" ID="{63EB8D22-5485-448A-9136-1F45E26B7154}" ShortID="1030499783">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Boss_mvt_L1_7" ID="{8C6A1045-0726-4B6A-B94D-A359534F02CC}" ShortID="918354227">
+															<Language>SFX</Language>
+															<AudioFile>Boss_mvt_L1_7.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="156039610"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Boss_mvt_L1_7" ID="{8C6A1045-0726-4B6A-B94D-A359534F02CC}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Boss_mvt_L1_8" ID="{0601CBAC-D6F3-4E83-BD21-91EA7B73EDE9}" ShortID="1071802685">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Boss_mvt_L1_8" ID="{1BE0BC0E-B801-4648-AE54-6B47A75449F2}" ShortID="914685827">
+															<Language>SFX</Language>
+															<AudioFile>Boss_mvt_L1_8.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="219024782"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Boss_mvt_L1_8" ID="{1BE0BC0E-B801-4648-AE54-6B47A75449F2}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Boss_mvt_L1_9" ID="{14F599A7-575B-4057-96BC-869F48C02682}" ShortID="824591282">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Boss_mvt_L1_9" ID="{BB0E9FE3-51B9-42DB-BB4B-F348403D5C85}" ShortID="397004562">
+															<Language>SFX</Language>
+															<AudioFile>Boss_mvt_L1_9.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="176552756"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Boss_mvt_L1_9" ID="{BB0E9FE3-51B9-42DB-BB4B-F348403D5C85}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Boss_mvt_L1_10" ID="{1EFB267B-E510-4965-A7FF-2CEEF207165D}" ShortID="583951724">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Boss_mvt_L1_10" ID="{DCB60D79-E807-43B8-A7F3-B8436310767F}" ShortID="464356102">
+															<Language>SFX</Language>
+															<AudioFile>Boss_mvt_L1_10.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="1009891249"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Boss_mvt_L1_10" ID="{DCB60D79-E807-43B8-A7F3-B8436310767F}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Boss_mvt_L1_11" ID="{A8D6CB6F-A659-4E0B-9CB5-B90016970CFF}" ShortID="76220854">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Boss_mvt_L1_11" ID="{6AEA764B-8B91-447E-9DC0-E9DDAE7487D2}" ShortID="268293669">
+															<Language>SFX</Language>
+															<AudioFile>Boss_mvt_L1_11.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="257378748"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Boss_mvt_L1_11" ID="{6AEA764B-8B91-447E-9DC0-E9DDAE7487D2}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Boss_mvt_L1_12" ID="{B93BB82F-709E-4725-9375-CCD278EA8086}" ShortID="261594270">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Boss_mvt_L1_12" ID="{14A6049A-04F6-410B-8314-4BCBA11047F1}" ShortID="653327169">
+															<Language>SFX</Language>
+															<AudioFile>Boss_mvt_L1_12.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="928184125"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Boss_mvt_L1_12" ID="{14A6049A-04F6-410B-8314-4BCBA11047F1}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Boss_mvt_L1_13" ID="{CBA29D60-C5E4-4ADF-B6C9-725794737F6F}" ShortID="291594262">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Boss_mvt_L1_13" ID="{C9EC0B98-E323-4F7C-A838-51661629B013}" ShortID="945298251">
+															<Language>SFX</Language>
+															<AudioFile>Boss_mvt_L1_13.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="463138714"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Boss_mvt_L1_13" ID="{C9EC0B98-E323-4F7C-A838-51661629B013}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Boss_mvt_L1_14" ID="{F025F297-2177-4012-A7DF-60E6E7F63BD1}" ShortID="603571400">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Boss_mvt_L1_14" ID="{5E8E51C3-0695-4683-93C1-C3F42D6DC0B5}" ShortID="538722793">
+															<Language>SFX</Language>
+															<AudioFile>Boss_mvt_L1_14.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="235301677"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Boss_mvt_L1_14" ID="{5E8E51C3-0695-4683-93C1-C3F42D6DC0B5}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Boss_mvt_L1_15" ID="{42F974C4-9026-4976-AE69-E96A6E41E097}" ShortID="846169178">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Boss_mvt_L1_15" ID="{64DD4B5D-77B4-4297-9EFD-FF857E834535}" ShortID="524832935">
+															<Language>SFX</Language>
+															<AudioFile>Boss_mvt_L1_15.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="984541554"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Boss_mvt_L1_15" ID="{64DD4B5D-77B4-4297-9EFD-FF857E834535}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Whispers_L3" ID="{214D3BCC-00EC-41DA-A971-5A5504D994A5}" ShortID="1061210515">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{92FBE9F0-D215-4C55-92A1-BDF9D74835F7}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="500"/>
+																	<Property Name="Min" Type="Real64" Value="-200"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
+												<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.1"/>
+												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+												<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="6"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-96</Value>
+													</ValueList>
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{41A09BDF-B6AC-4538-9466-921F25012A8E}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Min" Type="Real64" Value="-1.5"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Boss_mvt_L1_1" ID="{43CE5A5C-C7CC-4E9D-A316-D24A488F6F25}" ShortID="68016448">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Boss_mvt_L1_1" ID="{7CA4CB0D-8A8B-41BA-8FB2-9EEE51D79624}" ShortID="56549716">
+															<Language>SFX</Language>
+															<AudioFile>Boss_mvt_L1_1.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="649347380"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Boss_mvt_L1_1" ID="{7CA4CB0D-8A8B-41BA-8FB2-9EEE51D79624}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Boss_mvt_L1_2" ID="{7424DA01-F13E-4929-BC40-4226A74F8576}" ShortID="481159105">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Boss_mvt_L1_2" ID="{9633285C-A556-45C6-A0DE-A79C4790EF67}" ShortID="479001074">
+															<Language>SFX</Language>
+															<AudioFile>Boss_mvt_L1_2.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="521664236"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Boss_mvt_L1_2" ID="{9633285C-A556-45C6-A0DE-A79C4790EF67}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Boss_mvt_L1_3" ID="{5B52CE52-2544-42D6-9974-81EC2201F611}" ShortID="979059340">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Boss_mvt_L1_3" ID="{09648C25-14E7-4195-B6B4-93F48D433319}" ShortID="983789854">
+															<Language>SFX</Language>
+															<AudioFile>Boss_mvt_L1_3.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="603164284"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Boss_mvt_L1_3" ID="{09648C25-14E7-4195-B6B4-93F48D433319}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Boss_mvt_L1_4" ID="{10A96758-1F53-44CC-BB17-6395D90F074B}" ShortID="15424977">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Boss_mvt_L1_4" ID="{F9D3E891-A658-43C9-B5FC-8660F72B9CF7}" ShortID="958296529">
+															<Language>SFX</Language>
+															<AudioFile>Boss_mvt_L1_4.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="136488467"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Boss_mvt_L1_4" ID="{F9D3E891-A658-43C9-B5FC-8660F72B9CF7}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Boss_mvt_L1_5" ID="{9A050BBF-8BA7-48F4-BC8A-FD6EF6BD6284}" ShortID="387127418">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Boss_mvt_L1_5" ID="{1908DD7D-9845-4376-9E60-EAC065AD9A78}" ShortID="264178942">
+															<Language>SFX</Language>
+															<AudioFile>Boss_mvt_L1_5.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="140953108"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Boss_mvt_L1_5" ID="{1908DD7D-9845-4376-9E60-EAC065AD9A78}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Boss_mvt_L1_6" ID="{2F3CA5E0-D2BE-464D-9C5E-8B6576A7A3A5}" ShortID="181820091">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Boss_mvt_L1_6" ID="{51A2F1EF-B538-4ADD-8736-301D3A6DFD34}" ShortID="521302066">
+															<Language>SFX</Language>
+															<AudioFile>Boss_mvt_L1_6.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="472579006"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Boss_mvt_L1_6" ID="{51A2F1EF-B538-4ADD-8736-301D3A6DFD34}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Boss_mvt_L1_7" ID="{8666E662-F1AF-4C14-B4DE-2698C851EC76}" ShortID="115349339">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Boss_mvt_L1_7" ID="{9A7333F5-D917-4F2A-8A89-B1048EAFFAB1}" ShortID="382193549">
+															<Language>SFX</Language>
+															<AudioFile>Boss_mvt_L1_7.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="156039610"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Boss_mvt_L1_7" ID="{9A7333F5-D917-4F2A-8A89-B1048EAFFAB1}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Boss_mvt_L1_8" ID="{AE7F9115-9BC9-415C-9B35-70168A48C326}" ShortID="174759752">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Boss_mvt_L1_8" ID="{F4E544A5-BAEC-4955-A91C-9CF1E8798CEA}" ShortID="682384903">
+															<Language>SFX</Language>
+															<AudioFile>Boss_mvt_L1_8.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="219024782"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Boss_mvt_L1_8" ID="{F4E544A5-BAEC-4955-A91C-9CF1E8798CEA}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Boss_mvt_L1_9" ID="{350E78E9-26E2-47C4-839A-E85FEDA84DA1}" ShortID="114252794">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Boss_mvt_L1_9" ID="{8E592D55-5EE5-44D0-9CC1-6B2F026C7293}" ShortID="713690845">
+															<Language>SFX</Language>
+															<AudioFile>Boss_mvt_L1_9.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="176552756"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Boss_mvt_L1_9" ID="{8E592D55-5EE5-44D0-9CC1-6B2F026C7293}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Boss_mvt_L1_10" ID="{34648019-8EDC-4807-9066-70389367B6C8}" ShortID="176705390">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Boss_mvt_L1_10" ID="{5D94D3A1-5F8C-4741-A731-CC5A903F21BA}" ShortID="576369760">
+															<Language>SFX</Language>
+															<AudioFile>Boss_mvt_L1_10.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="1009891249"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Boss_mvt_L1_10" ID="{5D94D3A1-5F8C-4741-A731-CC5A903F21BA}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Boss_mvt_L1_11" ID="{096BBFB5-D940-40F2-A326-4BC117E7B29E}" ShortID="292421752">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Boss_mvt_L1_11" ID="{C70BDF8F-A87C-4686-A269-EC374E6ADBA3}" ShortID="848691341">
+															<Language>SFX</Language>
+															<AudioFile>Boss_mvt_L1_11.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="257378748"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Boss_mvt_L1_11" ID="{C70BDF8F-A87C-4686-A269-EC374E6ADBA3}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Boss_mvt_L1_12" ID="{986BA5F9-6716-4D74-A831-8F24F9DDDA95}" ShortID="328518290">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Boss_mvt_L1_12" ID="{5BAB0BD8-9B07-49DE-AA5F-967A1DC8B88D}" ShortID="232791265">
+															<Language>SFX</Language>
+															<AudioFile>Boss_mvt_L1_12.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="928184125"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Boss_mvt_L1_12" ID="{5BAB0BD8-9B07-49DE-AA5F-967A1DC8B88D}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Boss_mvt_L1_13" ID="{7DF9B31B-A05C-4693-BCB2-8418E58885D1}" ShortID="88234466">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Boss_mvt_L1_13" ID="{FD99D28A-3CFB-497A-BD6B-C4AEBE4AEEC8}" ShortID="157357675">
+															<Language>SFX</Language>
+															<AudioFile>Boss_mvt_L1_13.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="463138714"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Boss_mvt_L1_13" ID="{FD99D28A-3CFB-497A-BD6B-C4AEBE4AEEC8}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Boss_mvt_L1_14" ID="{766B6491-DA27-40C0-A591-B73C2E1FE639}" ShortID="1055189457">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Boss_mvt_L1_14" ID="{57E2F82E-626F-4691-A88D-7BAC128E4657}" ShortID="1010467691">
+															<Language>SFX</Language>
+															<AudioFile>Boss_mvt_L1_14.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="235301677"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Boss_mvt_L1_14" ID="{57E2F82E-626F-4691-A88D-7BAC128E4657}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Boss_mvt_L1_15" ID="{8D599D52-8E88-4865-A77A-BF3C328EEBC9}" ShortID="211264583">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Boss_mvt_L1_15" ID="{42900D1B-C0F7-4489-9C71-B1CACB992034}" ShortID="127095280">
+															<Language>SFX</Language>
+															<AudioFile>Boss_mvt_L1_15.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="984541554"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Boss_mvt_L1_15" ID="{42900D1B-C0F7-4489-9C71-B1CACB992034}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+									</ChildrenList>
+									<PositioningInfo>
+										<Position Name="" ID="{1D880F43-CC15-48E7-B9F2-0C0C95CA4F0A}">
+											<ChildrenList>
+												<Path2D Name="Crows_Whispers_Path" ID="{93614D21-A2DC-4743-B0E2-1ECE3CAF0534}">
+													<PointList>
+														<Point>
+															<XPos>-0.63291</XPos>
+															<YPos>21.97452</YPos>
+															<Flags>12</Flags>
+															<Time>0</Time>
+														</Point>
+													</PointList>
+												</Path2D>
+											</ChildrenList>
+										</Position>
+									</PositioningInfo>
+								</BlendContainer>
+							</ChildrenList>
+						</ActorMixer>
 					</ChildrenList>
 				</ActorMixer>
 				<ActorMixer Name="BlackDoors" ID="{BB76E5F2-4CDF-4CC0-A96A-BB23FFB7AF75}" ShortID="178433861">

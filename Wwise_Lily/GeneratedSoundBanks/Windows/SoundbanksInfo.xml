@@ -24,6 +24,7 @@
 				<Event Id="3599172209" Name="BlackDoor_Open" ObjectPath="\Events\Default Work Unit\Enemies\BlackDoors\BlackDoor_Open"/>
 				<Event Id="3055896492" Name="Crows_Idle" ObjectPath="\Events\Default Work Unit\Enemies\Crows\Crows_Idle"/>
 				<Event Id="283520899" Name="Crows_Spawn" ObjectPath="\Events\Default Work Unit\Enemies\Crows\Crows_Spawn"/>
+				<Event Id="1898305527" Name="Crows_Whispers" ObjectPath="\Events\Default Work Unit\Enemies\Crows\Crows_Whispers"/>
 				<Event Id="3020955044" Name="CrowsDeathBlend" ObjectPath="\Events\Default Work Unit\Enemies\Crows\CrowsDeathBlend"/>
 				<Event Id="1638063245" Name="CrowsFlight" ObjectPath="\Events\Default Work Unit\Enemies\Crows\CrowsFlight"/>
 				<Event Id="362749134" Name="FS_Run" ObjectPath="\Events\Default Work Unit\Character\Character_foleys\Footsteps\FS_Run"/>
@@ -274,9 +275,17 @@
 					<ShortName>Hallu_FermeLesYeux_6.wav</ShortName>
 					<Path>SFX\Hallu_FermeLesYeux_6_1617AFA0.wem</Path>
 				</File>
+				<File Id="136488467" Language="SFX">
+					<ShortName>Boss_mvt_L1_4.wav</ShortName>
+					<Path>SFX\Boss_mvt_L1_4_1617AFA0.wem</Path>
+				</File>
 				<File Id="136881064" Language="SFX">
 					<ShortName>Hallu_SuisLaLumiere_10.wav</ShortName>
 					<Path>SFX\Hallu_SuisLaLumiere_10_1617AFA0.wem</Path>
+				</File>
+				<File Id="140953108" Language="SFX">
+					<ShortName>Boss_mvt_L1_5.wav</ShortName>
+					<Path>SFX\Boss_mvt_L1_5_1617AFA0.wem</Path>
 				</File>
 				<File Id="141733355" Language="SFX">
 					<ShortName>Hallu_NeMignorePas_6.wav</ShortName>
@@ -297,6 +306,10 @@
 				<File Id="155520890" Language="SFX">
 					<ShortName>Hallu_Fantastique_1.wav</ShortName>
 					<Path>SFX\Hallu_Fantastique_1_1617AFA0.wem</Path>
+				</File>
+				<File Id="156039610" Language="SFX">
+					<ShortName>Boss_mvt_L1_7.wav</ShortName>
+					<Path>SFX\Boss_mvt_L1_7_1617AFA0.wem</Path>
 				</File>
 				<File Id="157713800" Language="SFX">
 					<ShortName>Hallu_Merveilleux_3.wav</ShortName>
@@ -353,6 +366,10 @@
 				<File Id="174051045" Language="SFX">
 					<ShortName>Choir1_Chord2_A#2.wav</ShortName>
 					<Path>SFX\Choir1_Chord2_A#2_27A9F4A4.wem</Path>
+				</File>
+				<File Id="176552756" Language="SFX">
+					<ShortName>Boss_mvt_L1_9.wav</ShortName>
+					<Path>SFX\Boss_mvt_L1_9_1617AFA0.wem</Path>
 				</File>
 				<File Id="182123825" Language="SFX">
 					<ShortName>MB_Chord2_6.wav</ShortName>
@@ -430,6 +447,10 @@
 					<ShortName>FS_Wood_3.wav</ShortName>
 					<Path>SFX\FS_Wood_3_1617AFA0.wem</Path>
 				</File>
+				<File Id="219024782" Language="SFX">
+					<ShortName>Boss_mvt_L1_8.wav</ShortName>
+					<Path>SFX\Boss_mvt_L1_8_1617AFA0.wem</Path>
+				</File>
 				<File Id="227118963" Language="SFX">
 					<ShortName>Violin1_Chord4_D#.wav</ShortName>
 					<Path>SFX\Violin1_Chord4_D#_F91CC76F.wem</Path>
@@ -469,6 +490,10 @@
 				<File Id="234759998" Language="SFX">
 					<ShortName>Hallu_NeMignorePas_4.wav</ShortName>
 					<Path>SFX\Hallu_NeMignorePas_4_1617AFA0.wem</Path>
+				</File>
+				<File Id="235301677" Language="SFX">
+					<ShortName>Boss_mvt_L1_14.wav</ShortName>
+					<Path>SFX\Boss_mvt_L1_14_1617AFA0.wem</Path>
 				</File>
 				<File Id="236376704" Language="SFX">
 					<ShortName>MB_Chord1_5.wav</ShortName>
@@ -513,6 +538,10 @@
 				<File Id="252773102" Language="SFX">
 					<ShortName>Hallu_Arrete_1.wav</ShortName>
 					<Path>SFX\Hallu_Arrete_1_1617AFA0.wem</Path>
+				</File>
+				<File Id="257378748" Language="SFX">
+					<ShortName>Boss_mvt_L1_11.wav</ShortName>
+					<Path>SFX\Boss_mvt_L1_11_1617AFA0.wem</Path>
 				</File>
 				<File Id="257592445" Language="SFX">
 					<ShortName>Hallu_Envole_7.wav</ShortName>
@@ -878,6 +907,10 @@
 					<ShortName>Hallu_NeMignorePas_1.wav</ShortName>
 					<Path>SFX\Hallu_NeMignorePas_1_1617AFA0.wem</Path>
 				</File>
+				<File Id="463138714" Language="SFX">
+					<ShortName>Boss_mvt_L1_13.wav</ShortName>
+					<Path>SFX\Boss_mvt_L1_13_1617AFA0.wem</Path>
+				</File>
 				<File Id="463784787" Language="SFX">
 					<ShortName>Hallu_Sifflements_1.wav</ShortName>
 					<Path>SFX\Hallu_Sifflements_1_1617AFA0.wem</Path>
@@ -913,6 +946,10 @@
 				<File Id="471293512" Language="SFX">
 					<ShortName>CrowSpawn_1.wav</ShortName>
 					<Path>SFX\CrowSpawn_1_1617AFA0.wem</Path>
+				</File>
+				<File Id="472579006" Language="SFX">
+					<ShortName>Boss_mvt_L1_6.wav</ShortName>
+					<Path>SFX\Boss_mvt_L1_6_1617AFA0.wem</Path>
 				</File>
 				<File Id="474920062" Language="SFX">
 					<ShortName>Hallu_Divers_1.wav</ShortName>
@@ -1021,6 +1058,10 @@
 				<File Id="521026246" Language="SFX">
 					<ShortName>Silence.wav</ShortName>
 					<Path>SFX\Silence_1617AFA0.wem</Path>
+				</File>
+				<File Id="521664236" Language="SFX">
+					<ShortName>Boss_mvt_L1_2.wav</ShortName>
+					<Path>SFX\Boss_mvt_L1_2_1617AFA0.wem</Path>
 				</File>
 				<File Id="528515471" Language="SFX">
 					<ShortName>Fireflies_idle_bocal_1.wav</ShortName>
@@ -1146,6 +1187,10 @@
 					<ShortName>Hallu_FermeLesYeux_1.wav</ShortName>
 					<Path>SFX\Hallu_FermeLesYeux_1_1617AFA0.wem</Path>
 				</File>
+				<File Id="603164284" Language="SFX">
+					<ShortName>Boss_mvt_L1_3.wav</ShortName>
+					<Path>SFX\Boss_mvt_L1_3_1617AFA0.wem</Path>
+				</File>
 				<File Id="603617795" Language="SFX">
 					<ShortName>Violin1_Chord2_A#2.wav</ShortName>
 					<Path>SFX\Violin1_Chord2_A#2_F91CC76F.wem</Path>
@@ -1241,6 +1286,10 @@
 				<File Id="648564732" Language="SFX">
 					<ShortName>FS_Dirt_L3_2.wav</ShortName>
 					<Path>SFX\FS_Dirt_L3_2_1617AFA0.wem</Path>
+				</File>
+				<File Id="649347380" Language="SFX">
+					<ShortName>Boss_mvt_L1_1.wav</ShortName>
+					<Path>SFX\Boss_mvt_L1_1_1617AFA0.wem</Path>
 				</File>
 				<File Id="649769294" Language="SFX">
 					<ShortName>Hallu_Doucement_1.wav</ShortName>
@@ -1782,6 +1831,10 @@
 					<ShortName>Hallu_ToujoursLa_4.wav</ShortName>
 					<Path>SFX\Hallu_ToujoursLa_4_1617AFA0.wem</Path>
 				</File>
+				<File Id="928184125" Language="SFX">
+					<ShortName>Boss_mvt_L1_12.wav</ShortName>
+					<Path>SFX\Boss_mvt_L1_12_1617AFA0.wem</Path>
+				</File>
 				<File Id="928542328" Language="SFX">
 					<ShortName>Cello2_Chord2_F#.wav</ShortName>
 					<Path>SFX\Cello2_Chord2_F#_F91CC76F.wem</Path>
@@ -1874,6 +1927,10 @@
 					<ShortName>FS_Creak_3.wav</ShortName>
 					<Path>SFX\FS_Creak_3_1617AFA0.wem</Path>
 				</File>
+				<File Id="984541554" Language="SFX">
+					<ShortName>Boss_mvt_L1_15.wav</ShortName>
+					<Path>SFX\Boss_mvt_L1_15_1617AFA0.wem</Path>
+				</File>
 				<File Id="989136631" Language="SFX">
 					<ShortName>Leaves_1.wav</ShortName>
 					<Path>SFX\Leaves_1_1617AFA0.wem</Path>
@@ -1917,6 +1974,10 @@
 				<File Id="1006765293" Language="SFX">
 					<ShortName>Hallu_Doucement_2.wav</ShortName>
 					<Path>SFX\Hallu_Doucement_2_1617AFA0.wem</Path>
+				</File>
+				<File Id="1009891249" Language="SFX">
+					<ShortName>Boss_mvt_L1_10.wav</ShortName>
+					<Path>SFX\Boss_mvt_L1_10_1617AFA0.wem</Path>
 				</File>
 				<File Id="1010625297" Language="SFX">
 					<ShortName>FS_Dirt_L3_3.wav</ShortName>

@@ -13,6 +13,7 @@
 						<ObjectRef Name="Play_Fireflies_idle" ID="{B94228AF-14E6-4369-9E9B-EC44B4005B20}" WorkUnitID="{84EA8792-12FE-4E5E-950A-F7C12BDA81C4}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="UI_SelectSquare" ID="{541CA297-E823-4378-981B-E0A80604C29A}" WorkUnitID="{212F64C5-804F-481A-880D-EE5A6528A58F}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_HowlingWind" ID="{0FDB54DE-A34E-4387-8504-F41D053F92EF}" WorkUnitID="{EDF099EF-7CA4-4D68-9584-78359919806C}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Crows_Whispers" ID="{D5FB613A-6897-43F5-9B94-A1EC488F762D}" WorkUnitID="{895344F0-F06B-4DA8-BB4E-81D5A3713E53}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Door_close" ID="{C52B164E-FBFF-4417-B06E-8271A8961D91}" WorkUnitID="{84EA8792-12FE-4E5E-950A-F7C12BDA81C4}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="BlackDoor_Open" ID="{203C273D-A280-4479-9998-2BE80A84DE2A}" WorkUnitID="{895344F0-F06B-4DA8-BB4E-81D5A3713E53}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Soundscape_S1" ID="{7424A775-6FCF-44D5-B87D-B08A2A416A1D}" WorkUnitID="{18029C21-36BA-447B-9F35-854E0B36B1B5}" Filter="7" Origin="Manual"/>

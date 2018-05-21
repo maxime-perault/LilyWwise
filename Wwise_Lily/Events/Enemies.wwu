@@ -61,6 +61,20 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Crows_Whispers" ID="{D5FB613A-6897-43F5-9B94-A1EC488F762D}">
+							<ChildrenList>
+								<Action Name="" ID="{486A0346-92ED-4003-BDA8-3B025B887D9B}" ShortID="172914121">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Crows_Whispers" ID="{EEBD8DE1-59F3-42D7-8441-CC7535E57DE9}" WorkUnitID="{73945224-B814-474B-AE5A-97EAD58E2739}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="BlackDoors" ID="{7DECDFE5-5A00-4D72-AD9A-433786DD8DCF}" ShortID="588127126">
