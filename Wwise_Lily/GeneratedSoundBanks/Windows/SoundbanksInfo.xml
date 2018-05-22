@@ -41,14 +41,21 @@
 				<Event Id="3038914928" Name="Play_Fireflies_idle_bocal" ObjectPath="\Events\Default Work Unit\Character\Character_foleys\Fireflies\Play_Fireflies_idle_bocal"/>
 				<Event Id="1831923560" Name="Play_Fireflies_pickup" ObjectPath="\Events\Default Work Unit\Character\Character_foleys\Fireflies\Play_Fireflies_pickup"/>
 				<Event Id="4053674083" Name="Play_Hallucinations_O1" ObjectPath="\Events\Default Work Unit\Hallucinations\O1\Play_Hallucinations_O1"/>
+				<Event Id="94259199" Name="Play_Hallucinations_S1" ObjectPath="\Events\Default Work Unit\Hallucinations\S1\Play_Hallucinations_S1"/>
 				<Event Id="3210990662" Name="Play_HowlingWind" ObjectPath="\Events\Default Work Unit\Ambiances\O1\Play_HowlingWind"/>
 				<Event Id="353474919" Name="Play_Lightzone_Expand" ObjectPath="\Events\Default Work Unit\Character\Character_foleys\Lightzone\Play_Lightzone_Expand"/>
+				<Event Id="1926547469" Name="Play_MarelleHallus" ObjectPath="\Events\Default Work Unit\Hallucinations\Marelle\Play_MarelleHallus"/>
+				<Event Id="1396742852" Name="Play_Soundscape_Marelle" ObjectPath="\Events\Default Work Unit\Soundscapes\Marelle\Play_Soundscape_Marelle"/>
 				<Event Id="3152312914" Name="Play_Soundscape_O1" ObjectPath="\Events\Default Work Unit\Soundscapes\O1\Play_Soundscape_O1"/>
 				<Event Id="3085202470" Name="Play_Soundscape_S1" ObjectPath="\Events\Default Work Unit\Soundscapes\S1\Play_Soundscape_S1"/>
 				<Event Id="2008024594" Name="Restart_StopAll" ObjectPath="\Events\Default Work Unit\Global events\Restart_StopAll"/>
+				<Event Id="784713454" Name="Stop_Soundscape_Marelle" ObjectPath="\Events\Default Work Unit\Soundscapes\Marelle\Stop_Soundscape_Marelle"/>
+				<Event Id="1686107112" Name="Stop_Soundscape_O1" ObjectPath="\Events\Default Work Unit\Soundscapes\O1\Stop_Soundscape_O1"/>
+				<Event Id="2155880412" Name="Stop_Soundscape_S1" ObjectPath="\Events\Default Work Unit\Soundscapes\S1\Stop_Soundscape_S1"/>
 				<Event Id="2987232335" Name="UI_ConfirmSquare" ObjectPath="\Events\Default Work Unit\Marelle\Feedbacks\UI_ConfirmSquare"/>
 				<Event Id="455508631" Name="UI_SelectSquare" ObjectPath="\Events\Default Work Unit\Marelle\Feedbacks\UI_SelectSquare"/>
 				<Event Id="2877169713" Name="Voiceline_Grotte_1" ObjectPath="\Events\Default Work Unit\Voices\Grotte\Voiceline_Grotte_1"/>
+				<Event Id="3285071916" Name="Voiceline_Marelle_1" ObjectPath="\Events\Default Work Unit\Voices\Marelle\Voiceline_Marelle_1"/>
 				<Event Id="4274191526" Name="Voiceline_O1_1" ObjectPath="\Events\Default Work Unit\Voices\O1\Voiceline_O1_1"/>
 				<Event Id="4274191525" Name="Voiceline_O1_2" ObjectPath="\Events\Default Work Unit\Voices\O1\Voiceline_O1_2"/>
 				<Event Id="4274191524" Name="Voiceline_O1_3" ObjectPath="\Events\Default Work Unit\Voices\O1\Voiceline_O1_3"/>
@@ -56,6 +63,7 @@
 				<Event Id="4274191522" Name="Voiceline_O1_5" ObjectPath="\Events\Default Work Unit\Voices\O1\Voiceline_O1_5"/>
 				<Event Id="3008027450" Name="Voiceline_S1_1" ObjectPath="\Events\Default Work Unit\Voices\S1\Voiceline_S1_1"/>
 				<Event Id="3008027449" Name="Voiceline_S1_2" ObjectPath="\Events\Default Work Unit\Voices\S1\Voiceline_S1_2"/>
+				<Event Id="2133844069" Name="Voiceline_S1_Cabane" ObjectPath="\Events\Default Work Unit\Voices\S1\Voiceline_S1_Cabane"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="534106" Language="SFX">
@@ -160,7 +168,7 @@
 				</File>
 				<File Id="53871227" Language="SFX">
 					<ShortName>Lily - Arbre aux masques (Preview 2).wav</ShortName>
-					<Path>SFX\Lily - Arbre aux masques (Preview 2)_46E16232.wem</Path>
+					<Path>SFX\Lily - Arbre aux masques (Preview 2)_2B1C26DF.wem</Path>
 				</File>
 				<File Id="53926397" Language="SFX">
 					<ShortName>JumpLanding_1.wav</ShortName>
@@ -169,6 +177,10 @@
 				<File Id="57753328" Language="SFX">
 					<ShortName>Hallu_Whispers_1.wav</ShortName>
 					<Path>SFX\Hallu_Whispers_1_1617AFA0.wem</Path>
+				</File>
+				<File Id="63927170" Language="SFX">
+					<ShortName>Placeholder_VL_Grotte_1.wav</ShortName>
+					<Path>SFX\Placeholder_VL_Grotte_1_1C9C67B2.wem</Path>
 				</File>
 				<File Id="64644579" Language="SFX">
 					<ShortName>FS_Grass_Walk_2.wav</ShortName>
@@ -516,7 +528,7 @@
 				</File>
 				<File Id="237820176" Language="SFX">
 					<ShortName>Lily - Arbre aux masques (Preview 2).wav</ShortName>
-					<Path>SFX\Lily - Arbre aux masques (Preview 2)_FAFD1CAD.wem</Path>
+					<Path>SFX\Lily - Arbre aux masques (Preview 2)_4B504986.wem</Path>
 				</File>
 				<File Id="243639402" Language="SFX">
 					<ShortName>FS_Rocks_6.wav</ShortName>
@@ -1290,6 +1302,10 @@
 					<ShortName>Choir1_Chord1_D#.wav</ShortName>
 					<Path>SFX\Choir1_Chord1_D#_27A9F4A4.wem</Path>
 				</File>
+				<File Id="635578215" Language="SFX">
+					<ShortName>Soundscape - O2 v2 (Preview 2).wav</ShortName>
+					<Path>SFX\Soundscape - O2 v2 (Preview 2)_27A9F4A4.wem</Path>
+				</File>
 				<File Id="641346812" Language="SFX">
 					<ShortName>Hallu_Prudence_6.wav</ShortName>
 					<Path>SFX\Hallu_Prudence_6_1617AFA0.wem</Path>
@@ -1368,7 +1384,7 @@
 				</File>
 				<File Id="667013001" Language="SFX">
 					<ShortName>Soundscape - S1_4 (Preview 3) (Master final 1).wav</ShortName>
-					<Path>SFX\Soundscape - S1_4 (Preview 3) (Master final 1)_3E42E451.wem</Path>
+					<Path>SFX\Soundscape - S1_4 (Preview 3) (Master final 1)_12562620.wem</Path>
 				</File>
 				<File Id="667826289" Language="SFX">
 					<ShortName>FS_Dirt_Run_4.wav</ShortName>

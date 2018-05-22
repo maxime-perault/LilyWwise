@@ -107,6 +107,20 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Voiceline_S1_Cabane" ID="{F6969128-BB42-4673-921F-82E09E8F1048}">
+							<ChildrenList>
+								<Action Name="" ID="{9ED4AA74-197B-4A6C-AE7B-981F8A7B2E7C}" ShortID="440295424">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="O1_Voiceline_1" ID="{CC20A414-C839-43DB-98A3-3BCE3B8712A6}" WorkUnitID="{7C80B148-1430-4EB5-800F-0CC3571B9E3C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Grotte" ID="{AE8F7CFC-776D-4E08-B6E6-72302AA92EF1}" ShortID="511263724">
@@ -120,6 +134,24 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Grotte_Voiceline_1" ID="{FD3EDAAE-16EF-45A7-A094-489FD17EDD33}" WorkUnitID="{7C80B148-1430-4EB5-800F-0CC3571B9E3C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Marelle" ID="{1E2D3891-D5F5-4D49-9B74-D401DF3A50F3}" ShortID="687540128">
+					<ChildrenList>
+						<Event Name="Voiceline_Marelle_1" ID="{5E3220CF-61E6-4B67-BF90-10C815C129B0}">
+							<ChildrenList>
+								<Action Name="" ID="{3DB55967-581E-4C2E-945B-5292B2F7F146}" ShortID="111901945">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="O1_Voiceline_1" ID="{CC20A414-C839-43DB-98A3-3BCE3B8712A6}" WorkUnitID="{7C80B148-1430-4EB5-800F-0CC3571B9E3C}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

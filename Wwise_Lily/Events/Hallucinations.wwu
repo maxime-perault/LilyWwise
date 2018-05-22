@@ -21,6 +21,42 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="Marelle" ID="{583C3C1F-45C4-4EC3-B87C-FC1B55D94116}" ShortID="117921112">
+					<ChildrenList>
+						<Event Name="Play_MarelleHallus" ID="{E1C1AAFD-6DC7-4C4A-A8BF-AD0B6209F98B}">
+							<ChildrenList>
+								<Action Name="" ID="{C3DB8EE3-45D6-4BA3-891D-E5848AEA08FA}" ShortID="890025762">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="MarelleHallus" ID="{92DE0302-0D7F-4C89-B36E-1A2AED7ABCBE}" WorkUnitID="{36049A18-7C47-4CC2-8517-DBF2E8F943B3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="S1" ID="{FB1CF59E-B27B-45F5-8D57-DE676E5F2E8A}" ShortID="529593672">
+					<ChildrenList>
+						<Event Name="Play_Hallucinations_S1" ID="{0B1428E3-57B3-4B21-A729-D34E85448440}">
+							<ChildrenList>
+								<Action Name="" ID="{7A7F4129-7858-47E1-B4F1-0AE1D594232B}" ShortID="1071557839">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Hallucinations_S1" ID="{A40CF046-9D46-4C08-A8CC-687A885C75AC}" WorkUnitID="{36049A18-7C47-4CC2-8517-DBF2E8F943B3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

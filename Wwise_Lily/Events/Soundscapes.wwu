@@ -19,6 +19,22 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Stop_Soundscape_O1" ID="{B3343175-7416-4944-AA4D-7CD6C89B05C9}">
+							<ChildrenList>
+								<Action Name="" ID="{B416916C-6D4B-448D-84CC-9705213E404F}" ShortID="637836212">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="3"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Soundscape_O1" ID="{0852E595-2A2B-4099-9B6D-B5700FFEE637}" WorkUnitID="{70C4634E-397D-4AD0-AEA2-DE40622061AE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="S1" ID="{80598932-0507-4B48-AE5D-44743161645E}" ShortID="269948042">
@@ -29,6 +45,11 @@
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="2"/>
 										<Property Name="FadeTime" Type="Real64" Value="3"/>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
 										<Property Name="Scope" Type="int16" Value="1"/>
 									</PropertyList>
 									<ReferenceList>
@@ -41,6 +62,21 @@
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="1"/>
 										<Property Name="FadeTime" Type="Real64" Value="5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Soundscape_S1" ID="{465AE123-03FB-4F33-97B9-F2A058448CA7}" WorkUnitID="{70C4634E-397D-4AD0-AEA2-DE40622061AE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_Soundscape_S1" ID="{93EADFED-F27B-4156-B047-03AC2D5EF0EF}">
+							<ChildrenList>
+								<Action Name="" ID="{6919308C-87C7-4DF4-974C-993014AADA33}" ShortID="322620727">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="2"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
@@ -63,6 +99,40 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="AAM_Music" ID="{5477D0FE-E78E-43FA-A2BC-1CB39B6C0855}" WorkUnitID="{70C4634E-397D-4AD0-AEA2-DE40622061AE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Marelle" ID="{8332759E-1C23-4943-ACEA-DCE3B8283C91}" ShortID="518392482">
+					<ChildrenList>
+						<Event Name="Play_Soundscape_Marelle" ID="{2F5FCAA5-D168-4E6C-9C6D-B67454C2FE48}">
+							<ChildrenList>
+								<Action Name="" ID="{07A70564-C9BC-49F9-97DE-6A8313BC2C4F}" ShortID="959485508">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Soundscape_Marelle" ID="{8A9CCFFD-74B8-4A73-B60C-1CFF935CE417}" WorkUnitID="{70C4634E-397D-4AD0-AEA2-DE40622061AE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_Soundscape_Marelle" ID="{813FBA75-8153-4570-BFD4-AF7F9B7461CC}">
+							<ChildrenList>
+								<Action Name="" ID="{BA3B9BD0-7A86-47E7-8C0F-A522685A9937}" ShortID="782961839">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="2"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Soundscape_Marelle" ID="{8A9CCFFD-74B8-4A73-B60C-1CFF935CE417}" WorkUnitID="{70C4634E-397D-4AD0-AEA2-DE40622061AE}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
