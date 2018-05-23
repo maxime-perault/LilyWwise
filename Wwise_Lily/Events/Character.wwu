@@ -132,6 +132,20 @@
 										</Action>
 									</ChildrenList>
 								</Event>
+								<Event Name="Stop_Lightzone" ID="{B2E9A008-376F-48E1-AFB1-BDFB68940253}">
+									<ChildrenList>
+										<Action Name="" ID="{4566E246-2698-42B3-B677-AD19DB865E88}" ShortID="333693911">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Lightzone" ID="{245C1BCD-D497-416E-A2E9-FDE7DCEF95C9}" WorkUnitID="{5B924862-92FF-490C-A2A6-85F175E8DAE0}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
 						</Folder>
 					</ChildrenList>

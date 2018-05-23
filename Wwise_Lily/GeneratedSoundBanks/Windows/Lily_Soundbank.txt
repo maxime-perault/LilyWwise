@@ -12,6 +12,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	1831923560	Play_Fireflies_pickup			\Default Work Unit\Character\Character_foleys\Fireflies\Play_Fireflies_pickup	
 	1889209142	Play_Eboulement			\Default Work Unit\Ambiances\Grotte\Play_Eboulement	
 	1898305527	Crows_Whispers			\Default Work Unit\Enemies\Crows\Crows_Whispers	
+	1917263390	StopMusic			\Default Work Unit\Global events\StopMusic	
 	1926547469	Play_MarelleHallus			\Default Work Unit\Hallucinations\Marelle\Play_MarelleHallus	
 	1973086714	Play_Fireflies_idle			\Default Work Unit\Character\Character_foleys\Fireflies\Play_Fireflies_idle	
 	2008024594	Restart_StopAll			\Default Work Unit\Global events\Restart_StopAll	
@@ -27,9 +28,11 @@ Event	ID	Name			Wwise Object Path	Notes
 	3020955044	CrowsDeathBlend			\Default Work Unit\Enemies\Crows\CrowsDeathBlend	
 	3038914928	Play_Fireflies_idle_bocal			\Default Work Unit\Character\Character_foleys\Fireflies\Play_Fireflies_idle_bocal	
 	3055896492	Crows_Idle			\Default Work Unit\Enemies\Crows\Crows_Idle	
+	3070002642	Stop_Crows_Whispers			\Default Work Unit\Enemies\Crows\Stop_Crows_Whispers	
 	3085202470	Play_Soundscape_S1			\Default Work Unit\Soundscapes\S1\Play_Soundscape_S1	
 	3152312914	Play_Soundscape_O1			\Default Work Unit\Soundscapes\O1\Play_Soundscape_O1	
 	3210990662	Play_HowlingWind			\Default Work Unit\Ambiances\O1\Play_HowlingWind	
+	3226568974	Stop_Lightzone			\Default Work Unit\Character\Character_foleys\Lightzone\Stop_Lightzone	
 	3285071916	Voiceline_Marelle_1			\Default Work Unit\Voices\Marelle\Voiceline_Marelle_1	
 	3419686739	Jump_Land			\Default Work Unit\Character\Marelle_Foleys\Jump_Land	
 	3571843573	Play_AAM_Music			\Default Work Unit\Soundscapes\Arbre aux masques\Play_AAM_Music	

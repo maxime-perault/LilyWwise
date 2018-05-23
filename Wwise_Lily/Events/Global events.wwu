@@ -15,6 +15,54 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="StopMusic" ID="{C4E15028-2041-48A5-BEE3-B9CBA8D86CAE}">
+					<ChildrenList>
+						<Action Name="" ID="{38157C71-53D9-404F-A43A-20D031425AED}" ShortID="508132793">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Soundscape_O1" ID="{0852E595-2A2B-4099-9B6D-B5700FFEE637}" WorkUnitID="{70C4634E-397D-4AD0-AEA2-DE40622061AE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{DBA4C4D0-8158-41AD-AEA2-56D0146CC33D}" ShortID="183202624">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Soundscape_S1" ID="{465AE123-03FB-4F33-97B9-F2A058448CA7}" WorkUnitID="{70C4634E-397D-4AD0-AEA2-DE40622061AE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{D589C6EB-6AE1-4D42-A660-6D238B6D1D10}" ShortID="939215264">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Soundscape_Marelle" ID="{8A9CCFFD-74B8-4A73-B60C-1CFF935CE417}" WorkUnitID="{70C4634E-397D-4AD0-AEA2-DE40622061AE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{68FFE01A-0486-46D6-BC07-080A17E77F0D}" ShortID="952551473">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AAM_Music" ID="{5477D0FE-E78E-43FA-A2BC-1CB39B6C0855}" WorkUnitID="{70C4634E-397D-4AD0-AEA2-DE40622061AE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

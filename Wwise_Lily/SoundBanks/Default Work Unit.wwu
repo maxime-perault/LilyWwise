@@ -16,6 +16,7 @@
 						<ObjectRef Name="Play_HowlingWind" ID="{0FDB54DE-A34E-4387-8504-F41D053F92EF}" WorkUnitID="{EDF099EF-7CA4-4D68-9584-78359919806C}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Crows_Whispers" ID="{D5FB613A-6897-43F5-9B94-A1EC488F762D}" WorkUnitID="{895344F0-F06B-4DA8-BB4E-81D5A3713E53}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Door_close" ID="{C52B164E-FBFF-4417-B06E-8271A8961D91}" WorkUnitID="{84EA8792-12FE-4E5E-950A-F7C12BDA81C4}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Stop_Crows_Whispers" ID="{C9FB9289-4941-4445-8606-26534449E0C5}" WorkUnitID="{895344F0-F06B-4DA8-BB4E-81D5A3713E53}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Voiceline_S1_1" ID="{B932FAEB-446C-444A-B76B-D116E28C580E}" WorkUnitID="{0206CCDB-C58E-43B4-BE9A-B372D21E3FC7}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="BlackDoor_Open" ID="{203C273D-A280-4479-9998-2BE80A84DE2A}" WorkUnitID="{895344F0-F06B-4DA8-BB4E-81D5A3713E53}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Soundscape_S1" ID="{7424A775-6FCF-44D5-B87D-B08A2A416A1D}" WorkUnitID="{18029C21-36BA-447B-9F35-854E0B36B1B5}" Filter="7" Origin="Manual"/>
@@ -32,7 +33,9 @@
 						<ObjectRef Name="Play_Fireflies_pickup" ID="{D8849530-F811-47D0-B50E-46685D9A6CDA}" WorkUnitID="{84EA8792-12FE-4E5E-950A-F7C12BDA81C4}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Door_open" ID="{1954321B-CE9F-481D-8ED9-22A81A81153A}" WorkUnitID="{84EA8792-12FE-4E5E-950A-F7C12BDA81C4}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="FS_Run" ID="{C71A9259-5DAE-4844-9B81-B2A56EB73C5C}" WorkUnitID="{84EA8792-12FE-4E5E-950A-F7C12BDA81C4}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="StopMusic" ID="{C4E15028-2041-48A5-BEE3-B9CBA8D86CAE}" WorkUnitID="{4613B13D-0451-42D0-BD7A-5533B5617ED0}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Voiceline_Grotte_1" ID="{3CB1DFA7-D65E-48AB-86B0-E8778B8914F2}" WorkUnitID="{0206CCDB-C58E-43B4-BE9A-B372D21E3FC7}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Stop_Lightzone" ID="{B2E9A008-376F-48E1-AFB1-BDFB68940253}" WorkUnitID="{84EA8792-12FE-4E5E-950A-F7C12BDA81C4}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Voiceline_O1_2" ID="{25D1FBC5-E070-4913-AAED-F1EAFCF09D96}" WorkUnitID="{0206CCDB-C58E-43B4-BE9A-B372D21E3FC7}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Stop_Soundscape_O1" ID="{B3343175-7416-4944-AA4D-7CD6C89B05C9}" WorkUnitID="{18029C21-36BA-447B-9F35-854E0B36B1B5}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Crows_Idle" ID="{AEAAA9FA-4502-49A2-8A82-56894F33BBD0}" WorkUnitID="{895344F0-F06B-4DA8-BB4E-81D5A3713E53}" Filter="7" Origin="Manual"/>
