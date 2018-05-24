@@ -50,6 +50,8 @@
 				<Event Id="3085202470" Name="Play_Soundscape_S1" ObjectPath="\Events\Default Work Unit\Soundscapes\S1\Play_Soundscape_S1"/>
 				<Event Id="2008024594" Name="Restart_StopAll" ObjectPath="\Events\Default Work Unit\Global events\Restart_StopAll"/>
 				<Event Id="3070002642" Name="Stop_Crows_Whispers" ObjectPath="\Events\Default Work Unit\Enemies\Crows\Stop_Crows_Whispers"/>
+				<Event Id="1077533591" Name="Stop_CrowsDeathBlend" ObjectPath="\Events\Default Work Unit\Enemies\Crows\Stop_CrowsDeathBlend"/>
+				<Event Id="306205860" Name="Stop_Fireflies_idle" ObjectPath="\Events\Default Work Unit\Character\Character_foleys\Fireflies\Stop_Fireflies_idle"/>
 				<Event Id="3226568974" Name="Stop_Lightzone" ObjectPath="\Events\Default Work Unit\Character\Character_foleys\Lightzone\Stop_Lightzone"/>
 				<Event Id="784713454" Name="Stop_Soundscape_Marelle" ObjectPath="\Events\Default Work Unit\Soundscapes\Marelle\Stop_Soundscape_Marelle"/>
 				<Event Id="1686107112" Name="Stop_Soundscape_O1" ObjectPath="\Events\Default Work Unit\Soundscapes\O1\Stop_Soundscape_O1"/>

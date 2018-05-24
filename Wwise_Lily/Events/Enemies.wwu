@@ -80,10 +80,26 @@
 								<Action Name="" ID="{45FCAEE4-9698-43A4-8D49-308F9D176554}" ShortID="281052502">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.5"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Crows_Whispers" ID="{EEBD8DE1-59F3-42D7-8441-CC7535E57DE9}" WorkUnitID="{73945224-B814-474B-AE5A-97EAD58E2739}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_CrowsDeathBlend" ID="{6E0C9D59-E962-4532-A0A6-F3E85409754E}">
+							<ChildrenList>
+								<Action Name="" ID="{CE7A2EA1-0764-4255-A634-9D682BC1636C}" ShortID="496878276">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="CrowsDeathBlend" ID="{B726278E-1590-4849-B1CC-82F572218558}" WorkUnitID="{73945224-B814-474B-AE5A-97EAD58E2739}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

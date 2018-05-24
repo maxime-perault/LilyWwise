@@ -82,6 +82,21 @@
 										</Action>
 									</ChildrenList>
 								</Event>
+								<Event Name="Stop_Fireflies_idle" ID="{552DD43C-3D50-4784-BD33-E5ACA8050E4E}">
+									<ChildrenList>
+										<Action Name="" ID="{C70953D4-FAA8-4721-B713-2C1822BDA30F}" ShortID="562750200">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+												<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Fireflies_idle" ID="{47A79040-B205-40F4-A6AA-F9F08829F034}" WorkUnitID="{5B924862-92FF-490C-A2A6-85F175E8DAE0}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="Footsteps" ID="{496381CE-0E22-4061-9436-BD4D5CD64938}" ShortID="950078291">

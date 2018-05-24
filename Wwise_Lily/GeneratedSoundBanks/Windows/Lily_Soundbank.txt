@@ -1,10 +1,12 @@
 Event	ID	Name			Wwise Object Path	Notes
 	94259199	Play_Hallucinations_S1			\Default Work Unit\Hallucinations\S1\Play_Hallucinations_S1	
 	283520899	Crows_Spawn			\Default Work Unit\Enemies\Crows\Crows_Spawn	
+	306205860	Stop_Fireflies_idle			\Default Work Unit\Character\Character_foleys\Fireflies\Stop_Fireflies_idle	
 	353474919	Play_Lightzone_Expand			\Default Work Unit\Character\Character_foleys\Lightzone\Play_Lightzone_Expand	
 	362749134	FS_Run			\Default Work Unit\Character\Character_foleys\Footsteps\FS_Run	
 	455508631	UI_SelectSquare			\Default Work Unit\Marelle\Feedbacks\UI_SelectSquare	
 	784713454	Stop_Soundscape_Marelle			\Default Work Unit\Soundscapes\Marelle\Stop_Soundscape_Marelle	
+	1077533591	Stop_CrowsDeathBlend			\Default Work Unit\Enemies\Crows\Stop_CrowsDeathBlend	
 	1396742852	Play_Soundscape_Marelle			\Default Work Unit\Soundscapes\Marelle\Play_Soundscape_Marelle	
 	1638063245	CrowsFlight			\Default Work Unit\Enemies\Crows\CrowsFlight	
 	1660008929	Play_Door_open			\Default Work Unit\Character\Cabane_foleys\Play_Door_open	
