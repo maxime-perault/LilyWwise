@@ -53,7 +53,10 @@ Switch Group	ID	Name			Wwise Object Path	Notes
 	2385628198	Footsteps			\Default Work Unit\Footsteps	
 
 Switch	ID	Name	Switch Group			Notes
+	187032587	Flowers	Footsteps			
+	1510358672	Roots	Footsteps			
 	1863277117	Rocks	Footsteps			
+	2039020852	Mirror	Footsteps			
 	2058049674	Wood	Footsteps			
 	2195636714	Dirt	Footsteps			
 	2654748154	Water	Footsteps			

@@ -1691,6 +1691,12 @@
 										</GroupingBehaviorList>
 										<GroupingList>
 											<Grouping>
+												<SwitchRef Name="Flowers" ID="{D13F9905-C843-4BDE-BCE7-D565CA2B6737}"/>
+												<ItemList>
+													<ItemRef Name="FS_Grass_Walk" ID="{EB0E6262-63D5-4562-99EB-851222CCAD42}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
 												<SwitchRef Name="Dirt" ID="{D0E90812-3044-482D-97C5-AB576E59876B}"/>
 												<ItemList>
 													<ItemRef Name="FS_Dirt_Walk" ID="{EEF818D6-6575-4026-8964-D7AE52F8FC33}"/>
@@ -1709,9 +1715,21 @@
 												</ItemList>
 											</Grouping>
 											<Grouping>
+												<SwitchRef Name="Roots" ID="{4DF26B8E-EE01-4159-B165-CAACA90471EB}"/>
+												<ItemList>
+													<ItemRef Name="FS_Wood_Walk" ID="{A2CD90F9-B14D-48A4-A6E6-0CD31A9EE63F}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
 												<SwitchRef Name="Wood" ID="{03B20491-53B4-4ED6-B470-D17DB07C2B38}"/>
 												<ItemList>
 													<ItemRef Name="FS_Wood_Walk" ID="{A2CD90F9-B14D-48A4-A6E6-0CD31A9EE63F}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Mirror" ID="{2462FABE-A453-4EA9-B700-BA98148E6F71}"/>
+												<ItemList>
+													<ItemRef Name="FS_Water_Walk" ID="{E34755F6-7BCC-4D00-B73F-F82DD17E9268}"/>
 												</ItemList>
 											</Grouping>
 											<Grouping>
@@ -2911,6 +2929,12 @@
 										</GroupingBehaviorList>
 										<GroupingList>
 											<Grouping>
+												<SwitchRef Name="Flowers" ID="{D13F9905-C843-4BDE-BCE7-D565CA2B6737}"/>
+												<ItemList>
+													<ItemRef Name="FS_Grass_Run" ID="{BE98FCEC-D407-4284-9C64-2A09597A60FA}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
 												<SwitchRef Name="Dirt" ID="{D0E90812-3044-482D-97C5-AB576E59876B}"/>
 												<ItemList>
 													<ItemRef Name="FS_Dirt_Run" ID="{F582A61B-15F0-4A90-A023-22CB04F52F03}"/>
@@ -2929,9 +2953,21 @@
 												</ItemList>
 											</Grouping>
 											<Grouping>
+												<SwitchRef Name="Roots" ID="{4DF26B8E-EE01-4159-B165-CAACA90471EB}"/>
+												<ItemList>
+													<ItemRef Name="FS_Wood_Run" ID="{4FC63BA1-E8B2-429F-85EC-73DEBA566B09}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
 												<SwitchRef Name="Wood" ID="{03B20491-53B4-4ED6-B470-D17DB07C2B38}"/>
 												<ItemList>
 													<ItemRef Name="FS_Wood_Run" ID="{4FC63BA1-E8B2-429F-85EC-73DEBA566B09}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Mirror" ID="{2462FABE-A453-4EA9-B700-BA98148E6F71}"/>
+												<ItemList>
+													<ItemRef Name="FS_Water_Run" ID="{58DBBD26-CD07-4B00-8B5E-B89CC2828224}"/>
 												</ItemList>
 											</Grouping>
 											<Grouping>
