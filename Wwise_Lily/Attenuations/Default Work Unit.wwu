@@ -152,7 +152,7 @@
 				</Attenuation>
 				<Attenuation Name="Door_Attenuation" ID="{4A15CF79-F5E8-42A2-91EA-426CA4F6D333}" ShortID="575916676">
 					<PropertyList>
-						<Property Name="RadiusMax" Type="Real64" Value="800"/>
+						<Property Name="RadiusMax" Type="Real64" Value="600"/>
 					</PropertyList>
 					<CurveUsageInfoList>
 						<VolumeDryUsage>
@@ -169,7 +169,7 @@
 											<SegmentShape>Exp1</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>800</XPos>
+											<XPos>600</XPos>
 											<YPos>-200</YPos>
 											<Flags>37</Flags>
 										</Point>

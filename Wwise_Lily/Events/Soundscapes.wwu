@@ -140,6 +140,39 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="Cabane2" ID="{22F70ABC-C942-4F1F-A07A-03B8B6CB6091}" ShortID="843712863">
+					<ChildrenList>
+						<Event Name="Play_Soundscape_Cabane2" ID="{3F4D066A-5D4D-434E-842D-432483BC0AD9}">
+							<ChildrenList>
+								<Action Name="" ID="{22A001C3-0D02-4890-8CD5-10BACE238F7E}" ShortID="581513329">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Soundscape_Cabane2" ID="{1E46CE79-12A9-49B6-BF0F-9A43010913CD}" WorkUnitID="{70C4634E-397D-4AD0-AEA2-DE40622061AE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_Soundscape_Cabane2" ID="{02854767-3C94-4E0D-B8ED-F745C523ED51}">
+							<ChildrenList>
+								<Action Name="" ID="{0E17BBC4-73C4-42DC-96D6-16E8A1E3A4C5}" ShortID="704692300">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Soundscape_Cabane2" ID="{1E46CE79-12A9-49B6-BF0F-9A43010913CD}" WorkUnitID="{70C4634E-397D-4AD0-AEA2-DE40622061AE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

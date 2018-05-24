@@ -3298,106 +3298,6 @@
 										<ItemRef Name="Fireflies_idle_01" ID="{EE23A1A6-B42D-4683-83FB-FDD996DB074E}"/>
 									</Playlist>
 								</RandomSequenceContainer>
-								<RandomSequenceContainer Name="Fireflies_idle_bocal" ID="{1E46CE79-12A9-49B6-BF0F-9A43010913CD}" ShortID="570697907">
-									<PropertyList>
-										<Property Name="Highpass" Type="int16">
-											<ValueList>
-												<Value>40</Value>
-											</ValueList>
-										</Property>
-										<Property Name="Lowpass" Type="int16">
-											<ValueList>
-												<Value>62</Value>
-											</ValueList>
-										</Property>
-										<Property Name="OverridePositioning" Type="bool" Value="True"/>
-										<Property Name="Pitch" Type="int32">
-											<ValueList>
-												<Value>910</Value>
-											</ValueList>
-											<ModifierList>
-												<ModifierInfo>
-													<Modifier Name="" ID="{6AF2F4EC-5217-48EB-A27D-E9632BE24260}">
-														<PropertyList>
-															<Property Name="Enabled" Type="bool" Value="True"/>
-															<Property Name="Max" Type="Real64" Value="300"/>
-															<Property Name="Min" Type="Real64" Value="-100"/>
-														</PropertyList>
-													</Modifier>
-												</ModifierInfo>
-											</ModifierList>
-										</Property>
-										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
-										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
-										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="7"/>
-										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
-										<Property Name="PositioningType" Type="int16" Value="1"/>
-										<Property Name="RandomOrSequence" Type="int16" Value="0"/>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-5</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Attenuation">
-											<ObjectRef Name="Fireflies_Bocal_Attenuation" ID="{22978D39-47D3-4C20-89F3-E53B8BDF34B4}" WorkUnitID="{F9486E4D-3A45-4423-A197-A386E047703F}"/>
-										</Reference>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<Sound Name="Fireflies_idle_bocal_1" ID="{1141AB47-A928-49FB-8760-CD43D2CA2927}" ShortID="97540788">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Fireflies_idle_bocal_1" ID="{A5871FE8-AE2C-45EC-A8F6-25FE9398E9E2}" ShortID="359594581">
-													<Language>SFX</Language>
-													<AudioFile>Fireflies_idle_bocal_1.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="528515471"/>
-													</ConvertedFileIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Fireflies_idle_bocal_1" ID="{A5871FE8-AE2C-45EC-A8F6-25FE9398E9E2}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Fireflies_idle_bocal_01" ID="{ECF0103E-87BE-40BA-B772-EDB7D89B8AAC}" ShortID="1006695750">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Fireflies_idle_bocal_1" ID="{5D3F6BFD-A2BB-4ECB-ABDA-1697CF559278}" ShortID="528515471">
-													<Language>SFX</Language>
-													<AudioFile>Fireflies_idle_bocal_1.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Fireflies_idle_bocal_1" ID="{5D3F6BFD-A2BB-4ECB-ABDA-1697CF559278}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-									</ChildrenList>
-									<Playlist>
-										<ItemRef Name="Fireflies_idle_bocal_1" ID="{1141AB47-A928-49FB-8760-CD43D2CA2927}"/>
-										<ItemRef Name="Fireflies_idle_bocal_01" ID="{ECF0103E-87BE-40BA-B772-EDB7D89B8AAC}"/>
-									</Playlist>
-								</RandomSequenceContainer>
 							</ChildrenList>
 						</ActorMixer>
 					</ChildrenList>
@@ -3405,6 +3305,11 @@
 				<ActorMixer Name="Cabane_foleys" ID="{2BE09644-D4EF-4D37-836F-3DF89E8E944E}" ShortID="276820443">
 					<PropertyList>
 						<Property Name="PositioningType" Type="int16" Value="1"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-3</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Attenuation">

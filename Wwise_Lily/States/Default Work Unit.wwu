@@ -25,6 +25,24 @@
 							<Time>1.6</Time>
 							<IsShared>true</IsShared>
 						</Transition>
+						<Transition>
+							<StartState Name="S1" ID="{4145D28B-2F04-4F88-9003-188F7AFD3B0D}"/>
+							<EndState Name="Caverne" ID="{30BE990F-065D-4A19-B0BE-AEA73D8A7E36}"/>
+							<Time>3</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Caverne" ID="{30BE990F-065D-4A19-B0BE-AEA73D8A7E36}"/>
+							<EndState Name="S1" ID="{4145D28B-2F04-4F88-9003-188F7AFD3B0D}"/>
+							<Time>2.5</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="S1" ID="{4145D28B-2F04-4F88-9003-188F7AFD3B0D}"/>
+							<EndState Name="Cabane2" ID="{16CDE326-D286-48B3-AE39-CFE3A68598D0}"/>
+							<Time>2.5</Time>
+							<IsShared>true</IsShared>
+						</Transition>
 					</TransitionList>
 				</StateGroup>
 			</ChildrenList>

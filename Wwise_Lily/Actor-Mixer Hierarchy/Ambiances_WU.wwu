@@ -1389,7 +1389,11 @@
 											</CustomState>
 											<CustomState>
 												<StateRef Name="Caverne" ID="{30BE990F-065D-4A19-B0BE-AEA73D8A7E36}"/>
-												<State Name="" ID="{85F4553A-7D95-4AFA-94D9-B2301E408D81}" ShortID="1023560463"/>
+												<State Name="" ID="{85F4553A-7D95-4AFA-94D9-B2301E408D81}" ShortID="1023560463">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-96"/>
+													</PropertyList>
+												</State>
 											</CustomState>
 											<CustomState>
 												<StateRef Name="Cabane1" ID="{D1471503-FD89-4F58-A6D8-86EB42D0AD7B}"/>

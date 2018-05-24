@@ -45,6 +45,7 @@
 				<Event Id="3210990662" Name="Play_HowlingWind" ObjectPath="\Events\Default Work Unit\Ambiances\O1\Play_HowlingWind"/>
 				<Event Id="353474919" Name="Play_Lightzone_Expand" ObjectPath="\Events\Default Work Unit\Character\Character_foleys\Lightzone\Play_Lightzone_Expand"/>
 				<Event Id="1926547469" Name="Play_MarelleHallus" ObjectPath="\Events\Default Work Unit\Hallucinations\Marelle\Play_MarelleHallus"/>
+				<Event Id="599449316" Name="Play_Soundscape_Cabane2" ObjectPath="\Events\Default Work Unit\Soundscapes\Cabane2\Play_Soundscape_Cabane2"/>
 				<Event Id="1396742852" Name="Play_Soundscape_Marelle" ObjectPath="\Events\Default Work Unit\Soundscapes\Marelle\Play_Soundscape_Marelle"/>
 				<Event Id="3152312914" Name="Play_Soundscape_O1" ObjectPath="\Events\Default Work Unit\Soundscapes\O1\Play_Soundscape_O1"/>
 				<Event Id="3085202470" Name="Play_Soundscape_S1" ObjectPath="\Events\Default Work Unit\Soundscapes\S1\Play_Soundscape_S1"/>
@@ -53,6 +54,7 @@
 				<Event Id="1077533591" Name="Stop_CrowsDeathBlend" ObjectPath="\Events\Default Work Unit\Enemies\Crows\Stop_CrowsDeathBlend"/>
 				<Event Id="306205860" Name="Stop_Fireflies_idle" ObjectPath="\Events\Default Work Unit\Character\Character_foleys\Fireflies\Stop_Fireflies_idle"/>
 				<Event Id="3226568974" Name="Stop_Lightzone" ObjectPath="\Events\Default Work Unit\Character\Character_foleys\Lightzone\Stop_Lightzone"/>
+				<Event Id="2480346722" Name="Stop_Soundscape_Cabane2" ObjectPath="\Events\Default Work Unit\Soundscapes\Cabane2\Stop_Soundscape_Cabane2"/>
 				<Event Id="784713454" Name="Stop_Soundscape_Marelle" ObjectPath="\Events\Default Work Unit\Soundscapes\Marelle\Stop_Soundscape_Marelle"/>
 				<Event Id="1686107112" Name="Stop_Soundscape_O1" ObjectPath="\Events\Default Work Unit\Soundscapes\O1\Stop_Soundscape_O1"/>
 				<Event Id="2155880412" Name="Stop_Soundscape_S1" ObjectPath="\Events\Default Work Unit\Soundscapes\S1\Stop_Soundscape_S1"/>
@@ -67,7 +69,6 @@
 				<Event Id="4274191523" Name="Voiceline_O1_4" ObjectPath="\Events\Default Work Unit\Voices\O1\Voiceline_O1_4"/>
 				<Event Id="4274191522" Name="Voiceline_O1_5" ObjectPath="\Events\Default Work Unit\Voices\O1\Voiceline_O1_5"/>
 				<Event Id="3008027450" Name="Voiceline_S1_1" ObjectPath="\Events\Default Work Unit\Voices\S1\Voiceline_S1_1"/>
-				<Event Id="3008027449" Name="Voiceline_S1_2" ObjectPath="\Events\Default Work Unit\Voices\S1\Voiceline_S1_2"/>
 				<Event Id="2133844069" Name="Voiceline_S1_Cabane" ObjectPath="\Events\Default Work Unit\Voices\S1\Voiceline_S1_Cabane"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
@@ -1101,7 +1102,7 @@
 				</File>
 				<File Id="528515471" Language="SFX">
 					<ShortName>Fireflies_idle_bocal_1.wav</ShortName>
-					<Path>SFX\Fireflies_idle_bocal_1_1617AFA0.wem</Path>
+					<Path>SFX\Fireflies_idle_bocal_1_27A9F4A4.wem</Path>
 				</File>
 				<File Id="529409405" Language="SFX">
 					<ShortName>Hallu_ToujoursLa_21.wav</ShortName>
@@ -1822,10 +1823,6 @@
 				<File Id="891651356" Language="SFX">
 					<ShortName>CrowsFlight_v1_7.wav</ShortName>
 					<Path>SFX\CrowsFlight_v1_7_1617AFA0.wem</Path>
-				</File>
-				<File Id="896128067" Language="SFX">
-					<ShortName>Placeholder_VL_S1_2.wav</ShortName>
-					<Path>SFX\Placeholder_VL_S1_2_1617AFA0.wem</Path>
 				</File>
 				<File Id="897528244" Language="SFX">
 					<ShortName>Hallu_HeyOh_3.wav</ShortName>

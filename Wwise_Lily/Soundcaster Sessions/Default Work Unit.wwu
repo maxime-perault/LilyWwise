@@ -50,6 +50,14 @@
 							<Position X="2" Y="2"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="Play_Soundscape_S1" ID="{7424A775-6FCF-44D5-B87D-B08A2A416A1D}" WorkUnitID="{18029C21-36BA-447B-9F35-854E0B36B1B5}"/>
+							<Position X="2" Y="4"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Stop_Soundscape_S1" ID="{93EADFED-F27B-4156-B047-03AC2D5EF0EF}" WorkUnitID="{18029C21-36BA-447B-9F35-854E0B36B1B5}"/>
+							<Position X="2" Y="5"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Play_Door_open" ID="{1954321B-CE9F-481D-8ED9-22A81A81153A}" WorkUnitID="{84EA8792-12FE-4E5E-950A-F7C12BDA81C4}"/>
 							<Position X="3" Y="0"/>
 						</Module>
@@ -68,6 +76,10 @@
 						<Module>
 							<ObjectRef Name="Voiceline_O1_5" ID="{0E358048-65EA-4247-B8D1-0CAEF4B85AC6}" WorkUnitID="{0206CCDB-C58E-43B4-BE9A-B372D21E3FC7}"/>
 							<Position X="3" Y="4"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Soundscape_Cabane2" ID="{3F4D066A-5D4D-434E-842D-432483BC0AD9}" WorkUnitID="{18029C21-36BA-447B-9F35-854E0B36B1B5}"/>
+							<Position X="3" Y="5"/>
 						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
@@ -125,7 +137,7 @@
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="Cabane1" ID="{D1471503-FD89-4F58-A6D8-86EB42D0AD7B}"/>
+						<CurrentStateRef Name="Cabane2" ID="{16CDE326-D286-48B3-AE39-CFE3A68598D0}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="Dirt" ID="{D0E90812-3044-482D-97C5-AB576E59876B}"/>

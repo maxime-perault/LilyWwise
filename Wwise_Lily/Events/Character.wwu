@@ -62,7 +62,7 @@
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Fireflies_idle_bocal" ID="{1E46CE79-12A9-49B6-BF0F-9A43010913CD}" WorkUnitID="{5B924862-92FF-490C-A2A6-85F175E8DAE0}"/>
+													<ObjectRef Name="Soundscape_Cabane2" ID="{1E46CE79-12A9-49B6-BF0F-9A43010913CD}" WorkUnitID="{70C4634E-397D-4AD0-AEA2-DE40622061AE}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>

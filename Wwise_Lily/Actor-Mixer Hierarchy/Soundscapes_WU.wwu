@@ -2810,6 +2810,51 @@
 											<AudioFile>Soundscape - S1_4 (Preview 3) (Master final 1).wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="AMB_State" ID="{78CBE9AB-3BE5-44B1-BE8D-72119E53C82E}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Cabane2" ID="{16CDE326-D286-48B3-AE39-CFE3A68598D0}"/>
+												<State Name="" ID="{C95879D4-3270-4342-83CE-F6A85370B1CA}" ShortID="73662334">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-96"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="O1" ID="{78E80E31-EAA1-4A16-89A6-E43BD286DDDD}"/>
+												<State Name="" ID="{F4E44785-B70A-4864-A05F-A9861791BAB4}" ShortID="384435163">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-96"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Caverne" ID="{30BE990F-065D-4A19-B0BE-AEA73D8A7E36}"/>
+												<State Name="" ID="{C5F5E463-F0F3-4FCC-AF77-89A98212EC0C}" ShortID="455185631">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-96"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Cabane1" ID="{D1471503-FD89-4F58-A6D8-86EB42D0AD7B}"/>
+												<State Name="" ID="{F49E5770-0BAF-45FE-8E68-3954F271B37B}" ShortID="251198974">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-96"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="S1" ID="{4145D28B-2F04-4F88-9003-188F7AFD3B0D}"/>
+												<State Name="" ID="{9DE478C1-488A-4E3A-934D-F555FD4B6722}" ShortID="124224617"/>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
 									<ActiveSourceList>
 										<ActiveSource Name="Soundscape - S1_4 (Preview 3) (Master final 1)" ID="{EBDBF056-9850-40E1-A675-4CBAD4443910}" Platform="Linked"/>
 									</ActiveSourceList>
@@ -2945,6 +2990,169 @@
 									</Playlist>
 								</RandomSequenceContainer>
 							</ChildrenList>
+						</ActorMixer>
+						<ActorMixer Name="SoundscapeCabane2" ID="{50832C54-1424-4CD7-9D2E-EC78BE021AB0}" ShortID="23468424">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="Soundscape_Cabane2" ID="{1E46CE79-12A9-49B6-BF0F-9A43010913CD}" ShortID="570697907">
+									<PropertyList>
+										<Property Name="3DPositionSource" Type="int16" Value="0"/>
+										<Property Name="EnablePanner" Type="bool" Value="True"/>
+										<Property Name="Highpass" Type="int16">
+											<ValueList>
+												<Value>40</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>62</Value>
+											</ValueList>
+										</Property>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>910</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{6AF2F4EC-5217-48EB-A27D-E9632BE24260}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="300"/>
+															<Property Name="Min" Type="Real64" Value="-100"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="7"/>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+										<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="SFX_Comp" ID="{94D2B765-DB8D-469E-97ED-DEEB9595516F}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="SFX" ID="{8C3931D1-175E-42B3-B35D-8A6C6C7EC6E5}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Fireflies_idle_bocal_1" ID="{1141AB47-A928-49FB-8760-CD43D2CA2927}" ShortID="97540788">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Fireflies_idle_bocal_1" ID="{A5871FE8-AE2C-45EC-A8F6-25FE9398E9E2}" ShortID="359594581">
+													<Language>SFX</Language>
+													<AudioFile>Fireflies_idle_bocal_1.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File ID="528515471"/>
+													</ConvertedFileIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Fireflies_idle_bocal_1" ID="{A5871FE8-AE2C-45EC-A8F6-25FE9398E9E2}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Fireflies_idle_bocal_01" ID="{ECF0103E-87BE-40BA-B772-EDB7D89B8AAC}" ShortID="1006695750">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Fireflies_idle_bocal_1" ID="{5D3F6BFD-A2BB-4ECB-ABDA-1697CF559278}" ShortID="528515471">
+													<Language>SFX</Language>
+													<AudioFile>Fireflies_idle_bocal_1.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Fireflies_idle_bocal_1" ID="{5D3F6BFD-A2BB-4ECB-ABDA-1697CF559278}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<PositioningInfo>
+										<Panner Name="" ID="{6D54AEEC-ACC3-4BB3-9164-F4781DBF862A}">
+											<PropertyList>
+												<Property Name="PanX" Type="Real64" Value="15"/>
+											</PropertyList>
+										</Panner>
+										<Position Name="" ID="{E5C1912F-AD4A-4441-9A4E-BC193D1B020F}"/>
+									</PositioningInfo>
+									<Playlist>
+										<ItemRef Name="Fireflies_idle_bocal_1" ID="{1141AB47-A928-49FB-8760-CD43D2CA2927}"/>
+										<ItemRef Name="Fireflies_idle_bocal_01" ID="{ECF0103E-87BE-40BA-B772-EDB7D89B8AAC}"/>
+									</Playlist>
+								</RandomSequenceContainer>
+							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="AMB_State" ID="{78CBE9AB-3BE5-44B1-BE8D-72119E53C82E}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Cabane2" ID="{16CDE326-D286-48B3-AE39-CFE3A68598D0}"/>
+										<State Name="" ID="{3C33DD37-1433-432D-AF2C-A7593CBDA27D}" ShortID="521020934"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="O1" ID="{78E80E31-EAA1-4A16-89A6-E43BD286DDDD}"/>
+										<State Name="" ID="{DE159DFB-630C-4313-969D-65A29D1CCF70}" ShortID="1020547834">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-96"/>
+											</PropertyList>
+										</State>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Caverne" ID="{30BE990F-065D-4A19-B0BE-AEA73D8A7E36}"/>
+										<State Name="" ID="{96010477-0DFF-4A54-9C24-CC44348976B8}" ShortID="918477816">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-96"/>
+											</PropertyList>
+										</State>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Cabane1" ID="{D1471503-FD89-4F58-A6D8-86EB42D0AD7B}"/>
+										<State Name="" ID="{EA48412C-4D6C-4229-887E-D1E3B52B20AA}" ShortID="741484691">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-96"/>
+											</PropertyList>
+										</State>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="S1" ID="{4145D28B-2F04-4F88-9003-188F7AFD3B0D}"/>
+										<State Name="" ID="{D6904DA8-6288-4DED-9E7C-5248C995881C}" ShortID="638203658">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-96"/>
+											</PropertyList>
+										</State>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
 						</ActorMixer>
 					</ChildrenList>
 				</ActorMixer>
