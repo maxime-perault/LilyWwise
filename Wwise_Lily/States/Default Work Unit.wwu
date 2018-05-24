@@ -9,6 +9,8 @@
 						<State Name="O1" ID="{78E80E31-EAA1-4A16-89A6-E43BD286DDDD}"/>
 						<State Name="Cabane1" ID="{D1471503-FD89-4F58-A6D8-86EB42D0AD7B}"/>
 						<State Name="S1" ID="{4145D28B-2F04-4F88-9003-188F7AFD3B0D}"/>
+						<State Name="Cabane2" ID="{16CDE326-D286-48B3-AE39-CFE3A68598D0}"/>
+						<State Name="Caverne" ID="{30BE990F-065D-4A19-B0BE-AEA73D8A7E36}"/>
 					</ChildrenList>
 					<TransitionList>
 						<Transition>

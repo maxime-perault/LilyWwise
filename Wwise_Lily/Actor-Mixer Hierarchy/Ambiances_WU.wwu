@@ -1080,8 +1080,16 @@
 										</StateGroupList>
 										<CustomStateList>
 											<CustomState>
+												<StateRef Name="Cabane2" ID="{16CDE326-D286-48B3-AE39-CFE3A68598D0}"/>
+												<State Name="" ID="{A7E1F38D-5FFC-4676-BA75-60C5AF613739}" ShortID="223043164"/>
+											</CustomState>
+											<CustomState>
 												<StateRef Name="O1" ID="{78E80E31-EAA1-4A16-89A6-E43BD286DDDD}"/>
 												<State Name="" ID="{26B02F3D-58D7-442F-BBD1-8E42B4EFA6FD}" ShortID="1043135981"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Caverne" ID="{30BE990F-065D-4A19-B0BE-AEA73D8A7E36}"/>
+												<State Name="" ID="{B7E49695-E9BD-49D9-A1A9-1FA4E1B1FC1F}" ShortID="687001707"/>
 											</CustomState>
 											<CustomState>
 												<StateRef Name="Cabane1" ID="{D1471503-FD89-4F58-A6D8-86EB42D0AD7B}"/>
@@ -1310,12 +1318,20 @@
 												</StateGroupList>
 												<CustomStateList>
 													<CustomState>
+														<StateRef Name="Cabane2" ID="{16CDE326-D286-48B3-AE39-CFE3A68598D0}"/>
+														<State Name="" ID="{82896BB8-2410-42D5-9ADB-B855388FE879}" ShortID="448628087"/>
+													</CustomState>
+													<CustomState>
 														<StateRef Name="O1" ID="{78E80E31-EAA1-4A16-89A6-E43BD286DDDD}"/>
 														<State Name="" ID="{1630530F-B090-443F-811E-8C860C516781}" ShortID="922156743">
 															<PropertyList>
 																<Property Name="Volume" Type="Real64" Value="-96"/>
 															</PropertyList>
 														</State>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Caverne" ID="{30BE990F-065D-4A19-B0BE-AEA73D8A7E36}"/>
+														<State Name="" ID="{010157CD-1189-4A55-ACE5-8E867EF83B96}" ShortID="16111770"/>
 													</CustomState>
 													<CustomState>
 														<StateRef Name="Cabane1" ID="{D1471503-FD89-4F58-A6D8-86EB42D0AD7B}"/>
@@ -1360,12 +1376,20 @@
 										</StateGroupList>
 										<CustomStateList>
 											<CustomState>
+												<StateRef Name="Cabane2" ID="{16CDE326-D286-48B3-AE39-CFE3A68598D0}"/>
+												<State Name="" ID="{4607C7A5-E314-4D5B-B7FF-9D7B5BF87943}" ShortID="858164156"/>
+											</CustomState>
+											<CustomState>
 												<StateRef Name="O1" ID="{78E80E31-EAA1-4A16-89A6-E43BD286DDDD}"/>
 												<State Name="" ID="{398FA07B-0D31-4CF2-A673-5689FAA80228}" ShortID="59976347">
 													<PropertyList>
 														<Property Name="Volume" Type="Real64" Value="-96"/>
 													</PropertyList>
 												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Caverne" ID="{30BE990F-065D-4A19-B0BE-AEA73D8A7E36}"/>
+												<State Name="" ID="{85F4553A-7D95-4AFA-94D9-B2301E408D81}" ShortID="1023560463"/>
 											</CustomState>
 											<CustomState>
 												<StateRef Name="Cabane1" ID="{D1471503-FD89-4F58-A6D8-86EB42D0AD7B}"/>

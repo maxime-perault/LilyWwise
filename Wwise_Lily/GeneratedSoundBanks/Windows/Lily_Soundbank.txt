@@ -61,8 +61,10 @@ State Group	ID	Name			Wwise Object Path	Notes
 
 State	ID	Name	State Group			Notes
 	0	None	AMB_State			
+	865663655	Caverne	AMB_State			
 	1584861493	S1	AMB_State			
 	1651971937	O1	AMB_State			
+	1700763265	Cabane2	AMB_State			
 	1700763266	Cabane1	AMB_State			
 
 Custom State	ID	Name	State Group	Owner		Notes
