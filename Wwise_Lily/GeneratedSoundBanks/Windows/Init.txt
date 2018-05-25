@@ -28,6 +28,9 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	393239870	SFX			\Default Work Unit\Master Audio Bus\SFX	
 	1404066300	Ambiances			\Default Work Unit\Master Audio Bus\Ambiances	
+	2385628198	Footsteps			\Default Work Unit\Master Audio Bus\Footsteps	
+	2478496102	SFX_Duck			\Default Work Unit\Master Audio Bus\SFX_Duck	
+	2996874541	Music_S1			\Default Work Unit\Master Audio Bus\Music_S1	
 	3114858784	Hallus			\Default Work Unit\Master Audio Bus\Hallus	
 	3313685232	Voices			\Default Work Unit\Master Audio Bus\Voices	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	

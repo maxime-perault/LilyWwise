@@ -1120,7 +1120,7 @@
 										<Property Name="PositioningType" Type="int16" Value="1"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-12</Value>
+												<Value>-11</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -1418,7 +1418,7 @@
 								<Property Name="PositioningType" Type="int16" Value="1"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-8</Value>
+										<Value>3</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -1526,11 +1526,6 @@
 										</Property>
 										<Property Name="OverridePositioning" Type="bool" Value="True"/>
 										<Property Name="PositioningType" Type="int16" Value="1"/>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-5</Value>
-											</ValueList>
-										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Attenuation">
@@ -1544,16 +1539,16 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Eboulement_1" ID="{E55F83E4-5FBE-48C3-94AA-D8E749EF4437}" ShortID="562752859">
+										<AudioFileSource Name="Eboulement_2" ID="{801AC98E-0919-4940-A7D1-F50705A73646}" ShortID="7784607">
 											<Language>SFX</Language>
-											<AudioFile>Eboulement_1.wav</AudioFile>
+											<AudioFile>Eboulement_2.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
 									<PositioningInfo>
 										<Panner Name="" ID="{DCA05318-CF06-445B-9454-7FC1A463283A}"/>
 									</PositioningInfo>
 									<ActiveSourceList>
-										<ActiveSource Name="Eboulement_1" ID="{E55F83E4-5FBE-48C3-94AA-D8E749EF4437}" Platform="Linked"/>
+										<ActiveSource Name="Eboulement_2" ID="{801AC98E-0919-4940-A7D1-F50705A73646}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>

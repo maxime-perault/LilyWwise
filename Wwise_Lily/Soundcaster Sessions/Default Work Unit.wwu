@@ -22,10 +22,6 @@
 							<Position X="0" Y="3"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Lightzone_Expanddd" ID="{BA7A61EB-7755-4154-ACB5-9D940411B6F3}" WorkUnitID="{5B924862-92FF-490C-A2A6-85F175E8DAE0}"/>
-							<Position X="1" Y="0"/>
-						</Module>
-						<Module>
 							<ObjectRef Name="Play_AMB_O1" ID="{ED195764-3D0D-4FF1-B572-51BB0BA10371}" WorkUnitID="{EDF099EF-7CA4-4D68-9584-78359919806C}"/>
 							<Position X="1" Y="1"/>
 						</Module>
@@ -125,7 +121,7 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="Choir_volume" ID="{A42AE4D6-E22E-4CEC-909C-8C65E4C3E991}"/>
-							<Value>2000</Value>
+							<Value>500</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="SS_Air_Freefall" ID="{2F2DFE37-4F9E-4D94-83D8-53CCA39781AD}"/>

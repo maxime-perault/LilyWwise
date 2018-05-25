@@ -15,6 +15,7 @@
 					<ChildrenList>
 						<ActorMixer Name="Footsteps" ID="{F3EE4901-EFA3-40FF-ABAD-736C9306C5F9}" ShortID="134927034">
 							<PropertyList>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>2</Value>
@@ -26,7 +27,7 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+									<ObjectRef Name="Footsteps" ID="{48B8018C-C793-4C8F-90CB-6C6C32AD5BD9}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -3011,32 +3012,6 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="Lightzone_Expanddd" ID="{BA7A61EB-7755-4154-ACB5-9D940411B6F3}" ShortID="806879209">
-									<PropertyList>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-8</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="SFX_Comp" ID="{94D2B765-DB8D-469E-97ED-DEEB9595516F}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="SFX" ID="{8C3931D1-175E-42B3-B35D-8A6C6C7EC6E5}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Lightzone_expand_1" ID="{3573D685-9F54-4645-88D7-F2B574BA15F7}" ShortID="130593866">
-											<Language>SFX</Language>
-											<AudioFile>Lightzone_expand_1.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Lightzone_expand_1" ID="{3573D685-9F54-4645-88D7-F2B574BA15F7}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
 								<BlendContainer Name="Lightzone" ID="{245C1BCD-D497-416E-A2E9-FDE7DCEF95C9}" ShortID="96714690">
 									<PropertyList>
 										<Property Name="MaxSoundPerInstance" Type="int16">
@@ -3061,6 +3036,7 @@
 									<ChildrenList>
 										<RandomSequenceContainer Name="Lightzone_Expand" ID="{34CFEDA7-E8E6-4E85-9D10-B509951B7339}" ShortID="734922564">
 											<PropertyList>
+												<Property Name="OverrideOutput" Type="bool" Value="True"/>
 												<Property Name="Pitch" Type="int32">
 													<ModifierList>
 														<ModifierInfo>
@@ -3074,7 +3050,7 @@
 												</Property>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>-1</Value>
+														<Value>1</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>
@@ -3083,7 +3059,7 @@
 													<ObjectRef Name="SFX_Comp" ID="{94D2B765-DB8D-469E-97ED-DEEB9595516F}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
 												</Reference>
 												<Reference Name="OutputBus">
-													<ObjectRef Name="SFX" ID="{8C3931D1-175E-42B3-B35D-8A6C6C7EC6E5}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+													<ObjectRef Name="SFX_Duck" ID="{41861169-42C1-4C3D-A209-D754431014B3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
@@ -3098,6 +3074,11 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="Lightzone_expand_v3" ID="{3EDB7D4A-05CB-4DBD-A27C-FFB77EA1B2B4}" ShortID="658699776">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.424579985390796"/>
+																<Property Name="FadeOutShape" Type="int16" Value="4"/>
+																<Property Name="TrimEnd" Type="Real64" Value="1.59149013878744"/>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>Lightzone_expand_v3.wav</AudioFile>
 														</AudioFileSource>
@@ -3175,9 +3156,13 @@
 													<Language>SFX</Language>
 													<AudioFile>Lightzone_active_v2 (avec fade in au cas ou).wav</AudioFile>
 												</AudioFileSource>
+												<AudioFileSource Name="Lightzone_active_v2_Filtre" ID="{3E5BBC95-9979-4DB1-A238-2907D0C9E5BD}" ShortID="526263737">
+													<Language>SFX</Language>
+													<AudioFile>Lightzone_active_v2_Filtre.wav</AudioFile>
+												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Lightzone_active_v2 (avec fade in au cas ou)" ID="{3BC22E59-E02A-4B25-8BB2-05FC74C04776}" Platform="Linked"/>
+												<ActiveSource Name="Lightzone_active_v2_Filtre" ID="{3E5BBC95-9979-4DB1-A238-2907D0C9E5BD}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>

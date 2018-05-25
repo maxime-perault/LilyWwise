@@ -607,7 +607,7 @@
 																				<Flags>5</Flags>
 																			</Point>
 																			<Point>
-																				<XPos>2000</XPos>
+																				<XPos>500</XPos>
 																				<YPos>-200</YPos>
 																				<Flags>37</Flags>
 																			</Point>
@@ -1636,7 +1636,7 @@
 																				<Flags>5</Flags>
 																			</Point>
 																			<Point>
-																				<XPos>2000</XPos>
+																				<XPos>500</XPos>
 																				<YPos>-200</YPos>
 																				<Flags>37</Flags>
 																			</Point>
@@ -2653,7 +2653,7 @@
 																				<Flags>5</Flags>
 																			</Point>
 																			<Point>
-																				<XPos>2000</XPos>
+																				<XPos>500</XPos>
 																				<YPos>-200</YPos>
 																				<Flags>37</Flags>
 																			</Point>
@@ -2764,12 +2764,15 @@
 							</ChildrenList>
 						</ActorMixer>
 						<ActorMixer Name="S1" ID="{2EADF264-8E3B-498C-919A-6728BA45FD7E}" ShortID="718566443">
+							<PropertyList>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+									<ObjectRef Name="Music_S1" ID="{786F9F8A-6C43-4F10-A8B8-CA1209284760}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -2862,10 +2865,10 @@
 							</ChildrenList>
 						</ActorMixer>
 						<ActorMixer Name="Marelle" ID="{7F97D83D-CDEE-4CC1-B60D-2BF43A302AD6}" ShortID="227515338">
+							<PropertyList>
+								<Property Name="OverrideConversion" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
-								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
 								</Reference>
@@ -2906,6 +2909,11 @@
 									<PropertyList>
 										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 										<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -2983,10 +2991,56 @@
 												<ActiveSource Name="Lily - Arbre aux masques (Preview 2)" ID="{741EC15F-613D-45EC-98A7-1DE742C63531}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
+										<Sound Name="Lily - Arbre aux masques - Ensemble choeurs et piano" ID="{B3C39F99-A1CE-409D-A4EC-EFEE894610AA}" ShortID="574304159">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Lily - Arbre aux masques - Ensemble choeurs et piano" ID="{772FB6A7-9678-4CD2-9714-BC2CDBD2ED2C}" ShortID="798053459">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="1.07991234477721"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Lily - Arbre aux masques - Ensemble choeurs et piano.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Lily - Arbre aux masques - Ensemble choeurs et piano" ID="{772FB6A7-9678-4CD2-9714-BC2CDBD2ED2C}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Lily - Arbre aux masques - Intro" ID="{8CE3C8D6-65C5-4149-A7CD-4DCFDA274ABF}" ShortID="617215169">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Lily - Arbre aux masques (Preview 2)" ID="{0429E421-3096-4892-90F8-511198986612}" ShortID="878245881">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="6.15164353542732"/>
+														<Property Name="TrimEnd" Type="Real64" Value="38.5008035062089"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Lily - Arbre aux masques (Preview 2).wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Lily - Arbre aux masques (Preview 2)" ID="{0429E421-3096-4892-90F8-511198986612}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
 									</ChildrenList>
 									<Playlist>
+										<ItemRef Name="Lily - Arbre aux masques - Ensemble choeurs et piano" ID="{B3C39F99-A1CE-409D-A4EC-EFEE894610AA}"/>
+										<ItemRef Name="Lily - Arbre aux masques - Intro" ID="{8CE3C8D6-65C5-4149-A7CD-4DCFDA274ABF}"/>
 										<ItemRef Name="Piano" ID="{1D82F132-F08B-4647-9E06-C9D36681D755}"/>
-										<ItemRef Name="Choeur" ID="{805E9B94-90F4-434C-B208-EF168C5FFC8A}"/>
 									</Playlist>
 								</RandomSequenceContainer>
 							</ChildrenList>

@@ -8,8 +8,8 @@
 						<GameParameter Name="Choir_volume" ID="{A42AE4D6-E22E-4CEC-909C-8C65E4C3E991}">
 							<PropertyList>
 								<Property Name="BindToBuiltInParam" Type="int16" Value="1"/>
-								<Property Name="InitialValue" Type="Real64" Value="100"/>
-								<Property Name="Max" Type="Real64" Value="2000"/>
+								<Property Name="InitialValue" Type="Real64" Value="500"/>
+								<Property Name="Max" Type="Real64" Value="500"/>
 								<Property Name="RTPCRamping" Type="int16" Value="1"/>
 							</PropertyList>
 						</GameParameter>

@@ -42,6 +42,22 @@
 							</DuckingList>
 						</Bus>
 						<Bus Name="Voices" ID="{3BBF9C36-986D-47FB-BD33-5D8560856EAD}"/>
+						<Bus Name="Footsteps" ID="{48B8018C-C793-4C8F-90CB-6C6C32AD5BD9}"/>
+						<Bus Name="Music_S1" ID="{786F9F8A-6C43-4F10-A8B8-CA1209284760}"/>
+						<Bus Name="SFX_Duck" ID="{41861169-42C1-4C3D-A209-D754431014B3}">
+							<DuckingList>
+								<DuckItem>
+									<BusRef Name="Music_S1" ID="{786F9F8A-6C43-4F10-A8B8-CA1209284760}"/>
+									<DuckingParam>
+										<Volume>-6</Volume>
+										<FadeInTime>1</FadeInTime>
+										<FadeOutTime>0.5</FadeOutTime>
+										<FadeCurve>FadeLinear</FadeCurve>
+										<TargetProp>BusVolume</TargetProp>
+									</DuckingParam>
+								</DuckItem>
+							</DuckingList>
+						</Bus>
 					</ChildrenList>
 				</Bus>
 			</ChildrenList>

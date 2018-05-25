@@ -40,11 +40,11 @@
 				<Event Id="1973086714" Name="Play_Fireflies_idle" ObjectPath="\Events\Default Work Unit\Character\Character_foleys\Fireflies\Play_Fireflies_idle"/>
 				<Event Id="3038914928" Name="Play_Fireflies_idle_bocal" ObjectPath="\Events\Default Work Unit\Character\Character_foleys\Fireflies\Play_Fireflies_idle_bocal"/>
 				<Event Id="1831923560" Name="Play_Fireflies_pickup" ObjectPath="\Events\Default Work Unit\Character\Character_foleys\Fireflies\Play_Fireflies_pickup"/>
+				<Event Id="3762745851" Name="Play_Hallucinations_Marelle" ObjectPath="\Events\Default Work Unit\Hallucinations\Marelle\Play_Hallucinations_Marelle"/>
 				<Event Id="4053674083" Name="Play_Hallucinations_O1" ObjectPath="\Events\Default Work Unit\Hallucinations\O1\Play_Hallucinations_O1"/>
 				<Event Id="94259199" Name="Play_Hallucinations_S1" ObjectPath="\Events\Default Work Unit\Hallucinations\S1\Play_Hallucinations_S1"/>
 				<Event Id="3210990662" Name="Play_HowlingWind" ObjectPath="\Events\Default Work Unit\Ambiances\O1\Play_HowlingWind"/>
 				<Event Id="353474919" Name="Play_Lightzone_Expand" ObjectPath="\Events\Default Work Unit\Character\Character_foleys\Lightzone\Play_Lightzone_Expand"/>
-				<Event Id="1926547469" Name="Play_MarelleHallus" ObjectPath="\Events\Default Work Unit\Hallucinations\Marelle\Play_MarelleHallus"/>
 				<Event Id="599449316" Name="Play_Soundscape_Cabane2" ObjectPath="\Events\Default Work Unit\Soundscapes\Cabane2\Play_Soundscape_Cabane2"/>
 				<Event Id="1396742852" Name="Play_Soundscape_Marelle" ObjectPath="\Events\Default Work Unit\Soundscapes\Marelle\Play_Soundscape_Marelle"/>
 				<Event Id="3152312914" Name="Play_Soundscape_O1" ObjectPath="\Events\Default Work Unit\Soundscapes\O1\Play_Soundscape_O1"/>
@@ -53,6 +53,9 @@
 				<Event Id="3070002642" Name="Stop_Crows_Whispers" ObjectPath="\Events\Default Work Unit\Enemies\Crows\Stop_Crows_Whispers"/>
 				<Event Id="1077533591" Name="Stop_CrowsDeathBlend" ObjectPath="\Events\Default Work Unit\Enemies\Crows\Stop_CrowsDeathBlend"/>
 				<Event Id="306205860" Name="Stop_Fireflies_idle" ObjectPath="\Events\Default Work Unit\Character\Character_foleys\Fireflies\Stop_Fireflies_idle"/>
+				<Event Id="244099117" Name="Stop_Hallucinations_Marelle" ObjectPath="\Events\Default Work Unit\Hallucinations\Marelle\Stop_Hallucinations_Marelle"/>
+				<Event Id="4280149425" Name="Stop_Hallucinations_O1" ObjectPath="\Events\Default Work Unit\Hallucinations\O1\Stop_Hallucinations_O1"/>
+				<Event Id="454955429" Name="Stop_Hallucinations_S1" ObjectPath="\Events\Default Work Unit\Hallucinations\S1\Stop_Hallucinations_S1"/>
 				<Event Id="3226568974" Name="Stop_Lightzone" ObjectPath="\Events\Default Work Unit\Character\Character_foleys\Lightzone\Stop_Lightzone"/>
 				<Event Id="2480346722" Name="Stop_Soundscape_Cabane2" ObjectPath="\Events\Default Work Unit\Soundscapes\Cabane2\Stop_Soundscape_Cabane2"/>
 				<Event Id="784713454" Name="Stop_Soundscape_Marelle" ObjectPath="\Events\Default Work Unit\Soundscapes\Marelle\Stop_Soundscape_Marelle"/>
@@ -91,6 +94,10 @@
 				<File Id="6034744" Language="SFX">
 					<ShortName>Hallu_SuisLaLumiere_7.wav</ShortName>
 					<Path>SFX\Hallu_SuisLaLumiere_7_1617AFA0.wem</Path>
+				</File>
+				<File Id="7784607" Language="SFX">
+					<ShortName>Eboulement_2.wav</ShortName>
+					<Path>SFX\Eboulement_2_1617AFA0.wem</Path>
 				</File>
 				<File Id="8516310" Language="SFX">
 					<ShortName>Wind_base_4.wav</ShortName>
@@ -1100,6 +1107,10 @@
 					<ShortName>Boss_mvt_L1_2.wav</ShortName>
 					<Path>SFX\Boss_mvt_L1_2_1617AFA0.wem</Path>
 				</File>
+				<File Id="526263737" Language="SFX">
+					<ShortName>Lightzone_active_v2_Filtre.wav</ShortName>
+					<Path>SFX\Lightzone_active_v2_Filtre_1617AFA0.wem</Path>
+				</File>
 				<File Id="528515471" Language="SFX">
 					<ShortName>Fireflies_idle_bocal_1.wav</ShortName>
 					<Path>SFX\Fireflies_idle_bocal_1_27A9F4A4.wem</Path>
@@ -1151,10 +1162,6 @@
 				<File Id="561439004" Language="SFX">
 					<ShortName>Fs_Grass_Run_5.wav</ShortName>
 					<Path>SFX\Fs_Grass_Run_5_1617AFA0.wem</Path>
-				</File>
-				<File Id="562752859" Language="SFX">
-					<ShortName>Eboulement_1.wav</ShortName>
-					<Path>SFX\Eboulement_1_1617AFA0.wem</Path>
 				</File>
 				<File Id="563335160" Language="SFX">
 					<ShortName>Hallu_Lily_1.wav</ShortName>
@@ -1370,7 +1377,7 @@
 				</File>
 				<File Id="658699776" Language="SFX">
 					<ShortName>Lightzone_expand_v3.wav</ShortName>
-					<Path>SFX\Lightzone_expand_v3_1617AFA0.wem</Path>
+					<Path>SFX\Lightzone_expand_v3_62B339A6.wem</Path>
 				</File>
 				<File Id="658958390" Language="SFX">
 					<ShortName>Hallu_Prudence_7.wav</ShortName>
@@ -1656,6 +1663,10 @@
 					<ShortName>Hallu_NeMignorePas_10.wav</ShortName>
 					<Path>SFX\Hallu_NeMignorePas_10_1617AFA0.wem</Path>
 				</File>
+				<File Id="798053459" Language="SFX">
+					<ShortName>Lily - Arbre aux masques - Ensemble choeurs et piano.wav</ShortName>
+					<Path>SFX\Lily - Arbre aux masques - Ensemble choeurs et piano_9EEF1854.wem</Path>
+				</File>
 				<File Id="798073799" Language="SFX">
 					<ShortName>FS_Water_L2_1.wav</ShortName>
 					<Path>SFX\FS_Water_L2_1_1617AFA0.wem</Path>
@@ -1811,6 +1822,10 @@
 				<File Id="877882141" Language="SFX">
 					<ShortName>Hallu_NeMignorePas_7.wav</ShortName>
 					<Path>SFX\Hallu_NeMignorePas_7_1617AFA0.wem</Path>
+				</File>
+				<File Id="878245881" Language="SFX">
+					<ShortName>Lily - Arbre aux masques (Preview 2).wav</ShortName>
+					<Path>SFX\Lily - Arbre aux masques (Preview 2)_236E2357.wem</Path>
 				</File>
 				<File Id="878727978" Language="SFX">
 					<ShortName>Fs_Grass_Run_1.wav</ShortName>
@@ -2091,10 +2106,6 @@
 				<File Id="1046988004" Language="SFX">
 					<ShortName>Leaves_7.wav</ShortName>
 					<Path>SFX\Leaves_7_1617AFA0.wem</Path>
-				</File>
-				<File Id="1047620931" Language="SFX">
-					<ShortName>Lightzone_active_v2 (avec fade in au cas ou).wav</ShortName>
-					<Path>SFX\Lightzone_active_v2 (avec fade in au cas ou)_1617AFA0.wem</Path>
 				</File>
 				<File Id="1048306210" Language="SFX">
 					<ShortName>Hallu_Doucement_14.wav</ShortName>

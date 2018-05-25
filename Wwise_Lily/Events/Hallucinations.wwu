@@ -19,15 +19,47 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Stop_Hallucinations_O1" ID="{47FC5CDF-4BA6-4396-8B43-B372669CE123}">
+							<ChildrenList>
+								<Action Name="" ID="{D21BAC65-BCC4-48AA-BB37-2190D3C6EDFE}" ShortID="381405012">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Hallucinations_O1" ID="{F5DC520E-EBA4-4914-B82A-B0BF0D96BAEB}" WorkUnitID="{36049A18-7C47-4CC2-8517-DBF2E8F943B3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Marelle" ID="{583C3C1F-45C4-4EC3-B87C-FC1B55D94116}" ShortID="117921112">
 					<ChildrenList>
-						<Event Name="Play_MarelleHallus" ID="{E1C1AAFD-6DC7-4C4A-A8BF-AD0B6209F98B}">
+						<Event Name="Play_Hallucinations_Marelle" ID="{E1C1AAFD-6DC7-4C4A-A8BF-AD0B6209F98B}">
 							<ChildrenList>
 								<Action Name="" ID="{C3DB8EE3-45D6-4BA3-891D-E5848AEA08FA}" ShortID="890025762">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="MarelleHallus" ID="{92DE0302-0D7F-4C89-B36E-1A2AED7ABCBE}" WorkUnitID="{36049A18-7C47-4CC2-8517-DBF2E8F943B3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_Hallucinations_Marelle" ID="{5458AB76-8345-4B79-AB9B-87869D651E77}">
+							<ChildrenList>
+								<Action Name="" ID="{E4900549-9A26-4406-8B06-D4E042642CBC}" ShortID="823998518">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
@@ -46,6 +78,22 @@
 								<Action Name="" ID="{7A7F4129-7858-47E1-B4F1-0AE1D594232B}" ShortID="1071557839">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Hallucinations_S1" ID="{A40CF046-9D46-4C08-A8CC-687A885C75AC}" WorkUnitID="{36049A18-7C47-4CC2-8517-DBF2E8F943B3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_Hallucinations_S1" ID="{C40835D5-93AE-46DA-AD4B-4E6FA08C6543}">
+							<ChildrenList>
+								<Action Name="" ID="{641923FB-5AA3-459D-987E-3BF771E4471A}" ShortID="1000411196">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">

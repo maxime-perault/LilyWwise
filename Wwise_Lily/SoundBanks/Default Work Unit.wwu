@@ -15,6 +15,7 @@
 						<ObjectRef Name="Play_Fireflies_idle" ID="{B94228AF-14E6-4369-9E9B-EC44B4005B20}" WorkUnitID="{84EA8792-12FE-4E5E-950A-F7C12BDA81C4}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="UI_SelectSquare" ID="{541CA297-E823-4378-981B-E0A80604C29A}" WorkUnitID="{212F64C5-804F-481A-880D-EE5A6528A58F}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_HowlingWind" ID="{0FDB54DE-A34E-4387-8504-F41D053F92EF}" WorkUnitID="{EDF099EF-7CA4-4D68-9584-78359919806C}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Stop_Hallucinations_O1" ID="{47FC5CDF-4BA6-4396-8B43-B372669CE123}" WorkUnitID="{55D3C94C-8131-48D1-B711-B6E327AFFD0E}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Crows_Whispers" ID="{D5FB613A-6897-43F5-9B94-A1EC488F762D}" WorkUnitID="{895344F0-F06B-4DA8-BB4E-81D5A3713E53}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Door_close" ID="{C52B164E-FBFF-4417-B06E-8271A8961D91}" WorkUnitID="{84EA8792-12FE-4E5E-950A-F7C12BDA81C4}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Stop_Crows_Whispers" ID="{C9FB9289-4941-4445-8606-26534449E0C5}" WorkUnitID="{895344F0-F06B-4DA8-BB4E-81D5A3713E53}" Filter="7" Origin="Manual"/>
@@ -28,6 +29,7 @@
 						<ObjectRef Name="Voiceline_S1_Cabane" ID="{F6969128-BB42-4673-921F-82E09E8F1048}" WorkUnitID="{0206CCDB-C58E-43B4-BE9A-B372D21E3FC7}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_AMB_Lake" ID="{6C10A59F-7F3F-4680-8093-02D825074345}" WorkUnitID="{EDF099EF-7CA4-4D68-9584-78359919806C}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Restart_StopAll" ID="{275D9B7B-5AA8-46CB-9190-65B3784FB0F0}" WorkUnitID="{4613B13D-0451-42D0-BD7A-5533B5617ED0}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Stop_Hallucinations_S1" ID="{C40835D5-93AE-46DA-AD4B-4E6FA08C6543}" WorkUnitID="{55D3C94C-8131-48D1-B711-B6E327AFFD0E}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Hallucinations_O1" ID="{68B70C5D-B329-46EF-82CC-896956FDD980}" WorkUnitID="{55D3C94C-8131-48D1-B711-B6E327AFFD0E}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="CrowsDeathBlend" ID="{1D502F38-F908-46FB-84B1-E2FA10978926}" WorkUnitID="{895344F0-F06B-4DA8-BB4E-81D5A3713E53}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Stop_Fireflies_idle" ID="{552DD43C-3D50-4784-BD33-E5ACA8050E4E}" WorkUnitID="{84EA8792-12FE-4E5E-950A-F7C12BDA81C4}" Filter="7" Origin="Manual"/>
@@ -45,9 +47,10 @@
 						<ObjectRef Name="Voiceline_O1_3" ID="{22AA84AD-0345-4AF0-8496-8547CADCBBC1}" WorkUnitID="{0206CCDB-C58E-43B4-BE9A-B372D21E3FC7}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Hallucinations_S1" ID="{0B1428E3-57B3-4B21-A729-D34E85448440}" WorkUnitID="{55D3C94C-8131-48D1-B711-B6E327AFFD0E}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Voiceline_Marelle_1" ID="{5E3220CF-61E6-4B67-BF90-10C815C129B0}" WorkUnitID="{0206CCDB-C58E-43B4-BE9A-B372D21E3FC7}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Stop_Hallucinations_Marelle" ID="{5458AB76-8345-4B79-AB9B-87869D651E77}" WorkUnitID="{55D3C94C-8131-48D1-B711-B6E327AFFD0E}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Lily_Dash" ID="{445AD5AC-8DBF-4B80-96AD-BBDAB4459F90}" WorkUnitID="{84EA8792-12FE-4E5E-950A-F7C12BDA81C4}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Crows_Spawn" ID="{18ADE3A8-7D5E-4BA9-A09E-F9BC71C45DFD}" WorkUnitID="{895344F0-F06B-4DA8-BB4E-81D5A3713E53}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Play_MarelleHallus" ID="{E1C1AAFD-6DC7-4C4A-A8BF-AD0B6209F98B}" WorkUnitID="{55D3C94C-8131-48D1-B711-B6E327AFFD0E}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Hallucinations_Marelle" ID="{E1C1AAFD-6DC7-4C4A-A8BF-AD0B6209F98B}" WorkUnitID="{55D3C94C-8131-48D1-B711-B6E327AFFD0E}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Eboulement" ID="{7DDAB17E-B39A-4DE4-B44B-A11963EA58A4}" WorkUnitID="{EDF099EF-7CA4-4D68-9584-78359919806C}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Stop_Soundscape_Cabane2" ID="{02854767-3C94-4E0D-B8ED-F745C523ED51}" WorkUnitID="{18029C21-36BA-447B-9F35-854E0B36B1B5}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Soundscape_Marelle" ID="{2F5FCAA5-D168-4E6C-9C6D-B67454C2FE48}" WorkUnitID="{18029C21-36BA-447B-9F35-854E0B36B1B5}" Filter="7" Origin="Manual"/>

@@ -238,7 +238,7 @@
 										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="4"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-5</Value>
+												<Value>-1</Value>
 											</ValueList>
 											<ModifierList>
 												<ModifierInfo>
@@ -989,7 +989,7 @@
 																	</Point>
 																	<Point>
 																		<XPos>100</XPos>
-																		<YPos>100</YPos>
+																		<YPos>68</YPos>
 																		<Flags>37</Flags>
 																	</Point>
 																</PointList>
