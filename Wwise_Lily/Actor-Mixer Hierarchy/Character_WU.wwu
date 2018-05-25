@@ -3160,9 +3160,13 @@
 													<Language>SFX</Language>
 													<AudioFile>Lightzone_active_v2_Filtre.wav</AudioFile>
 												</AudioFileSource>
+												<AudioFileSource Name="Lightzone_active_v3_Filtre" ID="{314CD6AD-6C77-4A5B-8C13-A50540F3A1ED}" ShortID="894608640">
+													<Language>SFX</Language>
+													<AudioFile>Lightzone_active_v3_Filtre.wav</AudioFile>
+												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Lightzone_active_v2_Filtre" ID="{3E5BBC95-9979-4DB1-A238-2907D0C9E5BD}" Platform="Linked"/>
+												<ActiveSource Name="Lightzone_active_v3_Filtre" ID="{314CD6AD-6C77-4A5B-8C13-A50540F3A1ED}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>

@@ -40,6 +40,7 @@
 				<Event Id="1973086714" Name="Play_Fireflies_idle" ObjectPath="\Events\Default Work Unit\Character\Character_foleys\Fireflies\Play_Fireflies_idle"/>
 				<Event Id="3038914928" Name="Play_Fireflies_idle_bocal" ObjectPath="\Events\Default Work Unit\Character\Character_foleys\Fireflies\Play_Fireflies_idle_bocal"/>
 				<Event Id="1831923560" Name="Play_Fireflies_pickup" ObjectPath="\Events\Default Work Unit\Character\Character_foleys\Fireflies\Play_Fireflies_pickup"/>
+				<Event Id="838160022" Name="Play_GrotteProgression" ObjectPath="\Events\Default Work Unit\Soundscapes\Arbre aux masques\Play_GrotteProgression"/>
 				<Event Id="3762745851" Name="Play_Hallucinations_Marelle" ObjectPath="\Events\Default Work Unit\Hallucinations\Marelle\Play_Hallucinations_Marelle"/>
 				<Event Id="4053674083" Name="Play_Hallucinations_O1" ObjectPath="\Events\Default Work Unit\Hallucinations\O1\Play_Hallucinations_O1"/>
 				<Event Id="94259199" Name="Play_Hallucinations_S1" ObjectPath="\Events\Default Work Unit\Hallucinations\S1\Play_Hallucinations_S1"/>
@@ -1107,10 +1108,6 @@
 					<ShortName>Boss_mvt_L1_2.wav</ShortName>
 					<Path>SFX\Boss_mvt_L1_2_1617AFA0.wem</Path>
 				</File>
-				<File Id="526263737" Language="SFX">
-					<ShortName>Lightzone_active_v2_Filtre.wav</ShortName>
-					<Path>SFX\Lightzone_active_v2_Filtre_1617AFA0.wem</Path>
-				</File>
 				<File Id="528515471" Language="SFX">
 					<ShortName>Fireflies_idle_bocal_1.wav</ShortName>
 					<Path>SFX\Fireflies_idle_bocal_1_27A9F4A4.wem</Path>
@@ -1251,6 +1248,10 @@
 					<ShortName>Hallu_SouviensToi_5.wav</ShortName>
 					<Path>SFX\Hallu_SouviensToi_5_1617AFA0.wem</Path>
 				</File>
+				<File Id="608039463" Language="SFX">
+					<ShortName>Progression grotte - intro 1 loop.wav</ShortName>
+					<Path>SFX\Progression grotte - intro 1 loop_F17FB28C.wem</Path>
+				</File>
 				<File Id="613046743" Language="SFX">
 					<ShortName>Choir1_Chord4_G.wav</ShortName>
 					<Path>SFX\Choir1_Chord4_G_27A9F4A4.wem</Path>
@@ -1377,7 +1378,7 @@
 				</File>
 				<File Id="658699776" Language="SFX">
 					<ShortName>Lightzone_expand_v3.wav</ShortName>
-					<Path>SFX\Lightzone_expand_v3_62B339A6.wem</Path>
+					<Path>SFX\Lightzone_expand_v3_56B980EC.wem</Path>
 				</File>
 				<File Id="658958390" Language="SFX">
 					<ShortName>Hallu_Prudence_7.wav</ShortName>
@@ -1665,7 +1666,7 @@
 				</File>
 				<File Id="798053459" Language="SFX">
 					<ShortName>Lily - Arbre aux masques - Ensemble choeurs et piano.wav</ShortName>
-					<Path>SFX\Lily - Arbre aux masques - Ensemble choeurs et piano_9EEF1854.wem</Path>
+					<Path>SFX\Lily - Arbre aux masques - Ensemble choeurs et piano_706068F8.wem</Path>
 				</File>
 				<File Id="798073799" Language="SFX">
 					<ShortName>FS_Water_L2_1.wav</ShortName>
@@ -1714,6 +1715,10 @@
 				<File Id="817243227" Language="SFX">
 					<ShortName>Placeholder_VL_Grotte_1.wav</ShortName>
 					<Path>SFX\Placeholder_VL_Grotte_1_1617AFA0.wem</Path>
+				</File>
+				<File Id="817677616" Language="SFX">
+					<ShortName>Progression grotte - Suite intro infinite loop.wav</ShortName>
+					<Path>SFX\Progression grotte - Suite intro infinite loop_F17FB28C.wem</Path>
 				</File>
 				<File Id="823517537" Language="SFX">
 					<ShortName>Hallu_CreuseInsipideInutile_1.wav</ShortName>
@@ -1825,7 +1830,7 @@
 				</File>
 				<File Id="878245881" Language="SFX">
 					<ShortName>Lily - Arbre aux masques (Preview 2).wav</ShortName>
-					<Path>SFX\Lily - Arbre aux masques (Preview 2)_236E2357.wem</Path>
+					<Path>SFX\Lily - Arbre aux masques (Preview 2)_01E2D88D.wem</Path>
 				</File>
 				<File Id="878727978" Language="SFX">
 					<ShortName>Fs_Grass_Run_1.wav</ShortName>
@@ -1838,6 +1843,10 @@
 				<File Id="891651356" Language="SFX">
 					<ShortName>CrowsFlight_v1_7.wav</ShortName>
 					<Path>SFX\CrowsFlight_v1_7_1617AFA0.wem</Path>
+				</File>
+				<File Id="894608640" Language="SFX">
+					<ShortName>Lightzone_active_v3_Filtre.wav</ShortName>
+					<Path>SFX\Lightzone_active_v3_Filtre_1617AFA0.wem</Path>
 				</File>
 				<File Id="897528244" Language="SFX">
 					<ShortName>Hallu_HeyOh_3.wav</ShortName>

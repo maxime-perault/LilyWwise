@@ -51,6 +51,7 @@
 						<ObjectRef Name="Lily_Dash" ID="{445AD5AC-8DBF-4B80-96AD-BBDAB4459F90}" WorkUnitID="{84EA8792-12FE-4E5E-950A-F7C12BDA81C4}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Crows_Spawn" ID="{18ADE3A8-7D5E-4BA9-A09E-F9BC71C45DFD}" WorkUnitID="{895344F0-F06B-4DA8-BB4E-81D5A3713E53}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Hallucinations_Marelle" ID="{E1C1AAFD-6DC7-4C4A-A8BF-AD0B6209F98B}" WorkUnitID="{55D3C94C-8131-48D1-B711-B6E327AFFD0E}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_GrotteProgression" ID="{7062A8F5-C7AE-4C60-816C-1ED4FC4D631D}" WorkUnitID="{18029C21-36BA-447B-9F35-854E0B36B1B5}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Eboulement" ID="{7DDAB17E-B39A-4DE4-B44B-A11963EA58A4}" WorkUnitID="{EDF099EF-7CA4-4D68-9584-78359919806C}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Stop_Soundscape_Cabane2" ID="{02854767-3C94-4E0D-B8ED-F745C523ED51}" WorkUnitID="{18029C21-36BA-447B-9F35-854E0B36B1B5}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Soundscape_Marelle" ID="{2F5FCAA5-D168-4E6C-9C6D-B67454C2FE48}" WorkUnitID="{18029C21-36BA-447B-9F35-854E0B36B1B5}" Filter="7" Origin="Manual"/>

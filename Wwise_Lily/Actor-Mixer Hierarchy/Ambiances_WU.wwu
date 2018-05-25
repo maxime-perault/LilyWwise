@@ -1438,7 +1438,7 @@
 									<PropertyList>
 										<Property Name="Lowpass" Type="int16">
 											<ValueList>
-												<Value>40</Value>
+												<Value>30</Value>
 											</ValueList>
 										</Property>
 										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
@@ -1446,11 +1446,6 @@
 										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="4.5"/>
 										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 										<Property Name="RandomOrSequence" Type="int16" Value="0"/>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-3</Value>
-											</ValueList>
-										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">

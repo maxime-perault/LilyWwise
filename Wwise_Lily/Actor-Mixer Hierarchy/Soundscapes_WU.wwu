@@ -2907,7 +2907,6 @@
 							<ChildrenList>
 								<RandomSequenceContainer Name="AAM_Music" ID="{5477D0FE-E78E-43FA-A2BC-1CB39B6C0855}" ShortID="57030970">
 									<PropertyList>
-										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 										<Property Name="RandomOrSequence" Type="int16" Value="0"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
@@ -3039,8 +3038,6 @@
 									</ChildrenList>
 									<Playlist>
 										<ItemRef Name="Lily - Arbre aux masques - Ensemble choeurs et piano" ID="{B3C39F99-A1CE-409D-A4EC-EFEE894610AA}"/>
-										<ItemRef Name="Lily - Arbre aux masques - Intro" ID="{8CE3C8D6-65C5-4149-A7CD-4DCFDA274ABF}"/>
-										<ItemRef Name="Piano" ID="{1D82F132-F08B-4647-9E06-C9D36681D755}"/>
 									</Playlist>
 								</RandomSequenceContainer>
 							</ChildrenList>

@@ -77,6 +77,14 @@
 							<ObjectRef Name="Play_Soundscape_Cabane2" ID="{3F4D066A-5D4D-434E-842D-432483BC0AD9}" WorkUnitID="{18029C21-36BA-447B-9F35-854E0B36B1B5}"/>
 							<Position X="3" Y="5"/>
 						</Module>
+						<Module>
+							<ObjectRef Name="Play_GrotteProgression" ID="{7062A8F5-C7AE-4C60-816C-1ED4FC4D631D}" WorkUnitID="{18029C21-36BA-447B-9F35-854E0B36B1B5}"/>
+							<Position X="4" Y="5"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_AAM_Music" ID="{90A24355-A362-4791-A3D5-EC7CF109B3C9}" WorkUnitID="{18029C21-36BA-447B-9F35-854E0B36B1B5}"/>
+							<Position X="5" Y="5"/>
+						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
