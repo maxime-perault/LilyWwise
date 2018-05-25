@@ -9,6 +9,12 @@ State	ID	Name	State Group			Notes
 	1700763265	Cabane2	AMB_State			
 	1700763266	Cabane1	AMB_State			
 
+Custom State	ID	Name	State Group	Owner		Notes
+	230463894	O1	AMB_State	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Cave_reverb		
+	297757125	Cabane2	AMB_State	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Cave_reverb		
+	629158369	Cabane1	AMB_State	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Cave_reverb		
+	685462137	S1	AMB_State	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Cave_reverb		
+
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	504532776	Brick			\Factory Reflect Acoustic Textures\Textures\Brick	
 	513139656	Mountain			\Factory Reflect Acoustic Textures\Textures\Mountain	
@@ -36,8 +42,14 @@ Audio Bus	ID	Name			Wwise Object Path	Notes
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
 	3991942870	Music			\Default Work Unit\Master Audio Bus\Music	
 
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	3177428469	Cave_reverb			\Default Work Unit\Master Audio Bus\Cave_reverb	
+
 Effect plug-ins	ID	Name	Type				Notes
+	499050113	Wwise Parametric EQ (Custom)	Wwise Parametric EQ			
+	614510025	Auro Headphone (Custom)	Auro Headphone			
 	811311814	Wwise Recorder (Custom)	Wwise Recorder			
+	1726449784	Large_Hall_AHP	Auro Headphone			
 	2849147824	Medium	Wwise RoomVerb			
 
 Audio Devices	ID	Name	Type				Notes

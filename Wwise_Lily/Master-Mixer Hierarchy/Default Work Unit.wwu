@@ -20,12 +20,28 @@
 					</ReferenceList>
 					<ChildrenList>
 						<Bus Name="Music" ID="{C14F24B8-F74A-4BF7-B290-DA0BE623E5C6}"/>
-						<Bus Name="SFX" ID="{8C3931D1-175E-42B3-B35D-8A6C6C7EC6E5}"/>
+						<Bus Name="SFX" ID="{8C3931D1-175E-42B3-B35D-8A6C6C7EC6E5}">
+							<ReferenceList>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="Cave_reverb" ID="{5257F6F4-A35D-48B9-82B2-622535F9A553}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+								</Reference>
+							</ReferenceList>
+						</Bus>
 						<Bus Name="Ambiances" ID="{0AD14AD0-E5CB-468E-A303-5CC134C8D29D}"/>
 						<Bus Name="Hallus" ID="{8DA5A66A-2AC3-4CC4-86F0-DEE15F168ED7}">
 							<ReferenceList>
 								<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
 									<ObjectRef Name="Medium" ID="{AEB3F175-958B-45F2-A4C2-3FBD4F456568}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+								</Reference>
+								<Reference Name="Effect1">
+									<Custom>
+										<Effect Name="Auro Headphone (Custom)" ID="{E3A4C405-6B47-4CFF-96F7-D186AFE0898F}" ShortID="614510025" PluginName="Auro Headphone" CompanyID="263" PluginID="1100" PluginType="3">
+											<PropertyList>
+												<Property Name="Reverb" Type="bool" Value="False"/>
+												<Property Name="Wall_left" Type="Real32" Value="4.75"/>
+											</PropertyList>
+										</Effect>
+									</Custom>
 								</Reference>
 							</ReferenceList>
 							<DuckingList>
@@ -42,7 +58,13 @@
 							</DuckingList>
 						</Bus>
 						<Bus Name="Voices" ID="{3BBF9C36-986D-47FB-BD33-5D8560856EAD}"/>
-						<Bus Name="Footsteps" ID="{48B8018C-C793-4C8F-90CB-6C6C32AD5BD9}"/>
+						<Bus Name="Footsteps" ID="{48B8018C-C793-4C8F-90CB-6C6C32AD5BD9}">
+							<ReferenceList>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="Cave_reverb" ID="{5257F6F4-A35D-48B9-82B2-622535F9A553}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+								</Reference>
+							</ReferenceList>
+						</Bus>
 						<Bus Name="Music_S1" ID="{786F9F8A-6C43-4F10-A8B8-CA1209284760}"/>
 						<Bus Name="SFX_Duck" ID="{41861169-42C1-4C3D-A209-D754431014B3}">
 							<DuckingList>
@@ -58,6 +80,69 @@
 								</DuckItem>
 							</DuckingList>
 						</Bus>
+						<AuxBus Name="Cave_reverb" ID="{5257F6F4-A35D-48B9-82B2-622535F9A553}">
+							<ReferenceList>
+								<Reference Name="Effect0" PluginName="Auro Headphone" CompanyID="263" PluginID="1100" PluginType="3">
+									<ObjectRef Name="Large_Hall_AHP" ID="{1F253E66-2739-4432-8EAF-37CC14E8A754}" WorkUnitID="{B3C352EE-53F0-4C95-BAA9-B8ECC0034D25}"/>
+								</Reference>
+								<Reference Name="Effect1">
+									<Custom>
+										<Effect Name="Wwise Parametric EQ (Custom)" ID="{4EA5FF81-7763-473D-9969-0456B6A202B2}" ShortID="499050113" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+											<PropertyList>
+												<Property Name="FilterTypeBand2" Type="int32" Value="3"/>
+												<Property Name="FrequencyBand2" Type="Real32" Value="778"/>
+												<Property Name="GainBand2" Type="Real32" Value="-1"/>
+											</PropertyList>
+										</Effect>
+									</Custom>
+								</Reference>
+							</ReferenceList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="AMB_State" ID="{78CBE9AB-3BE5-44B1-BE8D-72119E53C82E}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Cabane2" ID="{16CDE326-D286-48B3-AE39-CFE3A68598D0}"/>
+										<State Name="" ID="{8E41972F-0664-437D-BA5F-8918E77FDE3A}" ShortID="297757125">
+											<PropertyList>
+												<Property Name="BusVolume" Type="Real64" Value="-96"/>
+											</PropertyList>
+										</State>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="O1" ID="{78E80E31-EAA1-4A16-89A6-E43BD286DDDD}"/>
+										<State Name="" ID="{6422FBA9-D76F-4674-BE0C-57353742E9BD}" ShortID="230463894">
+											<PropertyList>
+												<Property Name="BusVolume" Type="Real64" Value="-96"/>
+											</PropertyList>
+										</State>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Caverne" ID="{30BE990F-065D-4A19-B0BE-AEA73D8A7E36}"/>
+										<State Name="" ID="{C6B600BF-CD4D-4528-B55C-766F93C379D1}" ShortID="196582055"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Cabane1" ID="{D1471503-FD89-4F58-A6D8-86EB42D0AD7B}"/>
+										<State Name="" ID="{56610775-D08F-45D6-8B9C-B5B40BB3D32B}" ShortID="629158369">
+											<PropertyList>
+												<Property Name="BusVolume" Type="Real64" Value="-96"/>
+											</PropertyList>
+										</State>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="S1" ID="{4145D28B-2F04-4F88-9003-188F7AFD3B0D}"/>
+										<State Name="" ID="{39BC891A-0CCA-45D4-AD07-B03262E48FF1}" ShortID="685462137">
+											<PropertyList>
+												<Property Name="BusVolume" Type="Real64" Value="-96"/>
+											</PropertyList>
+										</State>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+						</AuxBus>
 					</ChildrenList>
 				</Bus>
 			</ChildrenList>
