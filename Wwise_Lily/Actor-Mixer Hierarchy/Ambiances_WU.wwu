@@ -5,6 +5,7 @@
 			<ChildrenList>
 				<ActorMixer Name="Ambiances" ID="{423393E6-C285-4BF5-A9EF-315BA64BE6C4}" ShortID="69332387">
 					<PropertyList>
+						<Property Name="EnablePositioning" Type="bool" Value="False"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
 								<Value>1</Value>
@@ -1089,7 +1090,12 @@
 											</CustomState>
 											<CustomState>
 												<StateRef Name="Caverne" ID="{30BE990F-065D-4A19-B0BE-AEA73D8A7E36}"/>
-												<State Name="" ID="{B7E49695-E9BD-49D9-A1A9-1FA4E1B1FC1F}" ShortID="687001707"/>
+												<State Name="" ID="{B7E49695-E9BD-49D9-A1A9-1FA4E1B1FC1F}" ShortID="687001707">
+													<PropertyList>
+														<Property Name="Lowpass" Type="int16" Value="52"/>
+														<Property Name="Volume" Type="Real64" Value="-1"/>
+													</PropertyList>
+												</State>
 											</CustomState>
 											<CustomState>
 												<StateRef Name="Cabane1" ID="{D1471503-FD89-4F58-A6D8-86EB42D0AD7B}"/>
@@ -1446,6 +1452,11 @@
 										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="4.5"/>
 										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 										<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>3</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -1503,7 +1514,14 @@
 							</ChildrenList>
 						</ActorMixer>
 						<ActorMixer Name="Grotte" ID="{63C2E3A2-D13A-48EE-891D-5762C580A77C}" ShortID="786743296">
+							<PropertyList>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="PositioningType" Type="int16" Value="1"/>
+							</PropertyList>
 							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Eboulement_Att" ID="{CC6EDFE7-9998-4EEE-AD20-7EDA1F53C8D9}" WorkUnitID="{F9486E4D-3A45-4423-A197-A386E047703F}"/>
+								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
 								</Reference>

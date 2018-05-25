@@ -26,6 +26,15 @@
 									<ObjectRef Name="Cave_reverb" ID="{5257F6F4-A35D-48B9-82B2-622535F9A553}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
 								</Reference>
 							</ReferenceList>
+							<ChildrenList>
+								<Bus Name="SFX_Crows" ID="{133B32DF-E512-4661-963E-60D0D380B3DD}">
+									<ReferenceList>
+										<Reference Name="Effect0" PluginName="Auro Headphone" CompanyID="263" PluginID="1100" PluginType="3">
+											<ObjectRef Name="Dry_AHP" ID="{CCF3E23C-865B-4F0B-BD70-B5F62D29652B}" WorkUnitID="{B3C352EE-53F0-4C95-BAA9-B8ECC0034D25}"/>
+										</Reference>
+									</ReferenceList>
+								</Bus>
+							</ChildrenList>
 						</Bus>
 						<Bus Name="Ambiances" ID="{0AD14AD0-E5CB-468E-A303-5CC134C8D29D}"/>
 						<Bus Name="Hallus" ID="{8DA5A66A-2AC3-4CC4-86F0-DEE15F168ED7}">

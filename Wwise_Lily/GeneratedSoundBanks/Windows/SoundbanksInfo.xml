@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="128">
 	<RootPaths>
-		<ProjectRoot>D:\Softwares\GitProjects\LilyWwise\Wwise_Lily\</ProjectRoot>
-		<SourceFilesRoot>D:\Softwares\GitProjects\LilyWwise\Wwise_Lily\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>D:\Softwares\GitProjects\LilyWwise\Wwise_Lily\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>E:\Softwares\GitProjects\LilyWwise\Wwise_Lily\</ProjectRoot>
+		<SourceFilesRoot>E:\Softwares\GitProjects\LilyWwise\Wwise_Lily\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>E:\Softwares\GitProjects\LilyWwise\Wwise_Lily\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>D:\Softwares\GitProjects\LilyWwise\Wwise_Lily\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>E:\Softwares\GitProjects\LilyWwise\Wwise_Lily\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -1076,6 +1076,10 @@
 					<ShortName>Hallu_Sifflements_3.wav</ShortName>
 					<Path>SFX\Hallu_Sifflements_3_1617AFA0.wem</Path>
 				</File>
+				<File Id="504369362" Language="SFX">
+					<ShortName>FS_Grass_Walk_5.wav</ShortName>
+					<Path>SFX\FS_Grass_Walk_5_CB7CC751.wem</Path>
+				</File>
 				<File Id="505860425" Language="SFX">
 					<ShortName>Hallu_Arrete_3.wav</ShortName>
 					<Path>SFX\Hallu_Arrete_3_1617AFA0.wem</Path>
@@ -1132,9 +1136,17 @@
 					<ShortName>Strange bird - 16.wav</ShortName>
 					<Path>SFX\Strange bird - 16_1617AFA0.wem</Path>
 				</File>
+				<File Id="534500004" Language="SFX">
+					<ShortName>FS_Grass_Walk_2.wav</ShortName>
+					<Path>SFX\FS_Grass_Walk_2_496F878D.wem</Path>
+				</File>
 				<File Id="535724884" Language="SFX">
 					<ShortName>Hallu_Errance_6.wav</ShortName>
 					<Path>SFX\Hallu_Errance_6_1617AFA0.wem</Path>
+				</File>
+				<File Id="540166799" Language="SFX">
+					<ShortName>FS_Grass_Walk_3.wav</ShortName>
+					<Path>SFX\FS_Grass_Walk_3_EF41477D.wem</Path>
 				</File>
 				<File Id="544692614" Language="SFX">
 					<ShortName>Hallu_Prudence_5.wav</ShortName>
@@ -1311,6 +1323,10 @@
 				<File Id="633389372" Language="SFX">
 					<ShortName>Placeholder_VL_S1_1.wav</ShortName>
 					<Path>SFX\Placeholder_VL_S1_1_1617AFA0.wem</Path>
+				</File>
+				<File Id="633519769" Language="SFX">
+					<ShortName>FS_Grass_Walk_1.wav</ShortName>
+					<Path>SFX\FS_Grass_Walk_1_F0F8CD08.wem</Path>
 				</File>
 				<File Id="635440901" Language="SFX">
 					<ShortName>Choir1_Chord1_D#.wav</ShortName>
@@ -2055,6 +2071,10 @@
 				<File Id="1010625297" Language="SFX">
 					<ShortName>FS_Dirt_L3_3.wav</ShortName>
 					<Path>SFX\FS_Dirt_L3_3_1617AFA0.wem</Path>
+				</File>
+				<File Id="1010889986" Language="SFX">
+					<ShortName>FS_Grass_Walk_4.wav</ShortName>
+					<Path>SFX\FS_Grass_Walk_4_183ABE48.wem</Path>
 				</File>
 				<File Id="1014445733" Language="SFX">
 					<ShortName>FS_Water_L1_5.wav</ShortName>

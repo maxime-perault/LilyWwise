@@ -36,6 +36,7 @@ Audio Bus	ID	Name			Wwise Object Path	Notes
 	1404066300	Ambiances			\Default Work Unit\Master Audio Bus\Ambiances	
 	2385628198	Footsteps			\Default Work Unit\Master Audio Bus\Footsteps	
 	2478496102	SFX_Duck			\Default Work Unit\Master Audio Bus\SFX_Duck	
+	2846235715	SFX_Crows			\Default Work Unit\Master Audio Bus\SFX\SFX_Crows	
 	2996874541	Music_S1			\Default Work Unit\Master Audio Bus\Music_S1	
 	3114858784	Hallus			\Default Work Unit\Master Audio Bus\Hallus	
 	3313685232	Voices			\Default Work Unit\Master Audio Bus\Voices	
@@ -46,6 +47,7 @@ Auxiliary Bus	ID	Name			Wwise Object Path	Notes
 	3177428469	Cave_reverb			\Default Work Unit\Master Audio Bus\Cave_reverb	
 
 Effect plug-ins	ID	Name	Type				Notes
+	16119108	Dry_AHP	Auro Headphone			
 	499050113	Wwise Parametric EQ (Custom)	Wwise Parametric EQ			
 	614510025	Auro Headphone (Custom)	Auro Headphone			
 	811311814	Wwise Recorder (Custom)	Wwise Recorder			
