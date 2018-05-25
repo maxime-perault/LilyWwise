@@ -144,7 +144,7 @@
 						<CurrentStateRef Name="Cabane2" ID="{16CDE326-D286-48B3-AE39-CFE3A68598D0}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="Dirt" ID="{D0E90812-3044-482D-97C5-AB576E59876B}"/>
+						<CurrentSwitchRef Name="Water" ID="{2F42A614-8FCD-40DE-AC43-9619BA9BEA8D}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>
