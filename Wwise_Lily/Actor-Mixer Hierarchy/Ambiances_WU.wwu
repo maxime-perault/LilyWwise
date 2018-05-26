@@ -1397,7 +1397,7 @@
 												<StateRef Name="Caverne" ID="{30BE990F-065D-4A19-B0BE-AEA73D8A7E36}"/>
 												<State Name="" ID="{85F4553A-7D95-4AFA-94D9-B2301E408D81}" ShortID="1023560463">
 													<PropertyList>
-														<Property Name="Volume" Type="Real64" Value="-96"/>
+														<Property Name="Volume" Type="Real64" Value="-3"/>
 													</PropertyList>
 												</State>
 											</CustomState>

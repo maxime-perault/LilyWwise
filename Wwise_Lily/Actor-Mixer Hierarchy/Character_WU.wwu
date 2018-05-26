@@ -582,6 +582,11 @@
 										</BlendContainer>
 										<BlendContainer Name="FS_Dirt_Walk" ID="{EEF818D6-6575-4026-8964-D7AE52F8FC33}" ShortID="176437308">
 											<PropertyList>
+												<Property Name="Lowpass" Type="int16">
+													<ValueList>
+														<Value>25</Value>
+													</ValueList>
+												</Property>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
 														<Value>-9</Value>
@@ -2140,6 +2145,11 @@
 									<ChildrenList>
 										<RandomSequenceContainer Name="FS_Dirt_Run" ID="{F582A61B-15F0-4A90-A023-22CB04F52F03}" ShortID="445888577">
 											<PropertyList>
+												<Property Name="Lowpass" Type="int16">
+													<ValueList>
+														<Value>35</Value>
+													</ValueList>
+												</Property>
 												<Property Name="Pitch" Type="int32">
 													<ValueList>
 														<Value>200</Value>
@@ -2158,7 +2168,7 @@
 												<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="5"/>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>-10</Value>
+														<Value>-12</Value>
 													</ValueList>
 													<ModifierList>
 														<ModifierInfo>

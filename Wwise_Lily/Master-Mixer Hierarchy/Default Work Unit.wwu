@@ -38,6 +38,13 @@
 						</Bus>
 						<Bus Name="Ambiances" ID="{0AD14AD0-E5CB-468E-A303-5CC134C8D29D}"/>
 						<Bus Name="Hallus" ID="{8DA5A66A-2AC3-4CC4-86F0-DEE15F168ED7}">
+							<PropertyList>
+								<Property Name="BusChannelConfig" Type="int32">
+									<ValueList>
+										<Value>761524492</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
 									<ObjectRef Name="Medium" ID="{AEB3F175-958B-45F2-A4C2-3FBD4F456568}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
@@ -66,7 +73,30 @@
 								</DuckItem>
 							</DuckingList>
 						</Bus>
-						<Bus Name="Voices" ID="{3BBF9C36-986D-47FB-BD33-5D8560856EAD}"/>
+						<Bus Name="Voices" ID="{3BBF9C36-986D-47FB-BD33-5D8560856EAD}">
+							<DuckingList>
+								<DuckItem>
+									<BusRef Name="Ambiances" ID="{0AD14AD0-E5CB-468E-A303-5CC134C8D29D}"/>
+									<DuckingParam>
+										<Volume>-6</Volume>
+										<FadeInTime>2</FadeInTime>
+										<FadeOutTime>1.5</FadeOutTime>
+										<FadeCurve>FadeLinear</FadeCurve>
+										<TargetProp>BusVolume</TargetProp>
+									</DuckingParam>
+								</DuckItem>
+								<DuckItem>
+									<BusRef Name="Hallus" ID="{8DA5A66A-2AC3-4CC4-86F0-DEE15F168ED7}"/>
+									<DuckingParam>
+										<Volume>-12</Volume>
+										<FadeInTime>4</FadeInTime>
+										<FadeOutTime>0.5</FadeOutTime>
+										<FadeCurve>FadeLinear</FadeCurve>
+										<TargetProp>BusVolume</TargetProp>
+									</DuckingParam>
+								</DuckItem>
+							</DuckingList>
+						</Bus>
 						<Bus Name="Footsteps" ID="{48B8018C-C793-4C8F-90CB-6C6C32AD5BD9}">
 							<ReferenceList>
 								<Reference Name="UserAuxSend0">

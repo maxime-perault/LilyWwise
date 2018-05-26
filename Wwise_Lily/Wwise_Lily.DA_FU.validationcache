@@ -57,17 +57,17 @@
 	<ValidationCacheItem File="D:\Softwares\GitProjects\LilyWwise\Wwise_Lily\Virtual Acoustics\Factory Reflect Acoustic Textures.wwu" DateLow="1523881943" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Softwares\GitProjects\LilyWwise\Wwise_Lily\Wwise_Lily.DA_FU.wsettings" DateLow="1527275590" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Softwares\GitProjects\LilyWwise\Wwise_Lily\Wwise_Lily.wproj" DateLow="1523890053" DateHigh="0"/>
-	<ValidationCacheItem File="E:\Softwares\GitProjects\LilyWwise\Wwise_Lily\Actor-Mixer Hierarchy\Ambiances_WU.wwu" DateLow="1527277587" DateHigh="0"/>
-	<ValidationCacheItem File="E:\Softwares\GitProjects\LilyWwise\Wwise_Lily\Actor-Mixer Hierarchy\Character_WU.wwu" DateLow="1527278763" DateHigh="0"/>
+	<ValidationCacheItem File="E:\Softwares\GitProjects\LilyWwise\Wwise_Lily\Actor-Mixer Hierarchy\Ambiances_WU.wwu" DateLow="1527369438" DateHigh="0"/>
+	<ValidationCacheItem File="E:\Softwares\GitProjects\LilyWwise\Wwise_Lily\Actor-Mixer Hierarchy\Character_WU.wwu" DateLow="1527369672" DateHigh="0"/>
 	<ValidationCacheItem File="E:\Softwares\GitProjects\LilyWwise\Wwise_Lily\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1527182452" DateHigh="0"/>
 	<ValidationCacheItem File="E:\Softwares\GitProjects\LilyWwise\Wwise_Lily\Actor-Mixer Hierarchy\Enemies_WU.wwu" DateLow="1527277587" DateHigh="0"/>
 	<ValidationCacheItem File="E:\Softwares\GitProjects\LilyWwise\Wwise_Lily\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects.wwu" DateLow="1524651549" DateHigh="0"/>
 	<ValidationCacheItem File="E:\Softwares\GitProjects\LilyWwise\Wwise_Lily\Actor-Mixer Hierarchy\Factory Synth One.wwu" DateLow="1524651549" DateHigh="0"/>
-	<ValidationCacheItem File="E:\Softwares\GitProjects\LilyWwise\Wwise_Lily\Actor-Mixer Hierarchy\Hallucinations_WU.wwu" DateLow="1527275875" DateHigh="0"/>
+	<ValidationCacheItem File="E:\Softwares\GitProjects\LilyWwise\Wwise_Lily\Actor-Mixer Hierarchy\Hallucinations_WU.wwu" DateLow="1527367818" DateHigh="0"/>
 	<ValidationCacheItem File="E:\Softwares\GitProjects\LilyWwise\Wwise_Lily\Actor-Mixer Hierarchy\Marelle_WU.wwu" DateLow="1527275875" DateHigh="0"/>
 	<ValidationCacheItem File="E:\Softwares\GitProjects\LilyWwise\Wwise_Lily\Actor-Mixer Hierarchy\Soundscapes_WU.wwu" DateLow="1527278251" DateHigh="0"/>
-	<ValidationCacheItem File="E:\Softwares\GitProjects\LilyWwise\Wwise_Lily\Actor-Mixer Hierarchy\Voices_WU.wwu" DateLow="1527182452" DateHigh="0"/>
-	<ValidationCacheItem File="E:\Softwares\GitProjects\LilyWwise\Wwise_Lily\Attenuations\Default Work Unit.wwu" DateLow="1527278912" DateHigh="0"/>
+	<ValidationCacheItem File="E:\Softwares\GitProjects\LilyWwise\Wwise_Lily\Actor-Mixer Hierarchy\Voices_WU.wwu" DateLow="1527368536" DateHigh="0"/>
+	<ValidationCacheItem File="E:\Softwares\GitProjects\LilyWwise\Wwise_Lily\Attenuations\Default Work Unit.wwu" DateLow="1527369672" DateHigh="0"/>
 	<ValidationCacheItem File="E:\Softwares\GitProjects\LilyWwise\Wwise_Lily\Audio Devices\Default Work Unit.wwu" DateLow="1524651549" DateHigh="0"/>
 	<ValidationCacheItem File="E:\Softwares\GitProjects\LilyWwise\Wwise_Lily\Control Surface Sessions\Default Work Unit.wwu" DateLow="1524651549" DateHigh="0"/>
 	<ValidationCacheItem File="E:\Softwares\GitProjects\LilyWwise\Wwise_Lily\Conversion Settings\Default Work Unit.wwu" DateLow="1527267798" DateHigh="0"/>
@@ -99,7 +99,7 @@
 	<ValidationCacheItem File="E:\Softwares\GitProjects\LilyWwise\Wwise_Lily\Game Parameters\Default Work Unit.wwu" DateLow="1527267804" DateHigh="0"/>
 	<ValidationCacheItem File="E:\Softwares\GitProjects\LilyWwise\Wwise_Lily\Game Parameters\Factory SoundSeed Air Game Syncs.wwu" DateLow="1524651549" DateHigh="0"/>
 	<ValidationCacheItem File="E:\Softwares\GitProjects\LilyWwise\Wwise_Lily\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1527275876" DateHigh="0"/>
-	<ValidationCacheItem File="E:\Softwares\GitProjects\LilyWwise\Wwise_Lily\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1527277587" DateHigh="0"/>
+	<ValidationCacheItem File="E:\Softwares\GitProjects\LilyWwise\Wwise_Lily\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1527369403" DateHigh="0"/>
 	<ValidationCacheItem File="E:\Softwares\GitProjects\LilyWwise\Wwise_Lily\Mixing Sessions\Default Work Unit.wwu" DateLow="1524651549" DateHigh="0"/>
 	<ValidationCacheItem File="E:\Softwares\GitProjects\LilyWwise\Wwise_Lily\Modulators\Default Work Unit.wwu" DateLow="1524651549" DateHigh="0"/>
 	<ValidationCacheItem File="E:\Softwares\GitProjects\LilyWwise\Wwise_Lily\Presets\Default Work Unit.wwu" DateLow="1524651551" DateHigh="0"/>
@@ -112,6 +112,6 @@
 	<ValidationCacheItem File="E:\Softwares\GitProjects\LilyWwise\Wwise_Lily\Triggers\Default Work Unit.wwu" DateLow="1524651551" DateHigh="0"/>
 	<ValidationCacheItem File="E:\Softwares\GitProjects\LilyWwise\Wwise_Lily\Virtual Acoustics\Default Work Unit.wwu" DateLow="1524651551" DateHigh="0"/>
 	<ValidationCacheItem File="E:\Softwares\GitProjects\LilyWwise\Wwise_Lily\Virtual Acoustics\Factory Reflect Acoustic Textures.wwu" DateLow="1524651551" DateHigh="0"/>
-	<ValidationCacheItem File="E:\Softwares\GitProjects\LilyWwise\Wwise_Lily\Wwise_Lily.DA_FU.wsettings" DateLow="1527278592" DateHigh="0"/>
+	<ValidationCacheItem File="E:\Softwares\GitProjects\LilyWwise\Wwise_Lily\Wwise_Lily.DA_FU.wsettings" DateLow="1527364784" DateHigh="0"/>
 	<ValidationCacheItem File="E:\Softwares\GitProjects\LilyWwise\Wwise_Lily\Wwise_Lily.wproj" DateLow="1525771461" DateHigh="0"/>
 </ValidationCache>
