@@ -78,6 +78,14 @@
 							<Position X="3" Y="5"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="Voiceline_O1_1" ID="{C3FA3B30-EF17-4A18-9F75-BCA539AC2C58}" WorkUnitID="{0206CCDB-C58E-43B4-BE9A-B372D21E3FC7}"/>
+							<Position X="4" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Voiceline_O1_2" ID="{25D1FBC5-E070-4913-AAED-F1EAFCF09D96}" WorkUnitID="{0206CCDB-C58E-43B4-BE9A-B372D21E3FC7}"/>
+							<Position X="4" Y="1"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Play_GrotteProgression" ID="{7062A8F5-C7AE-4C60-816C-1ED4FC4D631D}" WorkUnitID="{18029C21-36BA-447B-9F35-854E0B36B1B5}"/>
 							<Position X="4" Y="5"/>
 						</Module>
@@ -141,7 +149,7 @@
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="Cabane2" ID="{16CDE326-D286-48B3-AE39-CFE3A68598D0}"/>
+						<CurrentStateRef Name="Caverne" ID="{30BE990F-065D-4A19-B0BE-AEA73D8A7E36}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="Dirt" ID="{D0E90812-3044-482D-97C5-AB576E59876B}"/>

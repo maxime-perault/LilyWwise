@@ -172,6 +172,10 @@
 					<ShortName>Cello2_Chord2_A#2.wav</ShortName>
 					<Path>SFX\Cello2_Chord2_A#2_15E89C66.wem</Path>
 				</File>
+				<File Id="52405346" Language="SFX">
+					<ShortName>Voiceline 4.wav</ShortName>
+					<Path>SFX\Voiceline 4_1617AFA0.wem</Path>
+				</File>
 				<File Id="53060964" Language="SFX">
 					<ShortName>HowlingWind_4.wav</ShortName>
 					<Path>SFX\HowlingWind_4_1617AFA0.wem</Path>
@@ -263,6 +267,10 @@
 				<File Id="107195677" Language="SFX">
 					<ShortName>SelectCase_3.wav</ShortName>
 					<Path>SFX\SelectCase_3_1617AFA0.wem</Path>
+				</File>
+				<File Id="107550265" Language="SFX">
+					<ShortName>Voiceline 2.wav</ShortName>
+					<Path>SFX\Voiceline 2_1617AFA0.wem</Path>
 				</File>
 				<File Id="110257533" Language="SFX">
 					<ShortName>ConfirmationCase4_2.wav</ShortName>
@@ -732,6 +740,10 @@
 					<ShortName>MB_Chord1_4.wav</ShortName>
 					<Path>SFX\MB_Chord1_4_27A9F4A4.wem</Path>
 				</File>
+				<File Id="318671800" Language="SFX">
+					<ShortName>Voiceline grotte.wav</ShortName>
+					<Path>SFX\Voiceline grotte_1617AFA0.wem</Path>
+				</File>
 				<File Id="318935444" Language="SFX">
 					<ShortName>Hallu_Sifflements_12.wav</ShortName>
 					<Path>SFX\Hallu_Sifflements_12_1617AFA0.wem</Path>
@@ -996,10 +1008,6 @@
 					<ShortName>Hallu_Divers_1.wav</ShortName>
 					<Path>SFX\Hallu_Divers_1_1617AFA0.wem</Path>
 				</File>
-				<File Id="477005173" Language="SFX">
-					<ShortName>Placeholder_VL_O1_1.wav</ShortName>
-					<Path>SFX\Placeholder_VL_O1_1_1617AFA0.wem</Path>
-				</File>
 				<File Id="477182703" Language="SFX">
 					<ShortName>Fs_Grass_Run_4.wav</ShortName>
 					<Path>SFX\Fs_Grass_Run_4_1617AFA0.wem</Path>
@@ -1195,6 +1203,10 @@
 				<File Id="568775456" Language="SFX">
 					<ShortName>Hallu_JeSais_2.wav</ShortName>
 					<Path>SFX\Hallu_JeSais_2_1617AFA0.wem</Path>
+				</File>
+				<File Id="569577907" Language="SFX">
+					<ShortName>Voiceline 1.wav</ShortName>
+					<Path>SFX\Voiceline 1_1617AFA0.wem</Path>
 				</File>
 				<File Id="579144806" Language="SFX">
 					<ShortName>Hallu_EcouteMoi_5.wav</ShortName>
@@ -1728,10 +1740,6 @@
 					<ShortName>FS_Water_L1_7.wav</ShortName>
 					<Path>SFX\FS_Water_L1_7_001B65FE.wem</Path>
 				</File>
-				<File Id="817243227" Language="SFX">
-					<ShortName>Placeholder_VL_Grotte_1.wav</ShortName>
-					<Path>SFX\Placeholder_VL_Grotte_1_1617AFA0.wem</Path>
-				</File>
 				<File Id="817677616" Language="SFX">
 					<ShortName>Progression grotte - Suite intro infinite loop.wav</ShortName>
 					<Path>SFX\Progression grotte - Suite intro infinite loop_F17FB28C.wem</Path>
@@ -1859,6 +1867,10 @@
 				<File Id="891651356" Language="SFX">
 					<ShortName>CrowsFlight_v1_7.wav</ShortName>
 					<Path>SFX\CrowsFlight_v1_7_1617AFA0.wem</Path>
+				</File>
+				<File Id="892227179" Language="SFX">
+					<ShortName>Voiceline marelle full.wav</ShortName>
+					<Path>SFX\Voiceline marelle full_1C9C67B2.wem</Path>
 				</File>
 				<File Id="894608640" Language="SFX">
 					<ShortName>Lightzone_active_v3_Filtre.wav</ShortName>
@@ -2184,10 +2196,6 @@
 					<ShortName>FS_Grass_Walk_3.wav</ShortName>
 					<Path>SFX\FS_Grass_Walk_3_1617AFA0.wem</Path>
 				</File>
-				<File Id="1058519102" Language="SFX">
-					<ShortName>Placeholder_VL_O1_2.wav</ShortName>
-					<Path>SFX\Placeholder_VL_O1_2_1617AFA0.wem</Path>
-				</File>
 				<File Id="1059929105" Language="SFX">
 					<ShortName>Leaves_3.wav</ShortName>
 					<Path>SFX\Leaves_3_1617AFA0.wem</Path>
@@ -2195,10 +2203,6 @@
 				<File Id="1061365872" Language="SFX">
 					<ShortName>Hallu_ToujoursLa_6.wav</ShortName>
 					<Path>SFX\Hallu_ToujoursLa_6_1617AFA0.wem</Path>
-				</File>
-				<File Id="1063532131" Language="SFX">
-					<ShortName>Placeholder_VL_O1_4.wav</ShortName>
-					<Path>SFX\Placeholder_VL_O1_4_1617AFA0.wem</Path>
 				</File>
 				<File Id="1063573028" Language="SFX">
 					<ShortName>Hallu_OuVasTu_3.wav</ShortName>

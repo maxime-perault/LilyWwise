@@ -21,13 +21,6 @@
 					</ReferenceList>
 					<ChildrenList>
 						<Sound Name="O1_Voiceline_3" ID="{5457281F-19CD-48D7-A3DB-501656D68A96}" ShortID="342459861">
-							<PropertyList>
-								<Property Name="InitialDelay" Type="Real64">
-									<ValueList>
-										<Value>1</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
@@ -38,6 +31,13 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="Voiceline 3" ID="{93BBC901-6F50-4383-8225-33DBC0A15666}" ShortID="876013684">
+									<PropertyList>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>-2</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Voiceline 3.wav</AudioFile>
 								</AudioFileSource>
@@ -47,13 +47,6 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="O1_Voiceline_5" ID="{9C79A245-7ACC-43E0-A653-11A7361CDD2F}" ShortID="159919412">
-							<PropertyList>
-								<Property Name="InitialDelay" Type="Real64">
-									<ValueList>
-										<Value>1</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
@@ -64,6 +57,13 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="Voiceline 5" ID="{467D80CE-3E76-46BC-8244-66B355221B0F}" ShortID="506917203">
+									<PropertyList>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>-2</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Voiceline 5.wav</AudioFile>
 								</AudioFileSource>
@@ -89,13 +89,20 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="Placeholder_VL_O1_1" ID="{914223D4-7B20-4253-888D-8C5710B78BFD}" ShortID="477005173">
+								<AudioFileSource Name="Voiceline 1" ID="{DE1597DC-0AED-4826-986F-C12F299BF96E}" ShortID="569577907">
+									<PropertyList>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<Language>SFX</Language>
-									<AudioFile>Placeholder_VL_O1_1.wav</AudioFile>
+									<AudioFile>Voiceline 1.wav</AudioFile>
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="Placeholder_VL_O1_1" ID="{914223D4-7B20-4253-888D-8C5710B78BFD}" Platform="Linked"/>
+								<ActiveSource Name="Voiceline 1" ID="{DE1597DC-0AED-4826-986F-C12F299BF96E}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="O1_Voiceline_2" ID="{F9B974E0-1BC7-4086-B415-1E639A6C4430}" ShortID="131392400">
@@ -115,13 +122,20 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="Placeholder_VL_O1_2" ID="{80013046-5E4A-47FD-AB98-2E5DFAC2E6C0}" ShortID="1058519102">
+								<AudioFileSource Name="Voiceline 2" ID="{275B68DF-9381-4EE1-B9DE-6C3F652B1CF1}" ShortID="107550265">
+									<PropertyList>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<Language>SFX</Language>
-									<AudioFile>Placeholder_VL_O1_2.wav</AudioFile>
+									<AudioFile>Voiceline 2.wav</AudioFile>
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="Placeholder_VL_O1_2" ID="{80013046-5E4A-47FD-AB98-2E5DFAC2E6C0}" Platform="Linked"/>
+								<ActiveSource Name="Voiceline 2" ID="{275B68DF-9381-4EE1-B9DE-6C3F652B1CF1}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="O1_Voiceline_4" ID="{C1893FCA-A2CE-45E6-9662-23E2168A37CF}" ShortID="940915151">
@@ -141,13 +155,20 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="Placeholder_VL_O1_4" ID="{50E0AD01-D665-4191-8263-F3DB1A21D194}" ShortID="1063532131">
+								<AudioFileSource Name="Voiceline 4" ID="{1CD7377C-50C3-47D4-A8F3-C08DCF7BD457}" ShortID="52405346">
+									<PropertyList>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<Language>SFX</Language>
-									<AudioFile>Placeholder_VL_O1_4.wav</AudioFile>
+									<AudioFile>Voiceline 4.wav</AudioFile>
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="Placeholder_VL_O1_4" ID="{50E0AD01-D665-4191-8263-F3DB1A21D194}" Platform="Linked"/>
+								<ActiveSource Name="Voiceline 4" ID="{1CD7377C-50C3-47D4-A8F3-C08DCF7BD457}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
@@ -210,13 +231,58 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="Placeholder_VL_Grotte_1" ID="{7E26E167-6AC2-46FE-9B92-492CC7A83CD3}" ShortID="817243227">
+								<AudioFileSource Name="Voiceline grotte" ID="{1230C7D4-B920-455C-BB1C-72151463EB2B}" ShortID="318671800">
+									<PropertyList>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>-2</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<Language>SFX</Language>
-									<AudioFile>Placeholder_VL_Grotte_1.wav</AudioFile>
+									<AudioFile>Voiceline grotte.wav</AudioFile>
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="Placeholder_VL_Grotte_1" ID="{7E26E167-6AC2-46FE-9B92-492CC7A83CD3}" Platform="Linked"/>
+								<ActiveSource Name="Voiceline grotte" ID="{1230C7D4-B920-455C-BB1C-72151463EB2B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</ActorMixer>
+				<ActorMixer Name="Marelle" ID="{FBE67D4C-4810-4776-8B9D-7744337B0E1B}" ShortID="804903446">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Voices" ID="{3BBF9C36-986D-47FB-BD33-5D8560856EAD}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Voiceline marelle full" ID="{6880513C-01DF-4775-8349-4F3C421D7567}" ShortID="564610260">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Voiceline marelle full" ID="{08666BE1-B82F-4C6A-8A46-804B5E357479}" ShortID="892227179">
+									<PropertyList>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>-2</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Voiceline marelle full.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Voiceline marelle full" ID="{08666BE1-B82F-4C6A-8A46-804B5E357479}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
