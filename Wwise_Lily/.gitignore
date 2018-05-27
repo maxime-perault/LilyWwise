@@ -1,0 +1,7 @@
+.cache/*
+*.akd
+*.prof
+*.wsettings
+*.validationcache
+*.wem
+*.bnk filter=lfs diff=lfs merge=lfs -text
