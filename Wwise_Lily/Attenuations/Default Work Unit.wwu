@@ -52,7 +52,7 @@
 				</Attenuation>
 				<Attenuation Name="Fireflies_idle_attenuation" ID="{864ADD9A-A9B8-4680-885F-036ABCED011B}" ShortID="636521085">
 					<PropertyList>
-						<Property Name="RadiusMax" Type="Real64" Value="1000"/>
+						<Property Name="RadiusMax" Type="Real64" Value="800"/>
 					</PropertyList>
 					<CurveUsageInfoList>
 						<VolumeDryUsage>
@@ -66,10 +66,10 @@
 											<XPos>0</XPos>
 											<YPos>0</YPos>
 											<Flags>5</Flags>
-											<SegmentShape>Log1</SegmentShape>
+											<SegmentShape>Log2</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>1000</XPos>
+											<XPos>800</XPos>
 											<YPos>-200</YPos>
 											<Flags>37</Flags>
 										</Point>

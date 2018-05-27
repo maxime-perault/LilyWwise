@@ -15,7 +15,7 @@
 							<ObjectRef Name="SFX_Comp" ID="{94D2B765-DB8D-469E-97ED-DEEB9595516F}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="SFX_Crows" ID="{133B32DF-E512-4661-963E-60D0D380B3DD}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+							<ObjectRef Name="SFX_Auro3D" ID="{133B32DF-E512-4661-963E-60D0D380B3DD}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>

@@ -39,7 +39,6 @@
 				<Event Id="1889209142" Name="Play_Eboulement" ObjectPath="\Events\Default Work Unit\Ambiances\Grotte\Play_Eboulement"/>
 				<Event Id="1973086714" Name="Play_Fireflies_idle" ObjectPath="\Events\Default Work Unit\Character\Character_foleys\Fireflies\Play_Fireflies_idle"/>
 				<Event Id="3038914928" Name="Play_Fireflies_idle_bocal" ObjectPath="\Events\Default Work Unit\Character\Character_foleys\Fireflies\Play_Fireflies_idle_bocal"/>
-				<Event Id="1831923560" Name="Play_Fireflies_pickup" ObjectPath="\Events\Default Work Unit\Character\Character_foleys\Fireflies\Play_Fireflies_pickup"/>
 				<Event Id="838160022" Name="Play_GrotteProgression" ObjectPath="\Events\Default Work Unit\Soundscapes\Arbre aux masques\Play_GrotteProgression"/>
 				<Event Id="3762745851" Name="Play_Hallucinations_Marelle" ObjectPath="\Events\Default Work Unit\Hallucinations\Marelle\Play_Hallucinations_Marelle"/>
 				<Event Id="4053674083" Name="Play_Hallucinations_O1" ObjectPath="\Events\Default Work Unit\Hallucinations\O1\Play_Hallucinations_O1"/>
@@ -104,17 +103,9 @@
 					<ShortName>Wind_base_4.wav</ShortName>
 					<Path>SFX\Wind_base_4_1617AFA0.wem</Path>
 				</File>
-				<File Id="9976295" Language="SFX">
-					<ShortName>Hallu_Respire_1.wav</ShortName>
-					<Path>SFX\Hallu_Respire_1_1617AFA0.wem</Path>
-				</File>
 				<File Id="10066045" Language="SFX">
 					<ShortName>Hallu_FermeLesYeux_9.wav</ShortName>
 					<Path>SFX\Hallu_FermeLesYeux_9_1617AFA0.wem</Path>
-				</File>
-				<File Id="13277612" Language="SFX">
-					<ShortName>Hallu_ToujoursLa_17.wav</ShortName>
-					<Path>SFX\Hallu_ToujoursLa_17_1617AFA0.wem</Path>
 				</File>
 				<File Id="16088448" Language="SFX">
 					<ShortName>Hallu_Envole_4.wav</ShortName>
@@ -364,17 +355,9 @@
 					<ShortName>FS_Dirt_Run_7.wav</ShortName>
 					<Path>SFX\FS_Dirt_Run_7_1617AFA0.wem</Path>
 				</File>
-				<File Id="158337918" Language="SFX">
-					<ShortName>Hallu_Divers_2.wav</ShortName>
-					<Path>SFX\Hallu_Divers_2_1617AFA0.wem</Path>
-				</File>
 				<File Id="158518473" Language="SFX">
 					<ShortName>Violin1_Chord1_G#.wav</ShortName>
 					<Path>SFX\Violin1_Chord1_G#_FE6A1B10.wem</Path>
-				</File>
-				<File Id="159200129" Language="SFX">
-					<ShortName>Hallu_Sifflements_4.wav</ShortName>
-					<Path>SFX\Hallu_Sifflements_4_1617AFA0.wem</Path>
 				</File>
 				<File Id="160500060" Language="SFX">
 					<ShortName>FS_Water_L1_2.wav</ShortName>
@@ -740,14 +723,6 @@
 					<ShortName>MB_Chord1_4.wav</ShortName>
 					<Path>SFX\MB_Chord1_4_27A9F4A4.wem</Path>
 				</File>
-				<File Id="318671800" Language="SFX">
-					<ShortName>Voiceline grotte.wav</ShortName>
-					<Path>SFX\Voiceline grotte_1617AFA0.wem</Path>
-				</File>
-				<File Id="318935444" Language="SFX">
-					<ShortName>Hallu_Sifflements_12.wav</ShortName>
-					<Path>SFX\Hallu_Sifflements_12_1617AFA0.wem</Path>
-				</File>
 				<File Id="321404550" Language="SFX">
 					<ShortName>FS_Water_L2_2.wav</ShortName>
 					<Path>SFX\FS_Water_L2_2_1617AFA0.wem</Path>
@@ -988,10 +963,6 @@
 					<ShortName>Hallu_Doucement_15.wav</ShortName>
 					<Path>SFX\Hallu_Doucement_15_1617AFA0.wem</Path>
 				</File>
-				<File Id="469663661" Language="SFX">
-					<ShortName>Hallu_ToujoursLa_16.wav</ShortName>
-					<Path>SFX\Hallu_ToujoursLa_16_1617AFA0.wem</Path>
-				</File>
 				<File Id="469665985" Language="SFX">
 					<ShortName>Cello1_Chord2_C#.wav</ShortName>
 					<Path>SFX\Cello1_Chord2_C#_15E89C66.wem</Path>
@@ -1003,10 +974,6 @@
 				<File Id="472579006" Language="SFX">
 					<ShortName>Boss_mvt_L1_6.wav</ShortName>
 					<Path>SFX\Boss_mvt_L1_6_1617AFA0.wem</Path>
-				</File>
-				<File Id="474920062" Language="SFX">
-					<ShortName>Hallu_Divers_1.wav</ShortName>
-					<Path>SFX\Hallu_Divers_1_1617AFA0.wem</Path>
 				</File>
 				<File Id="477182703" Language="SFX">
 					<ShortName>Fs_Grass_Run_4.wav</ShortName>
@@ -1160,10 +1127,6 @@
 					<ShortName>Hallu_Prudence_5.wav</ShortName>
 					<Path>SFX\Hallu_Prudence_5_1617AFA0.wem</Path>
 				</File>
-				<File Id="547060021" Language="SFX">
-					<ShortName>Hallu_Sifflements_11.wav</ShortName>
-					<Path>SFX\Hallu_Sifflements_11_1617AFA0.wem</Path>
-				</File>
 				<File Id="556945693" Language="SFX">
 					<ShortName>Wind_base_2.wav</ShortName>
 					<Path>SFX\Wind_base_2_1617AFA0.wem</Path>
@@ -1288,10 +1251,6 @@
 					<ShortName>Hallu_SouviensToi_4.wav</ShortName>
 					<Path>SFX\Hallu_SouviensToi_4_1617AFA0.wem</Path>
 				</File>
-				<File Id="619545191" Language="SFX">
-					<ShortName>Hallu_Sifflements_7.wav</ShortName>
-					<Path>SFX\Hallu_Sifflements_7_1617AFA0.wem</Path>
-				</File>
 				<File Id="620730439" Language="SFX">
 					<ShortName>Hallu_Perdue_8.wav</ShortName>
 					<Path>SFX\Hallu_Perdue_8_1617AFA0.wem</Path>
@@ -1323,10 +1282,6 @@
 				<File Id="626744241" Language="SFX">
 					<ShortName>Strange bird - 8.wav</ShortName>
 					<Path>SFX\Strange bird - 8_1617AFA0.wem</Path>
-				</File>
-				<File Id="627541385" Language="SFX">
-					<ShortName>Hallu_Sifflements_5.wav</ShortName>
-					<Path>SFX\Hallu_Sifflements_5_1617AFA0.wem</Path>
 				</File>
 				<File Id="629171357" Language="SFX">
 					<ShortName>Hallu_Prudence_1.wav</ShortName>
@@ -1432,6 +1387,10 @@
 					<ShortName>FS_Dirt_Run_4.wav</ShortName>
 					<Path>SFX\FS_Dirt_Run_4_1617AFA0.wem</Path>
 				</File>
+				<File Id="671245676" Language="SFX">
+					<ShortName>Placeholder_VL_Grotte_1.wav</ShortName>
+					<Path>SFX\Placeholder_VL_Grotte_1_1617AFA0.wem</Path>
+				</File>
 				<File Id="674521463" Language="SFX">
 					<ShortName>Silence_1.wav</ShortName>
 					<Path>SFX\Silence_1_1617AFA0.wem</Path>
@@ -1471,10 +1430,6 @@
 				<File Id="690361961" Language="SFX">
 					<ShortName>Basse_Chord1_G#.wav</ShortName>
 					<Path>SFX\Basse_Chord1_G#_E5AC7483.wem</Path>
-				</File>
-				<File Id="692057311" Language="SFX">
-					<ShortName>Hallu_Arrete_8.wav</ShortName>
-					<Path>SFX\Hallu_Arrete_8_1617AFA0.wem</Path>
 				</File>
 				<File Id="694643412" Language="SFX">
 					<ShortName>Hallu_LeSilence_3.wav</ShortName>
@@ -1684,10 +1639,6 @@
 					<ShortName>Hallu_Lily_11.wav</ShortName>
 					<Path>SFX\Hallu_Lily_11_1617AFA0.wem</Path>
 				</File>
-				<File Id="797557353" Language="SFX">
-					<ShortName>Hallu_VoleLuciole_1.wav</ShortName>
-					<Path>SFX\Hallu_VoleLuciole_1_1617AFA0.wem</Path>
-				</File>
 				<File Id="797826671" Language="SFX">
 					<ShortName>Hallu_NeMignorePas_10.wav</ShortName>
 					<Path>SFX\Hallu_NeMignorePas_10_1617AFA0.wem</Path>
@@ -1747,10 +1698,6 @@
 				<File Id="823517537" Language="SFX">
 					<ShortName>Hallu_CreuseInsipideInutile_1.wav</ShortName>
 					<Path>SFX\Hallu_CreuseInsipideInutile_1_1617AFA0.wem</Path>
-				</File>
-				<File Id="828740038" Language="SFX">
-					<ShortName>Hallu_rire_2.wav</ShortName>
-					<Path>SFX\Hallu_rire_2_1617AFA0.wem</Path>
 				</File>
 				<File Id="831003672" Language="SFX">
 					<ShortName>Hallu_HeyOh_9.wav</ShortName>
@@ -1892,10 +1839,6 @@
 					<ShortName>Hallu_NeMignorePas_2.wav</ShortName>
 					<Path>SFX\Hallu_NeMignorePas_2_1617AFA0.wem</Path>
 				</File>
-				<File Id="908129754" Language="SFX">
-					<ShortName>Hallu_ToujoursLa_10.wav</ShortName>
-					<Path>SFX\Hallu_ToujoursLa_10_1617AFA0.wem</Path>
-				</File>
 				<File Id="908384949" Language="SFX">
 					<ShortName>CrowIdle_1.wav</ShortName>
 					<Path>SFX\CrowIdle_1_1617AFA0.wem</Path>
@@ -2012,10 +1955,6 @@
 					<ShortName>CrowHurt_4.wav</ShortName>
 					<Path>SFX\CrowHurt_4_1617AFA0.wem</Path>
 				</File>
-				<File Id="971377688" Language="SFX">
-					<ShortName>Hallu_Sifflements_8.wav</ShortName>
-					<Path>SFX\Hallu_Sifflements_8_1617AFA0.wem</Path>
-				</File>
 				<File Id="973903976" Language="SFX">
 					<ShortName>Hallu_Perdue_4.wav</ShortName>
 					<Path>SFX\Hallu_Perdue_4_1617AFA0.wem</Path>
@@ -2064,10 +2003,6 @@
 					<ShortName>Hallu_MentendsTu_7.wav</ShortName>
 					<Path>SFX\Hallu_MentendsTu_7_1617AFA0.wem</Path>
 				</File>
-				<File Id="1003957873" Language="SFX">
-					<ShortName>Hallu_Sifflements_9.wav</ShortName>
-					<Path>SFX\Hallu_Sifflements_9_1617AFA0.wem</Path>
-				</File>
 				<File Id="1006450500" Language="SFX">
 					<ShortName>Hallu_JoliesLumiolesBrillantes_1.wav</ShortName>
 					<Path>SFX\Hallu_JoliesLumiolesBrillantes_1_1617AFA0.wem</Path>
@@ -2092,10 +2027,6 @@
 					<ShortName>FS_Water_L1_5.wav</ShortName>
 					<Path>SFX\FS_Water_L1_5_1617AFA0.wem</Path>
 				</File>
-				<File Id="1015442722" Language="SFX">
-					<ShortName>Hallu_Sifflements_6.wav</ShortName>
-					<Path>SFX\Hallu_Sifflements_6_1617AFA0.wem</Path>
-				</File>
 				<File Id="1017049475" Language="SFX">
 					<ShortName>Hallu_MentendsTu_9.wav</ShortName>
 					<Path>SFX\Hallu_MentendsTu_9_1617AFA0.wem</Path>
@@ -2115,10 +2046,6 @@
 				<File Id="1024929446" Language="SFX">
 					<ShortName>CrowHurt_5.wav</ShortName>
 					<Path>SFX\CrowHurt_5_1617AFA0.wem</Path>
-				</File>
-				<File Id="1029013991" Language="SFX">
-					<ShortName>Fireflies_pickup_1.wav</ShortName>
-					<Path>SFX\Fireflies_pickup_1_D63222C5.wem</Path>
 				</File>
 				<File Id="1030176151" Language="SFX">
 					<ShortName>Hallu_Errance_2.wav</ShortName>
@@ -2199,10 +2126,6 @@
 				<File Id="1059929105" Language="SFX">
 					<ShortName>Leaves_3.wav</ShortName>
 					<Path>SFX\Leaves_3_1617AFA0.wem</Path>
-				</File>
-				<File Id="1061365872" Language="SFX">
-					<ShortName>Hallu_ToujoursLa_6.wav</ShortName>
-					<Path>SFX\Hallu_ToujoursLa_6_1617AFA0.wem</Path>
 				</File>
 				<File Id="1063573028" Language="SFX">
 					<ShortName>Hallu_OuVasTu_3.wav</ShortName>

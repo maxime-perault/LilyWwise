@@ -221,7 +221,7 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<Sound Name="Grotte_Voiceline_1" ID="{FD3EDAAE-16EF-45A7-A094-489FD17EDD33}" ShortID="141119915">
+						<Sound Name="Placeholder_VL_Grotte_1" ID="{5D5FD2A1-2325-4658-807B-5867E0D4BC12}" ShortID="861073773">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
@@ -231,20 +231,13 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="Voiceline grotte" ID="{1230C7D4-B920-455C-BB1C-72151463EB2B}" ShortID="318671800">
-									<PropertyList>
-										<Property Name="VolumeOffset" Type="Real64">
-											<ValueList>
-												<Value>-2</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
+								<AudioFileSource Name="Placeholder_VL_Grotte_1" ID="{40D02892-30F0-4E1A-8BB7-EE70553D54FF}" ShortID="671245676">
 									<Language>SFX</Language>
-									<AudioFile>Voiceline grotte.wav</AudioFile>
+									<AudioFile>Placeholder_VL_Grotte_1.wav</AudioFile>
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="Voiceline grotte" ID="{1230C7D4-B920-455C-BB1C-72151463EB2B}" Platform="Linked"/>
+								<ActiveSource Name="Placeholder_VL_Grotte_1" ID="{40D02892-30F0-4E1A-8BB7-EE70553D54FF}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>

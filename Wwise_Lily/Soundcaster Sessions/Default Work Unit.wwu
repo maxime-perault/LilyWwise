@@ -6,10 +6,6 @@
 				<SoundcasterSession Name="Soundcaster_test1" ID="{2D872C3D-6EEA-4C96-96C8-B716B0160D5F}">
 					<ModuleList>
 						<Module>
-							<ObjectRef Name="Fireflies_pickup" ID="{A179CD23-56E8-4D32-B980-27B94D0B441F}" WorkUnitID="{5B924862-92FF-490C-A2A6-85F175E8DAE0}"/>
-							<Position X="0" Y="0"/>
-						</Module>
-						<Module>
 							<ObjectRef Name="Play_Soundscape_O1" ID="{232464F8-A54C-45EE-AFE9-54E6D5D95233}" WorkUnitID="{18029C21-36BA-447B-9F35-854E0B36B1B5}"/>
 							<Position X="0" Y="1"/>
 						</Module>

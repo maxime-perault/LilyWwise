@@ -356,15 +356,15 @@
 				</Folder>
 				<Folder Name="Grotte" ID="{AE8F7CFC-776D-4E08-B6E6-72302AA92EF1}" ShortID="511263724">
 					<ChildrenList>
-						<Event Name="Voiceline_Grotte_1" ID="{3CB1DFA7-D65E-48AB-86B0-E8778B8914F2}">
+						<Event Name="Voiceline_Grotte_1" ID="{210CA4B7-10E0-4B05-99D6-A3159F96EAC9}">
 							<ChildrenList>
-								<Action Name="" ID="{B1AC4D10-BD49-4D1B-871A-664CC06DE434}" ShortID="779741726">
+								<Action Name="" ID="{A6819A2A-FEA6-4CEC-A35A-FC604D7AD39D}" ShortID="75589241">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="1"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Grotte_Voiceline_1" ID="{FD3EDAAE-16EF-45A7-A094-489FD17EDD33}" WorkUnitID="{7C80B148-1430-4EB5-800F-0CC3571B9E3C}"/>
+											<ObjectRef Name="Placeholder_VL_Grotte_1" ID="{5D5FD2A1-2325-4658-807B-5867E0D4BC12}" WorkUnitID="{7C80B148-1430-4EB5-800F-0CC3571B9E3C}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

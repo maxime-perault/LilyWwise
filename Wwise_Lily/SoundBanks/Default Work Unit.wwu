@@ -34,17 +34,16 @@
 						<ObjectRef Name="CrowsDeathBlend" ID="{1D502F38-F908-46FB-84B1-E2FA10978926}" WorkUnitID="{895344F0-F06B-4DA8-BB4E-81D5A3713E53}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Stop_Fireflies_idle" ID="{552DD43C-3D50-4784-BD33-E5ACA8050E4E}" WorkUnitID="{84EA8792-12FE-4E5E-950A-F7C12BDA81C4}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_AAM_Music" ID="{90A24355-A362-4791-A3D5-EC7CF109B3C9}" WorkUnitID="{18029C21-36BA-447B-9F35-854E0B36B1B5}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Play_Fireflies_pickup" ID="{D8849530-F811-47D0-B50E-46685D9A6CDA}" WorkUnitID="{84EA8792-12FE-4E5E-950A-F7C12BDA81C4}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Door_open" ID="{1954321B-CE9F-481D-8ED9-22A81A81153A}" WorkUnitID="{84EA8792-12FE-4E5E-950A-F7C12BDA81C4}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="FS_Run" ID="{C71A9259-5DAE-4844-9B81-B2A56EB73C5C}" WorkUnitID="{84EA8792-12FE-4E5E-950A-F7C12BDA81C4}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="StopMusic" ID="{C4E15028-2041-48A5-BEE3-B9CBA8D86CAE}" WorkUnitID="{4613B13D-0451-42D0-BD7A-5533B5617ED0}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Voiceline_Grotte_1" ID="{3CB1DFA7-D65E-48AB-86B0-E8778B8914F2}" WorkUnitID="{0206CCDB-C58E-43B4-BE9A-B372D21E3FC7}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Stop_Lightzone" ID="{B2E9A008-376F-48E1-AFB1-BDFB68940253}" WorkUnitID="{84EA8792-12FE-4E5E-950A-F7C12BDA81C4}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Voiceline_O1_2" ID="{25D1FBC5-E070-4913-AAED-F1EAFCF09D96}" WorkUnitID="{0206CCDB-C58E-43B4-BE9A-B372D21E3FC7}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Stop_Soundscape_O1" ID="{B3343175-7416-4944-AA4D-7CD6C89B05C9}" WorkUnitID="{18029C21-36BA-447B-9F35-854E0B36B1B5}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Crows_Idle" ID="{AEAAA9FA-4502-49A2-8A82-56894F33BBD0}" WorkUnitID="{895344F0-F06B-4DA8-BB4E-81D5A3713E53}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Voiceline_O1_1" ID="{C3FA3B30-EF17-4A18-9F75-BCA539AC2C58}" WorkUnitID="{0206CCDB-C58E-43B4-BE9A-B372D21E3FC7}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Voiceline_O1_3" ID="{22AA84AD-0345-4AF0-8496-8547CADCBBC1}" WorkUnitID="{0206CCDB-C58E-43B4-BE9A-B372D21E3FC7}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Voiceline_Grotte_1" ID="{210CA4B7-10E0-4B05-99D6-A3159F96EAC9}" WorkUnitID="{0206CCDB-C58E-43B4-BE9A-B372D21E3FC7}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Hallucinations_S1" ID="{0B1428E3-57B3-4B21-A729-D34E85448440}" WorkUnitID="{55D3C94C-8131-48D1-B711-B6E327AFFD0E}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Voiceline_Marelle_1" ID="{5E3220CF-61E6-4B67-BF90-10C815C129B0}" WorkUnitID="{0206CCDB-C58E-43B4-BE9A-B372D21E3FC7}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Stop_Hallucinations_Marelle" ID="{5458AB76-8345-4B79-AB9B-87869D651E77}" WorkUnitID="{55D3C94C-8131-48D1-B711-B6E327AFFD0E}" Filter="7" Origin="Manual"/>

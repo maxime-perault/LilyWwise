@@ -68,20 +68,6 @@
 										</Action>
 									</ChildrenList>
 								</Event>
-								<Event Name="Play_Fireflies_pickup" ID="{D8849530-F811-47D0-B50E-46685D9A6CDA}">
-									<ChildrenList>
-										<Action Name="" ID="{0EF5FF08-10A3-48D3-9F25-409145438FBA}" ShortID="686201232">
-											<PropertyList>
-												<Property Name="ActionType" Type="int16" Value="1"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="Fireflies_pickup" ID="{A179CD23-56E8-4D32-B980-27B94D0B441F}" WorkUnitID="{5B924862-92FF-490C-A2A6-85F175E8DAE0}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
 								<Event Name="Stop_Fireflies_idle" ID="{552DD43C-3D50-4784-BD33-E5ACA8050E4E}">
 									<ChildrenList>
 										<Action Name="" ID="{C70953D4-FAA8-4721-B713-2C1822BDA30F}" ShortID="562750200">

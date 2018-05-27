@@ -71,7 +71,7 @@
 													<Modifier Name="" ID="{FEA65C1E-068B-4E8B-8DC8-51838F75A2B6}">
 														<PropertyList>
 															<Property Name="Enabled" Type="bool" Value="True"/>
-															<Property Name="Max" Type="Real64" Value="15"/>
+															<Property Name="Max" Type="Real64" Value="20"/>
 														</PropertyList>
 													</Modifier>
 												</ModifierInfo>
@@ -1336,25 +1336,6 @@
 												<ActiveSource Name="Hallu_Prudence_9" ID="{9FC04F51-DAFF-4BDB-817E-0AE3A033C8AE}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="Hallu_Respire_1" ID="{431FBCC2-8326-468C-AA86-6303FDA78B04}" ShortID="903806750">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Hallu_Respire_1" ID="{C09CA503-20D1-417F-B9BE-C86B7E93BAC6}" ShortID="9976295">
-													<Language>SFX</Language>
-													<AudioFile>Hallu_Respire_1.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Hallu_Respire_1" ID="{C09CA503-20D1-417F-B9BE-C86B7E93BAC6}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
 										<Sound Name="Hallu_Respire_2" ID="{95A9EA38-16FF-4172-883D-E3FCC467808F}" ShortID="408696800">
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -1581,25 +1562,6 @@
 											</ChildrenList>
 											<ActiveSourceList>
 												<ActiveSource Name="Hallu_rire_1" ID="{33B36E6C-5FC8-473D-A50E-286ACD0A6BAA}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Hallu_rire_2" ID="{3B425228-2E19-4DD3-97D0-177E0EA71D79}" ShortID="815959861">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Hallu_rire_2" ID="{04620F51-A28D-4658-8479-2F073C820409}" ShortID="828740038">
-													<Language>SFX</Language>
-													<AudioFile>Hallu_rire_2.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Hallu_rire_2" ID="{04620F51-A28D-4658-8479-2F073C820409}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="Hallu_SouviensToi_1" ID="{FA8738DA-9540-485B-8003-2B41F71A4D53}" ShortID="737961586">
@@ -2192,7 +2154,7 @@
 													<Modifier Name="" ID="{1C09166E-6F40-41FF-AB18-B5DE82446108}">
 														<PropertyList>
 															<Property Name="Enabled" Type="bool" Value="True"/>
-															<Property Name="Max" Type="Real64" Value="15"/>
+															<Property Name="Max" Type="Real64" Value="20"/>
 														</PropertyList>
 													</Modifier>
 												</ModifierInfo>
@@ -2813,233 +2775,6 @@
 												<ActiveSource Name="Hallu_Sifflements_3" ID="{4D03BB0F-AA99-43BC-A051-8F165FAF0B9E}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="Hallu_Sifflements_4" ID="{80B3F5D9-A6D1-4FA2-8C57-AE030C698F51}" ShortID="773170856">
-											<PropertyList>
-												<Property Name="Volume" Type="Real64">
-													<ValueList>
-														<Value>-9</Value>
-													</ValueList>
-												</Property>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Hallu_Sifflements_4" ID="{D383893E-2CFD-4979-A4DB-615B85F9ED69}" ShortID="159200129">
-													<Language>SFX</Language>
-													<AudioFile>Hallu_Sifflements_4.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Hallu_Sifflements_4" ID="{D383893E-2CFD-4979-A4DB-615B85F9ED69}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Hallu_Sifflements_5" ID="{3EE84FF9-5943-4BD8-A129-1A514ED74C81}" ShortID="927814559">
-											<PropertyList>
-												<Property Name="Volume" Type="Real64">
-													<ValueList>
-														<Value>-9</Value>
-													</ValueList>
-												</Property>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Hallu_Sifflements_5" ID="{AAB40AEA-2641-496A-A9B1-8511836DC99A}" ShortID="627541385">
-													<Language>SFX</Language>
-													<AudioFile>Hallu_Sifflements_5.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Hallu_Sifflements_5" ID="{AAB40AEA-2641-496A-A9B1-8511836DC99A}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Hallu_Sifflements_6" ID="{F46196C4-00AF-442D-9CEC-00C7BA42E029}" ShortID="62049246">
-											<PropertyList>
-												<Property Name="Volume" Type="Real64">
-													<ValueList>
-														<Value>-9</Value>
-													</ValueList>
-												</Property>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Hallu_Sifflements_6" ID="{D1AA49C3-3C52-49F5-865F-261F4788C854}" ShortID="1015442722">
-													<Language>SFX</Language>
-													<AudioFile>Hallu_Sifflements_6.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Hallu_Sifflements_6" ID="{D1AA49C3-3C52-49F5-865F-261F4788C854}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Hallu_Sifflements_7" ID="{4A2FF47E-F0BC-499E-B9AB-4AD92FC393D7}" ShortID="938014247">
-											<PropertyList>
-												<Property Name="Volume" Type="Real64">
-													<ValueList>
-														<Value>-9</Value>
-													</ValueList>
-												</Property>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Hallu_Sifflements_7" ID="{31383A9D-8410-4755-B97B-01493B354861}" ShortID="619545191">
-													<Language>SFX</Language>
-													<AudioFile>Hallu_Sifflements_7.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Hallu_Sifflements_7" ID="{31383A9D-8410-4755-B97B-01493B354861}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Hallu_Sifflements_8" ID="{9BB82AA9-65D1-4648-A7EA-A9CA9A9B694C}" ShortID="1062567556">
-											<PropertyList>
-												<Property Name="Volume" Type="Real64">
-													<ValueList>
-														<Value>-9</Value>
-													</ValueList>
-												</Property>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Hallu_Sifflements_8" ID="{B04DFA85-699C-40E3-9EEC-63FA3EEE48D6}" ShortID="971377688">
-													<Language>SFX</Language>
-													<AudioFile>Hallu_Sifflements_8.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Hallu_Sifflements_8" ID="{B04DFA85-699C-40E3-9EEC-63FA3EEE48D6}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Hallu_Sifflements_9" ID="{42B1308B-C894-447B-89B7-2B6D92C1E52B}" ShortID="699082029">
-											<PropertyList>
-												<Property Name="Volume" Type="Real64">
-													<ValueList>
-														<Value>-9</Value>
-													</ValueList>
-												</Property>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Hallu_Sifflements_9" ID="{B482DF08-A4D2-44FF-BF71-958E3AF42A83}" ShortID="1003957873">
-													<Language>SFX</Language>
-													<AudioFile>Hallu_Sifflements_9.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Hallu_Sifflements_9" ID="{B482DF08-A4D2-44FF-BF71-958E3AF42A83}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Hallu_Sifflements_11" ID="{6690B3A9-056D-4795-9B1B-DA28A4D7A0F1}" ShortID="196304443">
-											<PropertyList>
-												<Property Name="Volume" Type="Real64">
-													<ValueList>
-														<Value>-9</Value>
-													</ValueList>
-												</Property>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Hallu_Sifflements_11" ID="{A414C4EA-6626-4D4B-BE91-7C0F392C6BDE}" ShortID="547060021">
-													<Language>SFX</Language>
-													<AudioFile>Hallu_Sifflements_11.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Hallu_Sifflements_11" ID="{A414C4EA-6626-4D4B-BE91-7C0F392C6BDE}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Hallu_Sifflements_12" ID="{2A7D3893-3CF8-4997-ACC2-FD77B9EFB5A6}" ShortID="901607504">
-											<PropertyList>
-												<Property Name="Volume" Type="Real64">
-													<ValueList>
-														<Value>-9</Value>
-													</ValueList>
-												</Property>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Hallu_Sifflements_12" ID="{49D90F78-30C1-458F-B452-1164A1438AF1}" ShortID="318935444">
-													<Language>SFX</Language>
-													<AudioFile>Hallu_Sifflements_12.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Hallu_Sifflements_12" ID="{49D90F78-30C1-458F-B452-1164A1438AF1}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Hallu_VoleLuciole_1" ID="{442979B5-7B28-4C38-AB77-AEF4567D5030}" ShortID="547391748">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Hallu_VoleLuciole_1" ID="{C219769F-F809-496A-BBB0-F0A778FCBA49}" ShortID="797557353">
-													<Language>SFX</Language>
-													<AudioFile>Hallu_VoleLuciole_1.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Hallu_VoleLuciole_1" ID="{C219769F-F809-496A-BBB0-F0A778FCBA49}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
 										<Sound Name="Hallu_VoleLuciole_2" ID="{ABE49FA5-E34F-450A-8CB1-CB9BD52A409E}" ShortID="168066124">
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -3192,51 +2927,6 @@
 												<ActiveSource Name="Hallu_Whispers_6" ID="{D6632F54-3A50-4CDA-A211-3AB59B2B3A90}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="Hallu_Divers_1" ID="{EEBCFAB7-A465-476A-8106-80985D534B80}" ShortID="495346951">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Hallu_Divers_1" ID="{1D471E35-45D0-4253-B052-085F91F269D1}" ShortID="474920062">
-													<Language>SFX</Language>
-													<AudioFile>Hallu_Divers_1.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Hallu_Divers_1" ID="{1D471E35-45D0-4253-B052-085F91F269D1}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Hallu_Divers_2" ID="{2E407958-B425-454D-83BE-B7331C0058CA}" ShortID="349777088">
-											<PropertyList>
-												<Property Name="Volume" Type="Real64">
-													<ValueList>
-														<Value>-3</Value>
-													</ValueList>
-												</Property>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Hallu_Divers_2" ID="{5F7DF491-C401-475C-B1D3-EE07B62BA0EA}" ShortID="158337918">
-													<Language>SFX</Language>
-													<AudioFile>Hallu_Divers_2.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Hallu_Divers_2" ID="{5F7DF491-C401-475C-B1D3-EE07B62BA0EA}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
 										<Sound Name="Hallu_Divers_3" ID="{C81E79C0-EF71-4964-8D30-F62CA418F777}" ShortID="663113994">
 											<PropertyList>
 												<Property Name="Volume" Type="Real64">
@@ -3302,7 +2992,7 @@
 													<Modifier Name="" ID="{79AC1D0F-9C91-4D7B-AFA7-326BC883D37C}">
 														<PropertyList>
 															<Property Name="Enabled" Type="bool" Value="True"/>
-															<Property Name="Max" Type="Real64" Value="15"/>
+															<Property Name="Max" Type="Real64" Value="20"/>
 														</PropertyList>
 													</Modifier>
 												</ModifierInfo>
@@ -3425,25 +3115,6 @@
 											</ChildrenList>
 											<ActiveSourceList>
 												<ActiveSource Name="Hallu_Arrete_6" ID="{6B53819D-931E-41BA-85F7-D9A7A96FE2BD}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Hallu_Arrete_8" ID="{E748BC6B-A9F6-4CFA-B84B-EE0D9DC2F420}" ShortID="205150900">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Hallu_Arrete_8" ID="{1F09799B-19F9-48E5-95E2-F923EF83419E}" ShortID="692057311">
-													<Language>SFX</Language>
-													<AudioFile>Hallu_Arrete_8.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Hallu_Arrete_8" ID="{1F09799B-19F9-48E5-95E2-F923EF83419E}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="Hallu_Arrete_9" ID="{66AA6CEC-4FE5-4906-ADC3-27409B3EFEB0}" ShortID="23671265">
@@ -4795,25 +4466,6 @@
 												<ActiveSource Name="Hallu_ToujoursLa_5" ID="{92B2BC5B-DF57-47E2-801C-94EF1F748C53}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="Hallu_ToujoursLa_6" ID="{A1FCBC02-7FFB-46C0-984A-C4D5F838EB38}" ShortID="379928690">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Hallu_ToujoursLa_6" ID="{A1A9B5EE-CD19-411F-AF7D-3ACA81B09A61}" ShortID="1061365872">
-													<Language>SFX</Language>
-													<AudioFile>Hallu_ToujoursLa_6.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Hallu_ToujoursLa_6" ID="{A1A9B5EE-CD19-411F-AF7D-3ACA81B09A61}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
 										<Sound Name="Hallu_ToujoursLa_7" ID="{12D1B67F-81D5-4FEB-A558-C27B9003F087}" ShortID="720319567">
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -4850,25 +4502,6 @@
 											</ChildrenList>
 											<ActiveSourceList>
 												<ActiveSource Name="Hallu_ToujoursLa_8" ID="{5203E6FC-D8BE-4548-8791-01DDA4D7473A}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Hallu_ToujoursLa_10" ID="{3A8033FB-E3C8-4F65-A95A-786F5B07B3AA}" ShortID="252599409">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Hallu_ToujoursLa_10" ID="{AF140B72-5117-4AFD-8995-B383689FFFD1}" ShortID="908129754">
-													<Language>SFX</Language>
-													<AudioFile>Hallu_ToujoursLa_10.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Hallu_ToujoursLa_10" ID="{AF140B72-5117-4AFD-8995-B383689FFFD1}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="Hallu_ToujoursLa_11" ID="{74FAC464-C4AD-4203-9E42-88CA88AE432B}" ShortID="698754908">
@@ -4964,44 +4597,6 @@
 											</ChildrenList>
 											<ActiveSourceList>
 												<ActiveSource Name="Hallu_ToujoursLa_15" ID="{68828E03-4BA8-4256-9FF3-57A85D05B35D}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Hallu_ToujoursLa_16" ID="{589A9821-FF63-4EE5-8AFE-7E48FD511F45}" ShortID="791370904">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Hallu_ToujoursLa_16" ID="{8964FE7C-C898-4B8D-9AF7-BD614CDCD039}" ShortID="469663661">
-													<Language>SFX</Language>
-													<AudioFile>Hallu_ToujoursLa_16.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Hallu_ToujoursLa_16" ID="{8964FE7C-C898-4B8D-9AF7-BD614CDCD039}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Hallu_ToujoursLa_17" ID="{B15FE739-3C89-4D01-99FF-F719BB840A0C}" ShortID="743574912">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Hallu_ToujoursLa_17" ID="{D2E4840F-A64F-4132-A9E1-61038AE46F2E}" ShortID="13277612">
-													<Language>SFX</Language>
-													<AudioFile>Hallu_ToujoursLa_17.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Hallu_ToujoursLa_17" ID="{D2E4840F-A64F-4132-A9E1-61038AE46F2E}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="Hallu_ToujoursLa_18" ID="{EA1E8482-063E-4F98-8965-3C648B9491BC}" ShortID="347563512">

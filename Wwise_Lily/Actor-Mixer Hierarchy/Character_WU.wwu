@@ -3968,31 +3968,6 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="Fireflies_pickup" ID="{A179CD23-56E8-4D32-B980-27B94D0B441F}" ShortID="778273116">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Fireflies_pickup_1" ID="{43183EA7-05AF-4668-9C2D-4DC26C8FBA53}" ShortID="1029013991">
-											<PropertyList>
-												<Property Name="FadeInDuration" Type="Real64" Value="1.0052165866783"/>
-												<Property Name="FadeInShape" Type="int16" Value="6"/>
-												<Property Name="FadeOutDuration" Type="Real64" Value="6.86077894124491"/>
-												<Property Name="FadeOutShape" Type="int16" Value="4"/>
-											</PropertyList>
-											<Language>SFX</Language>
-											<AudioFile>Fireflies_pickup_1.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Fireflies_pickup_1" ID="{43183EA7-05AF-4668-9C2D-4DC26C8FBA53}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
 								<RandomSequenceContainer Name="Fireflies_idle" ID="{47A79040-B205-40F4-A6AA-F9F08829F034}" ShortID="505490750">
 									<PropertyList>
 										<Property Name="Highpass" Type="int16">
@@ -4000,6 +3975,7 @@
 												<Value>65</Value>
 											</ValueList>
 										</Property>
+										<Property Name="OverrideOutput" Type="bool" Value="True"/>
 										<Property Name="OverridePositioning" Type="bool" Value="True"/>
 										<Property Name="Pitch" Type="int32">
 											<ValueList>
@@ -4042,7 +4018,7 @@
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
 										</Reference>
 										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+											<ObjectRef Name="SFX_Auro3D" ID="{133B32DF-E512-4661-963E-60D0D380B3DD}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
@@ -4114,7 +4090,7 @@
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="SFX" ID="{8C3931D1-175E-42B3-B35D-8A6C6C7EC6E5}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+							<ObjectRef Name="SFX_Auro3D" ID="{133B32DF-E512-4661-963E-60D0D380B3DD}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
