@@ -145,10 +145,10 @@
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="Caverne" ID="{30BE990F-065D-4A19-B0BE-AEA73D8A7E36}"/>
+						<CurrentStateRef Name="Cabane1" ID="{D1471503-FD89-4F58-A6D8-86EB42D0AD7B}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="Dirt" ID="{D0E90812-3044-482D-97C5-AB576E59876B}"/>
+						<CurrentSwitchRef Name="Roots" ID="{4DF26B8E-EE01-4159-B165-CAACA90471EB}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>

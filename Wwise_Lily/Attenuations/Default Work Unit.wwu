@@ -99,7 +99,7 @@
 				</Attenuation>
 				<Attenuation Name="Lake_Attenuation" ID="{7151D1BE-6B92-4761-9617-64427EEF34BC}" ShortID="242310227">
 					<PropertyList>
-						<Property Name="RadiusMax" Type="Real64" Value="3000"/>
+						<Property Name="RadiusMax" Type="Real64" Value="2000"/>
 					</PropertyList>
 					<CurveUsageInfoList>
 						<VolumeDryUsage>
@@ -113,10 +113,20 @@
 											<XPos>0</XPos>
 											<YPos>0</YPos>
 											<Flags>5</Flags>
-											<SegmentShape>Exp1</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>3000</XPos>
+											<XPos>1504.7619047619</XPos>
+											<YPos>0</YPos>
+											<Flags>0</Flags>
+										</Point>
+										<Point>
+											<XPos>1752.38095</XPos>
+											<YPos>-4.14251</YPos>
+											<Flags>0</Flags>
+											<SegmentShape>Log1</SegmentShape>
+										</Point>
+										<Point>
+											<XPos>2000</XPos>
 											<YPos>-200</YPos>
 											<Flags>37</Flags>
 										</Point>
@@ -131,7 +141,25 @@
 							<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
 						</VolumeWetUserUsage>
 						<LowPassFilterUsage>
-							<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+							<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+								<Curve Name="LowPassFilter" ID="{E16E4BE9-2F9D-4354-9596-0091F386FE95}">
+									<PropertyList>
+										<Property Name="Flags" Type="int32" Value="65537"/>
+									</PropertyList>
+									<PointList>
+										<Point>
+											<XPos>0</XPos>
+											<YPos>0</YPos>
+											<Flags>5</Flags>
+										</Point>
+										<Point>
+											<XPos>2000</XPos>
+											<YPos>43</YPos>
+											<Flags>37</Flags>
+										</Point>
+									</PointList>
+								</Curve>
+							</CurveUsageInfo>
 						</LowPassFilterUsage>
 						<HighPassFilterUsage>
 							<CurveUsageInfo Platform="Linked" CurveToUse="None"/>

@@ -7,15 +7,7 @@
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
 		<ExternalSourcesOutputRoot>E:\Softwares\GitProjects\LilyWwise\Wwise_Lily\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
-	<DialogueEvents/>
-	<StreamedFiles/>
-	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Language="SFX">
-			<ObjectPath>Init</ObjectPath>
-			<ShortName>Init</ShortName>
-			<Path>Init.bnk</Path>
-		</SoundBank>
 		<SoundBank Id="3411909911" Language="SFX">
 			<ObjectPath>\SoundBanks\Default Work Unit\Lily_Soundbank</ObjectPath>
 			<ShortName>Lily_Soundbank</ShortName>

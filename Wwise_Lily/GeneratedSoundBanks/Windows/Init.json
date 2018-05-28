@@ -1,0 +1,24 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "11",
+  "SoundbankVersion": "128",
+  "RootPaths": {
+   "ProjectRoot": "E:\\Softwares\\GitProjects\\LilyWwise\\Wwise_Lily\\",
+   "SourceFilesRoot": "E:\\Softwares\\GitProjects\\LilyWwise\\Wwise_Lily\\.cache\\Windows\\",
+   "SoundBanksRoot": "E:\\Softwares\\GitProjects\\LilyWwise\\Wwise_Lily\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "E:\\Softwares\\GitProjects\\LilyWwise\\Wwise_Lily\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "1355168291",
+    "Language": "SFX",
+    "ObjectPath": "Init",
+    "ShortName": "Init",
+    "Path": "Init.bnk"
+   }
+  ]
+ }
+}
