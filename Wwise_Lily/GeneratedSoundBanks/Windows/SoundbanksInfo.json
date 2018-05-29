@@ -102,6 +102,11 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Ambiances\\O1\\Play_AMB_O1"
      },
      {
+      "Id": "1290733417",
+      "Name": "Play_Bossfight_Music",
+      "ObjectPath": "\\Events\\Default Work Unit\\Soundscapes\\Bossfight\\Play_Bossfight_Music"
+     },
+     {
       "Id": "2292458263",
       "Name": "Play_Door_close",
       "ObjectPath": "\\Events\\Default Work Unit\\Character\\Cabane_foleys\\Play_Door_close",
@@ -380,6 +385,12 @@
       "Language": "SFX",
       "ShortName": "Hallu_CreuseInsipideInutile_4.wav",
       "Path": "SFX\\Hallu_CreuseInsipideInutile_4_1617AFA0.wem"
+     },
+     {
+      "Id": "28210909",
+      "Language": "SFX",
+      "ShortName": "BossfightTheme_P4_2.wav",
+      "Path": "SFX\\BossfightTheme_P4_2_77E15A0E.wem"
      },
      {
       "Id": "28379637",
@@ -842,6 +853,12 @@
       "Language": "SFX",
       "ShortName": "Hallu_Lily_4.wav",
       "Path": "SFX\\Hallu_Lily_4_1617AFA0.wem"
+     },
+     {
+      "Id": "198414624",
+      "Language": "SFX",
+      "ShortName": "BossfightTheme_P2.wav",
+      "Path": "SFX\\BossfightTheme_P2_77E15A0E.wem"
      },
      {
       "Id": "200133905",
@@ -1408,6 +1425,12 @@
       "Path": "SFX\\Hallu_ToutVaBien_14_1617AFA0.wem"
      },
      {
+      "Id": "376067730",
+      "Language": "SFX",
+      "ShortName": "BossfightTheme_P4_1.wav",
+      "Path": "SFX\\BossfightTheme_P4_1_77E15A0E.wem"
+     },
+     {
       "Id": "377189122",
       "Language": "SFX",
       "ShortName": "Basse_Chord4_D#.wav",
@@ -1418,6 +1441,12 @@
       "Language": "SFX",
       "ShortName": "Hallu_Envole_10.wav",
       "Path": "SFX\\Hallu_Envole_10_1617AFA0.wem"
+     },
+     {
+      "Id": "380985519",
+      "Language": "SFX",
+      "ShortName": "BossfightTheme_P1_2.wav",
+      "Path": "SFX\\BossfightTheme_P1_2_77E15A0E.wem"
      },
      {
       "Id": "382400702",
@@ -1496,6 +1525,12 @@
       "Language": "SFX",
       "ShortName": "Hallu_Lily_8.wav",
       "Path": "SFX\\Hallu_Lily_8_1617AFA0.wem"
+     },
+     {
+      "Id": "417933650",
+      "Language": "SFX",
+      "ShortName": "BossfightTheme_P3.wav",
+      "Path": "SFX\\BossfightTheme_P3_77E15A0E.wem"
      },
      {
       "Id": "418610338",
@@ -1988,6 +2023,12 @@
       "Language": "SFX",
       "ShortName": "FS_Dirt_L1_3.wav",
       "Path": "SFX\\FS_Dirt_L1_3_1617AFA0.wem"
+     },
+     {
+      "Id": "589748622",
+      "Language": "SFX",
+      "ShortName": "BossfightTheme_P1_1.wav",
+      "Path": "SFX\\BossfightTheme_P1_1_77E15A0E.wem"
      },
      {
       "Id": "593723603",

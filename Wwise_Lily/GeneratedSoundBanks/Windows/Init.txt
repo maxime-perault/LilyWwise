@@ -1,5 +1,6 @@
 State Group	ID	Name			Wwise Object Path	Notes
 	1622844561	AMB_State			\Default Work Unit\AMB_State	
+	3826569560	MUSIC_State			\Default Work Unit\MUSIC_State	
 
 State	ID	Name	State Group			Notes
 	0	None	AMB_State			
@@ -8,6 +9,11 @@ State	ID	Name	State Group			Notes
 	1651971937	O1	AMB_State			
 	1700763265	Cabane2	AMB_State			
 	1700763266	Cabane1	AMB_State			
+	0	None	MUSIC_State			
+	1635194249	P4	MUSIC_State			
+	1635194252	P1	MUSIC_State			
+	1635194254	P3	MUSIC_State			
+	1635194255	P2	MUSIC_State			
 
 Custom State	ID	Name	State Group	Owner		Notes
 	230463894	O1	AMB_State	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Cave_reverb		
@@ -49,6 +55,7 @@ Auxiliary Bus	ID	Name			Wwise Object Path	Notes
 Effect plug-ins	ID	Name	Type				Notes
 	16119108	Dry_AHP	Auro Headphone			
 	499050113	Wwise Parametric EQ (Custom)	Wwise Parametric EQ			
+	576041243	Wwise Peak Limiter (Custom)	Wwise Peak Limiter			
 	614510025	Auro Headphone (Custom)	Auro Headphone			
 	811311814	Wwise Recorder (Custom)	Wwise Recorder			
 	1726449784	Large_Hall_AHP	Auro Headphone			

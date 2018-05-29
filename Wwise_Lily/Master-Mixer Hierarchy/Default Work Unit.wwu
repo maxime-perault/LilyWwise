@@ -19,7 +19,19 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<Bus Name="Music" ID="{C14F24B8-F74A-4BF7-B290-DA0BE623E5C6}"/>
+						<Bus Name="Music" ID="{C14F24B8-F74A-4BF7-B290-DA0BE623E5C6}">
+							<ReferenceList>
+								<Reference Name="Effect0">
+									<Custom>
+										<Effect Name="Wwise Peak Limiter (Custom)" ID="{ED48805F-3ECD-446C-9EA0-EEF61CCA9182}" ShortID="576041243" PluginName="Wwise Peak Limiter" CompanyID="0" PluginID="110" PluginType="3">
+											<PropertyList>
+												<Property Name="Threshold" Type="Real32" Value="-0.5"/>
+											</PropertyList>
+										</Effect>
+									</Custom>
+								</Reference>
+							</ReferenceList>
+						</Bus>
 						<Bus Name="SFX" ID="{8C3931D1-175E-42B3-B35D-8A6C6C7EC6E5}">
 							<ReferenceList>
 								<Reference Name="UserAuxSend0">

@@ -15,6 +15,14 @@
 						<Switch Name="Roots" ID="{4DF26B8E-EE01-4159-B165-CAACA90471EB}"/>
 					</ChildrenList>
 				</SwitchGroup>
+				<SwitchGroup Name="MUSIC_Switch" ID="{756C089C-118D-4697-8D92-FEAE454F535F}">
+					<ChildrenList>
+						<Switch Name="P1" ID="{24C22802-E0E9-4F32-93A8-634F89AE0671}"/>
+						<Switch Name="P2" ID="{7CE7810C-94CD-4905-BF11-501751E4D166}"/>
+						<Switch Name="P3" ID="{9FE11FE8-50AC-4CA9-98B7-851C45814817}"/>
+						<Switch Name="P4" ID="{4273C911-2DF4-43CF-A1C0-1B8C92309E39}"/>
+					</ChildrenList>
+				</SwitchGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</Switches>

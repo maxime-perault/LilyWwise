@@ -199,6 +199,25 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="Bossfight" ID="{550F0E56-3828-46B4-8ADA-EFA6E3083D81}" ShortID="191479032">
+					<ChildrenList>
+						<Event Name="Play_Bossfight_Music" ID="{25B1357D-CB81-45F9-A3ED-19CAF5C3E808}">
+							<ChildrenList>
+								<Action Name="" ID="{27E67882-5182-491C-A60A-3D81B7C6AA4E}" ShortID="693564979">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Bossfight_Music" ID="{9C98FEA0-2C07-41D9-86DA-55138996D289}" WorkUnitID="{8EA22E20-31F7-4070-8021-215953AEA112}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
