@@ -108,6 +108,10 @@
 					<ShortName>Hallu_FermeLesYeux_9.wav</ShortName>
 					<Path>SFX\Hallu_FermeLesYeux_9_1617AFA0.wem</Path>
 				</File>
+				<File Id="11212042" Language="SFX">
+					<ShortName>BossfightTheme_P5_1.wav</ShortName>
+					<Path>SFX\BossfightTheme_P5_1_77E15A0E.wem</Path>
+				</File>
 				<File Id="16088448" Language="SFX">
 					<ShortName>Hallu_Envole_4.wav</ShortName>
 					<Path>SFX\Hallu_Envole_4_1617AFA0.wem</Path>

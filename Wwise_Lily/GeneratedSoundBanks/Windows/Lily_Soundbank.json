@@ -359,6 +359,12 @@
       "Path": "SFX\\Hallu_FermeLesYeux_9_1617AFA0.wem"
      },
      {
+      "Id": "11212042",
+      "Language": "SFX",
+      "ShortName": "BossfightTheme_P5_1.wav",
+      "Path": "SFX\\BossfightTheme_P5_1_77E15A0E.wem"
+     },
+     {
       "Id": "16088448",
       "Language": "SFX",
       "ShortName": "Hallu_Envole_4.wav",

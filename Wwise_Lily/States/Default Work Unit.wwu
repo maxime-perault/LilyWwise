@@ -55,6 +55,7 @@
 						<State Name="P2" ID="{82544C8C-2ADB-4412-9BD9-621F2B19B49C}"/>
 						<State Name="P3" ID="{AAEE0D48-E75D-4365-A3C8-3CEEC76BBCAE}"/>
 						<State Name="P4" ID="{2976A5AB-6C69-4B7F-A448-5B906B7AAA72}"/>
+						<State Name="P5" ID="{E9A7931D-3CF1-4822-AA0D-8DE922BC006B}"/>
 					</ChildrenList>
 					<TransitionList>
 						<Transition>
@@ -72,6 +73,12 @@
 						<Transition>
 							<StartState Name="P3" ID="{AAEE0D48-E75D-4365-A3C8-3CEEC76BBCAE}"/>
 							<EndState Name="P4" ID="{2976A5AB-6C69-4B7F-A448-5B906B7AAA72}"/>
+							<Time>1</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="P4" ID="{2976A5AB-6C69-4B7F-A448-5B906B7AAA72}"/>
+							<EndState Name="P5" ID="{E9A7931D-3CF1-4822-AA0D-8DE922BC006B}"/>
 							<Time>1</Time>
 							<IsShared>false</IsShared>
 						</Transition>

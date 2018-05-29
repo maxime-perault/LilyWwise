@@ -149,7 +149,7 @@
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="P4" ID="{2976A5AB-6C69-4B7F-A448-5B906B7AAA72}"/>
+						<CurrentStateRef Name="P1" ID="{EE721855-0F7D-445D-9C74-EA5590EAFAC6}"/>
 						<CurrentStateRef Name="Cabane1" ID="{D1471503-FD89-4F58-A6D8-86EB42D0AD7B}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
