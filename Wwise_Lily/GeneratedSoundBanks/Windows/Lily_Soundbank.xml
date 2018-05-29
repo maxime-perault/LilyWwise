@@ -24,7 +24,7 @@
 				<Event Id="3419686739" Name="Jump_Land" ObjectPath="\Events\Default Work Unit\Character\Marelle_Foleys\Jump_Land"/>
 				<Event Id="2743389932" Name="Lily_Dash" ObjectPath="\Events\Default Work Unit\Character\Marelle_Foleys\Lily_Dash"/>
 				<Event Id="3571843573" Name="Play_AAM_Music" ObjectPath="\Events\Default Work Unit\Soundscapes\Arbre aux masques\Play_AAM_Music"/>
-				<Event Id="3855816568" Name="Play_AMB_Lake" ObjectPath="\Events\Default Work Unit\Ambiances\O1\Play_AMB_Lake" MaxAttenuation="2000.000000"/>
+				<Event Id="3855816568" Name="Play_AMB_Lake" ObjectPath="\Events\Default Work Unit\Ambiances\O1\Play_AMB_Lake" MaxAttenuation="7000.000000"/>
 				<Event Id="2425019269" Name="Play_AMB_O1" ObjectPath="\Events\Default Work Unit\Ambiances\O1\Play_AMB_O1"/>
 				<Event Id="2292458263" Name="Play_Door_close" ObjectPath="\Events\Default Work Unit\Character\Cabane_foleys\Play_Door_close" MaxAttenuation="5000.000000"/>
 				<Event Id="1660008929" Name="Play_Door_open" ObjectPath="\Events\Default Work Unit\Character\Cabane_foleys\Play_Door_open" MaxAttenuation="5000.000000"/>
@@ -1711,6 +1711,10 @@
 					<ShortName>Cello1_Chord1_G#.wav</ShortName>
 					<Path>SFX\Cello1_Chord1_G#_9F0FAB89.wem</Path>
 				</File>
+				<File Id="840952878" Language="SFX">
+					<ShortName>Lake_stereo_1.wav</ShortName>
+					<Path>SFX\Lake_stereo_1_1617AFA0.wem</Path>
+				</File>
 				<File Id="842572370" Language="SFX">
 					<ShortName>Hallu_Lily_9.wav</ShortName>
 					<Path>SFX\Hallu_Lily_9_1617AFA0.wem</Path>
@@ -2066,6 +2070,10 @@
 				<File Id="1046988004" Language="SFX">
 					<ShortName>Leaves_7.wav</ShortName>
 					<Path>SFX\Leaves_7_1617AFA0.wem</Path>
+				</File>
+				<File Id="1047750217" Language="SFX">
+					<ShortName>Lake_stereo_2.wav</ShortName>
+					<Path>SFX\Lake_stereo_2_1617AFA0.wem</Path>
 				</File>
 				<File Id="1048306210" Language="SFX">
 					<ShortName>Hallu_Doucement_14.wav</ShortName>

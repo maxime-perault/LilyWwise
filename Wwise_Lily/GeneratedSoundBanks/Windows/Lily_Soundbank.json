@@ -84,7 +84,7 @@
       "Id": "3855816568",
       "Name": "Play_AMB_Lake",
       "ObjectPath": "\\Events\\Default Work Unit\\Ambiances\\O1\\Play_AMB_Lake",
-      "MaxAttenuation": "2000.000000"
+      "MaxAttenuation": "7000.000000"
      },
      {
       "Id": "2425019269",
@@ -2772,6 +2772,12 @@
       "Path": "SFX\\Cello1_Chord1_G#_9F0FAB89.wem"
      },
      {
+      "Id": "840952878",
+      "Language": "SFX",
+      "ShortName": "Lake_stereo_1.wav",
+      "Path": "SFX\\Lake_stereo_1_1617AFA0.wem"
+     },
+     {
       "Id": "842572370",
       "Language": "SFX",
       "ShortName": "Hallu_Lily_9.wav",
@@ -3304,6 +3310,12 @@
       "Language": "SFX",
       "ShortName": "Leaves_7.wav",
       "Path": "SFX\\Leaves_7_1617AFA0.wem"
+     },
+     {
+      "Id": "1047750217",
+      "Language": "SFX",
+      "ShortName": "Lake_stereo_2.wav",
+      "Path": "SFX\\Lake_stereo_2_1617AFA0.wem"
      },
      {
       "Id": "1048306210",

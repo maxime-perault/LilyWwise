@@ -1424,7 +1424,7 @@
 								<Property Name="PositioningType" Type="int16" Value="1"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>3</Value>
+										<Value>-5</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -1505,10 +1505,48 @@
 												<ActiveSource Name="Lake_2" ID="{09D971F9-13A9-4B46-85F4-805D3B5441E0}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
+										<Sound Name="Lake_stereo_1" ID="{8A46E348-47A3-437A-9DE2-A2B8B4E9C358}" ShortID="67100333">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Lake_stereo_1" ID="{1C6678DE-FCBD-405E-879C-9457D94AF4A3}" ShortID="840952878">
+													<Language>SFX</Language>
+													<AudioFile>Lake_stereo_1.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Lake_stereo_1" ID="{1C6678DE-FCBD-405E-879C-9457D94AF4A3}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Lake_stereo_2" ID="{F27AE139-9C78-4420-8A93-4D101CA65469}" ShortID="673688901">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Lake_stereo_2" ID="{83995929-7C89-4234-865B-61A95DBF2D0F}" ShortID="1047750217">
+													<Language>SFX</Language>
+													<AudioFile>Lake_stereo_2.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Lake_stereo_2" ID="{83995929-7C89-4234-865B-61A95DBF2D0F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
 									</ChildrenList>
 									<Playlist>
-										<ItemRef Name="Lake_1" ID="{625B3340-CB01-4A55-841B-33EDAAD0BAC6}"/>
-										<ItemRef Name="Lake_2" ID="{D201DA6D-44B5-4B28-A22B-F5B2698B625D}"/>
+										<ItemRef Name="Lake_stereo_1" ID="{8A46E348-47A3-437A-9DE2-A2B8B4E9C358}"/>
+										<ItemRef Name="Lake_stereo_2" ID="{F27AE139-9C78-4420-8A93-4D101CA65469}"/>
 									</Playlist>
 								</RandomSequenceContainer>
 							</ChildrenList>
@@ -1535,6 +1573,11 @@
 									<PropertyList>
 										<Property Name="OverridePositioning" Type="bool" Value="True"/>
 										<Property Name="PositioningType" Type="int16" Value="1"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-7</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Attenuation">
