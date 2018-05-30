@@ -222,6 +222,13 @@
 					</ReferenceList>
 					<ChildrenList>
 						<Sound Name="Placeholder_VL_Grotte_1" ID="{5D5FD2A1-2325-4658-807B-5867E0D4BC12}" ShortID="861073773">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>2</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
@@ -243,6 +250,13 @@
 					</ChildrenList>
 				</ActorMixer>
 				<ActorMixer Name="Marelle" ID="{FBE67D4C-4810-4776-8B9D-7744337B0E1B}" ShortID="804903446">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-12</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="SFX_Comp" ID="{94D2B765-DB8D-469E-97ED-DEEB9595516F}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
@@ -279,6 +293,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="Voiceline_marelle_1" ID="{98714091-2233-4263-B030-C479A811172A}" ShortID="733160472">
+							<PropertyList>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>2</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>

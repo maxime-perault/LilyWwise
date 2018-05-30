@@ -2506,11 +2506,14 @@
 				</ActorMixer>
 				<ActorMixer Name="BlackDoors" ID="{BB76E5F2-4CDF-4CC0-A96A-BB23FFB7AF75}" ShortID="178433861">
 					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="BlackDoor_Att" ID="{88016BF7-6940-4B14-BC6F-088BF8674D16}" WorkUnitID="{F9486E4D-3A45-4423-A197-A386E047703F}"/>
+						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="SFX_Comp" ID="{94D2B765-DB8D-469E-97ED-DEEB9595516F}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+							<ObjectRef Name="SFX_Auro3D" ID="{133B32DF-E512-4661-963E-60D0D380B3DD}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -2556,11 +2559,14 @@
 				</ActorMixer>
 				<ActorMixer Name="Boss" ID="{08181E62-E287-4751-90A9-E9F727B2F685}" ShortID="855321174">
 					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="BossDash_Att" ID="{E22851A7-AF83-4C62-B149-B5B6E27AF6F2}" WorkUnitID="{F9486E4D-3A45-4423-A197-A386E047703F}"/>
+						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="SFX_Comp" ID="{94D2B765-DB8D-469E-97ED-DEEB9595516F}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+							<ObjectRef Name="SFX_Auro3D" ID="{133B32DF-E512-4661-963E-60D0D380B3DD}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>

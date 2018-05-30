@@ -166,10 +166,10 @@
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
 						<CurrentStateRef Name="P1" ID="{EE721855-0F7D-445D-9C74-EA5590EAFAC6}"/>
-						<CurrentStateRef Name="Cabane1" ID="{D1471503-FD89-4F58-A6D8-86EB42D0AD7B}"/>
+						<CurrentStateRef Name="None" ID="{897B763B-022B-42EB-8BC0-AC47ADD86A2C}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="Roots" ID="{4DF26B8E-EE01-4159-B165-CAACA90471EB}"/>
+						<CurrentSwitchRef Name="Dirt" ID="{D0E90812-3044-482D-97C5-AB576E59876B}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>
