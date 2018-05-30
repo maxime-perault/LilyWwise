@@ -131,6 +131,11 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Soundscapes\\Arbre aux masques\\Play_GrotteProgression"
      },
      {
+      "Id": "1812302960",
+      "Name": "Play_Hallucinations_Grotte",
+      "ObjectPath": "\\Events\\Default Work Unit\\Hallucinations\\Grotte\\Play_Hallucinations_Grotte"
+     },
+     {
       "Id": "3762745851",
       "Name": "Play_Hallucinations_Marelle",
       "ObjectPath": "\\Events\\Default Work Unit\\Hallucinations\\Marelle\\Play_Hallucinations_Marelle"
@@ -197,6 +202,12 @@
       "Id": "306205860",
       "Name": "Stop_Fireflies_idle",
       "ObjectPath": "\\Events\\Default Work Unit\\Character\\Character_foleys\\Fireflies\\Stop_Fireflies_idle",
+      "MaxAttenuation": "0.000000"
+     },
+     {
+      "Id": "3620721142",
+      "Name": "Stop_Hallucinations_Grotte",
+      "ObjectPath": "\\Events\\Default Work Unit\\Hallucinations\\Grotte\\Stop_Hallucinations_Grotte",
       "MaxAttenuation": "0.000000"
      },
      {
@@ -323,10 +334,10 @@
       "Path": "SFX\\ConfirmationCase4_4_1617AFA0.wem"
      },
      {
-      "Id": "1430500",
+      "Id": "1749053",
       "Language": "SFX",
-      "ShortName": "Hallu_HeyOh_15.wav",
-      "Path": "SFX\\Hallu_HeyOh_15_1617AFA0.wem"
+      "ShortName": "Laide_1.wav",
+      "Path": "SFX\\Laide_1_1617AFA0.wem"
      },
      {
       "Id": "4134339",
@@ -377,10 +388,10 @@
       "Path": "SFX\\Hallu_JeSais_9_1617AFA0.wem"
      },
      {
-      "Id": "21557923",
+      "Id": "22571780",
       "Language": "SFX",
-      "ShortName": "Hallu_CreuseInsipideInutile_4.wav",
-      "Path": "SFX\\Hallu_CreuseInsipideInutile_4_1617AFA0.wem"
+      "ShortName": "PersonneAime_2.wav",
+      "Path": "SFX\\PersonneAime_2_1617AFA0.wem"
      },
      {
       "Id": "28210909",
@@ -407,6 +418,12 @@
       "Path": "SFX\\Cello1_Chord2_A#_3A726230.wem"
      },
      {
+      "Id": "37292495",
+      "Language": "SFX",
+      "ShortName": "ParleSeule_2.wav",
+      "Path": "SFX\\ParleSeule_2_1617AFA0.wem"
+     },
+     {
       "Id": "40323235",
       "Language": "SFX",
       "ShortName": "FS_Dirt_Run_13.wav",
@@ -423,12 +440,6 @@
       "Language": "SFX",
       "ShortName": "Hallu_Fantome_1.wav",
       "Path": "SFX\\Hallu_Fantome_1_1617AFA0.wem"
-     },
-     {
-      "Id": "48142934",
-      "Language": "SFX",
-      "ShortName": "Hallu_HeyOh_2.wav",
-      "Path": "SFX\\Hallu_HeyOh_2_1617AFA0.wem"
      },
      {
       "Id": "48639245",
@@ -491,22 +502,10 @@
       "Path": "SFX\\Hallu_Whispers_1_1617AFA0.wem"
      },
      {
-      "Id": "63927170",
-      "Language": "SFX",
-      "ShortName": "Placeholder_VL_Grotte_1.wav",
-      "Path": "SFX\\Placeholder_VL_Grotte_1_1C9C67B2.wem"
-     },
-     {
       "Id": "64644579",
       "Language": "SFX",
       "ShortName": "FS_Grass_Walk_2.wav",
       "Path": "SFX\\FS_Grass_Walk_2_1617AFA0.wem"
-     },
-     {
-      "Id": "65256664",
-      "Language": "SFX",
-      "ShortName": "Hallu_Merveilleux_5.wav",
-      "Path": "SFX\\Hallu_Merveilleux_5_1617AFA0.wem"
      },
      {
       "Id": "66260836",
@@ -531,6 +530,12 @@
       "Language": "SFX",
       "ShortName": "Hallu_Peindre_2.wav",
       "Path": "SFX\\Hallu_Peindre_2_1617AFA0.wem"
+     },
+     {
+      "Id": "75816016",
+      "Language": "SFX",
+      "ShortName": "Idiote_3.wav",
+      "Path": "SFX\\Idiote_3_1617AFA0.wem"
      },
      {
       "Id": "76880698",
@@ -587,12 +592,6 @@
       "Path": "SFX\\FS_Water_L2_5_1617AFA0.wem"
      },
      {
-      "Id": "105432549",
-      "Language": "SFX",
-      "ShortName": "Hallu_CreuseInsipideInutile_2.wav",
-      "Path": "SFX\\Hallu_CreuseInsipideInutile_2_1617AFA0.wem"
-     },
-     {
       "Id": "107195677",
       "Language": "SFX",
       "ShortName": "SelectCase_3.wav",
@@ -645,6 +644,12 @@
       "Language": "SFX",
       "ShortName": "Violin1_Chord2_C#.wav",
       "Path": "SFX\\Violin1_Chord2_C#_F91CC76F.wem"
+     },
+     {
+      "Id": "127464261",
+      "Language": "SFX",
+      "ShortName": "Erreur_1.wav",
+      "Path": "SFX\\Erreur_1_1617AFA0.wem"
      },
      {
       "Id": "128059632",
@@ -701,6 +706,18 @@
       "Path": "SFX\\Hallu_NeMignorePas_6_1617AFA0.wem"
      },
      {
+      "Id": "144631418",
+      "Language": "SFX",
+      "ShortName": "Répugnante_2.wav",
+      "Path": "SFX\\Répugnante_2_1617AFA0.wem"
+     },
+     {
+      "Id": "145506453",
+      "Language": "SFX",
+      "ShortName": "Stupide_2.wav",
+      "Path": "SFX\\Stupide_2_1617AFA0.wem"
+     },
+     {
       "Id": "149551929",
       "Language": "SFX",
       "ShortName": "HowlingWind_6.wav",
@@ -717,12 +734,6 @@
       "Language": "SFX",
       "ShortName": "Hallu_ToutVaBien_15.wav",
       "Path": "SFX\\Hallu_ToutVaBien_15_1617AFA0.wem"
-     },
-     {
-      "Id": "155520890",
-      "Language": "SFX",
-      "ShortName": "Hallu_Fantastique_1.wav",
-      "Path": "SFX\\Hallu_Fantastique_1_1617AFA0.wem"
      },
      {
       "Id": "156039610",
@@ -795,6 +806,12 @@
       "Language": "SFX",
       "ShortName": "FS_Rocks_1.wav",
       "Path": "SFX\\FS_Rocks_1_1617AFA0.wem"
+     },
+     {
+      "Id": "171710068",
+      "Language": "SFX",
+      "ShortName": "Différente_1.wav",
+      "Path": "SFX\\Différente_1_1617AFA0.wem"
      },
      {
       "Id": "174051045",
@@ -881,10 +898,10 @@
       "Path": "SFX\\ConfirmationCase_3_1617AFA0.wem"
      },
      {
-      "Id": "208046823",
+      "Id": "206828937",
       "Language": "SFX",
-      "ShortName": "Hallu_ToutVaBien_16.wav",
-      "Path": "SFX\\Hallu_ToutVaBien_16_1617AFA0.wem"
+      "ShortName": "FauteAutres_1.wav",
+      "Path": "SFX\\FauteAutres_1_1617AFA0.wem"
      },
      {
       "Id": "210292831",
@@ -935,16 +952,16 @@
       "Path": "SFX\\Boss_mvt_L1_8_1617AFA0.wem"
      },
      {
+      "Id": "225485676",
+      "Language": "SFX",
+      "ShortName": "Erreur_2.wav",
+      "Path": "SFX\\Erreur_2_1617AFA0.wem"
+     },
+     {
       "Id": "227118963",
       "Language": "SFX",
       "ShortName": "Violin1_Chord4_D#.wav",
       "Path": "SFX\\Violin1_Chord4_D#_F91CC76F.wem"
-     },
-     {
-      "Id": "228113176",
-      "Language": "SFX",
-      "ShortName": "Hallu_ToujoursLa_8.wav",
-      "Path": "SFX\\Hallu_ToujoursLa_8_1617AFA0.wem"
      },
      {
       "Id": "230768079",
@@ -1019,6 +1036,12 @@
       "Path": "SFX\\Lily - Arbre aux masques (Preview 2)_4B504986.wem"
      },
      {
+      "Id": "240753512",
+      "Language": "SFX",
+      "ShortName": "PersonneAime_3.wav",
+      "Path": "SFX\\PersonneAime_3_1617AFA0.wem"
+     },
+     {
       "Id": "243639402",
       "Language": "SFX",
       "ShortName": "FS_Rocks_6.wav",
@@ -1061,6 +1084,12 @@
       "Path": "SFX\\FS_Creak_5_73BB8CB6.wem"
      },
      {
+      "Id": "252436183",
+      "Language": "SFX",
+      "ShortName": "Condamnée_2.wav",
+      "Path": "SFX\\Condamnée_2_1617AFA0.wem"
+     },
+     {
       "Id": "252750255",
       "Language": "SFX",
       "ShortName": "Wind_base_6.wav",
@@ -1071,6 +1100,12 @@
       "Language": "SFX",
       "ShortName": "Hallu_Arrete_1.wav",
       "Path": "SFX\\Hallu_Arrete_1_1617AFA0.wem"
+     },
+     {
+      "Id": "255076599",
+      "Language": "SFX",
+      "ShortName": "Affreuse_1.wav",
+      "Path": "SFX\\Affreuse_1_1617AFA0.wem"
      },
      {
       "Id": "257378748",
@@ -1131,6 +1166,12 @@
       "Language": "SFX",
       "ShortName": "HowlingWind_2.wav",
       "Path": "SFX\\HowlingWind_2_1617AFA0.wem"
+     },
+     {
+      "Id": "275471210",
+      "Language": "SFX",
+      "ShortName": "Stupide_1.wav",
+      "Path": "SFX\\Stupide_1_1617AFA0.wem"
      },
      {
       "Id": "275838306",
@@ -1271,12 +1312,6 @@
       "Path": "SFX\\Hallu_FermeLesYeux_11_1617AFA0.wem"
      },
      {
-      "Id": "307615746",
-      "Language": "SFX",
-      "ShortName": "Hallu_ToujoursLa_12.wav",
-      "Path": "SFX\\Hallu_ToujoursLa_12_1617AFA0.wem"
-     },
-     {
       "Id": "310786580",
       "Language": "SFX",
       "ShortName": "Violin1_Chord2_A#.wav",
@@ -1287,6 +1322,12 @@
       "Language": "SFX",
       "ShortName": "Hallu_ToujoursLa_11.wav",
       "Path": "SFX\\Hallu_ToujoursLa_11_1617AFA0.wem"
+     },
+     {
+      "Id": "315056901",
+      "Language": "SFX",
+      "ShortName": "Répugnante_1.wav",
+      "Path": "SFX\\Répugnante_1_1617AFA0.wem"
      },
      {
       "Id": "316387502",
@@ -1341,6 +1382,12 @@
       "Language": "SFX",
       "ShortName": "FS_Rocks_3.wav",
       "Path": "SFX\\FS_Rocks_3_1617AFA0.wem"
+     },
+     {
+      "Id": "335775629",
+      "Language": "SFX",
+      "ShortName": "Lache_1.wav",
+      "Path": "SFX\\Lache_1_1617AFA0.wem"
      },
      {
       "Id": "337508884",
@@ -1403,6 +1450,12 @@
       "Path": "SFX\\Hallu_Respire_4_1617AFA0.wem"
      },
      {
+      "Id": "369047713",
+      "Language": "SFX",
+      "ShortName": "Bizarre_1.wav",
+      "Path": "SFX\\Bizarre_1_1617AFA0.wem"
+     },
+     {
       "Id": "369606492",
       "Language": "SFX",
       "ShortName": "Hallu_OuVasTu_1.wav",
@@ -1451,10 +1504,22 @@
       "Path": "SFX\\Hallu_TktPas_5_1617AFA0.wem"
      },
      {
+      "Id": "384471094",
+      "Language": "SFX",
+      "ShortName": "Idiote_1.wav",
+      "Path": "SFX\\Idiote_1_1617AFA0.wem"
+     },
+     {
       "Id": "387092953",
       "Language": "SFX",
       "ShortName": "Choir1_Chord1_C.wav",
       "Path": "SFX\\Choir1_Chord1_C_27A9F4A4.wem"
+     },
+     {
+      "Id": "389302110",
+      "Language": "SFX",
+      "ShortName": "ParleSeule_1.wav",
+      "Path": "SFX\\ParleSeule_1_1617AFA0.wem"
      },
      {
       "Id": "389833922",
@@ -1473,12 +1538,6 @@
       "Language": "SFX",
       "ShortName": "Hallu_ToutVaBien_18.wav",
       "Path": "SFX\\Hallu_ToutVaBien_18_1617AFA0.wem"
-     },
-     {
-      "Id": "395392558",
-      "Language": "SFX",
-      "ShortName": "Hallu_Renonce_4.wav",
-      "Path": "SFX\\Hallu_Renonce_4_1617AFA0.wem"
      },
      {
       "Id": "396728927",
@@ -1541,6 +1600,12 @@
       "Path": "SFX\\FS_Grass_Walk_1_1617AFA0.wem"
      },
      {
+      "Id": "419580082",
+      "Language": "SFX",
+      "ShortName": "FauteAutres_2.wav",
+      "Path": "SFX\\FauteAutres_2_1617AFA0.wem"
+     },
+     {
       "Id": "430194624",
       "Language": "SFX",
       "ShortName": "MB_Chord1_10.wav",
@@ -1577,34 +1642,22 @@
       "Path": "SFX\\MB_Chord2_10_27A9F4A4.wem"
      },
      {
-      "Id": "436773833",
-      "Language": "SFX",
-      "ShortName": "Hallu_HeyOh_7.wav",
-      "Path": "SFX\\Hallu_HeyOh_7_1617AFA0.wem"
-     },
-     {
-      "Id": "436867588",
-      "Language": "SFX",
-      "ShortName": "Hallu_Peindre_5.wav",
-      "Path": "SFX\\Hallu_Peindre_5_1617AFA0.wem"
-     },
-     {
       "Id": "437864257",
       "Language": "SFX",
       "ShortName": "Hallu_Whispers_6.wav",
       "Path": "SFX\\Hallu_Whispers_6_1617AFA0.wem"
      },
      {
+      "Id": "438565460",
+      "Language": "SFX",
+      "ShortName": "Observent_2.wav",
+      "Path": "SFX\\Observent_2_1617AFA0.wem"
+     },
+     {
       "Id": "441779564",
       "Language": "SFX",
       "ShortName": "CrowHurt_6.wav",
       "Path": "SFX\\CrowHurt_6_1617AFA0.wem"
-     },
-     {
-      "Id": "449290743",
-      "Language": "SFX",
-      "ShortName": "Hallu_Peindre_8.wav",
-      "Path": "SFX\\Hallu_Peindre_8_1617AFA0.wem"
      },
      {
       "Id": "450040415",
@@ -1617,12 +1670,6 @@
       "Language": "SFX",
       "ShortName": "FS_Dirt_L3_5.wav",
       "Path": "SFX\\FS_Dirt_L3_5_1617AFA0.wem"
-     },
-     {
-      "Id": "452267991",
-      "Language": "SFX",
-      "ShortName": "Hallu_SuisLaLumiere_4.wav",
-      "Path": "SFX\\Hallu_SuisLaLumiere_4_1617AFA0.wem"
      },
      {
       "Id": "453279081",
@@ -1641,12 +1688,6 @@
       "Language": "SFX",
       "ShortName": "Boss_mvt_L1_13.wav",
       "Path": "SFX\\Boss_mvt_L1_13_1617AFA0.wem"
-     },
-     {
-      "Id": "463784787",
-      "Language": "SFX",
-      "ShortName": "Hallu_Sifflements_1.wav",
-      "Path": "SFX\\Hallu_Sifflements_1_1617AFA0.wem"
      },
      {
       "Id": "465316098",
@@ -1733,12 +1774,6 @@
       "Path": "SFX\\Strange bird - 2_1617AFA0.wem"
      },
      {
-      "Id": "485817988",
-      "Language": "SFX",
-      "ShortName": "Hallu_Fantastique_3.wav",
-      "Path": "SFX\\Hallu_Fantastique_3_1617AFA0.wem"
-     },
-     {
       "Id": "487660714",
       "Language": "SFX",
       "ShortName": "Choir1_Chord4_A#.wav",
@@ -1803,12 +1838,6 @@
       "Language": "SFX",
       "ShortName": "Hallu_OuVasTu_8.wav",
       "Path": "SFX\\Hallu_OuVasTu_8_1617AFA0.wem"
-     },
-     {
-      "Id": "503755454",
-      "Language": "SFX",
-      "ShortName": "Hallu_Sifflements_3.wav",
-      "Path": "SFX\\Hallu_Sifflements_3_1617AFA0.wem"
      },
      {
       "Id": "504369362",
@@ -1883,12 +1912,6 @@
       "Path": "SFX\\Hallu_ToujoursLa_19_1617AFA0.wem"
      },
      {
-      "Id": "532862021",
-      "Language": "SFX",
-      "ShortName": "Hallu_Fantastique_2.wav",
-      "Path": "SFX\\Hallu_Fantastique_2_1617AFA0.wem"
-     },
-     {
       "Id": "533531499",
       "Language": "SFX",
       "ShortName": "Leaves_6.wav",
@@ -1931,6 +1954,12 @@
       "Path": "SFX\\Wind_base_2_1617AFA0.wem"
      },
      {
+      "Id": "559527075",
+      "Language": "SFX",
+      "ShortName": "CoursLily_2.wav",
+      "Path": "SFX\\CoursLily_2_1617AFA0.wem"
+     },
+     {
       "Id": "559772623",
       "Language": "SFX",
       "ShortName": "CrowSpawn_4.wav",
@@ -1971,12 +2000,6 @@
       "Language": "SFX",
       "ShortName": "Violin1_Chord1_D#.wav",
       "Path": "SFX\\Violin1_Chord1_D#_F91CC76F.wem"
-     },
-     {
-      "Id": "566829279",
-      "Language": "SFX",
-      "ShortName": "Hallu_Errance_5.wav",
-      "Path": "SFX\\Hallu_Errance_5_1617AFA0.wem"
      },
      {
       "Id": "568775456",
@@ -2105,18 +2128,6 @@
       "Path": "SFX\\Choir1_Chord4_G_27A9F4A4.wem"
      },
      {
-      "Id": "615919011",
-      "Language": "SFX",
-      "ShortName": "Hallu_Merveilleux_8.wav",
-      "Path": "SFX\\Hallu_Merveilleux_8_1617AFA0.wem"
-     },
-     {
-      "Id": "617200663",
-      "Language": "SFX",
-      "ShortName": "Hallu_SouviensToi_4.wav",
-      "Path": "SFX\\Hallu_SouviensToi_4_1617AFA0.wem"
-     },
-     {
       "Id": "620730439",
       "Language": "SFX",
       "ShortName": "Hallu_Perdue_8.wav",
@@ -2195,28 +2206,10 @@
       "Path": "SFX\\Soundscape - O2 v2 (Preview 2)_27A9F4A4.wem"
      },
      {
-      "Id": "641346812",
-      "Language": "SFX",
-      "ShortName": "Hallu_Prudence_6.wav",
-      "Path": "SFX\\Hallu_Prudence_6_1617AFA0.wem"
-     },
-     {
       "Id": "642635147",
       "Language": "SFX",
       "ShortName": "FS_Water_L2_7.wav",
       "Path": "SFX\\FS_Water_L2_7_1617AFA0.wem"
-     },
-     {
-      "Id": "642657941",
-      "Language": "SFX",
-      "ShortName": "Hallu_Divers_3.wav",
-      "Path": "SFX\\Hallu_Divers_3_1617AFA0.wem"
-     },
-     {
-      "Id": "644740872",
-      "Language": "SFX",
-      "ShortName": "Hallu_ToutVaBien_17.wav",
-      "Path": "SFX\\Hallu_ToutVaBien_17_1617AFA0.wem"
      },
      {
       "Id": "648564732",
@@ -2237,12 +2230,6 @@
       "Path": "SFX\\Hallu_Doucement_1_1617AFA0.wem"
      },
      {
-      "Id": "652257116",
-      "Language": "SFX",
-      "ShortName": "Hallu_ToujoursLa_1.wav",
-      "Path": "SFX\\Hallu_ToujoursLa_1_1617AFA0.wem"
-     },
-     {
       "Id": "652406234",
       "Language": "SFX",
       "ShortName": "Hallu_TktPas_6.wav",
@@ -2255,22 +2242,10 @@
       "Path": "SFX\\Hallu_Perdue_9_1617AFA0.wem"
      },
      {
-      "Id": "655202110",
-      "Language": "SFX",
-      "ShortName": "Hallu_rire_1.wav",
-      "Path": "SFX\\Hallu_rire_1_1617AFA0.wem"
-     },
-     {
       "Id": "655502186",
       "Language": "SFX",
       "ShortName": "FS_Grass_Walk_5.wav",
       "Path": "SFX\\FS_Grass_Walk_5_1617AFA0.wem"
-     },
-     {
-      "Id": "657437641",
-      "Language": "SFX",
-      "ShortName": "Hallu_MentendsTu_6.wav",
-      "Path": "SFX\\Hallu_MentendsTu_6_1617AFA0.wem"
      },
      {
       "Id": "658581671",
@@ -2291,22 +2266,10 @@
       "Path": "SFX\\Hallu_Prudence_7_1617AFA0.wem"
      },
      {
-      "Id": "659882280",
-      "Language": "SFX",
-      "ShortName": "Hallu_OuVasTu_9.wav",
-      "Path": "SFX\\Hallu_OuVasTu_9_1617AFA0.wem"
-     },
-     {
       "Id": "662159836",
       "Language": "SFX",
       "ShortName": "Cello1_Chord4_D#.wav",
       "Path": "SFX\\Cello1_Chord4_D#_0EBC17BB.wem"
-     },
-     {
-      "Id": "666601843",
-      "Language": "SFX",
-      "ShortName": "Hallu_FermeLesYeux_8.wav",
-      "Path": "SFX\\Hallu_FermeLesYeux_8_1617AFA0.wem"
      },
      {
       "Id": "667013001",
@@ -2465,12 +2428,6 @@
       "Path": "SFX\\Hallu_FermeLesYeux_2_1617AFA0.wem"
      },
      {
-      "Id": "717206238",
-      "Language": "SFX",
-      "ShortName": "Hallu_ToujoursLa_22.wav",
-      "Path": "SFX\\Hallu_ToujoursLa_22_1617AFA0.wem"
-     },
-     {
       "Id": "717313174",
       "Language": "SFX",
       "ShortName": "Hallu_Envole_6.wav",
@@ -2513,12 +2470,6 @@
       "Path": "SFX\\FS_Dirt_Run_12_1617AFA0.wem"
      },
      {
-      "Id": "731598336",
-      "Language": "SFX",
-      "ShortName": "Hallu_MentendsTu_10.wav",
-      "Path": "SFX\\Hallu_MentendsTu_10_1617AFA0.wem"
-     },
-     {
       "Id": "733403303",
       "Language": "SFX",
       "ShortName": "FS_Dirt_L2_1.wav",
@@ -2529,12 +2480,6 @@
       "Language": "SFX",
       "ShortName": "FS_Wood_4.wav",
       "Path": "SFX\\FS_Wood_4_1617AFA0.wem"
-     },
-     {
-      "Id": "734832247",
-      "Language": "SFX",
-      "ShortName": "Hallu_HeyOh_17.wav",
-      "Path": "SFX\\Hallu_HeyOh_17_1617AFA0.wem"
      },
      {
       "Id": "735430141",
@@ -2597,22 +2542,16 @@
       "Path": "SFX\\Hallu_EcouteMoi_4_1617AFA0.wem"
      },
      {
-      "Id": "765632168",
-      "Language": "SFX",
-      "ShortName": "Hallu_Lily_2.wav",
-      "Path": "SFX\\Hallu_Lily_2_1617AFA0.wem"
-     },
-     {
       "Id": "767478543",
       "Language": "SFX",
       "ShortName": "Violin1_Chord4_A#.wav",
       "Path": "SFX\\Violin1_Chord4_A#_DEC941B6.wem"
      },
      {
-      "Id": "768621343",
+      "Id": "768644610",
       "Language": "SFX",
-      "ShortName": "Hallu_Whispers_4.wav",
-      "Path": "SFX\\Hallu_Whispers_4_1617AFA0.wem"
+      "ShortName": "CoursLily_1.wav",
+      "Path": "SFX\\CoursLily_1_1617AFA0.wem"
      },
      {
       "Id": "771917576",
@@ -2649,6 +2588,12 @@
       "Language": "SFX",
       "ShortName": "Hallu_VoleLuciole_2.wav",
       "Path": "SFX\\Hallu_VoleLuciole_2_1617AFA0.wem"
+     },
+     {
+      "Id": "782994503",
+      "Language": "SFX",
+      "ShortName": "Dessine_1.wav",
+      "Path": "SFX\\Dessine_1_1617AFA0.wem"
      },
      {
       "Id": "785858130",
@@ -2717,6 +2662,12 @@
       "Path": "SFX\\FS_Water_L2_1_1617AFA0.wem"
      },
      {
+      "Id": "798785377",
+      "Language": "SFX",
+      "ShortName": "PersonneAime_1.wav",
+      "Path": "SFX\\PersonneAime_1_1617AFA0.wem"
+     },
+     {
       "Id": "799053184",
       "Language": "SFX",
       "ShortName": "HowlingWind_3.wav",
@@ -2739,12 +2690,6 @@
       "Language": "SFX",
       "ShortName": "Choir1_Chord2_C#.wav",
       "Path": "SFX\\Choir1_Chord2_C#_27A9F4A4.wem"
-     },
-     {
-      "Id": "804149613",
-      "Language": "SFX",
-      "ShortName": "Hallu_SuisLaLumiere_3.wav",
-      "Path": "SFX\\Hallu_SuisLaLumiere_3_1617AFA0.wem"
      },
      {
       "Id": "805188911",
@@ -2843,18 +2788,6 @@
       "Path": "SFX\\Hallu_HeyOh_14_1617AFA0.wem"
      },
      {
-      "Id": "851688666",
-      "Language": "SFX",
-      "ShortName": "Hallu_Peindre_6.wav",
-      "Path": "SFX\\Hallu_Peindre_6_1617AFA0.wem"
-     },
-     {
-      "Id": "852413161",
-      "Language": "SFX",
-      "ShortName": "Hallu_ToutVaBien_11.wav",
-      "Path": "SFX\\Hallu_ToutVaBien_11_1617AFA0.wem"
-     },
-     {
       "Id": "853372079",
       "Language": "SFX",
       "ShortName": "JumpLanding_4.wav",
@@ -2865,6 +2798,12 @@
       "Language": "SFX",
       "ShortName": "Hallu_VoleLuciole_3.wav",
       "Path": "SFX\\Hallu_VoleLuciole_3_1617AFA0.wem"
+     },
+     {
+      "Id": "857453582",
+      "Language": "SFX",
+      "ShortName": "Observent_1.wav",
+      "Path": "SFX\\Observent_1_1617AFA0.wem"
      },
      {
       "Id": "858465382",
@@ -2907,12 +2846,6 @@
       "Language": "SFX",
       "ShortName": "CrowHurt_2.wav",
       "Path": "SFX\\CrowHurt_2_1617AFA0.wem"
-     },
-     {
-      "Id": "872421936",
-      "Language": "SFX",
-      "ShortName": "Hallu_Sifflements_2.wav",
-      "Path": "SFX\\Hallu_Sifflements_2_1617AFA0.wem"
      },
      {
       "Id": "873870296",
@@ -2981,22 +2914,16 @@
       "Path": "SFX\\Lightzone_active_v3_Filtre_1617AFA0.wem"
      },
      {
-      "Id": "897528244",
+      "Id": "896962756",
       "Language": "SFX",
-      "ShortName": "Hallu_HeyOh_3.wav",
-      "Path": "SFX\\Hallu_HeyOh_3_1617AFA0.wem"
+      "ShortName": "Condamnée_3.wav",
+      "Path": "SFX\\Condamnée_3_1617AFA0.wem"
      },
      {
       "Id": "899592111",
       "Language": "SFX",
       "ShortName": "Leaves_5.wav",
       "Path": "SFX\\Leaves_5_1617AFA0.wem"
-     },
-     {
-      "Id": "903136258",
-      "Language": "SFX",
-      "ShortName": "Hallu_ToutVaBien_13.wav",
-      "Path": "SFX\\Hallu_ToutVaBien_13_1617AFA0.wem"
      },
      {
       "Id": "907123717",
@@ -3023,22 +2950,10 @@
       "Path": "SFX\\Strange bird - 20_1617AFA0.wem"
      },
      {
-      "Id": "910277262",
-      "Language": "SFX",
-      "ShortName": "Hallu_JeSais_4.wav",
-      "Path": "SFX\\Hallu_JeSais_4_1617AFA0.wem"
-     },
-     {
       "Id": "915116294",
       "Language": "SFX",
       "ShortName": "Hallu_ToujoursLa_13.wav",
       "Path": "SFX\\Hallu_ToujoursLa_13_1617AFA0.wem"
-     },
-     {
-      "Id": "916254738",
-      "Language": "SFX",
-      "ShortName": "Hallu_ToujoursLa_2.wav",
-      "Path": "SFX\\Hallu_ToujoursLa_2_1617AFA0.wem"
      },
      {
       "Id": "924417544",
@@ -3051,12 +2966,6 @@
       "Language": "SFX",
       "ShortName": "Hallu_Merveilleux_6.wav",
       "Path": "SFX\\Hallu_Merveilleux_6_1617AFA0.wem"
-     },
-     {
-      "Id": "927226187",
-      "Language": "SFX",
-      "ShortName": "Hallu_ToujoursLa_4.wav",
-      "Path": "SFX\\Hallu_ToujoursLa_4_1617AFA0.wem"
      },
      {
       "Id": "928184125",
@@ -3089,22 +2998,10 @@
       "Path": "SFX\\CrowIdle_6_1617AFA0.wem"
      },
      {
-      "Id": "941156378",
-      "Language": "SFX",
-      "ShortName": "Hallu_ToutVaBien_4.wav",
-      "Path": "SFX\\Hallu_ToutVaBien_4_1617AFA0.wem"
-     },
-     {
       "Id": "942815216",
       "Language": "SFX",
       "ShortName": "MB_Chord1_2.wav",
       "Path": "SFX\\MB_Chord1_2_27A9F4A4.wem"
-     },
-     {
-      "Id": "944448885",
-      "Language": "SFX",
-      "ShortName": "Hallu_Doucement_5.wav",
-      "Path": "SFX\\Hallu_Doucement_5_1617AFA0.wem"
      },
      {
       "Id": "946310470",
@@ -3197,6 +3094,12 @@
       "Path": "SFX\\FS_Creak_3_1617AFA0.wem"
      },
      {
+      "Id": "981255028",
+      "Language": "SFX",
+      "ShortName": "Condamnée_1.wav",
+      "Path": "SFX\\Condamnée_1_1617AFA0.wem"
+     },
+     {
       "Id": "984541554",
       "Language": "SFX",
       "ShortName": "Boss_mvt_L1_15.wav",
@@ -3239,16 +3142,16 @@
       "Path": "SFX\\MB_Chord2_8_27A9F4A4.wem"
      },
      {
+      "Id": "1001975704",
+      "Language": "SFX",
+      "ShortName": "Idiote_2.wav",
+      "Path": "SFX\\Idiote_2_1617AFA0.wem"
+     },
+     {
       "Id": "1002060643",
       "Language": "SFX",
       "ShortName": "FS_Dirt_L3_1.wav",
       "Path": "SFX\\FS_Dirt_L3_1_1617AFA0.wem"
-     },
-     {
-      "Id": "1003291529",
-      "Language": "SFX",
-      "ShortName": "Hallu_MentendsTu_7.wav",
-      "Path": "SFX\\Hallu_MentendsTu_7_1617AFA0.wem"
      },
      {
       "Id": "1006450500",
@@ -3341,12 +3244,6 @@
       "Path": "SFX\\CrowIdle_8_1617AFA0.wem"
      },
      {
-      "Id": "1043104323",
-      "Language": "SFX",
-      "ShortName": "Hallu_ToutVaBien_9.wav",
-      "Path": "SFX\\Hallu_ToutVaBien_9_1617AFA0.wem"
-     },
-     {
       "Id": "1045286107",
       "Language": "SFX",
       "ShortName": "Door_open.wav",
@@ -3389,18 +3286,6 @@
       "Path": "SFX\\Cello1_Chord4_G_DEC941B6.wem"
      },
      {
-      "Id": "1050297645",
-      "Language": "SFX",
-      "ShortName": "Hallu_Merveilleux_9.wav",
-      "Path": "SFX\\Hallu_Merveilleux_9_1617AFA0.wem"
-     },
-     {
-      "Id": "1052354175",
-      "Language": "SFX",
-      "ShortName": "Hallu_HeyOh_10.wav",
-      "Path": "SFX\\Hallu_HeyOh_10_1617AFA0.wem"
-     },
-     {
       "Id": "1053104490",
       "Language": "SFX",
       "ShortName": "Hallu_MentendsTu_1.wav",
@@ -3425,12 +3310,6 @@
       "Path": "SFX\\Hallu_Respire_2_1617AFA0.wem"
      },
      {
-      "Id": "1057452448",
-      "Language": "SFX",
-      "ShortName": "Hallu_Respire_6.wav",
-      "Path": "SFX\\Hallu_Respire_6_1617AFA0.wem"
-     },
-     {
       "Id": "1058341038",
       "Language": "SFX",
       "ShortName": "FS_Grass_Walk_3.wav",
@@ -3443,12 +3322,6 @@
       "Path": "SFX\\Leaves_3_1617AFA0.wem"
      },
      {
-      "Id": "1063573028",
-      "Language": "SFX",
-      "ShortName": "Hallu_OuVasTu_3.wav",
-      "Path": "SFX\\Hallu_OuVasTu_3_1617AFA0.wem"
-     },
-     {
       "Id": "1064002806",
       "Language": "SFX",
       "ShortName": "Cello2_Chord4_A#.wav",
@@ -3459,12 +3332,6 @@
       "Language": "SFX",
       "ShortName": "Hallu_Fantastique_4.wav",
       "Path": "SFX\\Hallu_Fantastique_4_1617AFA0.wem"
-     },
-     {
-      "Id": "1067724452",
-      "Language": "SFX",
-      "ShortName": "Hallu_SouviensToi_3.wav",
-      "Path": "SFX\\Hallu_SouviensToi_3_1617AFA0.wem"
      },
      {
       "Id": "1068513895",
@@ -3483,12 +3350,6 @@
       "Language": "SFX",
       "ShortName": "Hallu_Renonce_1.wav",
       "Path": "SFX\\Hallu_Renonce_1_1617AFA0.wem"
-     },
-     {
-      "Id": "1072939352",
-      "Language": "SFX",
-      "ShortName": "Hallu_Doucement_13.wav",
-      "Path": "SFX\\Hallu_Doucement_13_1617AFA0.wem"
      }
     ]
    }

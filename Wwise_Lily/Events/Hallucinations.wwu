@@ -13,7 +13,7 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Hallucinations_O1" ID="{F5DC520E-EBA4-4914-B82A-B0BF0D96BAEB}" WorkUnitID="{36049A18-7C47-4CC2-8517-DBF2E8F943B3}"/>
+											<ObjectRef Name="HallucinationsO1" ID="{3F641B4D-4D78-4BCE-B3F9-ED5BF8A8CD97}" WorkUnitID="{36049A18-7C47-4CC2-8517-DBF2E8F943B3}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -29,7 +29,7 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Hallucinations_O1" ID="{F5DC520E-EBA4-4914-B82A-B0BF0D96BAEB}" WorkUnitID="{36049A18-7C47-4CC2-8517-DBF2E8F943B3}"/>
+											<ObjectRef Name="HallucinationsO1" ID="{3F641B4D-4D78-4BCE-B3F9-ED5BF8A8CD97}" WorkUnitID="{36049A18-7C47-4CC2-8517-DBF2E8F943B3}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -47,7 +47,7 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="MarelleHallus" ID="{92DE0302-0D7F-4C89-B36E-1A2AED7ABCBE}" WorkUnitID="{36049A18-7C47-4CC2-8517-DBF2E8F943B3}"/>
+											<ObjectRef Name="HallusMarelle" ID="{2FBA32EA-D908-44ED-8540-A96E71CEE0B9}" WorkUnitID="{36049A18-7C47-4CC2-8517-DBF2E8F943B3}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -63,7 +63,7 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="MarelleHallus" ID="{92DE0302-0D7F-4C89-B36E-1A2AED7ABCBE}" WorkUnitID="{36049A18-7C47-4CC2-8517-DBF2E8F943B3}"/>
+											<ObjectRef Name="HallusMarelle" ID="{2FBA32EA-D908-44ED-8540-A96E71CEE0B9}" WorkUnitID="{36049A18-7C47-4CC2-8517-DBF2E8F943B3}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -81,7 +81,7 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Hallucinations_S1" ID="{A40CF046-9D46-4C08-A8CC-687A885C75AC}" WorkUnitID="{36049A18-7C47-4CC2-8517-DBF2E8F943B3}"/>
+											<ObjectRef Name="Hallucinations_S1" ID="{F51962CB-1A0E-4562-9F4C-E941C06612C1}" WorkUnitID="{36049A18-7C47-4CC2-8517-DBF2E8F943B3}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -97,7 +97,39 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Hallucinations_S1" ID="{A40CF046-9D46-4C08-A8CC-687A885C75AC}" WorkUnitID="{36049A18-7C47-4CC2-8517-DBF2E8F943B3}"/>
+											<ObjectRef Name="Hallucinations_S1" ID="{F51962CB-1A0E-4562-9F4C-E941C06612C1}" WorkUnitID="{36049A18-7C47-4CC2-8517-DBF2E8F943B3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Grotte" ID="{2AC4A54A-1018-470B-AC45-6B31C167D2CD}" ShortID="975630037">
+					<ChildrenList>
+						<Event Name="Play_Hallucinations_Grotte" ID="{A3E553F8-9531-482B-88DE-E4040DA42914}">
+							<ChildrenList>
+								<Action Name="" ID="{AD3563D8-98E0-404A-80DC-59B9A00D58AA}" ShortID="1013214353">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Hallucinations_Grotte" ID="{431F27BE-FE3E-464A-8897-634C7B6A901E}" WorkUnitID="{36049A18-7C47-4CC2-8517-DBF2E8F943B3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_Hallucinations_Grotte" ID="{0D32BFE2-2F4A-4C5B-99E1-C3EE81C61FF1}">
+							<ChildrenList>
+								<Action Name="" ID="{6F729C68-9F88-4EF1-AADB-2F99E1F1467A}" ShortID="226559012">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Hallucinations_Grotte" ID="{431F27BE-FE3E-464A-8897-634C7B6A901E}" WorkUnitID="{36049A18-7C47-4CC2-8517-DBF2E8F943B3}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

@@ -36,6 +36,7 @@
 						<ObjectRef Name="Stop_Fireflies_idle" ID="{552DD43C-3D50-4784-BD33-E5ACA8050E4E}" WorkUnitID="{84EA8792-12FE-4E5E-950A-F7C12BDA81C4}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_AAM_Music" ID="{90A24355-A362-4791-A3D5-EC7CF109B3C9}" WorkUnitID="{18029C21-36BA-447B-9F35-854E0B36B1B5}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Door_open" ID="{1954321B-CE9F-481D-8ED9-22A81A81153A}" WorkUnitID="{84EA8792-12FE-4E5E-950A-F7C12BDA81C4}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Hallucinations_Grotte" ID="{A3E553F8-9531-482B-88DE-E4040DA42914}" WorkUnitID="{55D3C94C-8131-48D1-B711-B6E327AFFD0E}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="FS_Run" ID="{C71A9259-5DAE-4844-9B81-B2A56EB73C5C}" WorkUnitID="{84EA8792-12FE-4E5E-950A-F7C12BDA81C4}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="StopMusic" ID="{C4E15028-2041-48A5-BEE3-B9CBA8D86CAE}" WorkUnitID="{4613B13D-0451-42D0-BD7A-5533B5617ED0}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Stop_Lightzone" ID="{B2E9A008-376F-48E1-AFB1-BDFB68940253}" WorkUnitID="{84EA8792-12FE-4E5E-950A-F7C12BDA81C4}" Filter="7" Origin="Manual"/>
@@ -51,6 +52,7 @@
 						<ObjectRef Name="Lily_Dash" ID="{445AD5AC-8DBF-4B80-96AD-BBDAB4459F90}" WorkUnitID="{84EA8792-12FE-4E5E-950A-F7C12BDA81C4}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Crows_Spawn" ID="{18ADE3A8-7D5E-4BA9-A09E-F9BC71C45DFD}" WorkUnitID="{895344F0-F06B-4DA8-BB4E-81D5A3713E53}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Hallucinations_Marelle" ID="{E1C1AAFD-6DC7-4C4A-A8BF-AD0B6209F98B}" WorkUnitID="{55D3C94C-8131-48D1-B711-B6E327AFFD0E}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Stop_Hallucinations_Grotte" ID="{0D32BFE2-2F4A-4C5B-99E1-C3EE81C61FF1}" WorkUnitID="{55D3C94C-8131-48D1-B711-B6E327AFFD0E}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_GrotteProgression" ID="{7062A8F5-C7AE-4C60-816C-1ED4FC4D631D}" WorkUnitID="{18029C21-36BA-447B-9F35-854E0B36B1B5}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Eboulement" ID="{7DDAB17E-B39A-4DE4-B44B-A11963EA58A4}" WorkUnitID="{EDF099EF-7CA4-4D68-9584-78359919806C}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Stop_Soundscape_Cabane2" ID="{02854767-3C94-4E0D-B8ED-F745C523ED51}" WorkUnitID="{18029C21-36BA-447B-9F35-854E0B36B1B5}" Filter="7" Origin="Manual"/>
