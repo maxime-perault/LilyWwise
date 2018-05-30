@@ -3,26 +3,26 @@
 	<Platform GUID="{2109CA32-352E-4B43-9214-5215969608AE}">
 		<Banks>
 			<Language ID="393239870">
-				<File Name="Init" Hash="1996454369" Timestamp="1527678178"/>
-				<File Name="Lily_Soundbank" Hash="3615060399" Timestamp="1527680449"/>
+				<File Name="Init" Hash="1996454369" Timestamp="1527682237"/>
+				<File Name="Lily_Soundbank" Hash="2442205636" Timestamp="1527682237"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="393239870">
-				<File Name="Init" Hash="3363096066" Timestamp="1527678178"/>
-				<File Name="Lily_Soundbank" Hash="3156372439" Timestamp="1527680449"/>
+				<File Name="Init" Hash="3363096066" Timestamp="1527682237"/>
+				<File Name="Lily_Soundbank" Hash="3392194300" Timestamp="1527682237"/>
 			</Language>
 			<Language ID="-1">
-				<File Name="" Hash="3661036400" Timestamp="1527680449"/>
+				<File Name="" Hash="480823003" Timestamp="1527682237"/>
 			</Language>
 		</XMLInfo>
 		<JSONInfo>
 			<Language ID="393239870">
-				<File Name="Init" Hash="260497944" Timestamp="1527678178"/>
-				<File Name="Lily_Soundbank" Hash="3024086720" Timestamp="1527680449"/>
+				<File Name="Init" Hash="260497944" Timestamp="1527682237"/>
+				<File Name="Lily_Soundbank" Hash="2386291942" Timestamp="1527682237"/>
 			</Language>
 			<Language ID="-1">
-				<File Name="" Hash="3546831230" Timestamp="1527680449"/>
+				<File Name="" Hash="633953480" Timestamp="1527682237"/>
 			</Language>
 		</JSONInfo>
 	</Platform>

@@ -2220,6 +2220,12 @@
       "Path": "SFX\\Strange bird - 8_1617AFA0.wem"
      },
      {
+      "Id": "628604923",
+      "Language": "SFX",
+      "ShortName": "Crows_EnterLZ_1.wav",
+      "Path": "SFX\\Crows_EnterLZ_1_1617AFA0.wem"
+     },
+     {
       "Id": "629171357",
       "Language": "SFX",
       "ShortName": "Hallu_Prudence_1.wav",
@@ -2446,6 +2452,12 @@
       "Language": "SFX",
       "ShortName": "Strange bird - 3.wav",
       "Path": "SFX\\Strange bird - 3_1617AFA0.wem"
+     },
+     {
+      "Id": "704975625",
+      "Language": "SFX",
+      "ShortName": "Crows_EnterLZ_2.wav",
+      "Path": "SFX\\Crows_EnterLZ_2_1617AFA0.wem"
      },
      {
       "Id": "705013848",
@@ -2836,6 +2848,12 @@
       "Language": "SFX",
       "ShortName": "Hallu_Lily_9.wav",
       "Path": "SFX\\Hallu_Lily_9_1617AFA0.wem"
+     },
+     {
+      "Id": "844315772",
+      "Language": "SFX",
+      "ShortName": "Crows_EnterLZ_3.wav",
+      "Path": "SFX\\Crows_EnterLZ_3_1617AFA0.wem"
      },
      {
       "Id": "847831048",

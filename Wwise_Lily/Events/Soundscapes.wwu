@@ -203,10 +203,22 @@
 					<ChildrenList>
 						<Event Name="Play_Bossfight_Music" ID="{25B1357D-CB81-45F9-A3ED-19CAF5C3E808}">
 							<ChildrenList>
+								<Action Name="" ID="{D73B9E3C-92E3-4946-9B81-088FF7E03F0B}" ShortID="97287186">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="7"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AAM_Music" ID="{5477D0FE-E78E-43FA-A2BC-1CB39B6C0855}" WorkUnitID="{70C4634E-397D-4AD0-AEA2-DE40622061AE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 								<Action Name="" ID="{27E67882-5182-491C-A60A-3D81B7C6AA4E}" ShortID="693564979">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="1"/>
-										<Property Name="FadeTime" Type="Real64" Value="5"/>
+										<Property Name="FadeCurve" Type="int16" Value="6"/>
+										<Property Name="FadeTime" Type="Real64" Value="14"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">

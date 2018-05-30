@@ -1326,6 +1326,10 @@
 					<ShortName>Strange bird - 8.wav</ShortName>
 					<Path>SFX\Strange bird - 8_1617AFA0.wem</Path>
 				</File>
+				<File Id="628604923" Language="SFX">
+					<ShortName>Crows_EnterLZ_1.wav</ShortName>
+					<Path>SFX\Crows_EnterLZ_1_1617AFA0.wem</Path>
+				</File>
 				<File Id="629171357" Language="SFX">
 					<ShortName>Hallu_Prudence_1.wav</ShortName>
 					<Path>SFX\Hallu_Prudence_1_1617AFA0.wem</Path>
@@ -1477,6 +1481,10 @@
 				<File Id="702854486" Language="SFX">
 					<ShortName>Strange bird - 3.wav</ShortName>
 					<Path>SFX\Strange bird - 3_1617AFA0.wem</Path>
+				</File>
+				<File Id="704975625" Language="SFX">
+					<ShortName>Crows_EnterLZ_2.wav</ShortName>
+					<Path>SFX\Crows_EnterLZ_2_1617AFA0.wem</Path>
 				</File>
 				<File Id="705013848" Language="SFX">
 					<ShortName>Hallu_TktPas_2.wav</ShortName>
@@ -1737,6 +1745,10 @@
 				<File Id="842572370" Language="SFX">
 					<ShortName>Hallu_Lily_9.wav</ShortName>
 					<Path>SFX\Hallu_Lily_9_1617AFA0.wem</Path>
+				</File>
+				<File Id="844315772" Language="SFX">
+					<ShortName>Crows_EnterLZ_3.wav</ShortName>
+					<Path>SFX\Crows_EnterLZ_3_1617AFA0.wem</Path>
 				</File>
 				<File Id="847831048" Language="SFX">
 					<ShortName>Wind_base_7.wav</ShortName>
