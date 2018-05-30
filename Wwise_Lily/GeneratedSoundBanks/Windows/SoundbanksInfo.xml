@@ -68,6 +68,9 @@
 				<Event Id="2987232335" Name="UI_ConfirmSquare" ObjectPath="\Events\Default Work Unit\Marelle\Feedbacks\UI_ConfirmSquare"/>
 				<Event Id="455508631" Name="UI_SelectSquare" ObjectPath="\Events\Default Work Unit\Marelle\Feedbacks\UI_SelectSquare"/>
 				<Event Id="2877169713" Name="Voiceline_Grotte_1" ObjectPath="\Events\Default Work Unit\Voices\Grotte\Voiceline_Grotte_1"/>
+				<Event Id="3285071916" Name="Voiceline_marelle_1" ObjectPath="\Events\Default Work Unit\Voices\Marelle\Voiceline_marelle_1"/>
+				<Event Id="3285071919" Name="Voiceline_marelle_2" ObjectPath="\Events\Default Work Unit\Voices\Marelle\Voiceline_marelle_2"/>
+				<Event Id="3285071918" Name="Voiceline_marelle_3" ObjectPath="\Events\Default Work Unit\Voices\Marelle\Voiceline_marelle_3"/>
 				<Event Id="3186167580" Name="Voiceline_Marelle_Full" ObjectPath="\Events\Default Work Unit\Voices\Marelle\Voiceline_Marelle_Full"/>
 				<Event Id="4274191526" Name="Voiceline_O1_1" ObjectPath="\Events\Default Work Unit\Voices\O1\Voiceline_O1_1"/>
 				<Event Id="4274191525" Name="Voiceline_O1_2" ObjectPath="\Events\Default Work Unit\Voices\O1\Voiceline_O1_2"/>
@@ -194,6 +197,10 @@
 					<ShortName>JumpLanding_1.wav</ShortName>
 					<Path>SFX\JumpLanding_1_1617AFA0.wem</Path>
 				</File>
+				<File Id="54501568" Language="SFX">
+					<ShortName>Voiceline_marelle_2.wav</ShortName>
+					<Path>SFX\Voiceline_marelle_2_1617AFA0.wem</Path>
+				</File>
 				<File Id="57753328" Language="SFX">
 					<ShortName>Hallu_Whispers_1.wav</ShortName>
 					<Path>SFX\Hallu_Whispers_1_1617AFA0.wem</Path>
@@ -241,6 +248,10 @@
 				<File Id="83064231" Language="SFX">
 					<ShortName>Hallu_FermeLesYeux_3.wav</ShortName>
 					<Path>SFX\Hallu_FermeLesYeux_3_1617AFA0.wem</Path>
+				</File>
+				<File Id="85647803" Language="SFX">
+					<ShortName>Voiceline_marelle_1.wav</ShortName>
+					<Path>SFX\Voiceline_marelle_1_1617AFA0.wem</Path>
 				</File>
 				<File Id="94680995" Language="SFX">
 					<ShortName>Hallu_JeSais_3.wav</ShortName>
@@ -1349,6 +1360,10 @@
 				<File Id="649769294" Language="SFX">
 					<ShortName>Hallu_Doucement_1.wav</ShortName>
 					<Path>SFX\Hallu_Doucement_1_1617AFA0.wem</Path>
+				</File>
+				<File Id="651592862" Language="SFX">
+					<ShortName>Voiceline_marelle_3.wav</ShortName>
+					<Path>SFX\Voiceline_marelle_3_1617AFA0.wem</Path>
 				</File>
 				<File Id="652406234" Language="SFX">
 					<ShortName>Hallu_TktPas_6.wav</ShortName>

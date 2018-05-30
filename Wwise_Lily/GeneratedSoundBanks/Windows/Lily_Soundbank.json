@@ -280,6 +280,21 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Voices\\Grotte\\Voiceline_Grotte_1"
      },
      {
+      "Id": "3285071916",
+      "Name": "Voiceline_marelle_1",
+      "ObjectPath": "\\Events\\Default Work Unit\\Voices\\Marelle\\Voiceline_marelle_1"
+     },
+     {
+      "Id": "3285071919",
+      "Name": "Voiceline_marelle_2",
+      "ObjectPath": "\\Events\\Default Work Unit\\Voices\\Marelle\\Voiceline_marelle_2"
+     },
+     {
+      "Id": "3285071918",
+      "Name": "Voiceline_marelle_3",
+      "ObjectPath": "\\Events\\Default Work Unit\\Voices\\Marelle\\Voiceline_marelle_3"
+     },
+     {
       "Id": "3186167580",
       "Name": "Voiceline_Marelle_Full",
       "ObjectPath": "\\Events\\Default Work Unit\\Voices\\Marelle\\Voiceline_Marelle_Full"
@@ -496,6 +511,12 @@
       "Path": "SFX\\JumpLanding_1_1617AFA0.wem"
      },
      {
+      "Id": "54501568",
+      "Language": "SFX",
+      "ShortName": "Voiceline_marelle_2.wav",
+      "Path": "SFX\\Voiceline_marelle_2_1617AFA0.wem"
+     },
+     {
       "Id": "57753328",
       "Language": "SFX",
       "ShortName": "Hallu_Whispers_1.wav",
@@ -566,6 +587,12 @@
       "Language": "SFX",
       "ShortName": "Hallu_FermeLesYeux_3.wav",
       "Path": "SFX\\Hallu_FermeLesYeux_3_1617AFA0.wem"
+     },
+     {
+      "Id": "85647803",
+      "Language": "SFX",
+      "ShortName": "Voiceline_marelle_1.wav",
+      "Path": "SFX\\Voiceline_marelle_1_1617AFA0.wem"
      },
      {
       "Id": "94680995",
@@ -2228,6 +2255,12 @@
       "Language": "SFX",
       "ShortName": "Hallu_Doucement_1.wav",
       "Path": "SFX\\Hallu_Doucement_1_1617AFA0.wem"
+     },
+     {
+      "Id": "651592862",
+      "Language": "SFX",
+      "ShortName": "Voiceline_marelle_3.wav",
+      "Path": "SFX\\Voiceline_marelle_3_1617AFA0.wem"
      },
      {
       "Id": "652406234",

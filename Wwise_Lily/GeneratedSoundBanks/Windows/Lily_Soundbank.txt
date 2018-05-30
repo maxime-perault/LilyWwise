@@ -40,6 +40,9 @@ Event	ID	Name			Wwise Object Path	Notes
 	3186167580	Voiceline_Marelle_Full			\Default Work Unit\Voices\Marelle\Voiceline_Marelle_Full	
 	3210990662	Play_HowlingWind			\Default Work Unit\Ambiances\O1\Play_HowlingWind	
 	3226568974	Stop_Lightzone			\Default Work Unit\Character\Character_foleys\Lightzone\Stop_Lightzone	
+	3285071916	Voiceline_marelle_1			\Default Work Unit\Voices\Marelle\Voiceline_marelle_1	
+	3285071918	Voiceline_marelle_3			\Default Work Unit\Voices\Marelle\Voiceline_marelle_3	
+	3285071919	Voiceline_marelle_2			\Default Work Unit\Voices\Marelle\Voiceline_marelle_2	
 	3419686739	Jump_Land			\Default Work Unit\Character\Marelle_Foleys\Jump_Land	
 	3571843573	Play_AAM_Music			\Default Work Unit\Soundscapes\Arbre aux masques\Play_AAM_Music	
 	3599172209	BlackDoor_Open			\Default Work Unit\Enemies\BlackDoors\BlackDoor_Open	
@@ -132,6 +135,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	53823901	FS_Creak_4	E:\Softwares\GitProjects\LilyWwise\Wwise_Lily\.cache\Windows\SFX\FS_Creak_4_1617AFA0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character_WU\Character_foleys\Footsteps\FS_Walk\FS_Wood_Walk\FS_Creaks\FS_Creak_4	Too long ?	30693
 	53871227	Piano	E:\Softwares\GitProjects\LilyWwise\Wwise_Lily\.cache\Windows\SFX\Lily - Arbre aux masques (Preview 2)_2B1C26DF.wem		\Actor-Mixer Hierarchy\Default Work Unit\Soundscapes_WU\Soundscapes\Arbre aux masques\AAM_Music\Piano		4659616
 	53926397	JumpLanding_1	E:\Softwares\GitProjects\LilyWwise\Wwise_Lily\.cache\Windows\SFX\JumpLanding_1_1617AFA0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Marelle_WU\Lily\Jump_Land\JumpLanding_1		5539
+	54501568	Voiceline_marelle_2	E:\Softwares\GitProjects\LilyWwise\Wwise_Lily\.cache\Windows\SFX\Voiceline_marelle_2_1617AFA0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices_WU\Marelle\Voiceline_marelle_2		132518
 	57753328	Hallu_Whispers_1	E:\Softwares\GitProjects\LilyWwise\Wwise_Lily\.cache\Windows\SFX\Hallu_Whispers_1_1617AFA0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Hallucinations_WU\O1\HallucinationsO1\Divers\Hallu_Whispers_1		50579
 	64644579	FS_Grass_Walk_2	E:\Softwares\GitProjects\LilyWwise\Wwise_Lily\.cache\Windows\SFX\FS_Grass_Walk_2_1617AFA0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character_WU\Character_foleys\Footsteps\FS_Walk\FS_Grass_Walk\FS_Grass_Walk_2		13056
 	66260836	CrowsFlight_v1_1	E:\Softwares\GitProjects\LilyWwise\Wwise_Lily\.cache\Windows\SFX\CrowsFlight_v1_1_1617AFA0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies_WU\Crows\CrowsFlight\Flight\CrowsFlight_v1_1		6682
@@ -144,6 +148,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	79446894	CrowSpawnWings_1	E:\Softwares\GitProjects\LilyWwise\Wwise_Lily\.cache\Windows\SFX\CrowSpawnWings_1_1617AFA0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies_WU\Crows\CrowsSpawn\Crows_Spawn\Spawn_SFX\CrowSpawnWings_1		45262
 	80562585	Strange bird - 21	E:\Softwares\GitProjects\LilyWwise\Wwise_Lily\.cache\Windows\SFX\Strange bird - 21_1617AFA0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances_WU\Ambiances\O1\AMB_O1\StrangeBirds_AMB\Strange bird - 21		70151
 	83064231	Hallu_FermeLesYeux_3	E:\Softwares\GitProjects\LilyWwise\Wwise_Lily\.cache\Windows\SFX\Hallu_FermeLesYeux_3_1617AFA0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Hallucinations_WU\O1\HallucinationsO1\Good\Hallu_FermeLesYeux_3		36971
+	85647803	Voiceline_marelle_1	E:\Softwares\GitProjects\LilyWwise\Wwise_Lily\.cache\Windows\SFX\Voiceline_marelle_1_1617AFA0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices_WU\Marelle\Voiceline_marelle_1		124665
 	94680995	Hallu_JeSais_3	E:\Softwares\GitProjects\LilyWwise\Wwise_Lily\.cache\Windows\SFX\Hallu_JeSais_3_1617AFA0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Hallucinations_WU\O1\HallucinationsO1\Bad\Hallu_JeSais_3		58473
 	94931193	MB_Chord2_4	E:\Softwares\GitProjects\LilyWwise\Wwise_Lily\.cache\Windows\SFX\MB_Chord2_4_27A9F4A4.wem		\Actor-Mixer Hierarchy\Default Work Unit\Soundscapes_WU\Soundscapes\O1\Soundscape_O1\Chord 2\MusicBox_Chord2\MB_Chord2_4		216064
 	99288223	Hallu_MentendsTu_5	E:\Softwares\GitProjects\LilyWwise\Wwise_Lily\.cache\Windows\SFX\Hallu_MentendsTu_5_1617AFA0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Hallucinations_WU\O1\HallucinationsO1\Bad\Hallu_MentendsTu_5		28362
@@ -421,6 +426,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	648564732	FS_Dirt_L3_2	E:\Softwares\GitProjects\LilyWwise\Wwise_Lily\.cache\Windows\SFX\FS_Dirt_L3_2_1617AFA0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character_WU\Character_foleys\Footsteps\FS_Walk\FS_Dirt_Walk\L3\FS_Dirt_L3_2		9725
 	649347380	Boss_mvt_L1_1	E:\Softwares\GitProjects\LilyWwise\Wwise_Lily\.cache\Windows\SFX\Boss_mvt_L1_1_1617AFA0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies_WU\Crows\CrowsWhispers\Crows_Whispers\Whispers_L1\Boss_mvt_L1_1		12752
 	649769294	Hallu_Doucement_1	E:\Softwares\GitProjects\LilyWwise\Wwise_Lily\.cache\Windows\SFX\Hallu_Doucement_1_1617AFA0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Hallucinations_WU\O1\HallucinationsO1\Good\Hallu_Doucement_1		32311
+	651592862	Voiceline_marelle_3	E:\Softwares\GitProjects\LilyWwise\Wwise_Lily\.cache\Windows\SFX\Voiceline_marelle_3_1617AFA0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices_WU\Marelle\Voiceline_marelle_3		91210
 	652406234	Hallu_TktPas_6	E:\Softwares\GitProjects\LilyWwise\Wwise_Lily\.cache\Windows\SFX\Hallu_TktPas_6_1617AFA0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Hallucinations_WU\O1\HallucinationsO1\Good\Hallu_TktPas_6		31462
 	654537985	Hallu_Perdue_9	E:\Softwares\GitProjects\LilyWwise\Wwise_Lily\.cache\Windows\SFX\Hallu_Perdue_9_1617AFA0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Hallucinations_WU\O1\HallucinationsO1\Bad\Hallu_Perdue_9		36249
 	655502186	FS_Grass_Walk_5	E:\Softwares\GitProjects\LilyWwise\Wwise_Lily\.cache\Windows\SFX\FS_Grass_Walk_5_1617AFA0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character_WU\Character_foleys\Footsteps\FS_Walk\FS_Grass_Walk\FS_Grass_Walk_5		14542
