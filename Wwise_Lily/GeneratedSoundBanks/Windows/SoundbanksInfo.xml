@@ -68,7 +68,7 @@
 				<Event Id="2987232335" Name="UI_ConfirmSquare" ObjectPath="\Events\Default Work Unit\Marelle\Feedbacks\UI_ConfirmSquare"/>
 				<Event Id="455508631" Name="UI_SelectSquare" ObjectPath="\Events\Default Work Unit\Marelle\Feedbacks\UI_SelectSquare"/>
 				<Event Id="2877169713" Name="Voiceline_Grotte_1" ObjectPath="\Events\Default Work Unit\Voices\Grotte\Voiceline_Grotte_1"/>
-				<Event Id="3285071916" Name="Voiceline_Marelle_1" ObjectPath="\Events\Default Work Unit\Voices\Marelle\Voiceline_Marelle_1"/>
+				<Event Id="3186167580" Name="Voiceline_Marelle_Full" ObjectPath="\Events\Default Work Unit\Voices\Marelle\Voiceline_Marelle_Full"/>
 				<Event Id="4274191526" Name="Voiceline_O1_1" ObjectPath="\Events\Default Work Unit\Voices\O1\Voiceline_O1_1"/>
 				<Event Id="4274191525" Name="Voiceline_O1_2" ObjectPath="\Events\Default Work Unit\Voices\O1\Voiceline_O1_2"/>
 				<Event Id="4274191524" Name="Voiceline_O1_3" ObjectPath="\Events\Default Work Unit\Voices\O1\Voiceline_O1_3"/>
@@ -1800,7 +1800,7 @@
 				</File>
 				<File Id="892227179" Language="SFX">
 					<ShortName>Voiceline marelle full.wav</ShortName>
-					<Path>SFX\Voiceline marelle full_1C9C67B2.wem</Path>
+					<Path>SFX\Voiceline marelle full_1617AFA0.wem</Path>
 				</File>
 				<File Id="894608640" Language="SFX">
 					<ShortName>Lightzone_active_v3_Filtre.wav</ShortName>

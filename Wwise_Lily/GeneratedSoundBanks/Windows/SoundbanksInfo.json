@@ -290,9 +290,9 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Voices\\Grotte\\Voiceline_Grotte_1"
      },
      {
-      "Id": "3285071916",
-      "Name": "Voiceline_Marelle_1",
-      "ObjectPath": "\\Events\\Default Work Unit\\Voices\\Marelle\\Voiceline_Marelle_1"
+      "Id": "3186167580",
+      "Name": "Voiceline_Marelle_Full",
+      "ObjectPath": "\\Events\\Default Work Unit\\Voices\\Marelle\\Voiceline_Marelle_Full"
      },
      {
       "Id": "4274191526",
@@ -2915,7 +2915,7 @@
       "Id": "892227179",
       "Language": "SFX",
       "ShortName": "Voiceline marelle full.wav",
-      "Path": "SFX\\Voiceline marelle full_1C9C67B2.wem"
+      "Path": "SFX\\Voiceline marelle full_1617AFA0.wem"
      },
      {
       "Id": "894608640",

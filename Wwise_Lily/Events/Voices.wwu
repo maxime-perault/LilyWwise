@@ -374,7 +374,7 @@
 				</Folder>
 				<Folder Name="Marelle" ID="{1E2D3891-D5F5-4D49-9B74-D401DF3A50F3}" ShortID="687540128">
 					<ChildrenList>
-						<Event Name="Voiceline_Marelle_1" ID="{5E3220CF-61E6-4B67-BF90-10C815C129B0}">
+						<Event Name="Voiceline_Marelle_Full" ID="{5E3220CF-61E6-4B67-BF90-10C815C129B0}">
 							<ChildrenList>
 								<Action Name="" ID="{3DB55967-581E-4C2E-945B-5292B2F7F146}" ShortID="111901945">
 									<PropertyList>
@@ -383,6 +383,48 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Voiceline marelle full" ID="{6880513C-01DF-4775-8349-4F3C421D7567}" WorkUnitID="{7C80B148-1430-4EB5-800F-0CC3571B9E3C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Voiceline_marelle_3" ID="{C5EA01BC-C00E-423D-89E4-BC81C2F2516D}">
+							<ChildrenList>
+								<Action Name="" ID="{41A38C52-B3CF-4124-B3D8-225C84D317FB}" ShortID="969112829">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Voiceline_marelle_3" ID="{E4DC5702-B708-4876-BE3D-2C73F9B95FEC}" WorkUnitID="{7C80B148-1430-4EB5-800F-0CC3571B9E3C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Voiceline_marelle_1" ID="{B2CBE9FF-517C-4EA6-B21D-D07AE31C733D}">
+							<ChildrenList>
+								<Action Name="" ID="{5B440BBE-DE3D-45F9-BDA0-F07F5CCCFCEF}" ShortID="114803148">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Voiceline_marelle_1" ID="{98714091-2233-4263-B030-C479A811172A}" WorkUnitID="{7C80B148-1430-4EB5-800F-0CC3571B9E3C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Voiceline_marelle_2" ID="{8106691B-504B-4A6B-AAAD-1E7072F8A1D7}">
+							<ChildrenList>
+								<Action Name="" ID="{3EEE7CAA-4ED9-4BA1-835A-35ACC2D355B4}" ShortID="380527245">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Voiceline_marelle_2" ID="{2D3FC550-5560-4B92-BEBE-93B005463ADB}" WorkUnitID="{7C80B148-1430-4EB5-800F-0CC3571B9E3C}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

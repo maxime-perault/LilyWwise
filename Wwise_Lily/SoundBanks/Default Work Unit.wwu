@@ -47,7 +47,7 @@
 						<ObjectRef Name="Voiceline_O1_3" ID="{22AA84AD-0345-4AF0-8496-8547CADCBBC1}" WorkUnitID="{0206CCDB-C58E-43B4-BE9A-B372D21E3FC7}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Voiceline_Grotte_1" ID="{210CA4B7-10E0-4B05-99D6-A3159F96EAC9}" WorkUnitID="{0206CCDB-C58E-43B4-BE9A-B372D21E3FC7}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Hallucinations_S1" ID="{0B1428E3-57B3-4B21-A729-D34E85448440}" WorkUnitID="{55D3C94C-8131-48D1-B711-B6E327AFFD0E}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Voiceline_Marelle_1" ID="{5E3220CF-61E6-4B67-BF90-10C815C129B0}" WorkUnitID="{0206CCDB-C58E-43B4-BE9A-B372D21E3FC7}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Voiceline_Marelle_Full" ID="{5E3220CF-61E6-4B67-BF90-10C815C129B0}" WorkUnitID="{0206CCDB-C58E-43B4-BE9A-B372D21E3FC7}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Stop_Hallucinations_Marelle" ID="{5458AB76-8345-4B79-AB9B-87869D651E77}" WorkUnitID="{55D3C94C-8131-48D1-B711-B6E327AFFD0E}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Lily_Dash" ID="{445AD5AC-8DBF-4B80-96AD-BBDAB4459F90}" WorkUnitID="{84EA8792-12FE-4E5E-950A-F7C12BDA81C4}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Crows_Spawn" ID="{18ADE3A8-7D5E-4BA9-A09E-F9BC71C45DFD}" WorkUnitID="{895344F0-F06B-4DA8-BB4E-81D5A3713E53}" Filter="7" Origin="Manual"/>

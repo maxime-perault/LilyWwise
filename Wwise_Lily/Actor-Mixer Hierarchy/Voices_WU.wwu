@@ -245,7 +245,7 @@
 				<ActorMixer Name="Marelle" ID="{FBE67D4C-4810-4776-8B9D-7744337B0E1B}" ShortID="804903446">
 					<ReferenceList>
 						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+							<ObjectRef Name="SFX_Comp" ID="{94D2B765-DB8D-469E-97ED-DEEB9595516F}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
 						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="Voices" ID="{3BBF9C36-986D-47FB-BD33-5D8560856EAD}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
@@ -276,6 +276,63 @@
 							</ChildrenList>
 							<ActiveSourceList>
 								<ActiveSource Name="Voiceline marelle full" ID="{08666BE1-B82F-4C6A-8A46-804B5E357479}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Voiceline_marelle_1" ID="{98714091-2233-4263-B030-C479A811172A}" ShortID="733160472">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Voiceline_marelle_1" ID="{4CA4F798-871D-4F3B-B911-767F342B1E45}" ShortID="85647803">
+									<Language>SFX</Language>
+									<AudioFile>Voiceline_marelle_1.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Voiceline_marelle_1" ID="{4CA4F798-871D-4F3B-B911-767F342B1E45}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Voiceline_marelle_2" ID="{2D3FC550-5560-4B92-BEBE-93B005463ADB}" ShortID="51394888">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Voiceline_marelle_2" ID="{103E8192-1D8C-4D00-87E0-2FBD2783C0B2}" ShortID="54501568">
+									<Language>SFX</Language>
+									<AudioFile>Voiceline_marelle_2.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Voiceline_marelle_2" ID="{103E8192-1D8C-4D00-87E0-2FBD2783C0B2}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Voiceline_marelle_3" ID="{E4DC5702-B708-4876-BE3D-2C73F9B95FEC}" ShortID="832154700">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Voiceline_marelle_3" ID="{A13E0228-4CA1-4AC0-80B7-2E117B3F5E07}" ShortID="651592862">
+									<Language>SFX</Language>
+									<AudioFile>Voiceline_marelle_3.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Voiceline_marelle_3" ID="{A13E0228-4CA1-4AC0-80B7-2E117B3F5E07}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
