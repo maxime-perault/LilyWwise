@@ -22,6 +22,7 @@
 			<Path>Lily_Soundbank.bnk</Path>
 			<IncludedEvents>
 				<Event Id="3599172209" Name="BlackDoor_Open" ObjectPath="\Events\Default Work Unit\Enemies\BlackDoors\BlackDoor_Open" MaxAttenuation="1500.000000"/>
+				<Event Id="797248733" Name="Boss_Dash" ObjectPath="\Events\Default Work Unit\Enemies\Boss\Boss_Dash"/>
 				<Event Id="3055896492" Name="Crows_Idle" ObjectPath="\Events\Default Work Unit\Enemies\Crows\Crows_Idle" MaxAttenuation="1000.000000"/>
 				<Event Id="283520899" Name="Crows_Spawn" ObjectPath="\Events\Default Work Unit\Enemies\Crows\Crows_Spawn" MaxAttenuation="1000.000000"/>
 				<Event Id="1898305527" Name="Crows_Whispers" ObjectPath="\Events\Default Work Unit\Enemies\Crows\Crows_Whispers" MaxAttenuation="500.000000"/>
@@ -200,6 +201,10 @@
 				<File Id="54501568" Language="SFX">
 					<ShortName>Voiceline_marelle_2.wav</ShortName>
 					<Path>SFX\Voiceline_marelle_2_1617AFA0.wem</Path>
+				</File>
+				<File Id="55803613" Language="SFX">
+					<ShortName>Dash_Boss_3.wav</ShortName>
+					<Path>SFX\Dash_Boss_3_1617AFA0.wem</Path>
 				</File>
 				<File Id="57753328" Language="SFX">
 					<ShortName>Hallu_Whispers_1.wav</ShortName>
@@ -800,6 +805,10 @@
 				<File Id="335775629" Language="SFX">
 					<ShortName>Lache_1.wav</ShortName>
 					<Path>SFX\Lache_1_1617AFA0.wem</Path>
+				</File>
+				<File Id="336471832" Language="SFX">
+					<ShortName>Dash_Boss_2.wav</ShortName>
+					<Path>SFX\Dash_Boss_2_1617AFA0.wem</Path>
 				</File>
 				<File Id="337508884" Language="SFX">
 					<ShortName>FS_Dirt_Run_3.wav</ShortName>
@@ -1421,6 +1430,10 @@
 					<ShortName>Strange bird - 13.wav</ShortName>
 					<Path>SFX\Strange bird - 13_1617AFA0.wem</Path>
 				</File>
+				<File Id="680243692" Language="SFX">
+					<ShortName>Dash_Boss_5.wav</ShortName>
+					<Path>SFX\Dash_Boss_5_1617AFA0.wem</Path>
+				</File>
 				<File Id="681068141" Language="SFX">
 					<ShortName>Basse_Chord4_A#.wav</ShortName>
 					<Path>SFX\Basse_Chord4_A#_904018FD.wem</Path>
@@ -1564,6 +1577,10 @@
 				<File Id="758934239" Language="SFX">
 					<ShortName>FS_Creak_1.wav</ShortName>
 					<Path>SFX\FS_Creak_1_862D35E5.wem</Path>
+				</File>
+				<File Id="759592345" Language="SFX">
+					<ShortName>Dash_Boss_4.wav</ShortName>
+					<Path>SFX\Dash_Boss_4_1617AFA0.wem</Path>
 				</File>
 				<File Id="761177562" Language="SFX">
 					<ShortName>Hallu_LeSilence_1.wav</ShortName>
@@ -1768,6 +1785,10 @@
 				<File Id="864985242" Language="SFX">
 					<ShortName>Hallu_HeyOh_11.wav</ShortName>
 					<Path>SFX\Hallu_HeyOh_11_1617AFA0.wem</Path>
+				</File>
+				<File Id="867953714" Language="SFX">
+					<ShortName>Dash_Boss_1.wav</ShortName>
+					<Path>SFX\Dash_Boss_1_1617AFA0.wem</Path>
 				</File>
 				<File Id="871316157" Language="SFX">
 					<ShortName>Hallu_Errance_1.wav</ShortName>

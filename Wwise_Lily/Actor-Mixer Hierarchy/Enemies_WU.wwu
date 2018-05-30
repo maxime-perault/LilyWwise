@@ -2468,6 +2468,141 @@
 						</Sound>
 					</ChildrenList>
 				</ActorMixer>
+				<ActorMixer Name="Boss" ID="{08181E62-E287-4751-90A9-E9F727B2F685}" ShortID="855321174">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="SFX_Comp" ID="{94D2B765-DB8D-469E-97ED-DEEB9595516F}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="BossDash" ID="{0A353242-D5DC-4BBE-A1F0-37C19BC32482}" ShortID="114079809">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{F2D055CE-D02F-4E5E-A2E1-233226373F84}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="150"/>
+													<Property Name="Min" Type="Real64" Value="-100"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Dash_Boss_1" ID="{6F02019C-0945-44BB-B530-95D17519E9BE}" ShortID="452195157">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Dash_Boss_1" ID="{7D161ED9-A3F8-486F-9681-ABE1C68EAAD6}" ShortID="867953714">
+											<Language>SFX</Language>
+											<AudioFile>Dash_Boss_1.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Dash_Boss_1" ID="{7D161ED9-A3F8-486F-9681-ABE1C68EAAD6}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Dash_Boss_2" ID="{2725E207-548E-476F-96E3-784510454388}" ShortID="772278270">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Dash_Boss_2" ID="{E28E24B2-20B8-4731-9B09-A91E4129EC4B}" ShortID="336471832">
+											<Language>SFX</Language>
+											<AudioFile>Dash_Boss_2.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Dash_Boss_2" ID="{E28E24B2-20B8-4731-9B09-A91E4129EC4B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Dash_Boss_3" ID="{A7051BF2-E4B6-42C9-B2ED-9BFFB29B286F}" ShortID="826350581">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Dash_Boss_3" ID="{1DC25B3B-2ABC-4FB9-B60D-B0A681759865}" ShortID="55803613">
+											<Language>SFX</Language>
+											<AudioFile>Dash_Boss_3.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Dash_Boss_3" ID="{1DC25B3B-2ABC-4FB9-B60D-B0A681759865}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Dash_Boss_4" ID="{5227F8F2-6EC8-421C-982E-095E9A5D9078}" ShortID="295129775">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Dash_Boss_4" ID="{6A433A6A-12D5-42C8-B5CD-7C5D9E07E9CF}" ShortID="759592345">
+											<Language>SFX</Language>
+											<AudioFile>Dash_Boss_4.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Dash_Boss_4" ID="{6A433A6A-12D5-42C8-B5CD-7C5D9E07E9CF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Dash_Boss_5" ID="{F423C863-CD89-40FD-A829-45467FD9955D}" ShortID="824792071">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Dash_Boss_5" ID="{84179F13-DA64-431F-A3EE-666A34749BBF}" ShortID="680243692">
+											<Language>SFX</Language>
+											<AudioFile>Dash_Boss_5.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Dash_Boss_5" ID="{84179F13-DA64-431F-A3EE-666A34749BBF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</ActorMixer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

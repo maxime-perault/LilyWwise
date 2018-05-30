@@ -23,6 +23,7 @@
 						<ObjectRef Name="Voiceline_S1_1" ID="{B932FAEB-446C-444A-B76B-D116E28C580E}" WorkUnitID="{0206CCDB-C58E-43B4-BE9A-B372D21E3FC7}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="BlackDoor_Open" ID="{203C273D-A280-4479-9998-2BE80A84DE2A}" WorkUnitID="{895344F0-F06B-4DA8-BB4E-81D5A3713E53}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Soundscape_S1" ID="{7424A775-6FCF-44D5-B87D-B08A2A416A1D}" WorkUnitID="{18029C21-36BA-447B-9F35-854E0B36B1B5}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Boss_Dash" ID="{2B4059A6-6C10-4507-94A4-15E09ABDC51D}" WorkUnitID="{895344F0-F06B-4DA8-BB4E-81D5A3713E53}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Stop_CrowsDeathBlend" ID="{6E0C9D59-E962-4532-A0A6-F3E85409754E}" WorkUnitID="{895344F0-F06B-4DA8-BB4E-81D5A3713E53}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Stop_Soundscape_Marelle" ID="{813FBA75-8153-4570-BFD4-AF7F9B7461CC}" WorkUnitID="{18029C21-36BA-447B-9F35-854E0B36B1B5}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Jump_Land" ID="{AA9F6466-E4C9-45DB-B1F2-FA8ED14FD53E}" WorkUnitID="{84EA8792-12FE-4E5E-950A-F7C12BDA81C4}" Filter="7" Origin="Manual"/>

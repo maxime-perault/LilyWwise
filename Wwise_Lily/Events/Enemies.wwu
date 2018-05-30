@@ -126,6 +126,24 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="Boss" ID="{053D4EB7-0DEF-4630-9E61-66F43BE811A7}" ShortID="299451233">
+					<ChildrenList>
+						<Event Name="Boss_Dash" ID="{2B4059A6-6C10-4507-94A4-15E09ABDC51D}">
+							<ChildrenList>
+								<Action Name="" ID="{B1565646-EC1C-429F-B115-CD273C3147FD}" ShortID="1040420859">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="BossDash" ID="{0A353242-D5DC-4BBE-A1F0-37C19BC32482}" WorkUnitID="{73945224-B814-474B-AE5A-97EAD58E2739}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

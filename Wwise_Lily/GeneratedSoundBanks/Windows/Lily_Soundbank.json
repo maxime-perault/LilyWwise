@@ -26,6 +26,11 @@
       "MaxAttenuation": "1500.000000"
      },
      {
+      "Id": "797248733",
+      "Name": "Boss_Dash",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemies\\Boss\\Boss_Dash"
+     },
+     {
       "Id": "3055896492",
       "Name": "Crows_Idle",
       "ObjectPath": "\\Events\\Default Work Unit\\Enemies\\Crows\\Crows_Idle",
@@ -515,6 +520,12 @@
       "Language": "SFX",
       "ShortName": "Voiceline_marelle_2.wav",
       "Path": "SFX\\Voiceline_marelle_2_1617AFA0.wem"
+     },
+     {
+      "Id": "55803613",
+      "Language": "SFX",
+      "ShortName": "Dash_Boss_3.wav",
+      "Path": "SFX\\Dash_Boss_3_1617AFA0.wem"
      },
      {
       "Id": "57753328",
@@ -1415,6 +1426,12 @@
       "Language": "SFX",
       "ShortName": "Lache_1.wav",
       "Path": "SFX\\Lache_1_1617AFA0.wem"
+     },
+     {
+      "Id": "336471832",
+      "Language": "SFX",
+      "ShortName": "Dash_Boss_2.wav",
+      "Path": "SFX\\Dash_Boss_2_1617AFA0.wem"
      },
      {
       "Id": "337508884",
@@ -2347,6 +2364,12 @@
       "Path": "SFX\\Strange bird - 13_1617AFA0.wem"
      },
      {
+      "Id": "680243692",
+      "Language": "SFX",
+      "ShortName": "Dash_Boss_5.wav",
+      "Path": "SFX\\Dash_Boss_5_1617AFA0.wem"
+     },
+     {
       "Id": "681068141",
       "Language": "SFX",
       "ShortName": "Basse_Chord4_A#.wav",
@@ -2561,6 +2584,12 @@
       "Language": "SFX",
       "ShortName": "FS_Creak_1.wav",
       "Path": "SFX\\FS_Creak_1_862D35E5.wem"
+     },
+     {
+      "Id": "759592345",
+      "Language": "SFX",
+      "ShortName": "Dash_Boss_4.wav",
+      "Path": "SFX\\Dash_Boss_4_1617AFA0.wem"
      },
      {
       "Id": "761177562",
@@ -2867,6 +2896,12 @@
       "Language": "SFX",
       "ShortName": "Hallu_HeyOh_11.wav",
       "Path": "SFX\\Hallu_HeyOh_11_1617AFA0.wem"
+     },
+     {
+      "Id": "867953714",
+      "Language": "SFX",
+      "ShortName": "Dash_Boss_1.wav",
+      "Path": "SFX\\Dash_Boss_1_1617AFA0.wem"
      },
      {
       "Id": "871316157",
