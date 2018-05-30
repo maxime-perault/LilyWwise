@@ -2867,6 +2867,7 @@
 						<ActorMixer Name="Marelle" ID="{7F97D83D-CDEE-4CC1-B60D-2BF43A302AD6}" ShortID="227515338">
 							<PropertyList>
 								<Property Name="OverrideConversion" Type="bool" Value="True"/>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -2913,7 +2914,7 @@
 									</Custom>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+									<ObjectRef Name="Music_Marelle" ID="{B2C70859-EA12-4D57-AA4D-0090FD8C6847}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -2939,12 +2940,15 @@
 							</ChildrenList>
 						</ActorMixer>
 						<ActorMixer Name="Arbre aux masques" ID="{EABC0458-70FE-468B-BA8D-33F252B18B08}" ShortID="621720379">
+							<PropertyList>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+									<ObjectRef Name="Music_Cave" ID="{8B709B2B-F3AE-41F5-B40A-3CA5807770FC}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>

@@ -39,6 +39,7 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 	4262522749	Wood_Bright			\Factory Reflect Acoustic Textures\Textures\Wood_Bright	
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
+	217632661	Music_Marelle			\Default Work Unit\Master Audio Bus\Music\Music_Marelle	
 	393239870	SFX			\Default Work Unit\Master Audio Bus\SFX	
 	1404066300	Ambiances			\Default Work Unit\Master Audio Bus\Ambiances	
 	1946857979	SFX_Auro3D			\Default Work Unit\Master Audio Bus\SFX\SFX_Auro3D	
@@ -47,6 +48,7 @@ Audio Bus	ID	Name			Wwise Object Path	Notes
 	2996874541	Music_S1			\Default Work Unit\Master Audio Bus\Music_S1	
 	3114858784	Hallus			\Default Work Unit\Master Audio Bus\Hallus	
 	3313685232	Voices			\Default Work Unit\Master Audio Bus\Voices	
+	3645308278	Music_Cave			\Default Work Unit\Master Audio Bus\Music\Music_Cave	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
 	3991942870	Music			\Default Work Unit\Master Audio Bus\Music	
 

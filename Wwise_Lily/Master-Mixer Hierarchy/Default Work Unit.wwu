@@ -31,6 +31,10 @@
 									</Custom>
 								</Reference>
 							</ReferenceList>
+							<ChildrenList>
+								<Bus Name="Music_Marelle" ID="{B2C70859-EA12-4D57-AA4D-0090FD8C6847}"/>
+								<Bus Name="Music_Cave" ID="{8B709B2B-F3AE-41F5-B40A-3CA5807770FC}"/>
+							</ChildrenList>
 						</Bus>
 						<Bus Name="SFX" ID="{8C3931D1-175E-42B3-B35D-8A6C6C7EC6E5}">
 							<ReferenceList>
@@ -100,11 +104,29 @@
 								<DuckItem>
 									<BusRef Name="Hallus" ID="{8DA5A66A-2AC3-4CC4-86F0-DEE15F168ED7}"/>
 									<DuckingParam>
-										<Volume>-12</Volume>
+										<Volume>-15</Volume>
 										<FadeInTime>4</FadeInTime>
 										<FadeOutTime>0.5</FadeOutTime>
 										<FadeCurve>FadeLinear</FadeCurve>
 										<TargetProp>BusVolume</TargetProp>
+									</DuckingParam>
+								</DuckItem>
+								<DuckItem>
+									<BusRef Name="Music_Cave" ID="{8B709B2B-F3AE-41F5-B40A-3CA5807770FC}"/>
+									<DuckingParam>
+										<Volume>-8</Volume>
+										<FadeInTime>1</FadeInTime>
+										<FadeOutTime>1</FadeOutTime>
+										<FadeCurve>FadeLinear</FadeCurve>
+									</DuckingParam>
+								</DuckItem>
+								<DuckItem>
+									<BusRef Name="Music_Marelle" ID="{B2C70859-EA12-4D57-AA4D-0090FD8C6847}"/>
+									<DuckingParam>
+										<Volume>-4</Volume>
+										<FadeInTime>1</FadeInTime>
+										<FadeOutTime>1</FadeOutTime>
+										<FadeCurve>FadeLinear</FadeCurve>
 									</DuckingParam>
 								</DuckItem>
 							</DuckingList>

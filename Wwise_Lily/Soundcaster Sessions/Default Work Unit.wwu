@@ -93,6 +93,18 @@
 							<ObjectRef Name="Play_AAM_Music" ID="{90A24355-A362-4791-A3D5-EC7CF109B3C9}" WorkUnitID="{18029C21-36BA-447B-9F35-854E0B36B1B5}"/>
 							<Position X="5" Y="5"/>
 						</Module>
+						<Module>
+							<ObjectRef Name="Voiceline_Grotte_1" ID="{210CA4B7-10E0-4B05-99D6-A3159F96EAC9}" WorkUnitID="{0206CCDB-C58E-43B4-BE9A-B372D21E3FC7}"/>
+							<Position X="5" Y="6"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Soundscape_Marelle" ID="{2F5FCAA5-D168-4E6C-9C6D-B67454C2FE48}" WorkUnitID="{18029C21-36BA-447B-9F35-854E0B36B1B5}"/>
+							<Position X="6" Y="5"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Voiceline_Marelle_Full" ID="{5E3220CF-61E6-4B67-BF90-10C815C129B0}" WorkUnitID="{0206CCDB-C58E-43B4-BE9A-B372D21E3FC7}"/>
+							<Position X="6" Y="6"/>
+						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
