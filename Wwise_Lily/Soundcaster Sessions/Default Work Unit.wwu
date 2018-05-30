@@ -78,6 +78,10 @@
 							<Position X="3" Y="5"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="Stop_AAM_Music" ID="{5E49B5D7-DEE0-46EC-AF4D-BA5244D1BC76}" WorkUnitID="{18029C21-36BA-447B-9F35-854E0B36B1B5}"/>
+							<Position X="3" Y="6"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Voiceline_O1_1" ID="{C3FA3B30-EF17-4A18-9F75-BCA539AC2C58}" WorkUnitID="{0206CCDB-C58E-43B4-BE9A-B372D21E3FC7}"/>
 							<Position X="4" Y="0"/>
 						</Module>

@@ -50,7 +50,7 @@
       "Id": "283520899",
       "Name": "Crows_Spawn",
       "ObjectPath": "\\Events\\Default Work Unit\\Enemies\\Crows\\Crows_Spawn",
-      "MaxAttenuation": "1000.000000"
+      "MaxAttenuation": "1200.000000"
      },
      {
       "Id": "1898305527",
@@ -62,13 +62,13 @@
       "Id": "3020955044",
       "Name": "CrowsDeathBlend",
       "ObjectPath": "\\Events\\Default Work Unit\\Enemies\\Crows\\CrowsDeathBlend",
-      "MaxAttenuation": "1000.000000"
+      "MaxAttenuation": "1200.000000"
      },
      {
       "Id": "1638063245",
       "Name": "CrowsFlight",
       "ObjectPath": "\\Events\\Default Work Unit\\Enemies\\Crows\\CrowsFlight",
-      "MaxAttenuation": "1000.000000"
+      "MaxAttenuation": "1200.000000"
      },
      {
       "Id": "362749134",
@@ -199,6 +199,12 @@
       "Id": "2008024594",
       "Name": "Restart_StopAll",
       "ObjectPath": "\\Events\\Default Work Unit\\Global events\\Restart_StopAll",
+      "MaxAttenuation": "0.000000"
+     },
+     {
+      "Id": "2695565483",
+      "Name": "Stop_AAM_Music",
+      "ObjectPath": "\\Events\\Default Work Unit\\Soundscapes\\Arbre aux masques\\Stop_AAM_Music",
       "MaxAttenuation": "0.000000"
      },
      {

@@ -130,6 +130,21 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Stop_AAM_Music" ID="{5E49B5D7-DEE0-46EC-AF4D-BA5244D1BC76}">
+							<ChildrenList>
+								<Action Name="" ID="{6FCDA82B-F475-436D-AC15-8E20A91D0CC1}" ShortID="101474243">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AAM_Music" ID="{5477D0FE-E78E-43FA-A2BC-1CB39B6C0855}" WorkUnitID="{70C4634E-397D-4AD0-AEA2-DE40622061AE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Marelle" ID="{8332759E-1C23-4943-ACEA-DCE3B8283C91}" ShortID="518392482">

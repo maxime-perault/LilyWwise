@@ -28,6 +28,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	2292458263	Play_Door_close			\Default Work Unit\Character\Cabane_foleys\Play_Door_close	
 	2425019269	Play_AMB_O1			\Default Work Unit\Ambiances\O1\Play_AMB_O1	
 	2480346722	Stop_Soundscape_Cabane2			\Default Work Unit\Soundscapes\Cabane2\Stop_Soundscape_Cabane2	
+	2695565483	Stop_AAM_Music			\Default Work Unit\Soundscapes\Arbre aux masques\Stop_AAM_Music	
 	2743389932	Lily_Dash			\Default Work Unit\Character\Marelle_Foleys\Lily_Dash	
 	2877169713	Voiceline_Grotte_1			\Default Work Unit\Voices\Grotte\Voiceline_Grotte_1	
 	2987232335	UI_ConfirmSquare			\Default Work Unit\Marelle\Feedbacks\UI_ConfirmSquare	
