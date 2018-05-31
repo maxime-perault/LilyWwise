@@ -1726,6 +1726,72 @@
 										<ItemRef Name="LinearAmbiance_BossLevel" ID="{DA2C9B7A-0A73-488C-96D8-C5FD2E6F468F}"/>
 									</Playlist>
 								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="LianesGrouillantes2" ID="{51F6EC90-F905-4765-A033-9BB4ECA1DC1C}" ShortID="1045038680">
+									<PropertyList>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="4"/>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+										<Property Name="PositioningType" Type="int16" Value="1"/>
+										<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="LianesGrouillantes_Att" ID="{C7C1BBBE-F363-4697-A6C6-032155BC9993}" WorkUnitID="{F9486E4D-3A45-4423-A197-A386E047703F}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Record_LianesGrouillantes_1" ID="{FBBEC07C-00D2-4B98-8DA5-7B6AD40C1AB8}" ShortID="1072667174">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Record_LianesGrouillantes_1" ID="{98E7E155-2269-46C6-BECC-9138F4BF2C78}" ShortID="786334288">
+													<Language>SFX</Language>
+													<AudioFile>Record_LianesGrouillantes_1.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Record_LianesGrouillantes_1" ID="{98E7E155-2269-46C6-BECC-9138F4BF2C78}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Record_LianesGrouillantes_2" ID="{FFA5DFE2-648B-4CC4-B40B-DD3E3B2337E0}" ShortID="1035561398">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Record_LianesGrouillantes_2" ID="{FD6B3B13-B9C6-4528-B68F-CBE378DE7943}" ShortID="6651864">
+													<Language>SFX</Language>
+													<AudioFile>Record_LianesGrouillantes_2.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Record_LianesGrouillantes_2" ID="{FD6B3B13-B9C6-4528-B68F-CBE378DE7943}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<Playlist>
+										<ItemRef Name="Record_LianesGrouillantes_1" ID="{FBBEC07C-00D2-4B98-8DA5-7B6AD40C1AB8}"/>
+										<ItemRef Name="Record_LianesGrouillantes_2" ID="{FFA5DFE2-648B-4CC4-B40B-DD3E3B2337E0}"/>
+									</Playlist>
+								</RandomSequenceContainer>
 							</ChildrenList>
 						</ActorMixer>
 					</ChildrenList>

@@ -33,6 +33,7 @@
 				<Event Id="362749134" Name="FS_Run" ObjectPath="\Events\Default Work Unit\Character\Character_foleys\Footsteps\FS_Run"/>
 				<Event Id="3599755568" Name="FS_Walk" ObjectPath="\Events\Default Work Unit\Character\Character_foleys\Footsteps\FS_Walk"/>
 				<Event Id="3419686739" Name="Jump_Land" ObjectPath="\Events\Default Work Unit\Character\Marelle_Foleys\Jump_Land"/>
+				<Event Id="457688142" Name="LianesGrouillantes" ObjectPath="\Events\Default Work Unit\Enemies\BlackDoors\LianesGrouillantes" MaxAttenuation="500.000000"/>
 				<Event Id="2743389932" Name="Lily_Dash" ObjectPath="\Events\Default Work Unit\Character\Marelle_Foleys\Lily_Dash"/>
 				<Event Id="3571843573" Name="Play_AAM_Music" ObjectPath="\Events\Default Work Unit\Soundscapes\Arbre aux masques\Play_AAM_Music"/>
 				<Event Id="3855816568" Name="Play_AMB_Lake" ObjectPath="\Events\Default Work Unit\Ambiances\O1\Play_AMB_Lake" MaxAttenuation="7000.000000"/>
@@ -105,6 +106,10 @@
 				<File Id="6034744" Language="SFX">
 					<ShortName>Hallu_SuisLaLumiere_7.wav</ShortName>
 					<Path>SFX\Hallu_SuisLaLumiere_7_1617AFA0.wem</Path>
+				</File>
+				<File Id="6651864" Language="SFX">
+					<ShortName>Record_LianesGrouillantes_2.wav</ShortName>
+					<Path>SFX\Record_LianesGrouillantes_2_1617AFA0.wem</Path>
 				</File>
 				<File Id="7784607" Language="SFX">
 					<ShortName>Eboulement_2.wav</ShortName>
@@ -1649,6 +1654,10 @@
 				<File Id="785858130" Language="SFX">
 					<ShortName>Wind_base_8.wav</ShortName>
 					<Path>SFX\Wind_base_8_1617AFA0.wem</Path>
+				</File>
+				<File Id="786334288" Language="SFX">
+					<ShortName>Record_LianesGrouillantes_1.wav</ShortName>
+					<Path>SFX\Record_LianesGrouillantes_1_1617AFA0.wem</Path>
 				</File>
 				<File Id="788424090" Language="SFX">
 					<ShortName>Cello2_Chord2_C#.wav</ShortName>

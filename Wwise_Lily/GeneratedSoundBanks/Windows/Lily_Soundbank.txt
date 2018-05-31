@@ -7,6 +7,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	362749134	FS_Run			\Default Work Unit\Character\Character_foleys\Footsteps\FS_Run	
 	454955429	Stop_Hallucinations_S1			\Default Work Unit\Hallucinations\S1\Stop_Hallucinations_S1	
 	455508631	UI_SelectSquare			\Default Work Unit\Marelle\Feedbacks\UI_SelectSquare	
+	457688142	LianesGrouillantes			\Default Work Unit\Enemies\BlackDoors\LianesGrouillantes	
 	599449316	Play_Soundscape_Cabane2			\Default Work Unit\Soundscapes\Cabane2\Play_Soundscape_Cabane2	
 	784713454	Stop_Soundscape_Marelle			\Default Work Unit\Soundscapes\Marelle\Stop_Soundscape_Marelle	
 	797248733	Boss_Dash			\Default Work Unit\Enemies\Boss\Boss_Dash	
@@ -117,6 +118,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	1749053	Laide_1	E:\Softwares\GitProjects\LilyWwise\Wwise_Lily\.cache\Windows\SFX\Laide_1_1617AFA0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Hallucinations_WU\S1\Hallucinations_S1\Laide_1		47768
 	4134339	Wind_base_5	E:\Softwares\GitProjects\LilyWwise\Wwise_Lily\.cache\Windows\SFX\Wind_base_5_1617AFA0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances_WU\Ambiances\O1\AMB_O1\Wind\Wind_base_5		117522
 	6034744	Hallu_SuisLaLumiere_7	E:\Softwares\GitProjects\LilyWwise\Wwise_Lily\.cache\Windows\SFX\Hallu_SuisLaLumiere_7_1617AFA0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Hallucinations_WU\S1\Hallucinations_S1\Hallu_SuisLaLumiere_7		52287
+	6651864	Record_LianesGrouillantes_2	E:\Softwares\GitProjects\LilyWwise\Wwise_Lily\.cache\Windows\SFX\Record_LianesGrouillantes_2_1617AFA0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances_WU\Ambiances\Boss\LianesGrouillantes2\Record_LianesGrouillantes_2		571448
 	7784607	Eboulement	E:\Softwares\GitProjects\LilyWwise\Wwise_Lily\.cache\Windows\SFX\Eboulement_2_1617AFA0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances_WU\Ambiances\Grotte\Eboulement		140058
 	8516310	Wind_base_4	E:\Softwares\GitProjects\LilyWwise\Wwise_Lily\.cache\Windows\SFX\Wind_base_4_1617AFA0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances_WU\Ambiances\O1\AMB_O1\Wind\Wind_base_4		117732
 	10066045	Hallu_FermeLesYeux_9	E:\Softwares\GitProjects\LilyWwise\Wwise_Lily\.cache\Windows\SFX\Hallu_FermeLesYeux_9_1617AFA0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Hallucinations_WU\O1\HallucinationsO1\Good\Hallu_FermeLesYeux_9		31171
@@ -503,6 +505,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	781093468	Hallu_VoleLuciole_2	E:\Softwares\GitProjects\LilyWwise\Wwise_Lily\.cache\Windows\SFX\Hallu_VoleLuciole_2_1617AFA0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Hallucinations_WU\O1\HallucinationsO1\Divers\Hallu_VoleLuciole_2		42309
 	782994503	Dessine_1	E:\Softwares\GitProjects\LilyWwise\Wwise_Lily\.cache\Windows\SFX\Dessine_1_1617AFA0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Hallucinations_WU\S1\Hallucinations_S1\Dessine_1		79339
 	785858130	Wind_base_8	E:\Softwares\GitProjects\LilyWwise\Wwise_Lily\.cache\Windows\SFX\Wind_base_8_1617AFA0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances_WU\Ambiances\O1\AMB_O1\Wind\Wind_base_8		187870
+	786334288	Record_LianesGrouillantes_1	E:\Softwares\GitProjects\LilyWwise\Wwise_Lily\.cache\Windows\SFX\Record_LianesGrouillantes_1_1617AFA0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances_WU\Ambiances\Boss\LianesGrouillantes2\Record_LianesGrouillantes_1		597087
 	788424090	Cello2_Chord2_C#	E:\Softwares\GitProjects\LilyWwise\Wwise_Lily\.cache\Windows\SFX\Cello2_Chord2_C#_B64F1DAA.wem		\Actor-Mixer Hierarchy\Default Work Unit\Soundscapes_WU\Soundscapes\O1\Soundscape_O1\Chord 2\Cello2_Chord2\Cello2_Chord2_C#		540064
 	790426493	Hallu_Perdue_2	E:\Softwares\GitProjects\LilyWwise\Wwise_Lily\.cache\Windows\SFX\Hallu_Perdue_2_1617AFA0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Hallucinations_WU\O1\HallucinationsO1\Bad\Hallu_Perdue_2		54726
 	791033954	Hallu_ToujoursLa_7	E:\Softwares\GitProjects\LilyWwise\Wwise_Lily\.cache\Windows\SFX\Hallu_ToujoursLa_7_1617AFA0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Hallucinations_WU\O1\HallucinationsO1\Bad\Hallu_ToujoursLa_7		51706

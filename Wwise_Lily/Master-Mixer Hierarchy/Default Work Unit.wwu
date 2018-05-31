@@ -12,7 +12,7 @@
 							<Custom>
 								<Effect Name="Wwise Recorder (Custom)" ID="{F67CACFB-4D7F-4A03-A868-C4D251DD4C88}" ShortID="811311814" PluginName="Wwise Recorder" CompanyID="0" PluginID="132" PluginType="3">
 									<PropertyList>
-										<Property Name="AuthoringFilename" Type="string" Value="D:\ENJMIN\_Projets M1\Lily\Video\Footage\Record.wav"/>
+										<Property Name="AuthoringFilename" Type="string" Value="E:\ENJMIN\_Lily\Wwise records\Record_LianesGrouillantes_2.wav"/>
 									</PropertyList>
 								</Effect>
 							</Custom>

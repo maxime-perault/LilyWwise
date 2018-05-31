@@ -67,6 +67,7 @@
 						<ObjectRef Name="Voiceline_O1_4" ID="{629A8D4F-C1C0-4E8C-854D-0659BA0BE114}" WorkUnitID="{0206CCDB-C58E-43B4-BE9A-B372D21E3FC7}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Voiceline_marelle_1" ID="{B2CBE9FF-517C-4EA6-B21D-D07AE31C733D}" WorkUnitID="{0206CCDB-C58E-43B4-BE9A-B372D21E3FC7}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="CrowsFlight" ID="{684C4B73-B2B6-4F78-A165-F81583200EDD}" WorkUnitID="{895344F0-F06B-4DA8-BB4E-81D5A3713E53}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="LianesGrouillantes" ID="{31C81613-E873-4F78-B011-3441B3C3E43D}" WorkUnitID="{895344F0-F06B-4DA8-BB4E-81D5A3713E53}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_AMB_O1" ID="{ED195764-3D0D-4FF1-B572-51BB0BA10371}" WorkUnitID="{EDF099EF-7CA4-4D68-9584-78359919806C}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>

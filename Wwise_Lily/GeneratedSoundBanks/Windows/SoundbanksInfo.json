@@ -97,6 +97,12 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Character\\Marelle_Foleys\\Jump_Land"
      },
      {
+      "Id": "457688142",
+      "Name": "LianesGrouillantes",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemies\\BlackDoors\\LianesGrouillantes",
+      "MaxAttenuation": "500.000000"
+     },
+     {
       "Id": "2743389932",
       "Name": "Lily_Dash",
       "ObjectPath": "\\Events\\Default Work Unit\\Character\\Marelle_Foleys\\Lily_Dash"
@@ -402,6 +408,12 @@
       "Language": "SFX",
       "ShortName": "Hallu_SuisLaLumiere_7.wav",
       "Path": "SFX\\Hallu_SuisLaLumiere_7_1617AFA0.wem"
+     },
+     {
+      "Id": "6651864",
+      "Language": "SFX",
+      "ShortName": "Record_LianesGrouillantes_2.wav",
+      "Path": "SFX\\Record_LianesGrouillantes_2_1617AFA0.wem"
      },
      {
       "Id": "7784607",
@@ -2718,6 +2730,12 @@
       "Language": "SFX",
       "ShortName": "Wind_base_8.wav",
       "Path": "SFX\\Wind_base_8_1617AFA0.wem"
+     },
+     {
+      "Id": "786334288",
+      "Language": "SFX",
+      "ShortName": "Record_LianesGrouillantes_1.wav",
+      "Path": "SFX\\Record_LianesGrouillantes_1_1617AFA0.wem"
      },
      {
       "Id": "788424090",

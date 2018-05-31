@@ -124,6 +124,21 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="LianesGrouillantes" ID="{31C81613-E873-4F78-B011-3441B3C3E43D}">
+							<ChildrenList>
+								<Action Name="" ID="{C7E277AA-1AAE-4D2B-AFDD-A5E87DEF53D6}" ShortID="555106926">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="LianesGrouillantes2" ID="{51F6EC90-F905-4765-A033-9BB4ECA1DC1C}" WorkUnitID="{821171D9-99CF-4A05-9D60-15EC54E6949F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Boss" ID="{053D4EB7-0DEF-4630-9E61-66F43BE811A7}" ShortID="299451233">
