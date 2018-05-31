@@ -2699,6 +2699,12 @@
 												</ItemList>
 											</Grouping>
 											<Grouping>
+												<SwitchRef Name="MovingRoots" ID="{AF4CECA9-9DFE-4EB6-BAD1-61CE439B1EE1}"/>
+												<ItemList>
+													<ItemRef Name="FS_Grass_Walk" ID="{EB0E6262-63D5-4562-99EB-851222CCAD42}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
 												<SwitchRef Name="Mirror" ID="{2462FABE-A453-4EA9-B700-BA98148E6F71}"/>
 												<ItemList>
 													<ItemRef Name="FS_Water_Walk" ID="{E34755F6-7BCC-4D00-B73F-F82DD17E9268}"/>
@@ -4483,6 +4489,12 @@
 												<SwitchRef Name="Wood" ID="{03B20491-53B4-4ED6-B470-D17DB07C2B38}"/>
 												<ItemList>
 													<ItemRef Name="FS_Wood_Run" ID="{4FC63BA1-E8B2-429F-85EC-73DEBA566B09}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="MovingRoots" ID="{AF4CECA9-9DFE-4EB6-BAD1-61CE439B1EE1}"/>
+												<ItemList>
+													<ItemRef Name="FS_Grass_Run" ID="{BE98FCEC-D407-4284-9C64-2A09597A60FA}"/>
 												</ItemList>
 											</Grouping>
 											<Grouping>

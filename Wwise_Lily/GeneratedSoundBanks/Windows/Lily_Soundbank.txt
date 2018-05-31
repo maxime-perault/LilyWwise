@@ -68,6 +68,7 @@ Switch Group	ID	Name			Wwise Object Path	Notes
 
 Switch	ID	Name	Switch Group			Notes
 	187032587	Flowers	Footsteps			
+	575722522	MovingRoots	Footsteps			
 	1510358672	Roots	Footsteps			
 	1863277117	Rocks	Footsteps			
 	2039020852	Mirror	Footsteps			

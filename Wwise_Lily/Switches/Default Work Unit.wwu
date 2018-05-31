@@ -13,6 +13,7 @@
 						<Switch Name="Flowers" ID="{D13F9905-C843-4BDE-BCE7-D565CA2B6737}"/>
 						<Switch Name="Mirror" ID="{2462FABE-A453-4EA9-B700-BA98148E6F71}"/>
 						<Switch Name="Roots" ID="{4DF26B8E-EE01-4159-B165-CAACA90471EB}"/>
+						<Switch Name="MovingRoots" ID="{AF4CECA9-9DFE-4EB6-BAD1-61CE439B1EE1}"/>
 					</ChildrenList>
 				</SwitchGroup>
 				<SwitchGroup Name="MUSIC_Switch" ID="{756C089C-118D-4697-8D92-FEAE454F535F}">
