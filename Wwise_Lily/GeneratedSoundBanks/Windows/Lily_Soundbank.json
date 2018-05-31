@@ -31,6 +31,12 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Enemies\\Boss\\Boss_Dash"
      },
      {
+      "Id": "1320789724",
+      "Name": "Boss_Growl",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemies\\Boss\\Boss_Growl",
+      "MaxAttenuation": "2000.000000"
+     },
+     {
       "Id": "3055896492",
       "Name": "Crows_Idle",
       "ObjectPath": "\\Events\\Default Work Unit\\Enemies\\Crows\\Crows_Idle",
@@ -164,6 +170,11 @@
       "Id": "353474919",
       "Name": "Play_Lightzone_Expand",
       "ObjectPath": "\\Events\\Default Work Unit\\Character\\Character_foleys\\Lightzone\\Play_Lightzone_Expand"
+     },
+     {
+      "Id": "1852724809",
+      "Name": "Play_Marelle_Rumbling",
+      "ObjectPath": "\\Events\\Default Work Unit\\Ambiances\\Marelle\\Play_Marelle_Rumbling"
      },
      {
       "Id": "599449316",
@@ -1710,6 +1721,12 @@
       "Path": "SFX\\CrowHurt_6_1617AFA0.wem"
      },
      {
+      "Id": "442585134",
+      "Language": "SFX",
+      "ShortName": "Marelle_LowRumbling.wav",
+      "Path": "SFX\\Marelle_LowRumbling_1617AFA0.wem"
+     },
+     {
       "Id": "450040415",
       "Language": "SFX",
       "ShortName": "Dash_1.wav",
@@ -3016,6 +3033,12 @@
       "Language": "SFX",
       "ShortName": "Leaves_5.wav",
       "Path": "SFX\\Leaves_5_1617AFA0.wem"
+     },
+     {
+      "Id": "903177552",
+      "Language": "SFX",
+      "ShortName": "Boss_Anim_Growl.wav",
+      "Path": "SFX\\Boss_Anim_Growl_1617AFA0.wem"
      },
      {
       "Id": "907123717",

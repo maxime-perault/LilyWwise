@@ -23,6 +23,7 @@
 			<IncludedEvents>
 				<Event Id="3599172209" Name="BlackDoor_Open" ObjectPath="\Events\Default Work Unit\Enemies\BlackDoors\BlackDoor_Open" MaxAttenuation="1500.000000"/>
 				<Event Id="797248733" Name="Boss_Dash" ObjectPath="\Events\Default Work Unit\Enemies\Boss\Boss_Dash"/>
+				<Event Id="1320789724" Name="Boss_Growl" ObjectPath="\Events\Default Work Unit\Enemies\Boss\Boss_Growl" MaxAttenuation="2000.000000"/>
 				<Event Id="3055896492" Name="Crows_Idle" ObjectPath="\Events\Default Work Unit\Enemies\Crows\Crows_Idle" MaxAttenuation="1000.000000"/>
 				<Event Id="283520899" Name="Crows_Spawn" ObjectPath="\Events\Default Work Unit\Enemies\Crows\Crows_Spawn" MaxAttenuation="1200.000000"/>
 				<Event Id="1898305527" Name="Crows_Whispers" ObjectPath="\Events\Default Work Unit\Enemies\Crows\Crows_Whispers" MaxAttenuation="500.000000"/>
@@ -48,6 +49,7 @@
 				<Event Id="94259199" Name="Play_Hallucinations_S1" ObjectPath="\Events\Default Work Unit\Hallucinations\S1\Play_Hallucinations_S1"/>
 				<Event Id="3210990662" Name="Play_HowlingWind" ObjectPath="\Events\Default Work Unit\Ambiances\O1\Play_HowlingWind"/>
 				<Event Id="353474919" Name="Play_Lightzone_Expand" ObjectPath="\Events\Default Work Unit\Character\Character_foleys\Lightzone\Play_Lightzone_Expand"/>
+				<Event Id="1852724809" Name="Play_Marelle_Rumbling" ObjectPath="\Events\Default Work Unit\Ambiances\Marelle\Play_Marelle_Rumbling"/>
 				<Event Id="599449316" Name="Play_Soundscape_Cabane2" ObjectPath="\Events\Default Work Unit\Soundscapes\Cabane2\Play_Soundscape_Cabane2"/>
 				<Event Id="1396742852" Name="Play_Soundscape_Marelle" ObjectPath="\Events\Default Work Unit\Soundscapes\Marelle\Play_Soundscape_Marelle"/>
 				<Event Id="3152312914" Name="Play_Soundscape_O1" ObjectPath="\Events\Default Work Unit\Soundscapes\O1\Play_Soundscape_O1"/>
@@ -991,6 +993,10 @@
 					<ShortName>CrowHurt_6.wav</ShortName>
 					<Path>SFX\CrowHurt_6_1617AFA0.wem</Path>
 				</File>
+				<File Id="442585134" Language="SFX">
+					<ShortName>Marelle_LowRumbling.wav</ShortName>
+					<Path>SFX\Marelle_LowRumbling_1617AFA0.wem</Path>
+				</File>
 				<File Id="450040415" Language="SFX">
 					<ShortName>Dash_1.wav</ShortName>
 					<Path>SFX\Dash_1_1617AFA0.wem</Path>
@@ -1862,6 +1868,10 @@
 				<File Id="899592111" Language="SFX">
 					<ShortName>Leaves_5.wav</ShortName>
 					<Path>SFX\Leaves_5_1617AFA0.wem</Path>
+				</File>
+				<File Id="903177552" Language="SFX">
+					<ShortName>Boss_Anim_Growl.wav</ShortName>
+					<Path>SFX\Boss_Anim_Growl_1617AFA0.wem</Path>
 				</File>
 				<File Id="907123717" Language="SFX">
 					<ShortName>Hallu_NeMignorePas_2.wav</ShortName>

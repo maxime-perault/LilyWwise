@@ -68,6 +68,24 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="Marelle" ID="{A462F743-C006-40CC-B550-53D851DF8E03}" ShortID="698130062">
+					<ChildrenList>
+						<Event Name="Play_Marelle_Rumbling" ID="{569031BE-CCA7-40F0-9835-6DC572BADFB5}">
+							<ChildrenList>
+								<Action Name="" ID="{64F9E03F-7E87-4120-908E-0DC753EC08DA}" ShortID="416471638">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Marelle_Rumbling" ID="{0F53093C-A645-479F-A6A3-E44EEBEE1A06}" WorkUnitID="{821171D9-99CF-4A05-9D60-15EC54E6949F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

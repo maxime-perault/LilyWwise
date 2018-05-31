@@ -142,6 +142,34 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Boss_Breathing" ID="{D92908E1-D84F-4C60-AA0B-3E6B63F96008}">
+							<ChildrenList>
+								<Action Name="" ID="{401BC58B-02A0-4A20-84FB-540767EFE0F8}" ShortID="756003759">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="BossBreathing" ID="{3CE53083-6560-47D8-B072-41A86FA75CEF}" WorkUnitID="{73945224-B814-474B-AE5A-97EAD58E2739}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Boss_Growl" ID="{9CF1BCAB-065B-4C95-9FE9-B5D6B404D5DD}">
+							<ChildrenList>
+								<Action Name="" ID="{339C0B36-3C94-4BE9-8FA4-AC850B5DE449}" ShortID="510687687">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="BossGrowl" ID="{31AEB5B4-EE80-49A7-B067-8B5C5C2AB5E8}" WorkUnitID="{73945224-B814-474B-AE5A-97EAD58E2739}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>
