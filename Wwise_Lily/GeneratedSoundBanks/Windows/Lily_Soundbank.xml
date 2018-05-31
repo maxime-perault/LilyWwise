@@ -739,6 +739,10 @@
 					<ShortName>CrowsFlight_v1_2.wav</ShortName>
 					<Path>SFX\CrowsFlight_v1_2_1617AFA0.wem</Path>
 				</File>
+				<File Id="299508564" Language="SFX">
+					<ShortName>Soundscape - O2 v2 (Preview 2).wav</ShortName>
+					<Path>SFX\Soundscape - O2 v2 (Preview 2)_27A9F4A4.wem</Path>
+				</File>
 				<File Id="301557645" Language="SFX">
 					<ShortName>Basse_Chord4_D#2.wav</ShortName>
 					<Path>SFX\Basse_Chord4_D#2_07E1D2B0.wem</Path>
@@ -1387,10 +1391,6 @@
 					<ShortName>Choir1_Chord1_D#.wav</ShortName>
 					<Path>SFX\Choir1_Chord1_D#_27A9F4A4.wem</Path>
 				</File>
-				<File Id="635578215" Language="SFX">
-					<ShortName>Soundscape - O2 v2 (Preview 2).wav</ShortName>
-					<Path>SFX\Soundscape - O2 v2 (Preview 2)_27A9F4A4.wem</Path>
-				</File>
 				<File Id="642635147" Language="SFX">
 					<ShortName>FS_Water_L2_7.wav</ShortName>
 					<Path>SFX\FS_Water_L2_7_1617AFA0.wem</Path>
@@ -1449,7 +1449,7 @@
 				</File>
 				<File Id="668863880" Language="SFX">
 					<ShortName>FS_MovingRoots_L2_5.wav</ShortName>
-					<Path>SFX\FS_MovingRoots_L2_5_DF8549FC.wem</Path>
+					<Path>SFX\FS_MovingRoots_L2_5_A67FAD7C.wem</Path>
 				</File>
 				<File Id="671245676" Language="SFX">
 					<ShortName>Placeholder_VL_Grotte_1.wav</ShortName>
@@ -1645,7 +1645,7 @@
 				</File>
 				<File Id="770331493" Language="SFX">
 					<ShortName>FS_MovingRoots_L2_2.wav</ShortName>
-					<Path>SFX\FS_MovingRoots_L2_2_8D401B5B.wem</Path>
+					<Path>SFX\FS_MovingRoots_L2_2_C0183C9B.wem</Path>
 				</File>
 				<File Id="771917576" Language="SFX">
 					<ShortName>Strange bird - 17.wav</ShortName>
@@ -1789,7 +1789,7 @@
 				</File>
 				<File Id="839790885" Language="SFX">
 					<ShortName>FS_MovingRoots_L2_3.wav</ShortName>
-					<Path>SFX\FS_MovingRoots_L2_3_2C2CCE53.wem</Path>
+					<Path>SFX\FS_MovingRoots_L2_3_F9E4359B.wem</Path>
 				</File>
 				<File Id="840107191" Language="SFX">
 					<ShortName>Hallu_Merveilleux_1.wav</ShortName>
@@ -1839,6 +1839,10 @@
 					<ShortName>Basse_Chord1_C2.wav</ShortName>
 					<Path>SFX\Basse_Chord1_C2_C78C0C6D.wem</Path>
 				</File>
+				<File Id="861421354" Language="SFX">
+					<ShortName>Soundscape - O2 v2 (Preview 2).wav</ShortName>
+					<Path>SFX\Soundscape - O2 v2 (Preview 2)_EBBB046F.wem</Path>
+				</File>
 				<File Id="863497148" Language="SFX">
 					<ShortName>Choir1_Chord1_C2.wav</ShortName>
 					<Path>SFX\Choir1_Chord1_C2_27A9F4A4.wem</Path>
@@ -1853,7 +1857,7 @@
 				</File>
 				<File Id="867350133" Language="SFX">
 					<ShortName>FS_MovingRoots_L2_1.wav</ShortName>
-					<Path>SFX\FS_MovingRoots_L2_1_FCFCB8F5.wem</Path>
+					<Path>SFX\FS_MovingRoots_L2_1_FA2A8C15.wem</Path>
 				</File>
 				<File Id="867953714" Language="SFX">
 					<ShortName>Dash_Boss_1.wav</ShortName>
@@ -2021,7 +2025,7 @@
 				</File>
 				<File Id="969305992" Language="SFX">
 					<ShortName>FS_MovingRoots_L2_4.wav</ShortName>
-					<Path>SFX\FS_MovingRoots_L2_4_C279B12E.wem</Path>
+					<Path>SFX\FS_MovingRoots_L2_4_FFB70876.wem</Path>
 				</File>
 				<File Id="971359459" Language="SFX">
 					<ShortName>CrowHurt_4.wav</ShortName>

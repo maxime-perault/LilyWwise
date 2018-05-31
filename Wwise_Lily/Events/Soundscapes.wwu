@@ -151,13 +151,13 @@
 					<ChildrenList>
 						<Event Name="Play_Soundscape_Marelle" ID="{2F5FCAA5-D168-4E6C-9C6D-B67454C2FE48}">
 							<ChildrenList>
-								<Action Name="" ID="{07A70564-C9BC-49F9-97DE-6A8313BC2C4F}" ShortID="959485508">
+								<Action Name="" ID="{637E07FD-66A1-4A21-B95F-B3827DF2DD84}" ShortID="852803281">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="1"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Soundscape_Marelle" ID="{8A9CCFFD-74B8-4A73-B60C-1CFF935CE417}" WorkUnitID="{70C4634E-397D-4AD0-AEA2-DE40622061AE}"/>
+											<ObjectRef Name="Soundscape_Marelle" ID="{87C2B1C5-64E9-4D71-863A-5813E7165CB1}" WorkUnitID="{70C4634E-397D-4AD0-AEA2-DE40622061AE}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -165,15 +165,14 @@
 						</Event>
 						<Event Name="Stop_Soundscape_Marelle" ID="{813FBA75-8153-4570-BFD4-AF7F9B7461CC}">
 							<ChildrenList>
-								<Action Name="" ID="{BA3B9BD0-7A86-47E7-8C0F-A522685A9937}" ShortID="782961839">
+								<Action Name="" ID="{272F81A8-B80F-4300-A6CC-20E5F8CC5B93}" ShortID="40454951">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="2"/>
-										<Property Name="FadeTime" Type="Real64" Value="2"/>
 										<Property Name="Scope" Type="int16" Value="1"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Soundscape_Marelle" ID="{8A9CCFFD-74B8-4A73-B60C-1CFF935CE417}" WorkUnitID="{70C4634E-397D-4AD0-AEA2-DE40622061AE}"/>
+											<ObjectRef Name="Soundscape_Marelle" ID="{87C2B1C5-64E9-4D71-863A-5813E7165CB1}" WorkUnitID="{70C4634E-397D-4AD0-AEA2-DE40622061AE}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

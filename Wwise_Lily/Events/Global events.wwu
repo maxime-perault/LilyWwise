@@ -46,7 +46,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Soundscape_Marelle" ID="{8A9CCFFD-74B8-4A73-B60C-1CFF935CE417}" WorkUnitID="{70C4634E-397D-4AD0-AEA2-DE40622061AE}"/>
+									<ObjectRef Name="Soundscape_Marelle" ID="{87C2B1C5-64E9-4D71-863A-5813E7165CB1}" WorkUnitID="{70C4634E-397D-4AD0-AEA2-DE40622061AE}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
