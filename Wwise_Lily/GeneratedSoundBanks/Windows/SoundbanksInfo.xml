@@ -231,6 +231,10 @@
 					<ShortName>FS_Dirt_Run_8.wav</ShortName>
 					<Path>SFX\FS_Dirt_Run_8_1617AFA0.wem</Path>
 				</File>
+				<File Id="70133140" Language="SFX">
+					<ShortName>FS_MovingRoots_L2_6.wav</ShortName>
+					<Path>SFX\FS_MovingRoots_L2_6_1617AFA0.wem</Path>
+				</File>
 				<File Id="70817551" Language="SFX">
 					<ShortName>Cello2_Chord1_D#.wav</ShortName>
 					<Path>SFX\Cello2_Chord1_D#_B64F1DAA.wem</Path>
@@ -703,6 +707,10 @@
 					<ShortName>Hallu_EcouteMoi_8.wav</ShortName>
 					<Path>SFX\Hallu_EcouteMoi_8_1617AFA0.wem</Path>
 				</File>
+				<File Id="284446174" Language="SFX">
+					<ShortName>FS_MovingRoots_L2_5.wav</ShortName>
+					<Path>SFX\FS_MovingRoots_L2_5_1617AFA0.wem</Path>
+				</File>
 				<File Id="284516908" Language="SFX">
 					<ShortName>Basse_Chord2_A#.wav</ShortName>
 					<Path>SFX\Basse_Chord2_A#_7CAB8E36.wem</Path>
@@ -899,6 +907,10 @@
 					<ShortName>Hallu_TktPas_5.wav</ShortName>
 					<Path>SFX\Hallu_TktPas_5_1617AFA0.wem</Path>
 				</File>
+				<File Id="382478241" Language="SFX">
+					<ShortName>FS_MovingRoots_L2_3.wav</ShortName>
+					<Path>SFX\FS_MovingRoots_L2_3_1617AFA0.wem</Path>
+				</File>
 				<File Id="384471094" Language="SFX">
 					<ShortName>Idiote_1.wav</ShortName>
 					<Path>SFX\Idiote_1_1617AFA0.wem</Path>
@@ -967,6 +979,10 @@
 					<ShortName>FauteAutres_2.wav</ShortName>
 					<Path>SFX\FauteAutres_2_1617AFA0.wem</Path>
 				</File>
+				<File Id="421734976" Language="SFX">
+					<ShortName>FS_MovingRoots_L2_6.wav</ShortName>
+					<Path>SFX\FS_MovingRoots_L2_6_8C124BCC.wem</Path>
+				</File>
 				<File Id="430194624" Language="SFX">
 					<ShortName>MB_Chord1_10.wav</ShortName>
 					<Path>SFX\MB_Chord1_10_27A9F4A4.wem</Path>
@@ -1006,6 +1022,10 @@
 				<File Id="442585134" Language="SFX">
 					<ShortName>Marelle_LowRumbling.wav</ShortName>
 					<Path>SFX\Marelle_LowRumbling_1617AFA0.wem</Path>
+				</File>
+				<File Id="446640544" Language="SFX">
+					<ShortName>FS_MovingRoots_L2_1.wav</ShortName>
+					<Path>SFX\FS_MovingRoots_L2_1_1617AFA0.wem</Path>
 				</File>
 				<File Id="450040415" Language="SFX">
 					<ShortName>Dash_1.wav</ShortName>
@@ -1162,6 +1182,10 @@
 				<File Id="521664236" Language="SFX">
 					<ShortName>Boss_mvt_L1_2.wav</ShortName>
 					<Path>SFX\Boss_mvt_L1_2_1617AFA0.wem</Path>
+				</File>
+				<File Id="528446748" Language="SFX">
+					<ShortName>FS_MovingRoots_L2_4.wav</ShortName>
+					<Path>SFX\FS_MovingRoots_L2_4_1617AFA0.wem</Path>
 				</File>
 				<File Id="528515471" Language="SFX">
 					<ShortName>Fireflies_idle_bocal_1.wav</ShortName>
@@ -1431,6 +1455,10 @@
 					<ShortName>FS_Dirt_Run_4.wav</ShortName>
 					<Path>SFX\FS_Dirt_Run_4_1617AFA0.wem</Path>
 				</File>
+				<File Id="668863880" Language="SFX">
+					<ShortName>FS_MovingRoots_L2_5.wav</ShortName>
+					<Path>SFX\FS_MovingRoots_L2_5_DF8549FC.wem</Path>
+				</File>
 				<File Id="671245676" Language="SFX">
 					<ShortName>Placeholder_VL_Grotte_1.wav</ShortName>
 					<Path>SFX\Placeholder_VL_Grotte_1_1617AFA0.wem</Path>
@@ -1623,6 +1651,10 @@
 					<ShortName>CoursLily_1.wav</ShortName>
 					<Path>SFX\CoursLily_1_1617AFA0.wem</Path>
 				</File>
+				<File Id="770331493" Language="SFX">
+					<ShortName>FS_MovingRoots_L2_2.wav</ShortName>
+					<Path>SFX\FS_MovingRoots_L2_2_8D401B5B.wem</Path>
+				</File>
 				<File Id="771917576" Language="SFX">
 					<ShortName>Strange bird - 17.wav</ShortName>
 					<Path>SFX\Strange bird - 17_1617AFA0.wem</Path>
@@ -1630,6 +1662,10 @@
 				<File Id="771948693" Language="SFX">
 					<ShortName>Hallu_SuisLaLumiere_.wav</ShortName>
 					<Path>SFX\Hallu_SuisLaLumiere__1617AFA0.wem</Path>
+				</File>
+				<File Id="777612481" Language="SFX">
+					<ShortName>FS_MovingRoots_L2_2.wav</ShortName>
+					<Path>SFX\FS_MovingRoots_L2_2_1617AFA0.wem</Path>
 				</File>
 				<File Id="778240587" Language="SFX">
 					<ShortName>Violin1_Chord2_F#.wav</ShortName>
@@ -1759,6 +1795,10 @@
 					<ShortName>Hallu_Doucement_3.wav</ShortName>
 					<Path>SFX\Hallu_Doucement_3_1617AFA0.wem</Path>
 				</File>
+				<File Id="839790885" Language="SFX">
+					<ShortName>FS_MovingRoots_L2_3.wav</ShortName>
+					<Path>SFX\FS_MovingRoots_L2_3_2C2CCE53.wem</Path>
+				</File>
 				<File Id="840107191" Language="SFX">
 					<ShortName>Hallu_Merveilleux_1.wav</ShortName>
 					<Path>SFX\Hallu_Merveilleux_1_1617AFA0.wem</Path>
@@ -1818,6 +1858,10 @@
 				<File Id="864985242" Language="SFX">
 					<ShortName>Hallu_HeyOh_11.wav</ShortName>
 					<Path>SFX\Hallu_HeyOh_11_1617AFA0.wem</Path>
+				</File>
+				<File Id="867350133" Language="SFX">
+					<ShortName>FS_MovingRoots_L2_1.wav</ShortName>
+					<Path>SFX\FS_MovingRoots_L2_1_FCFCB8F5.wem</Path>
 				</File>
 				<File Id="867953714" Language="SFX">
 					<ShortName>Dash_Boss_1.wav</ShortName>
@@ -1982,6 +2026,10 @@
 				<File Id="969291542" Language="SFX">
 					<ShortName>Cello1_Chord1_C.wav</ShortName>
 					<Path>SFX\Cello1_Chord1_C_DEC941B6.wem</Path>
+				</File>
+				<File Id="969305992" Language="SFX">
+					<ShortName>FS_MovingRoots_L2_4.wav</ShortName>
+					<Path>SFX\FS_MovingRoots_L2_4_C279B12E.wem</Path>
 				</File>
 				<File Id="971359459" Language="SFX">
 					<ShortName>CrowHurt_4.wav</ShortName>

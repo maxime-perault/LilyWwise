@@ -586,6 +586,12 @@
       "Path": "SFX\\FS_Dirt_Run_8_1617AFA0.wem"
      },
      {
+      "Id": "70133140",
+      "Language": "SFX",
+      "ShortName": "FS_MovingRoots_L2_6.wav",
+      "Path": "SFX\\FS_MovingRoots_L2_6_1617AFA0.wem"
+     },
+     {
       "Id": "70817551",
       "Language": "SFX",
       "ShortName": "Cello2_Chord1_D#.wav",
@@ -1294,6 +1300,12 @@
       "Path": "SFX\\Hallu_EcouteMoi_8_1617AFA0.wem"
      },
      {
+      "Id": "284446174",
+      "Language": "SFX",
+      "ShortName": "FS_MovingRoots_L2_5.wav",
+      "Path": "SFX\\FS_MovingRoots_L2_5_1617AFA0.wem"
+     },
+     {
       "Id": "284516908",
       "Language": "SFX",
       "ShortName": "Basse_Chord2_A#.wav",
@@ -1588,6 +1600,12 @@
       "Path": "SFX\\Hallu_TktPas_5_1617AFA0.wem"
      },
      {
+      "Id": "382478241",
+      "Language": "SFX",
+      "ShortName": "FS_MovingRoots_L2_3.wav",
+      "Path": "SFX\\FS_MovingRoots_L2_3_1617AFA0.wem"
+     },
+     {
       "Id": "384471094",
       "Language": "SFX",
       "ShortName": "Idiote_1.wav",
@@ -1690,6 +1708,12 @@
       "Path": "SFX\\FauteAutres_2_1617AFA0.wem"
      },
      {
+      "Id": "421734976",
+      "Language": "SFX",
+      "ShortName": "FS_MovingRoots_L2_6.wav",
+      "Path": "SFX\\FS_MovingRoots_L2_6_8C124BCC.wem"
+     },
+     {
       "Id": "430194624",
       "Language": "SFX",
       "ShortName": "MB_Chord1_10.wav",
@@ -1748,6 +1772,12 @@
       "Language": "SFX",
       "ShortName": "Marelle_LowRumbling.wav",
       "Path": "SFX\\Marelle_LowRumbling_1617AFA0.wem"
+     },
+     {
+      "Id": "446640544",
+      "Language": "SFX",
+      "ShortName": "FS_MovingRoots_L2_1.wav",
+      "Path": "SFX\\FS_MovingRoots_L2_1_1617AFA0.wem"
      },
      {
       "Id": "450040415",
@@ -1982,6 +2012,12 @@
       "Language": "SFX",
       "ShortName": "Boss_mvt_L1_2.wav",
       "Path": "SFX\\Boss_mvt_L1_2_1617AFA0.wem"
+     },
+     {
+      "Id": "528446748",
+      "Language": "SFX",
+      "ShortName": "FS_MovingRoots_L2_4.wav",
+      "Path": "SFX\\FS_MovingRoots_L2_4_1617AFA0.wem"
      },
      {
       "Id": "528515471",
@@ -2386,6 +2422,12 @@
       "Path": "SFX\\FS_Dirt_Run_4_1617AFA0.wem"
      },
      {
+      "Id": "668863880",
+      "Language": "SFX",
+      "ShortName": "FS_MovingRoots_L2_5.wav",
+      "Path": "SFX\\FS_MovingRoots_L2_5_DF8549FC.wem"
+     },
+     {
       "Id": "671245676",
       "Language": "SFX",
       "ShortName": "Placeholder_VL_Grotte_1.wav",
@@ -2674,6 +2716,12 @@
       "Path": "SFX\\CoursLily_1_1617AFA0.wem"
      },
      {
+      "Id": "770331493",
+      "Language": "SFX",
+      "ShortName": "FS_MovingRoots_L2_2.wav",
+      "Path": "SFX\\FS_MovingRoots_L2_2_8D401B5B.wem"
+     },
+     {
       "Id": "771917576",
       "Language": "SFX",
       "ShortName": "Strange bird - 17.wav",
@@ -2684,6 +2732,12 @@
       "Language": "SFX",
       "ShortName": "Hallu_SuisLaLumiere_.wav",
       "Path": "SFX\\Hallu_SuisLaLumiere__1617AFA0.wem"
+     },
+     {
+      "Id": "777612481",
+      "Language": "SFX",
+      "ShortName": "FS_MovingRoots_L2_2.wav",
+      "Path": "SFX\\FS_MovingRoots_L2_2_1617AFA0.wem"
      },
      {
       "Id": "778240587",
@@ -2878,6 +2932,12 @@
       "Path": "SFX\\Hallu_Doucement_3_1617AFA0.wem"
      },
      {
+      "Id": "839790885",
+      "Language": "SFX",
+      "ShortName": "FS_MovingRoots_L2_3.wav",
+      "Path": "SFX\\FS_MovingRoots_L2_3_2C2CCE53.wem"
+     },
+     {
       "Id": "840107191",
       "Language": "SFX",
       "ShortName": "Hallu_Merveilleux_1.wav",
@@ -2966,6 +3026,12 @@
       "Language": "SFX",
       "ShortName": "Hallu_HeyOh_11.wav",
       "Path": "SFX\\Hallu_HeyOh_11_1617AFA0.wem"
+     },
+     {
+      "Id": "867350133",
+      "Language": "SFX",
+      "ShortName": "FS_MovingRoots_L2_1.wav",
+      "Path": "SFX\\FS_MovingRoots_L2_1_FCFCB8F5.wem"
      },
      {
       "Id": "867953714",
@@ -3212,6 +3278,12 @@
       "Language": "SFX",
       "ShortName": "Cello1_Chord1_C.wav",
       "Path": "SFX\\Cello1_Chord1_C_DEC941B6.wem"
+     },
+     {
+      "Id": "969305992",
+      "Language": "SFX",
+      "ShortName": "FS_MovingRoots_L2_4.wav",
+      "Path": "SFX\\FS_MovingRoots_L2_4_C279B12E.wem"
      },
      {
       "Id": "971359459",

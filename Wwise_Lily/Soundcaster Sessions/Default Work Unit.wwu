@@ -6,6 +6,10 @@
 				<SoundcasterSession Name="Soundcaster_test1" ID="{2D872C3D-6EEA-4C96-96C8-B716B0160D5F}">
 					<ModuleList>
 						<Module>
+							<ObjectRef Name="FS_Run" ID="{C71A9259-5DAE-4844-9B81-B2A56EB73C5C}" WorkUnitID="{84EA8792-12FE-4E5E-950A-F7C12BDA81C4}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Play_Soundscape_O1" ID="{232464F8-A54C-45EE-AFE9-54E6D5D95233}" WorkUnitID="{18029C21-36BA-447B-9F35-854E0B36B1B5}"/>
 							<Position X="0" Y="1"/>
 						</Module>
@@ -16,6 +20,10 @@
 						<Module>
 							<ObjectRef Name="Play_HowlingWind" ID="{0FDB54DE-A34E-4387-8504-F41D053F92EF}" WorkUnitID="{EDF099EF-7CA4-4D68-9584-78359919806C}"/>
 							<Position X="0" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="FS_Walk" ID="{FC6B600E-0DDA-4198-A966-7B3BE7C7AB09}" WorkUnitID="{84EA8792-12FE-4E5E-950A-F7C12BDA81C4}"/>
+							<Position X="1" Y="0"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="Play_AMB_O1" ID="{ED195764-3D0D-4FF1-B572-51BB0BA10371}" WorkUnitID="{EDF099EF-7CA4-4D68-9584-78359919806C}"/>
@@ -166,10 +174,10 @@
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
 						<CurrentStateRef Name="P1" ID="{EE721855-0F7D-445D-9C74-EA5590EAFAC6}"/>
-						<CurrentStateRef Name="None" ID="{897B763B-022B-42EB-8BC0-AC47ADD86A2C}"/>
+						<CurrentStateRef Name="Cabane1" ID="{D1471503-FD89-4F58-A6D8-86EB42D0AD7B}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="Dirt" ID="{D0E90812-3044-482D-97C5-AB576E59876B}"/>
+						<CurrentSwitchRef Name="MovingRoots" ID="{AF4CECA9-9DFE-4EB6-BAD1-61CE439B1EE1}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>
