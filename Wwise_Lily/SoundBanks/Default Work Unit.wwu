@@ -30,6 +30,7 @@
 						<ObjectRef Name="Jump_Land" ID="{AA9F6466-E4C9-45DB-B1F2-FA8ED14FD53E}" WorkUnitID="{84EA8792-12FE-4E5E-950A-F7C12BDA81C4}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Soundscape_O1" ID="{232464F8-A54C-45EE-AFE9-54E6D5D95233}" WorkUnitID="{18029C21-36BA-447B-9F35-854E0B36B1B5}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Bossfight_Music" ID="{25B1357D-CB81-45F9-A3ED-19CAF5C3E808}" WorkUnitID="{18029C21-36BA-447B-9F35-854E0B36B1B5}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="BossLevelAmb" ID="{153B4464-141C-4660-A4E8-8366B787EB3C}" WorkUnitID="{EDF099EF-7CA4-4D68-9584-78359919806C}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Voiceline_S1_Cabane" ID="{F6969128-BB42-4673-921F-82E09E8F1048}" WorkUnitID="{0206CCDB-C58E-43B4-BE9A-B372D21E3FC7}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_AMB_Lake" ID="{6C10A59F-7F3F-4680-8093-02D825074345}" WorkUnitID="{EDF099EF-7CA4-4D68-9584-78359919806C}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Restart_StopAll" ID="{275D9B7B-5AA8-46CB-9190-65B3784FB0F0}" WorkUnitID="{4613B13D-0451-42D0-BD7A-5533B5617ED0}" Filter="7" Origin="Manual"/>

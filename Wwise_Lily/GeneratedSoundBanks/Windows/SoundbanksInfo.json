@@ -47,6 +47,11 @@
       "MaxAttenuation": "2000.000000"
      },
      {
+      "Id": "1578069124",
+      "Name": "BossLevelAmb",
+      "ObjectPath": "\\Events\\Default Work Unit\\Ambiances\\Boss\\BossLevelAmb"
+     },
+     {
       "Id": "3055896492",
       "Name": "Crows_Idle",
       "ObjectPath": "\\Events\\Default Work Unit\\Enemies\\Crows\\Crows_Idle",
@@ -679,6 +684,12 @@
       "Language": "SFX",
       "ShortName": "Hallu_LeSilence_5.wav",
       "Path": "SFX\\Hallu_LeSilence_5_1617AFA0.wem"
+     },
+     {
+      "Id": "118170472",
+      "Language": "SFX",
+      "ShortName": "LinearAmbiance_BossLevel.wav",
+      "Path": "SFX\\LinearAmbiance_BossLevel_1617AFA0.wem"
      },
      {
       "Id": "120901313",

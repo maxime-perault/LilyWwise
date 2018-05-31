@@ -15,6 +15,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	1290733417	Play_Bossfight_Music			\Default Work Unit\Soundscapes\Bossfight\Play_Bossfight_Music	
 	1320789724	Boss_Growl			\Default Work Unit\Enemies\Boss\Boss_Growl	
 	1396742852	Play_Soundscape_Marelle			\Default Work Unit\Soundscapes\Marelle\Play_Soundscape_Marelle	
+	1578069124	BossLevelAmb			\Default Work Unit\Ambiances\Boss\BossLevelAmb	
 	1638063245	CrowsFlight			\Default Work Unit\Enemies\Crows\CrowsFlight	
 	1660008929	Play_Door_open			\Default Work Unit\Character\Cabane_foleys\Play_Door_open	
 	1686107112	Stop_Soundscape_O1			\Default Work Unit\Soundscapes\O1\Stop_Soundscape_O1	
@@ -162,6 +163,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	107550265	O1_Voiceline_2	E:\Softwares\GitProjects\LilyWwise\Wwise_Lily\.cache\Windows\SFX\Voiceline 2_1617AFA0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices_WU\O1\O1_Voiceline_2		362488
 	110257533	ConfirmationCase4_2	E:\Softwares\GitProjects\LilyWwise\Wwise_Lily\.cache\Windows\SFX\ConfirmationCase4_2_1617AFA0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Marelle_WU\UI\ConfirmSquare\ConfirmationCase4_2		40384
 	111822272	Hallu_LeSilence_5	E:\Softwares\GitProjects\LilyWwise\Wwise_Lily\.cache\Windows\SFX\Hallu_LeSilence_5_1617AFA0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Hallucinations_WU\Marelle\HallusMarelle\Hallu_LeSilence_5		37257
+	118170472	LinearAmbiance_BossLevel	E:\Softwares\GitProjects\LilyWwise\Wwise_Lily\.cache\Windows\SFX\LinearAmbiance_BossLevel_1617AFA0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances_WU\Ambiances\Boss\BossLevel_AMB\LinearAmbiance_BossLevel		393205
 	120901313	FS_Water_L1_7	E:\Softwares\GitProjects\LilyWwise\Wwise_Lily\.cache\Windows\SFX\FS_Water_L1_7_1617AFA0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character_WU\Character_foleys\Footsteps\FS_Walk\FS_Water_Walk\WaterWalk_L1\FS_Water_L1_7		18676
 	121961784	Hallu_Perdue_6	E:\Softwares\GitProjects\LilyWwise\Wwise_Lily\.cache\Windows\SFX\Hallu_Perdue_6_1617AFA0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Hallucinations_WU\O1\HallucinationsO1\Bad\Hallu_Perdue_6		35306
 	121998177	FS_Water_L1_4	E:\Softwares\GitProjects\LilyWwise\Wwise_Lily\.cache\Windows\SFX\FS_Water_L1_4_1617AFA0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character_WU\Character_foleys\Footsteps\FS_Walk\FS_Water_Walk\WaterWalk_L1\FS_Water_L1_4		16941

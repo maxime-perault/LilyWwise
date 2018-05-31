@@ -86,6 +86,25 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="Boss" ID="{D50ABA4C-F4C8-4E35-9113-43EE7CE9EE7A}" ShortID="677235971">
+					<ChildrenList>
+						<Event Name="BossLevelAmb" ID="{153B4464-141C-4660-A4E8-8366B787EB3C}">
+							<ChildrenList>
+								<Action Name="" ID="{52A3CD71-98C0-4CFF-B3B6-1E550D0101E3}" ShortID="1067299737">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="BossLevel_AMB" ID="{44986881-DC67-4A03-B8AE-C94077EE2AF8}" WorkUnitID="{821171D9-99CF-4A05-9D60-15EC54E6949F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

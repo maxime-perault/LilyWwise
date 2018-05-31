@@ -16,6 +16,7 @@
 				<Event Id="3599172209" Name="BlackDoor_Open" ObjectPath="\Events\Default Work Unit\Enemies\BlackDoors\BlackDoor_Open" MaxAttenuation="1500.000000"/>
 				<Event Id="797248733" Name="Boss_Dash" ObjectPath="\Events\Default Work Unit\Enemies\Boss\Boss_Dash"/>
 				<Event Id="1320789724" Name="Boss_Growl" ObjectPath="\Events\Default Work Unit\Enemies\Boss\Boss_Growl" MaxAttenuation="2000.000000"/>
+				<Event Id="1578069124" Name="BossLevelAmb" ObjectPath="\Events\Default Work Unit\Ambiances\Boss\BossLevelAmb"/>
 				<Event Id="3055896492" Name="Crows_Idle" ObjectPath="\Events\Default Work Unit\Enemies\Crows\Crows_Idle" MaxAttenuation="1000.000000"/>
 				<Event Id="283520899" Name="Crows_Spawn" ObjectPath="\Events\Default Work Unit\Enemies\Crows\Crows_Spawn" MaxAttenuation="1200.000000"/>
 				<Event Id="1898305527" Name="Crows_Whispers" ObjectPath="\Events\Default Work Unit\Enemies\Crows\Crows_Whispers" MaxAttenuation="500.000000"/>
@@ -284,6 +285,10 @@
 				<File Id="111822272" Language="SFX">
 					<ShortName>Hallu_LeSilence_5.wav</ShortName>
 					<Path>SFX\Hallu_LeSilence_5_1617AFA0.wem</Path>
+				</File>
+				<File Id="118170472" Language="SFX">
+					<ShortName>LinearAmbiance_BossLevel.wav</ShortName>
+					<Path>SFX\LinearAmbiance_BossLevel_1617AFA0.wem</Path>
 				</File>
 				<File Id="120901313" Language="SFX">
 					<ShortName>FS_Water_L1_7.wav</ShortName>
