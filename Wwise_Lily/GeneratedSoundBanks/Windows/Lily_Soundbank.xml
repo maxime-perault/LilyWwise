@@ -27,6 +27,7 @@
 				<Event Id="3419686739" Name="Jump_Land" ObjectPath="\Events\Default Work Unit\Character\Marelle_Foleys\Jump_Land"/>
 				<Event Id="457688142" Name="LianesGrouillantes" ObjectPath="\Events\Default Work Unit\Enemies\BlackDoors\LianesGrouillantes" MaxAttenuation="500.000000"/>
 				<Event Id="2743389932" Name="Lily_Dash" ObjectPath="\Events\Default Work Unit\Character\Marelle_Foleys\Lily_Dash"/>
+				<Event Id="3477981104" Name="Mirror_SFX" ObjectPath="\Events\Default Work Unit\Enemies\Mirror\Mirror_SFX"/>
 				<Event Id="3571843573" Name="Play_AAM_Music" ObjectPath="\Events\Default Work Unit\Soundscapes\Arbre aux masques\Play_AAM_Music"/>
 				<Event Id="3855816568" Name="Play_AMB_Lake" ObjectPath="\Events\Default Work Unit\Ambiances\O1\Play_AMB_Lake" MaxAttenuation="7000.000000"/>
 				<Event Id="2425019269" Name="Play_AMB_O1" ObjectPath="\Events\Default Work Unit\Ambiances\O1\Play_AMB_O1"/>
@@ -1841,7 +1842,7 @@
 				</File>
 				<File Id="861421354" Language="SFX">
 					<ShortName>Soundscape - O2 v2 (Preview 2).wav</ShortName>
-					<Path>SFX\Soundscape - O2 v2 (Preview 2)_EBBB046F.wem</Path>
+					<Path>SFX\Soundscape - O2 v2 (Preview 2)_E5F2B366.wem</Path>
 				</File>
 				<File Id="863497148" Language="SFX">
 					<ShortName>Choir1_Chord1_C2.wav</ShortName>
@@ -1914,6 +1915,10 @@
 				<File Id="894608640" Language="SFX">
 					<ShortName>Lightzone_active_v3_Filtre.wav</ShortName>
 					<Path>SFX\Lightzone_active_v3_Filtre_1617AFA0.wem</Path>
+				</File>
+				<File Id="894701080" Language="SFX">
+					<ShortName>EndingMirror.wav</ShortName>
+					<Path>SFX\EndingMirror_1C9C67B2.wem</Path>
 				</File>
 				<File Id="896962756" Language="SFX">
 					<ShortName>Condamnée_3.wav</ShortName>

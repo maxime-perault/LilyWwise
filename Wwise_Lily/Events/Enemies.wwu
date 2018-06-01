@@ -187,6 +187,24 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="Mirror" ID="{131BB57F-E638-4126-9C3F-792285FF5D8E}" ShortID="397805194">
+					<ChildrenList>
+						<Event Name="Mirror_SFX" ID="{824D5CE2-2580-4FB2-8580-AA8A4BA482EE}">
+							<ChildrenList>
+								<Action Name="" ID="{6DE88FE8-F5FE-4600-9397-85D8A47AC622}" ShortID="324835462">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="FinalMirrorSFX" ID="{FAED75F5-761F-4E60-963E-981FD45C6E19}" WorkUnitID="{73945224-B814-474B-AE5A-97EAD58E2739}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

@@ -98,6 +98,11 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Character\\Marelle_Foleys\\Lily_Dash"
      },
      {
+      "Id": "3477981104",
+      "Name": "Mirror_SFX",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemies\\Mirror\\Mirror_SFX"
+     },
+     {
       "Id": "3571843573",
       "Name": "Play_AAM_Music",
       "ObjectPath": "\\Events\\Default Work Unit\\Soundscapes\\Arbre aux masques\\Play_AAM_Music"
@@ -3013,7 +3018,7 @@
       "Id": "861421354",
       "Language": "SFX",
       "ShortName": "Soundscape - O2 v2 (Preview 2).wav",
-      "Path": "SFX\\Soundscape - O2 v2 (Preview 2)_EBBB046F.wem"
+      "Path": "SFX\\Soundscape - O2 v2 (Preview 2)_E5F2B366.wem"
      },
      {
       "Id": "863497148",
@@ -3122,6 +3127,12 @@
       "Language": "SFX",
       "ShortName": "Lightzone_active_v3_Filtre.wav",
       "Path": "SFX\\Lightzone_active_v3_Filtre_1617AFA0.wem"
+     },
+     {
+      "Id": "894701080",
+      "Language": "SFX",
+      "ShortName": "EndingMirror.wav",
+      "Path": "SFX\\EndingMirror_1C9C67B2.wem"
      },
      {
       "Id": "896962756",
