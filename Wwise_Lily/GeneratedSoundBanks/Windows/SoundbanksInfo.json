@@ -323,6 +323,11 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Marelle\\Feedbacks\\UI_SelectSquare"
      },
      {
+      "Id": "1599671035",
+      "Name": "Voiceline_Finale",
+      "ObjectPath": "\\Events\\Default Work Unit\\Voices\\Boss\\Voiceline_Finale"
+     },
+     {
       "Id": "2877169713",
       "Name": "Voiceline_Grotte_1",
       "ObjectPath": "\\Events\\Default Work Unit\\Voices\\Grotte\\Voiceline_Grotte_1"
@@ -2249,6 +2254,12 @@
       "Language": "SFX",
       "ShortName": "FS_Rocks_5.wav",
       "Path": "SFX\\FS_Rocks_5_1617AFA0.wem"
+     },
+     {
+      "Id": "603924252",
+      "Language": "SFX",
+      "ShortName": "Final voiceline 4.wav",
+      "Path": "SFX\\Final voiceline 4_1C9C67B2.wem"
      },
      {
       "Id": "603945166",

@@ -432,6 +432,24 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="Boss" ID="{8290EC4F-6566-4C53-ACDB-FD2B3E5DCB24}" ShortID="339015179">
+					<ChildrenList>
+						<Event Name="Voiceline_Finale" ID="{B6EA667B-6681-4E45-9B9B-EFBEFEA1F3A3}">
+							<ChildrenList>
+								<Action Name="" ID="{96208408-564D-4DB6-8C84-BC80F75DE952}" ShortID="86790528">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Final voiceline 4" ID="{5E65EBD5-782E-4288-891A-391CC5DD50AB}" WorkUnitID="{7C80B148-1430-4EB5-800F-0CC3571B9E3C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

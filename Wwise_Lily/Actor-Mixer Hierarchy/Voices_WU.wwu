@@ -358,6 +358,44 @@
 						</Sound>
 					</ChildrenList>
 				</ActorMixer>
+				<ActorMixer Name="Boss" ID="{FC822247-EFF6-4050-87FE-D077087DA736}" ShortID="953225382">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Voices" ID="{3BBF9C36-986D-47FB-BD33-5D8560856EAD}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Final voiceline 4" ID="{5E65EBD5-782E-4288-891A-391CC5DD50AB}" ShortID="2985956">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Final voiceline 4" ID="{0069AF03-ED81-47E3-B2B6-8366DFE1A28F}" ShortID="603924252">
+									<PropertyList>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>12</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Final voiceline 4.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Final voiceline 4" ID="{0069AF03-ED81-47E3-B2B6-8366DFE1A28F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</ActorMixer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

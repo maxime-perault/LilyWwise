@@ -17,6 +17,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	1320789724	Boss_Growl			\Default Work Unit\Enemies\Boss\Boss_Growl	
 	1396742852	Play_Soundscape_Marelle			\Default Work Unit\Soundscapes\Marelle\Play_Soundscape_Marelle	
 	1578069124	BossLevelAmb			\Default Work Unit\Ambiances\Boss\BossLevelAmb	
+	1599671035	Voiceline_Finale			\Default Work Unit\Voices\Boss\Voiceline_Finale	
 	1638063245	CrowsFlight			\Default Work Unit\Enemies\Crows\CrowsFlight	
 	1660008929	Play_Door_open			\Default Work Unit\Character\Cabane_foleys\Play_Door_open	
 	1686107112	Stop_Soundscape_O1			\Default Work Unit\Soundscapes\O1\Stop_Soundscape_O1	
@@ -425,6 +426,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	603164284	Boss_mvt_L1_3	E:\Softwares\GitProjects\LilyWwise\Wwise_Lily\.cache\Windows\SFX\Boss_mvt_L1_3_1617AFA0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies_WU\Crows\CrowsWhispers\Crows_Whispers\Whispers_L1\Boss_mvt_L1_3		17643
 	603617795	Violin1_Chord2_A#2	E:\Softwares\GitProjects\LilyWwise\Wwise_Lily\.cache\Windows\SFX\Violin1_Chord2_A#2_F91CC76F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Soundscapes_WU\Soundscapes\O1\Soundscape_O1\Chord 2\Violin1_Chord2\Violin1_Chord2_A#2		540064
 	603721627	FS_Rocks_5	E:\Softwares\GitProjects\LilyWwise\Wwise_Lily\.cache\Windows\SFX\FS_Rocks_5_1617AFA0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character_WU\Character_foleys\Footsteps\FS_Walk\FS_Rocks_Walk\FS_Rocks_5		5254
+	603924252	Final voiceline 4	E:\Softwares\GitProjects\LilyWwise\Wwise_Lily\.cache\Windows\SFX\Final voiceline 4_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices_WU\Boss\Final voiceline 4		1120036
 	603945166	Strange bird - 6	E:\Softwares\GitProjects\LilyWwise\Wwise_Lily\.cache\Windows\SFX\Strange bird - 6_1617AFA0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances_WU\Ambiances\O1\AMB_O1\StrangeBirds_Step\Strange bird - 6		82345
 	605311680	Hallu_SouviensToi_5	E:\Softwares\GitProjects\LilyWwise\Wwise_Lily\.cache\Windows\SFX\Hallu_SouviensToi_5_1617AFA0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Hallucinations_WU\O1\HallucinationsO1\Good\Hallu_SouviensToi_5		32138
 	608039463	Progression grotte - intro 1 loop	E:\Softwares\GitProjects\LilyWwise\Wwise_Lily\.cache\Windows\SFX\Progression grotte - intro 1 loop_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\GrottePlaylist\Grotte_Intro_1Loop\Progression grotte - intro 1 loop		3829828

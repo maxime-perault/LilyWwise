@@ -66,6 +66,7 @@
 				<Event Id="1917263390" Name="StopMusic" ObjectPath="\Events\Default Work Unit\Global events\StopMusic" MaxAttenuation="0.000000"/>
 				<Event Id="2987232335" Name="UI_ConfirmSquare" ObjectPath="\Events\Default Work Unit\Marelle\Feedbacks\UI_ConfirmSquare"/>
 				<Event Id="455508631" Name="UI_SelectSquare" ObjectPath="\Events\Default Work Unit\Marelle\Feedbacks\UI_SelectSquare"/>
+				<Event Id="1599671035" Name="Voiceline_Finale" ObjectPath="\Events\Default Work Unit\Voices\Boss\Voiceline_Finale"/>
 				<Event Id="2877169713" Name="Voiceline_Grotte_1" ObjectPath="\Events\Default Work Unit\Voices\Grotte\Voiceline_Grotte_1"/>
 				<Event Id="3285071916" Name="Voiceline_marelle_1" ObjectPath="\Events\Default Work Unit\Voices\Marelle\Voiceline_marelle_1"/>
 				<Event Id="3285071919" Name="Voiceline_marelle_2" ObjectPath="\Events\Default Work Unit\Voices\Marelle\Voiceline_marelle_2"/>
@@ -1323,6 +1324,10 @@
 				<File Id="603721627" Language="SFX">
 					<ShortName>FS_Rocks_5.wav</ShortName>
 					<Path>SFX\FS_Rocks_5_1617AFA0.wem</Path>
+				</File>
+				<File Id="603924252" Language="SFX">
+					<ShortName>Final voiceline 4.wav</ShortName>
+					<Path>SFX\Final voiceline 4_1C9C67B2.wem</Path>
 				</File>
 				<File Id="603945166" Language="SFX">
 					<ShortName>Strange bird - 6.wav</ShortName>

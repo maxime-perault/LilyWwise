@@ -4,25 +4,25 @@
 		<Banks>
 			<Language ID="393239870">
 				<File Name="Init" Hash="1996454369" Timestamp="1527761189"/>
-				<File Name="Lily_Soundbank" Hash="1295831684" Timestamp="1527871043"/>
+				<File Name="Lily_Soundbank" Hash="1777802636" Timestamp="1527886703"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="393239870">
 				<File Name="Init" Hash="3363096066" Timestamp="1527761189"/>
-				<File Name="Lily_Soundbank" Hash="4089562881" Timestamp="1527871043"/>
+				<File Name="Lily_Soundbank" Hash="4154413928" Timestamp="1527886703"/>
 			</Language>
 			<Language ID="-1">
-				<File Name="" Hash="733313180" Timestamp="1527871043"/>
+				<File Name="" Hash="4021507527" Timestamp="1527886703"/>
 			</Language>
 		</XMLInfo>
 		<JSONInfo>
 			<Language ID="393239870">
 				<File Name="Init" Hash="260497944" Timestamp="1527761190"/>
-				<File Name="Lily_Soundbank" Hash="2568650405" Timestamp="1527871043"/>
+				<File Name="Lily_Soundbank" Hash="3854774397" Timestamp="1527886703"/>
 			</Language>
 			<Language ID="-1">
-				<File Name="" Hash="2160582047" Timestamp="1527871043"/>
+				<File Name="" Hash="1625552707" Timestamp="1527886703"/>
 			</Language>
 		</JSONInfo>
 	</Platform>
