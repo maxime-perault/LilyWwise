@@ -62,6 +62,7 @@
 						<ObjectRef Name="Play_Hallucinations_Marelle" ID="{E1C1AAFD-6DC7-4C4A-A8BF-AD0B6209F98B}" WorkUnitID="{55D3C94C-8131-48D1-B711-B6E327AFFD0E}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Stop_Hallucinations_Grotte" ID="{0D32BFE2-2F4A-4C5B-99E1-C3EE81C61FF1}" WorkUnitID="{55D3C94C-8131-48D1-B711-B6E327AFFD0E}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_GrotteProgression" ID="{7062A8F5-C7AE-4C60-816C-1ED4FC4D631D}" WorkUnitID="{18029C21-36BA-447B-9F35-854E0B36B1B5}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Boss_Breathing" ID="{D92908E1-D84F-4C60-AA0B-3E6B63F96008}" WorkUnitID="{895344F0-F06B-4DA8-BB4E-81D5A3713E53}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Stop_MenuTheme" ID="{9E6866C1-4CC9-4C7B-AD5A-BEC110251BFE}" WorkUnitID="{18029C21-36BA-447B-9F35-854E0B36B1B5}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Boss_Growl" ID="{9CF1BCAB-065B-4C95-9FE9-B5D6B404D5DD}" WorkUnitID="{895344F0-F06B-4DA8-BB4E-81D5A3713E53}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Eboulement" ID="{7DDAB17E-B39A-4DE4-B44B-A11963EA58A4}" WorkUnitID="{EDF099EF-7CA4-4D68-9584-78359919806C}" Filter="7" Origin="Manual"/>

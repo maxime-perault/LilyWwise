@@ -153,7 +153,7 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="CrowsDisintegration" ID="{EA45A344-3B8F-4879-98B1-B1A5DE53FA96}"/>
-							<Value>50</Value>
+							<Value>100</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="SS_Air_Presence" ID="{E3B7811A-7B2F-490F-B44F-5FE51B468041}"/>
@@ -182,7 +182,7 @@
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
 						<CurrentStateRef Name="P5" ID="{E9A7931D-3CF1-4822-AA0D-8DE922BC006B}"/>
-						<CurrentStateRef Name="Bossfight" ID="{606783B4-E0EB-4458-94AA-6B6AAA8F0830}"/>
+						<CurrentStateRef Name="S1" ID="{4145D28B-2F04-4F88-9003-188F7AFD3B0D}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="Dirt" ID="{D0E90812-3044-482D-97C5-AB576E59876B}"/>

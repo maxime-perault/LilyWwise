@@ -60,6 +60,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	3620721142	Stop_Hallucinations_Grotte			\Default Work Unit\Hallucinations\Grotte\Stop_Hallucinations_Grotte	
 	3757523130	Play_MenuTheme			\Default Work Unit\Soundscapes\Menu principal\Play_MenuTheme	
 	3762745851	Play_Hallucinations_Marelle			\Default Work Unit\Hallucinations\Marelle\Play_Hallucinations_Marelle	
+	3772600969	Boss_Breathing			\Default Work Unit\Enemies\Boss\Boss_Breathing	
 	3855816568	Play_AMB_Lake			\Default Work Unit\Ambiances\O1\Play_AMB_Lake	
 	4053674083	Play_Hallucinations_O1			\Default Work Unit\Hallucinations\O1\Play_Hallucinations_O1	
 	4274191522	Voiceline_O1_5			\Default Work Unit\Voices\O1\Voiceline_O1_5	
@@ -554,6 +555,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	814495543	FS_Water_L1_7	E:\Softwares\GitProjects\LilyWwise\Wwise_Lily\.cache\Windows\SFX\FS_Water_L1_7_001B65FE.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character_WU\Character_foleys\Footsteps\FS_Run\FS_Water_Run\FS_Water_Run_L1\FS_Water_L1_7		15966
 	817677616	Progression grotte - Suite intro infinite loop	E:\Softwares\GitProjects\LilyWwise\Wwise_Lily\.cache\Windows\SFX\Progression grotte - Suite intro infinite loop_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\GrottePlaylist\Grotte_Suite_InfiniteLoops\Progression grotte - Suite intro infinite loop		3810304
 	823517537	Hallu_CreuseInsipideInutile_1	E:\Softwares\GitProjects\LilyWwise\Wwise_Lily\.cache\Windows\SFX\Hallu_CreuseInsipideInutile_1_1617AFA0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Hallucinations_WU\S1\Hallucinations_S1\Hallu_CreuseInsipideInutile_1		69834
+	826251975	Boss_Inhale	E:\Softwares\GitProjects\LilyWwise\Wwise_Lily\.cache\Windows\SFX\Boss_Inhale_1617AFA0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies_WU\Boss\BossBreathing\Boss_Inhale		81937
 	831003672	Hallu_HeyOh_9	E:\Softwares\GitProjects\LilyWwise\Wwise_Lily\.cache\Windows\SFX\Hallu_HeyOh_9_1617AFA0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Hallucinations_WU\O1\HallucinationsO1\Divers\Hallu_HeyOh_9		24078
 	837716267	Hallu_HeyOh_13	E:\Softwares\GitProjects\LilyWwise\Wwise_Lily\.cache\Windows\SFX\Hallu_HeyOh_13_1617AFA0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Hallucinations_WU\O1\HallucinationsO1\Divers\Hallu_HeyOh_13		39480
 	839312188	Hallu_Doucement_3	E:\Softwares\GitProjects\LilyWwise\Wwise_Lily\.cache\Windows\SFX\Hallu_Doucement_3_1617AFA0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Hallucinations_WU\O1\HallucinationsO1\Good\Hallu_Doucement_3		34653
@@ -595,6 +597,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	903177552	BossGrowl	E:\Softwares\GitProjects\LilyWwise\Wwise_Lily\.cache\Windows\SFX\Boss_Anim_Growl_1617AFA0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies_WU\Boss\BossGrowl		81983
 	907118779	End theme v1	E:\Softwares\GitProjects\LilyWwise\Wwise_Lily\.cache\Windows\SFX\End theme v1 (menu theme v2 TOTG) (Preview 2)_27A9F4A4.wem		\Actor-Mixer Hierarchy\Default Work Unit\Soundscapes_WU\Soundscapes\Menu principal\MainMenuTheme\End theme v1		6516280
 	907123717	Hallu_NeMignorePas_2	E:\Softwares\GitProjects\LilyWwise\Wwise_Lily\.cache\Windows\SFX\Hallu_NeMignorePas_2_1617AFA0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Hallucinations_WU\O1\HallucinationsO1\Bad\Hallu_NeMignorePas_2		44869
+	907863699	Boss_Exhale	E:\Softwares\GitProjects\LilyWwise\Wwise_Lily\.cache\Windows\SFX\Boss_Exhale_1617AFA0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies_WU\Boss\BossBreathing\Boss_Exhale		59823
 	908384949	CrowIdle_1	E:\Softwares\GitProjects\LilyWwise\Wwise_Lily\.cache\Windows\SFX\CrowIdle_1_1617AFA0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies_WU\Crows\CrowsIdle\Crows_Idle\CrowIdle_1		36203
 	909039988	Hallu_Prudence_9	E:\Softwares\GitProjects\LilyWwise\Wwise_Lily\.cache\Windows\SFX\Hallu_Prudence_9_1617AFA0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Hallucinations_WU\O1\HallucinationsO1\Good\Hallu_Prudence_9		46978
 	910058763	Strange bird - 20	E:\Softwares\GitProjects\LilyWwise\Wwise_Lily\.cache\Windows\SFX\Strange bird - 20_1617AFA0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances_WU\Ambiances\O1\AMB_O1\StrangeBirds_AMB\Strange bird - 20		74138

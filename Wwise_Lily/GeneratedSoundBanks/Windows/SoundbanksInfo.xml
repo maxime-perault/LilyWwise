@@ -22,6 +22,7 @@
 			<Path>Lily_Soundbank.bnk</Path>
 			<IncludedEvents>
 				<Event Id="3599172209" Name="BlackDoor_Open" ObjectPath="\Events\Default Work Unit\Enemies\BlackDoors\BlackDoor_Open" MaxAttenuation="1500.000000"/>
+				<Event Id="3772600969" Name="Boss_Breathing" ObjectPath="\Events\Default Work Unit\Enemies\Boss\Boss_Breathing" MaxAttenuation="1000.000000"/>
 				<Event Id="797248733" Name="Boss_Dash" ObjectPath="\Events\Default Work Unit\Enemies\Boss\Boss_Dash"/>
 				<Event Id="1320789724" Name="Boss_Growl" ObjectPath="\Events\Default Work Unit\Enemies\Boss\Boss_Growl" MaxAttenuation="2000.000000"/>
 				<Event Id="1578069124" Name="BossLevelAmb" ObjectPath="\Events\Default Work Unit\Ambiances\Boss\BossLevelAmb"/>
@@ -1824,6 +1825,10 @@
 					<ShortName>Hallu_CreuseInsipideInutile_1.wav</ShortName>
 					<Path>SFX\Hallu_CreuseInsipideInutile_1_1617AFA0.wem</Path>
 				</File>
+				<File Id="826251975" Language="SFX">
+					<ShortName>Boss_Inhale.wav</ShortName>
+					<Path>SFX\Boss_Inhale_1617AFA0.wem</Path>
+				</File>
 				<File Id="831003672" Language="SFX">
 					<ShortName>Hallu_HeyOh_9.wav</ShortName>
 					<Path>SFX\Hallu_HeyOh_9_1617AFA0.wem</Path>
@@ -1987,6 +1992,10 @@
 				<File Id="907123717" Language="SFX">
 					<ShortName>Hallu_NeMignorePas_2.wav</ShortName>
 					<Path>SFX\Hallu_NeMignorePas_2_1617AFA0.wem</Path>
+				</File>
+				<File Id="907863699" Language="SFX">
+					<ShortName>Boss_Exhale.wav</ShortName>
+					<Path>SFX\Boss_Exhale_1617AFA0.wem</Path>
 				</File>
 				<File Id="908384949" Language="SFX">
 					<ShortName>CrowIdle_1.wav</ShortName>
