@@ -25,7 +25,7 @@
 				<Event Id="797248733" Name="Boss_Dash" ObjectPath="\Events\Default Work Unit\Enemies\Boss\Boss_Dash"/>
 				<Event Id="1320789724" Name="Boss_Growl" ObjectPath="\Events\Default Work Unit\Enemies\Boss\Boss_Growl" MaxAttenuation="2000.000000"/>
 				<Event Id="1578069124" Name="BossLevelAmb" ObjectPath="\Events\Default Work Unit\Ambiances\Boss\BossLevelAmb"/>
-				<Event Id="3055896492" Name="Crows_Idle" ObjectPath="\Events\Default Work Unit\Enemies\Crows\Crows_Idle" MaxAttenuation="1000.000000"/>
+				<Event Id="3055896492" Name="Crows_Idle" ObjectPath="\Events\Default Work Unit\Enemies\Crows\Crows_Idle" MaxAttenuation="2000.000000"/>
 				<Event Id="283520899" Name="Crows_Spawn" ObjectPath="\Events\Default Work Unit\Enemies\Crows\Crows_Spawn" MaxAttenuation="1200.000000"/>
 				<Event Id="1898305527" Name="Crows_Whispers" ObjectPath="\Events\Default Work Unit\Enemies\Crows\Crows_Whispers" MaxAttenuation="500.000000"/>
 				<Event Id="3020955044" Name="CrowsDeathBlend" ObjectPath="\Events\Default Work Unit\Enemies\Crows\CrowsDeathBlend" MaxAttenuation="1200.000000"/>
@@ -44,7 +44,7 @@
 				<Event Id="2292458263" Name="Play_Door_close" ObjectPath="\Events\Default Work Unit\Character\Cabane_foleys\Play_Door_close" MaxAttenuation="5000.000000"/>
 				<Event Id="1660008929" Name="Play_Door_open" ObjectPath="\Events\Default Work Unit\Character\Cabane_foleys\Play_Door_open" MaxAttenuation="5000.000000"/>
 				<Event Id="1889209142" Name="Play_Eboulement" ObjectPath="\Events\Default Work Unit\Ambiances\Grotte\Play_Eboulement" MaxAttenuation="4000.000000"/>
-				<Event Id="1973086714" Name="Play_Fireflies_idle" ObjectPath="\Events\Default Work Unit\Character\Character_foleys\Fireflies\Play_Fireflies_idle" MaxAttenuation="800.000000"/>
+				<Event Id="1973086714" Name="Play_Fireflies_idle" ObjectPath="\Events\Default Work Unit\Character\Character_foleys\Fireflies\Play_Fireflies_idle" MaxAttenuation="1000.000000"/>
 				<Event Id="3038914928" Name="Play_Fireflies_idle_bocal" ObjectPath="\Events\Default Work Unit\Character\Character_foleys\Fireflies\Play_Fireflies_idle_bocal"/>
 				<Event Id="838160022" Name="Play_GrotteProgression" ObjectPath="\Events\Default Work Unit\Soundscapes\Arbre aux masques\Play_GrotteProgression"/>
 				<Event Id="1812302960" Name="Play_Hallucinations_Grotte" ObjectPath="\Events\Default Work Unit\Hallucinations\Grotte\Play_Hallucinations_Grotte"/>

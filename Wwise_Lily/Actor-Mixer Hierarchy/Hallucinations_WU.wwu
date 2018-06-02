@@ -8385,6 +8385,13 @@
 					</ChildrenList>
 				</ActorMixer>
 				<ActorMixer Name="S1" ID="{0BB61AA7-DEE2-4929-A5B1-A155C12A62F3}" ShortID="931666890">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>3</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="SFX_Comp" ID="{94D2B765-DB8D-469E-97ED-DEEB9595516F}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>

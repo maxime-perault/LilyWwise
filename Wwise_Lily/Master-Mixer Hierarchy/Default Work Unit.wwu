@@ -8,15 +8,6 @@
 						<Reference Name="AudioDevice">
 							<ObjectRef Name="System" ID="{AEA1E0E2-9254-425D-99EA-40313B44E6DE}" WorkUnitID="{148CC002-987D-4B1D-A6D8-70B22E74D3D4}"/>
 						</Reference>
-						<Reference Name="Effect0">
-							<Custom>
-								<Effect Name="Wwise Recorder (Custom)" ID="{F67CACFB-4D7F-4A03-A868-C4D251DD4C88}" ShortID="811311814" PluginName="Wwise Recorder" CompanyID="0" PluginID="132" PluginType="3">
-									<PropertyList>
-										<Property Name="AuthoringFilename" Type="string" Value="E:\ENJMIN\_Lily\Wwise records\Record_LianesGrouillantes_2.wav"/>
-									</PropertyList>
-								</Effect>
-							</Custom>
-						</Reference>
 					</ReferenceList>
 					<ChildrenList>
 						<Bus Name="Music" ID="{C14F24B8-F74A-4BF7-B290-DA0BE623E5C6}">
@@ -34,6 +25,7 @@
 							<ChildrenList>
 								<Bus Name="Music_Marelle" ID="{B2C70859-EA12-4D57-AA4D-0090FD8C6847}"/>
 								<Bus Name="Music_Cave" ID="{8B709B2B-F3AE-41F5-B40A-3CA5807770FC}"/>
+								<Bus Name="Music_O1" ID="{2409D2D1-AC5F-487B-84A3-5FC8F3982F83}"/>
 							</ChildrenList>
 						</Bus>
 						<Bus Name="SFX" ID="{8C3931D1-175E-42B3-B35D-8A6C6C7EC6E5}">
@@ -114,7 +106,7 @@
 								<DuckItem>
 									<BusRef Name="Music_Cave" ID="{8B709B2B-F3AE-41F5-B40A-3CA5807770FC}"/>
 									<DuckingParam>
-										<Volume>-8</Volume>
+										<Volume>-5</Volume>
 										<FadeInTime>1</FadeInTime>
 										<FadeOutTime>1</FadeOutTime>
 										<FadeCurve>FadeLinear</FadeCurve>
@@ -127,6 +119,15 @@
 										<FadeInTime>1</FadeInTime>
 										<FadeOutTime>1</FadeOutTime>
 										<FadeCurve>FadeLinear</FadeCurve>
+									</DuckingParam>
+								</DuckItem>
+								<DuckItem>
+									<BusRef Name="Music_O1" ID="{2409D2D1-AC5F-487B-84A3-5FC8F3982F83}"/>
+									<DuckingParam>
+										<Volume>-4</Volume>
+										<FadeInTime>1.5</FadeInTime>
+										<FadeOutTime>0.5</FadeOutTime>
+										<FadeCurve>FadeLog1</FadeCurve>
 									</DuckingParam>
 								</DuckItem>
 							</DuckingList>

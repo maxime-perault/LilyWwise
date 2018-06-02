@@ -4,6 +4,13 @@
 		<WorkUnit Name="Marelle_WU" ID="{4707833C-D393-4894-AABB-0BB25E90E386}" OwnerID="{6FCABF8B-629D-44A0-B42C-BAFC2CE137DD}" PersistMode="Nested">
 			<ChildrenList>
 				<ActorMixer Name="Lily" ID="{6F700C2E-E997-4863-86F5-A52786CC72A5}" ShortID="973885181">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>2</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="SFX_Comp" ID="{94D2B765-DB8D-469E-97ED-DEEB9595516F}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
@@ -152,11 +159,6 @@
 				<ActorMixer Name="UI" ID="{22852890-EB18-4912-9028-CD6EAFC0E5CF}" ShortID="1023830050">
 					<PropertyList>
 						<Property Name="EnablePositioning" Type="bool" Value="False"/>
-						<Property Name="Volume" Type="Real64">
-							<ValueList>
-								<Value>-4</Value>
-							</ValueList>
-						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">

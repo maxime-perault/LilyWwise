@@ -20,11 +20,6 @@
     "DLL": "AkRoomVerb"
    },
    "Plugin": {
-    "Name": "Wwise Recorder",
-    "ID": "8650755",
-    "DLL": "AkRecorder"
-   },
-   "Plugin": {
     "Name": "System",
     "ID": "11403271",
     "DLL": "DefaultSink"

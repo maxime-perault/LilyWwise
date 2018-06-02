@@ -6,6 +6,11 @@
 				<MusicPlaylistContainer Name="GrottePlaylist" ID="{69A81723-16FF-4B33-8043-3A7027F66613}" ShortID="1013791448">
 					<PropertyList>
 						<Property Name="Tempo" Type="Real64" Value="100"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
@@ -199,6 +204,13 @@
 					</Playlist>
 				</MusicPlaylistContainer>
 				<MusicSwitchContainer Name="Bossfight_Music" ID="{9C98FEA0-2C07-41D9-86DA-55138996D289}" ShortID="139333590">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>2</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Soundscape_Comp" ID="{5C5994E9-4BAE-4CFB-9CA9-3178858C8A7C}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>

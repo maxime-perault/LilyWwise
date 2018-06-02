@@ -45,6 +45,7 @@ Audio Bus	ID	Name			Wwise Object Path	Notes
 	1946857979	SFX_Auro3D			\Default Work Unit\Master Audio Bus\SFX\SFX_Auro3D	
 	2385628198	Footsteps			\Default Work Unit\Master Audio Bus\Footsteps	
 	2478496102	SFX_Duck			\Default Work Unit\Master Audio Bus\SFX_Duck	
+	2795543049	Music_O1			\Default Work Unit\Master Audio Bus\Music\Music_O1	
 	2996874541	Music_S1			\Default Work Unit\Master Audio Bus\Music_S1	
 	3114858784	Hallus			\Default Work Unit\Master Audio Bus\Hallus	
 	3313685232	Voices			\Default Work Unit\Master Audio Bus\Voices	
@@ -60,7 +61,6 @@ Effect plug-ins	ID	Name	Type				Notes
 	499050113	Wwise Parametric EQ (Custom)	Wwise Parametric EQ			
 	576041243	Wwise Peak Limiter (Custom)	Wwise Peak Limiter			
 	614510025	Auro Headphone (Custom)	Auro Headphone			
-	811311814	Wwise Recorder (Custom)	Wwise Recorder			
 	1726449784	Large_Hall_AHP	Auro Headphone			
 	2849147824	Medium	Wwise RoomVerb			
 

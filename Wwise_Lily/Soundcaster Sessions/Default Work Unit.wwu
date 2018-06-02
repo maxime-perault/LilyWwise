@@ -181,11 +181,11 @@
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="P1" ID="{EE721855-0F7D-445D-9C74-EA5590EAFAC6}"/>
-						<CurrentStateRef Name="Cabane1" ID="{D1471503-FD89-4F58-A6D8-86EB42D0AD7B}"/>
+						<CurrentStateRef Name="P5" ID="{E9A7931D-3CF1-4822-AA0D-8DE922BC006B}"/>
+						<CurrentStateRef Name="Caverne" ID="{30BE990F-065D-4A19-B0BE-AEA73D8A7E36}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="MovingRoots" ID="{AF4CECA9-9DFE-4EB6-BAD1-61CE439B1EE1}"/>
+						<CurrentSwitchRef Name="Dirt" ID="{D0E90812-3044-482D-97C5-AB576E59876B}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>

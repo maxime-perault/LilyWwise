@@ -55,7 +55,7 @@
       "Id": "3055896492",
       "Name": "Crows_Idle",
       "ObjectPath": "\\Events\\Default Work Unit\\Enemies\\Crows\\Crows_Idle",
-      "MaxAttenuation": "1000.000000"
+      "MaxAttenuation": "2000.000000"
      },
      {
       "Id": "283520899",
@@ -160,7 +160,7 @@
       "Id": "1973086714",
       "Name": "Play_Fireflies_idle",
       "ObjectPath": "\\Events\\Default Work Unit\\Character\\Character_foleys\\Fireflies\\Play_Fireflies_idle",
-      "MaxAttenuation": "800.000000"
+      "MaxAttenuation": "1000.000000"
      },
      {
       "Id": "3038914928",

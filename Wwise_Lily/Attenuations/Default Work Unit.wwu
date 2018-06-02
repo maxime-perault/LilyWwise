@@ -52,7 +52,7 @@
 				</Attenuation>
 				<Attenuation Name="Fireflies_idle_attenuation" ID="{864ADD9A-A9B8-4680-885F-036ABCED011B}" ShortID="636521085">
 					<PropertyList>
-						<Property Name="RadiusMax" Type="Real64" Value="800"/>
+						<Property Name="RadiusMax" Type="Real64" Value="1000"/>
 					</PropertyList>
 					<CurveUsageInfoList>
 						<VolumeDryUsage>
@@ -66,10 +66,22 @@
 											<XPos>0</XPos>
 											<YPos>0</YPos>
 											<Flags>5</Flags>
-											<SegmentShape>Log2</SegmentShape>
+											<SegmentShape>Log1</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>800</XPos>
+											<XPos>303.17461</XPos>
+											<YPos>-0.41868</YPos>
+											<Flags>0</Flags>
+											<SegmentShape>Exp1</SegmentShape>
+										</Point>
+										<Point>
+											<XPos>736.507936507937</XPos>
+											<YPos>-6.11242886948451</YPos>
+											<Flags>0</Flags>
+											<SegmentShape>Log1</SegmentShape>
+										</Point>
+										<Point>
+											<XPos>1000</XPos>
 											<YPos>-200</YPos>
 											<Flags>37</Flags>
 										</Point>
@@ -316,7 +328,7 @@
 				</Attenuation>
 				<Attenuation Name="CrowsIdle_Attenuation" ID="{1F46EA18-52DE-4A88-8122-DBA7E443BEE6}" ShortID="388758738">
 					<PropertyList>
-						<Property Name="RadiusMax" Type="Real64" Value="1000"/>
+						<Property Name="RadiusMax" Type="Real64" Value="2000"/>
 					</PropertyList>
 					<CurveUsageInfoList>
 						<VolumeDryUsage>
@@ -332,7 +344,7 @@
 											<Flags>5</Flags>
 										</Point>
 										<Point>
-											<XPos>1000</XPos>
+											<XPos>2000</XPos>
 											<YPos>-200</YPos>
 											<Flags>37</Flags>
 										</Point>
