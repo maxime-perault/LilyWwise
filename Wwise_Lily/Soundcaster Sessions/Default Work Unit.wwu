@@ -182,7 +182,7 @@
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
 						<CurrentStateRef Name="P5" ID="{E9A7931D-3CF1-4822-AA0D-8DE922BC006B}"/>
-						<CurrentStateRef Name="Caverne" ID="{30BE990F-065D-4A19-B0BE-AEA73D8A7E36}"/>
+						<CurrentStateRef Name="Bossfight" ID="{606783B4-E0EB-4458-94AA-6B6AAA8F0830}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="Dirt" ID="{D0E90812-3044-482D-97C5-AB576E59876B}"/>

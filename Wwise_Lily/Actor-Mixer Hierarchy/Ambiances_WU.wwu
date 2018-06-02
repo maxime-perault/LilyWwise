@@ -1088,6 +1088,15 @@
 										</StateGroupList>
 										<CustomStateList>
 											<CustomState>
+												<StateRef Name="Bossfight" ID="{606783B4-E0EB-4458-94AA-6B6AAA8F0830}"/>
+												<State Name="" ID="{9FDCFCB6-2F23-4F42-8AED-126A63F42FD8}" ShortID="776170689">
+													<PropertyList>
+														<Property Name="Lowpass" Type="int16" Value="52"/>
+														<Property Name="Volume" Type="Real64" Value="-96"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
 												<StateRef Name="Cabane2" ID="{16CDE326-D286-48B3-AE39-CFE3A68598D0}"/>
 												<State Name="" ID="{A7E1F38D-5FFC-4676-BA75-60C5AF613739}" ShortID="223043164"/>
 											</CustomState>
@@ -1331,6 +1340,10 @@
 												</StateGroupList>
 												<CustomStateList>
 													<CustomState>
+														<StateRef Name="Bossfight" ID="{606783B4-E0EB-4458-94AA-6B6AAA8F0830}"/>
+														<State Name="" ID="{5067F956-5E08-4147-B1E2-C22146ACB2A5}" ShortID="642153918"/>
+													</CustomState>
+													<CustomState>
 														<StateRef Name="Cabane2" ID="{16CDE326-D286-48B3-AE39-CFE3A68598D0}"/>
 														<State Name="" ID="{82896BB8-2410-42D5-9ADB-B855388FE879}" ShortID="448628087"/>
 													</CustomState>
@@ -1388,6 +1401,14 @@
 											</StateGroupInfo>
 										</StateGroupList>
 										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Bossfight" ID="{606783B4-E0EB-4458-94AA-6B6AAA8F0830}"/>
+												<State Name="" ID="{A613CA00-2417-4CB8-A26B-F3405BE2074D}" ShortID="472832623">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-96"/>
+													</PropertyList>
+												</State>
+											</CustomState>
 											<CustomState>
 												<StateRef Name="Cabane2" ID="{16CDE326-D286-48B3-AE39-CFE3A68598D0}"/>
 												<State Name="" ID="{4607C7A5-E314-4D5B-B7FF-9D7B5BF87943}" ShortID="858164156"/>

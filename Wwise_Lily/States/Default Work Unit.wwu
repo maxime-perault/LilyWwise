@@ -11,6 +11,7 @@
 						<State Name="S1" ID="{4145D28B-2F04-4F88-9003-188F7AFD3B0D}"/>
 						<State Name="Cabane2" ID="{16CDE326-D286-48B3-AE39-CFE3A68598D0}"/>
 						<State Name="Caverne" ID="{30BE990F-065D-4A19-B0BE-AEA73D8A7E36}"/>
+						<State Name="Bossfight" ID="{606783B4-E0EB-4458-94AA-6B6AAA8F0830}"/>
 					</ChildrenList>
 					<TransitionList>
 						<Transition>
@@ -41,6 +42,12 @@
 							<StartState Name="S1" ID="{4145D28B-2F04-4F88-9003-188F7AFD3B0D}"/>
 							<EndState Name="Cabane2" ID="{16CDE326-D286-48B3-AE39-CFE3A68598D0}"/>
 							<Time>2.5</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Caverne" ID="{30BE990F-065D-4A19-B0BE-AEA73D8A7E36}"/>
+							<EndState Name="Bossfight" ID="{606783B4-E0EB-4458-94AA-6B6AAA8F0830}"/>
+							<Time>2</Time>
 							<IsShared>true</IsShared>
 						</Transition>
 					</TransitionList>

@@ -184,6 +184,10 @@
 								</StateGroupList>
 								<CustomStateList>
 									<CustomState>
+										<StateRef Name="Bossfight" ID="{606783B4-E0EB-4458-94AA-6B6AAA8F0830}"/>
+										<State Name="" ID="{F13C4D0B-9409-4CB7-ADD2-812C6B42475B}" ShortID="443386345"/>
+									</CustomState>
+									<CustomState>
 										<StateRef Name="Cabane2" ID="{16CDE326-D286-48B3-AE39-CFE3A68598D0}"/>
 										<State Name="" ID="{8E41972F-0664-437D-BA5F-8918E77FDE3A}" ShortID="297757125">
 											<PropertyList>

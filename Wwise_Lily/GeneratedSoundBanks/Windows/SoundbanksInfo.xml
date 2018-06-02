@@ -134,7 +134,7 @@
 				</File>
 				<File Id="12432258" Language="SFX">
 					<ShortName>FS_Water_L3_1.wav</ShortName>
-					<Path>SFX\FS_Water_L3_1_9FCEC246.wem</Path>
+					<Path>SFX\FS_Water_L3_1_59A5C1DE.wem</Path>
 				</File>
 				<File Id="16088448" Language="SFX">
 					<ShortName>Hallu_Envole_4.wav</ShortName>
@@ -466,7 +466,7 @@
 				</File>
 				<File Id="183504455" Language="SFX">
 					<ShortName>FS_Water_L3_2.wav</ShortName>
-					<Path>SFX\FS_Water_L3_2_7292C83A.wem</Path>
+					<Path>SFX\FS_Water_L3_2_7A95008C.wem</Path>
 				</File>
 				<File Id="184521980" Language="SFX">
 					<ShortName>Cello1_Chord1_C2.wav</ShortName>
@@ -798,7 +798,7 @@
 				</File>
 				<File Id="311439611" Language="SFX">
 					<ShortName>FS_Water_L3_3.wav</ShortName>
-					<Path>SFX\FS_Water_L3_3_8EFAD0BF.wem</Path>
+					<Path>SFX\FS_Water_L3_3_2BD4DEA6.wem</Path>
 				</File>
 				<File Id="313554636" Language="SFX">
 					<ShortName>Hallu_ToujoursLa_11.wav</ShortName>
@@ -1278,7 +1278,7 @@
 				</File>
 				<File Id="563473160" Language="SFX">
 					<ShortName>FS_Water_L3_4.wav</ShortName>
-					<Path>SFX\FS_Water_L3_4_7292C83A.wem</Path>
+					<Path>SFX\FS_Water_L3_4_7A95008C.wem</Path>
 				</File>
 				<File Id="564700334" Language="SFX">
 					<ShortName>Silence_1.wav</ShortName>
@@ -1386,7 +1386,7 @@
 				</File>
 				<File Id="620982362" Language="SFX">
 					<ShortName>FS_Water_L3_5.wav</ShortName>
-					<Path>SFX\FS_Water_L3_5_8B7C641B.wem</Path>
+					<Path>SFX\FS_Water_L3_5_ED085C46.wem</Path>
 				</File>
 				<File Id="621022840" Language="SFX">
 					<ShortName>Hallu_Perdue_3.wav</ShortName>

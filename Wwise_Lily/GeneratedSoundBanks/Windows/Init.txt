@@ -4,6 +4,7 @@ State Group	ID	Name			Wwise Object Path	Notes
 
 State	ID	Name	State Group			Notes
 	0	None	AMB_State			
+	580146960	Bossfight	AMB_State			
 	865663655	Caverne	AMB_State			
 	1584861493	S1	AMB_State			
 	1651971937	O1	AMB_State			
@@ -58,6 +59,7 @@ Auxiliary Bus	ID	Name			Wwise Object Path	Notes
 
 Effect plug-ins	ID	Name	Type				Notes
 	16119108	Dry_AHP	Auro Headphone			
+	481173764	Wwise Peak Limiter (Custom)	Wwise Peak Limiter			
 	499050113	Wwise Parametric EQ (Custom)	Wwise Parametric EQ			
 	576041243	Wwise Peak Limiter (Custom)	Wwise Peak Limiter			
 	614510025	Auro Headphone (Custom)	Auro Headphone			
