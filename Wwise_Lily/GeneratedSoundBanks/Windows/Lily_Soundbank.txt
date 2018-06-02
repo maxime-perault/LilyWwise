@@ -97,11 +97,13 @@ State	ID	Name	State Group			Notes
 	1700763266	Cabane1	AMB_State			
 
 Custom State	ID	Name	State Group	Owner		Notes
+	19712239	Bossfight	AMB_State	\Actor-Mixer Hierarchy\Default Work Unit\Soundscapes_WU\Soundscapes\SoundscapeCabane2		
 	59976347	O1	AMB_State	\Actor-Mixer Hierarchy\Default Work Unit\Ambiances_WU\Ambiances\O1\HowlingWind		
 	73662334	Cabane2	AMB_State	\Actor-Mixer Hierarchy\Default Work Unit\Soundscapes_WU\Soundscapes\S1\Soundscape_S1		
 	185598999	Cabane1	AMB_State	\Actor-Mixer Hierarchy\Default Work Unit\Ambiances_WU\Ambiances\O1\AMB_O1		
 	251198974	Cabane1	AMB_State	\Actor-Mixer Hierarchy\Default Work Unit\Soundscapes_WU\Soundscapes\S1\Soundscape_S1		
 	384435163	O1	AMB_State	\Actor-Mixer Hierarchy\Default Work Unit\Soundscapes_WU\Soundscapes\S1\Soundscape_S1		
+	394305803	Bossfight	AMB_State	\Actor-Mixer Hierarchy\Default Work Unit\Soundscapes_WU\Soundscapes\S1\Soundscape_S1		
 	455185631	Caverne	AMB_State	\Actor-Mixer Hierarchy\Default Work Unit\Soundscapes_WU\Soundscapes\S1\Soundscape_S1		
 	472832623	Bossfight	AMB_State	\Actor-Mixer Hierarchy\Default Work Unit\Ambiances_WU\Ambiances\O1\HowlingWind		
 	638203658	S1	AMB_State	\Actor-Mixer Hierarchy\Default Work Unit\Soundscapes_WU\Soundscapes\SoundscapeCabane2		
