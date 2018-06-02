@@ -10,6 +10,7 @@
 				<WorkUnit Name="Voices_WU" ID="{7C80B148-1430-4EB5-800F-0CC3571B9E3C}" PersistMode="Reference"/>
 				<WorkUnit Name="Enemies_WU" ID="{73945224-B814-474B-AE5A-97EAD58E2739}" PersistMode="Reference"/>
 				<WorkUnit Name="Marelle_WU" ID="{4707833C-D393-4894-AABB-0BB25E90E386}" PersistMode="Reference"/>
+				<WorkUnit Name="Cutscenes_WU" ID="{FB95DF1C-1525-4EF4-94D3-0B6EE44399B0}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

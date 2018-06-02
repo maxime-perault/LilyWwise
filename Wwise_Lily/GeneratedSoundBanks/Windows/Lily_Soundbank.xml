@@ -27,6 +27,7 @@
 				<Event Id="3419686739" Name="Jump_Land" ObjectPath="\Events\Default Work Unit\Character\Marelle_Foleys\Jump_Land"/>
 				<Event Id="457688142" Name="LianesGrouillantes" ObjectPath="\Events\Default Work Unit\Enemies\BlackDoors\LianesGrouillantes" MaxAttenuation="500.000000"/>
 				<Event Id="2743389932" Name="Lily_Dash" ObjectPath="\Events\Default Work Unit\Character\Marelle_Foleys\Lily_Dash"/>
+				<Event Id="82273614" Name="Lily_Intro" ObjectPath="\Events\Default Work Unit\Cutscenes\Lily_Intro"/>
 				<Event Id="3477981104" Name="Mirror_SFX" ObjectPath="\Events\Default Work Unit\Enemies\Mirror\Mirror_SFX"/>
 				<Event Id="3571843573" Name="Play_AAM_Music" ObjectPath="\Events\Default Work Unit\Soundscapes\Arbre aux masques\Play_AAM_Music"/>
 				<Event Id="3855816568" Name="Play_AMB_Lake" ObjectPath="\Events\Default Work Unit\Ambiances\O1\Play_AMB_Lake" MaxAttenuation="7000.000000"/>
@@ -1643,6 +1644,10 @@
 					<ShortName>Hallu_EcouteMoi_4.wav</ShortName>
 					<Path>SFX\Hallu_EcouteMoi_4_1617AFA0.wem</Path>
 				</File>
+				<File Id="763306410" Language="SFX">
+					<ShortName>Lily_Intro.wav</ShortName>
+					<Path>SFX\Lily_Intro_27A9F4A4.wem</Path>
+				</File>
 				<File Id="767478543" Language="SFX">
 					<ShortName>Violin1_Chord4_A#.wav</ShortName>
 					<Path>SFX\Violin1_Chord4_A#_DEC941B6.wem</Path>
@@ -1973,7 +1978,7 @@
 				</File>
 				<File Id="925973845" Language="SFX">
 					<ShortName>Soundscape - O1 (Preview 1).wav</ShortName>
-					<Path>SFX\Soundscape - O1 (Preview 1)_D4ED4C4D.wem</Path>
+					<Path>SFX\Soundscape - O1 (Preview 1)_0992DF94.wem</Path>
 				</File>
 				<File Id="928184125" Language="SFX">
 					<ShortName>Boss_mvt_L1_12.wav</ShortName>

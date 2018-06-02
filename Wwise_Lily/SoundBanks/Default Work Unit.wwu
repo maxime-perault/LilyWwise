@@ -50,6 +50,7 @@
 						<ObjectRef Name="Stop_Soundscape_O1" ID="{B3343175-7416-4944-AA4D-7CD6C89B05C9}" WorkUnitID="{18029C21-36BA-447B-9F35-854E0B36B1B5}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Crows_Idle" ID="{AEAAA9FA-4502-49A2-8A82-56894F33BBD0}" WorkUnitID="{895344F0-F06B-4DA8-BB4E-81D5A3713E53}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Voiceline_O1_1" ID="{C3FA3B30-EF17-4A18-9F75-BCA539AC2C58}" WorkUnitID="{0206CCDB-C58E-43B4-BE9A-B372D21E3FC7}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Lily_Intro" ID="{DE284766-1E2A-4A39-9307-45CC99E2E056}" WorkUnitID="{74980D7F-B157-47B9-9DCD-6584F0ADD199}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Voiceline_marelle_2" ID="{8106691B-504B-4A6B-AAAD-1E7072F8A1D7}" WorkUnitID="{0206CCDB-C58E-43B4-BE9A-B372D21E3FC7}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Voiceline_O1_3" ID="{22AA84AD-0345-4AF0-8496-8547CADCBBC1}" WorkUnitID="{0206CCDB-C58E-43B4-BE9A-B372D21E3FC7}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Voiceline_Grotte_1" ID="{210CA4B7-10E0-4B05-99D6-A3159F96EAC9}" WorkUnitID="{0206CCDB-C58E-43B4-BE9A-B372D21E3FC7}" Filter="7" Origin="Manual"/>

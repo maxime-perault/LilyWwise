@@ -1,5 +1,6 @@
 Event	ID	Name			Wwise Object Path	Notes
 	2271744	Stop_MenuTheme			\Default Work Unit\Soundscapes\Menu principal\Stop_MenuTheme	
+	82273614	Lily_Intro			\Default Work Unit\Cutscenes\Lily_Intro	
 	94259199	Play_Hallucinations_S1			\Default Work Unit\Hallucinations\S1\Play_Hallucinations_S1	
 	244099117	Stop_Hallucinations_Marelle			\Default Work Unit\Hallucinations\Marelle\Stop_Hallucinations_Marelle	
 	283520899	Crows_Spawn			\Default Work Unit\Enemies\Crows\Crows_Spawn	
@@ -507,6 +508,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	759592345	Dash_Boss_4	E:\Softwares\GitProjects\LilyWwise\Wwise_Lily\.cache\Windows\SFX\Dash_Boss_4_1617AFA0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies_WU\Boss\BossDash\Dash_Boss_4		27773
 	761177562	Hallu_LeSilence_1	E:\Softwares\GitProjects\LilyWwise\Wwise_Lily\.cache\Windows\SFX\Hallu_LeSilence_1_1617AFA0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Hallucinations_WU\Marelle\HallusMarelle\Hallu_LeSilence_1		35889
 	762947894	Hallu_EcouteMoi_4	E:\Softwares\GitProjects\LilyWwise\Wwise_Lily\.cache\Windows\SFX\Hallu_EcouteMoi_4_1617AFA0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Hallucinations_WU\O1\HallucinationsO1\Good\Hallu_EcouteMoi_4		48878
+	763306410	Lily_Intro	E:\Softwares\GitProjects\LilyWwise\Wwise_Lily\.cache\Windows\SFX\Lily_Intro_27A9F4A4.wem		\Actor-Mixer Hierarchy\Default Work Unit\Cutscenes_WU\Cutscenes\Intro\Lily_Intro		2268064
 	767478543	Violin1_Chord4_A#	E:\Softwares\GitProjects\LilyWwise\Wwise_Lily\.cache\Windows\SFX\Violin1_Chord4_A#_DEC941B6.wem		\Actor-Mixer Hierarchy\Default Work Unit\Soundscapes_WU\Soundscapes\O1\Soundscape_O1\Chord 4\Violin1_Chord4\Violin1_Chord4_A#		540064
 	768644610	CoursLily_1	E:\Softwares\GitProjects\LilyWwise\Wwise_Lily\.cache\Windows\SFX\CoursLily_1_1617AFA0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Hallucinations_WU\S1\Hallucinations_S1\CoursLily_1		29853
 	770331493	FS_MovingRoots_L2_2	E:\Softwares\GitProjects\LilyWwise\Wwise_Lily\.cache\Windows\SFX\FS_MovingRoots_L2_2_C0183C9B.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character_WU\Character_foleys\Footsteps\FS_Run\FS_MovingRoots_Run\FS_Layer2\FS_MovingRoots_L2_2		7725
@@ -589,7 +591,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	915116294	Hallu_ToujoursLa_13	E:\Softwares\GitProjects\LilyWwise\Wwise_Lily\.cache\Windows\SFX\Hallu_ToujoursLa_13_1617AFA0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Hallucinations_WU\O1\HallucinationsO1\Bad\Hallu_ToujoursLa_13		33297
 	924417544	Hallu_TktPas_4	E:\Softwares\GitProjects\LilyWwise\Wwise_Lily\.cache\Windows\SFX\Hallu_TktPas_4_1617AFA0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Hallucinations_WU\O1\HallucinationsO1\Good\Hallu_TktPas_4		36958
 	925778969	Hallu_Merveilleux_6	E:\Softwares\GitProjects\LilyWwise\Wwise_Lily\.cache\Windows\SFX\Hallu_Merveilleux_6_1617AFA0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Hallucinations_WU\O1\HallucinationsO1\Good\Hallu_Merveilleux_6		27409
-	925973845	MainTheme_Full	E:\Softwares\GitProjects\LilyWwise\Wwise_Lily\.cache\Windows\SFX\Soundscape - O1 (Preview 1)_D4ED4C4D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Soundscapes_WU\Soundscapes\Menu principal\MainMenuTheme\MainTheme_Full		13454848
+	925973845	MainTheme_Full	E:\Softwares\GitProjects\LilyWwise\Wwise_Lily\.cache\Windows\SFX\Soundscape - O1 (Preview 1)_0992DF94.wem		\Actor-Mixer Hierarchy\Default Work Unit\Soundscapes_WU\Soundscapes\Menu principal\MainMenuTheme\MainTheme_Full		13454848
 	928184125	Boss_mvt_L1_12	E:\Softwares\GitProjects\LilyWwise\Wwise_Lily\.cache\Windows\SFX\Boss_mvt_L1_12_1617AFA0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies_WU\Crows\CrowsWhispers\Crows_Whispers\Whispers_L1\Boss_mvt_L1_12		21997
 	928542328	Cello2_Chord2_F#	E:\Softwares\GitProjects\LilyWwise\Wwise_Lily\.cache\Windows\SFX\Cello2_Chord2_F#_F91CC76F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Soundscapes_WU\Soundscapes\O1\Soundscape_O1\Chord 2\Cello2_Chord2\Cello2_Chord2_F#		540064
 	933427918	Hallu_ToujoursLa_23	E:\Softwares\GitProjects\LilyWwise\Wwise_Lily\.cache\Windows\SFX\Hallu_ToujoursLa_23_1617AFA0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Hallucinations_WU\O1\HallucinationsO1\Bad\Hallu_ToujoursLa_23		45322

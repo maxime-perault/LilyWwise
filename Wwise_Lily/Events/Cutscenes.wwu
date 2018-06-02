@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{74980D7F-B157-47B9-9DCD-6584F0ADD199}" SchemaVersion="85" RootDocumentID="{A173F46B-135A-44AE-857B-948A706A6FBF}">
+	<Events>
+		<WorkUnit Name="Cutscenes" ID="{74980D7F-B157-47B9-9DCD-6584F0ADD199}" OwnerID="{A173F46B-135A-44AE-857B-948A706A6FBF}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Lily_Intro" ID="{DE284766-1E2A-4A39-9307-45CC99E2E056}">
+					<ChildrenList>
+						<Action Name="" ID="{783EB9D8-EA81-4176-801F-EAD91E7B989B}" ShortID="979859384">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Lily_Intro" ID="{30ABD04F-B746-4F63-A084-5080FEA442AB}" WorkUnitID="{FB95DF1C-1525-4EF4-94D3-0B6EE44399B0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

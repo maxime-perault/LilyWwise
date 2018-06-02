@@ -98,6 +98,11 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Character\\Marelle_Foleys\\Lily_Dash"
      },
      {
+      "Id": "82273614",
+      "Name": "Lily_Intro",
+      "ObjectPath": "\\Events\\Default Work Unit\\Cutscenes\\Lily_Intro"
+     },
+     {
       "Id": "3477981104",
       "Name": "Mirror_SFX",
       "ObjectPath": "\\Events\\Default Work Unit\\Enemies\\Mirror\\Mirror_SFX"
@@ -2731,6 +2736,12 @@
       "Path": "SFX\\Hallu_EcouteMoi_4_1617AFA0.wem"
      },
      {
+      "Id": "763306410",
+      "Language": "SFX",
+      "ShortName": "Lily_Intro.wav",
+      "Path": "SFX\\Lily_Intro_27A9F4A4.wem"
+     },
+     {
       "Id": "767478543",
       "Language": "SFX",
       "ShortName": "Violin1_Chord4_A#.wav",
@@ -3226,7 +3237,7 @@
       "Id": "925973845",
       "Language": "SFX",
       "ShortName": "Soundscape - O1 (Preview 1).wav",
-      "Path": "SFX\\Soundscape - O1 (Preview 1)_D4ED4C4D.wem"
+      "Path": "SFX\\Soundscape - O1 (Preview 1)_0992DF94.wem"
      },
      {
       "Id": "928184125",
