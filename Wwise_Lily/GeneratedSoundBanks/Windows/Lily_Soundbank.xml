@@ -124,6 +124,10 @@
 					<ShortName>BossfightTheme_P5_1.wav</ShortName>
 					<Path>SFX\BossfightTheme_P5_1_77E15A0E.wem</Path>
 				</File>
+				<File Id="12432258" Language="SFX">
+					<ShortName>FS_Water_L3_1.wav</ShortName>
+					<Path>SFX\FS_Water_L3_1_9FCEC246.wem</Path>
+				</File>
 				<File Id="16088448" Language="SFX">
 					<ShortName>Hallu_Envole_4.wav</ShortName>
 					<Path>SFX\Hallu_Envole_4_1617AFA0.wem</Path>
@@ -451,6 +455,10 @@
 				<File Id="182361763" Language="SFX">
 					<ShortName>Hallu_JeSais_12.wav</ShortName>
 					<Path>SFX\Hallu_JeSais_12_1617AFA0.wem</Path>
+				</File>
+				<File Id="183504455" Language="SFX">
+					<ShortName>FS_Water_L3_2.wav</ShortName>
+					<Path>SFX\FS_Water_L3_2_7292C83A.wem</Path>
 				</File>
 				<File Id="184521980" Language="SFX">
 					<ShortName>Cello1_Chord1_C2.wav</ShortName>
@@ -780,6 +788,10 @@
 					<ShortName>Violin1_Chord2_A#.wav</ShortName>
 					<Path>SFX\Violin1_Chord2_A#_15E89C66.wem</Path>
 				</File>
+				<File Id="311439611" Language="SFX">
+					<ShortName>FS_Water_L3_3.wav</ShortName>
+					<Path>SFX\FS_Water_L3_3_8EFAD0BF.wem</Path>
+				</File>
 				<File Id="313554636" Language="SFX">
 					<ShortName>Hallu_ToujoursLa_11.wav</ShortName>
 					<Path>SFX\Hallu_ToujoursLa_11_1617AFA0.wem</Path>
@@ -996,6 +1008,10 @@
 					<ShortName>MB_Chord2_5.wav</ShortName>
 					<Path>SFX\MB_Chord2_5_27A9F4A4.wem</Path>
 				</File>
+				<File Id="434194609" Language="SFX">
+					<ShortName>FS_Water_L3_7.wav</ShortName>
+					<Path>SFX\FS_Water_L3_7_1AAD4427.wem</Path>
+				</File>
 				<File Id="434641292" Language="SFX">
 					<ShortName>Silence 5.wav</ShortName>
 					<Path>SFX\Silence 5_1617AFA0.wem</Path>
@@ -1067,6 +1083,10 @@
 				<File Id="468442311" Language="SFX">
 					<ShortName>Hallu_Doucement_15.wav</ShortName>
 					<Path>SFX\Hallu_Doucement_15_1617AFA0.wem</Path>
+				</File>
+				<File Id="468922894" Language="SFX">
+					<ShortName>FS_Water_L3_6.wav</ShortName>
+					<Path>SFX\FS_Water_L3_6_EC729E1B.wem</Path>
 				</File>
 				<File Id="469665985" Language="SFX">
 					<ShortName>Cello1_Chord2_C#.wav</ShortName>
@@ -1248,6 +1268,10 @@
 					<ShortName>Hallu_Lily_1.wav</ShortName>
 					<Path>SFX\Hallu_Lily_1_1617AFA0.wem</Path>
 				</File>
+				<File Id="563473160" Language="SFX">
+					<ShortName>FS_Water_L3_4.wav</ShortName>
+					<Path>SFX\FS_Water_L3_4_7292C83A.wem</Path>
+				</File>
 				<File Id="564700334" Language="SFX">
 					<ShortName>Silence_1.wav</ShortName>
 					<Path>SFX\Silence_1_27A9F4A4.wem</Path>
@@ -1351,6 +1375,10 @@
 				<File Id="620730439" Language="SFX">
 					<ShortName>Hallu_Perdue_8.wav</ShortName>
 					<Path>SFX\Hallu_Perdue_8_1617AFA0.wem</Path>
+				</File>
+				<File Id="620982362" Language="SFX">
+					<ShortName>FS_Water_L3_5.wav</ShortName>
+					<Path>SFX\FS_Water_L3_5_8B7C641B.wem</Path>
 				</File>
 				<File Id="621022840" Language="SFX">
 					<ShortName>Hallu_Perdue_3.wav</ShortName>
