@@ -245,6 +245,40 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="Menu principal" ID="{2673676B-BBA0-43D8-94CD-2A409515C385}" ShortID="668942900">
+					<ChildrenList>
+						<Event Name="Play_MenuTheme" ID="{E7C3A3FB-7CF9-45C1-956D-C4347AC89950}">
+							<ChildrenList>
+								<Action Name="" ID="{B85CD766-C210-4C2E-919B-BC959AA92BD3}" ShortID="985183298">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="MainMenuTheme" ID="{8DE4FB6D-00C5-4EDC-A584-EF8528D3FE82}" WorkUnitID="{70C4634E-397D-4AD0-AEA2-DE40622061AE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_MenuTheme" ID="{9E6866C1-4CC9-4C7B-AD5A-BEC110251BFE}">
+							<ChildrenList>
+								<Action Name="" ID="{CC530337-3551-4BA2-B35E-B35F1BAADDAB}" ShortID="897695893">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="MainMenuTheme" ID="{8DE4FB6D-00C5-4EDC-A584-EF8528D3FE82}" WorkUnitID="{70C4634E-397D-4AD0-AEA2-DE40622061AE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

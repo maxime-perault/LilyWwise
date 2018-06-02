@@ -98,6 +98,14 @@
 							<Position X="4" Y="1"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="Play_MenuTheme" ID="{E7C3A3FB-7CF9-45C1-956D-C4347AC89950}" WorkUnitID="{18029C21-36BA-447B-9F35-854E0B36B1B5}"/>
+							<Position X="4" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Stop_MenuTheme" ID="{9E6866C1-4CC9-4C7B-AD5A-BEC110251BFE}" WorkUnitID="{18029C21-36BA-447B-9F35-854E0B36B1B5}"/>
+							<Position X="4" Y="4"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Play_GrotteProgression" ID="{7062A8F5-C7AE-4C60-816C-1ED4FC4D631D}" WorkUnitID="{18029C21-36BA-447B-9F35-854E0B36B1B5}"/>
 							<Position X="4" Y="5"/>
 						</Module>

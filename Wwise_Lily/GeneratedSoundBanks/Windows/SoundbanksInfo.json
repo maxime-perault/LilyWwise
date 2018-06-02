@@ -203,6 +203,11 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Ambiances\\Marelle\\Play_Marelle_Rumbling"
      },
      {
+      "Id": "3757523130",
+      "Name": "Play_MenuTheme",
+      "ObjectPath": "\\Events\\Default Work Unit\\Soundscapes\\Menu principal\\Play_MenuTheme"
+     },
+     {
       "Id": "599449316",
       "Name": "Play_Soundscape_Cabane2",
       "ObjectPath": "\\Events\\Default Work Unit\\Soundscapes\\Cabane2\\Play_Soundscape_Cabane2"
@@ -280,6 +285,12 @@
       "Id": "3226568974",
       "Name": "Stop_Lightzone",
       "ObjectPath": "\\Events\\Default Work Unit\\Character\\Character_foleys\\Lightzone\\Stop_Lightzone",
+      "MaxAttenuation": "0.000000"
+     },
+     {
+      "Id": "2271744",
+      "Name": "Stop_MenuTheme",
+      "ObjectPath": "\\Events\\Default Work Unit\\Soundscapes\\Menu principal\\Stop_MenuTheme",
       "MaxAttenuation": "0.000000"
      },
      {
@@ -3174,6 +3185,12 @@
       "Path": "SFX\\Boss_Anim_Growl_1617AFA0.wem"
      },
      {
+      "Id": "907118779",
+      "Language": "SFX",
+      "ShortName": "End theme v1 (menu theme v2 TOTG) (Preview 2).wav",
+      "Path": "SFX\\End theme v1 (menu theme v2 TOTG) (Preview 2)_27A9F4A4.wem"
+     },
+     {
       "Id": "907123717",
       "Language": "SFX",
       "ShortName": "Hallu_NeMignorePas_2.wav",
@@ -3214,6 +3231,12 @@
       "Language": "SFX",
       "ShortName": "Hallu_Merveilleux_6.wav",
       "Path": "SFX\\Hallu_Merveilleux_6_1617AFA0.wem"
+     },
+     {
+      "Id": "925973845",
+      "Language": "SFX",
+      "ShortName": "Soundscape - O1 (Preview 1).wav",
+      "Path": "SFX\\Soundscape - O1 (Preview 1)_D4ED4C4D.wem"
      },
      {
       "Id": "928184125",

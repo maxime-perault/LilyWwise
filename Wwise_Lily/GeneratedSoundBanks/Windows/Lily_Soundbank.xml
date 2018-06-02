@@ -45,6 +45,7 @@
 				<Event Id="3210990662" Name="Play_HowlingWind" ObjectPath="\Events\Default Work Unit\Ambiances\O1\Play_HowlingWind"/>
 				<Event Id="353474919" Name="Play_Lightzone_Expand" ObjectPath="\Events\Default Work Unit\Character\Character_foleys\Lightzone\Play_Lightzone_Expand"/>
 				<Event Id="1852724809" Name="Play_Marelle_Rumbling" ObjectPath="\Events\Default Work Unit\Ambiances\Marelle\Play_Marelle_Rumbling"/>
+				<Event Id="3757523130" Name="Play_MenuTheme" ObjectPath="\Events\Default Work Unit\Soundscapes\Menu principal\Play_MenuTheme"/>
 				<Event Id="599449316" Name="Play_Soundscape_Cabane2" ObjectPath="\Events\Default Work Unit\Soundscapes\Cabane2\Play_Soundscape_Cabane2"/>
 				<Event Id="1396742852" Name="Play_Soundscape_Marelle" ObjectPath="\Events\Default Work Unit\Soundscapes\Marelle\Play_Soundscape_Marelle"/>
 				<Event Id="3152312914" Name="Play_Soundscape_O1" ObjectPath="\Events\Default Work Unit\Soundscapes\O1\Play_Soundscape_O1"/>
@@ -59,6 +60,7 @@
 				<Event Id="4280149425" Name="Stop_Hallucinations_O1" ObjectPath="\Events\Default Work Unit\Hallucinations\O1\Stop_Hallucinations_O1" MaxAttenuation="0.000000"/>
 				<Event Id="454955429" Name="Stop_Hallucinations_S1" ObjectPath="\Events\Default Work Unit\Hallucinations\S1\Stop_Hallucinations_S1" MaxAttenuation="0.000000"/>
 				<Event Id="3226568974" Name="Stop_Lightzone" ObjectPath="\Events\Default Work Unit\Character\Character_foleys\Lightzone\Stop_Lightzone" MaxAttenuation="0.000000"/>
+				<Event Id="2271744" Name="Stop_MenuTheme" ObjectPath="\Events\Default Work Unit\Soundscapes\Menu principal\Stop_MenuTheme" MaxAttenuation="0.000000"/>
 				<Event Id="2480346722" Name="Stop_Soundscape_Cabane2" ObjectPath="\Events\Default Work Unit\Soundscapes\Cabane2\Stop_Soundscape_Cabane2" MaxAttenuation="0.000000"/>
 				<Event Id="784713454" Name="Stop_Soundscape_Marelle" ObjectPath="\Events\Default Work Unit\Soundscapes\Marelle\Stop_Soundscape_Marelle" MaxAttenuation="0.000000"/>
 				<Event Id="1686107112" Name="Stop_Soundscape_O1" ObjectPath="\Events\Default Work Unit\Soundscapes\O1\Stop_Soundscape_O1" MaxAttenuation="0.000000"/>
@@ -1937,6 +1939,10 @@
 					<ShortName>Boss_Anim_Growl.wav</ShortName>
 					<Path>SFX\Boss_Anim_Growl_1617AFA0.wem</Path>
 				</File>
+				<File Id="907118779" Language="SFX">
+					<ShortName>End theme v1 (menu theme v2 TOTG) (Preview 2).wav</ShortName>
+					<Path>SFX\End theme v1 (menu theme v2 TOTG) (Preview 2)_27A9F4A4.wem</Path>
+				</File>
 				<File Id="907123717" Language="SFX">
 					<ShortName>Hallu_NeMignorePas_2.wav</ShortName>
 					<Path>SFX\Hallu_NeMignorePas_2_1617AFA0.wem</Path>
@@ -1964,6 +1970,10 @@
 				<File Id="925778969" Language="SFX">
 					<ShortName>Hallu_Merveilleux_6.wav</ShortName>
 					<Path>SFX\Hallu_Merveilleux_6_1617AFA0.wem</Path>
+				</File>
+				<File Id="925973845" Language="SFX">
+					<ShortName>Soundscape - O1 (Preview 1).wav</ShortName>
+					<Path>SFX\Soundscape - O1 (Preview 1)_D4ED4C4D.wem</Path>
 				</File>
 				<File Id="928184125" Language="SFX">
 					<ShortName>Boss_mvt_L1_12.wav</ShortName>
