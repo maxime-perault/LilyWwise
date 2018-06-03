@@ -163,6 +163,11 @@
       "MaxAttenuation": "4000.000000"
      },
      {
+      "Id": "1271008325",
+      "Name": "Play_End_theme_v1",
+      "ObjectPath": "\\Events\\Default Work Unit\\Soundscapes\\End\\Play_End_theme_v1"
+     },
+     {
       "Id": "1973086714",
       "Name": "Play_Fireflies_idle",
       "ObjectPath": "\\Events\\Default Work Unit\\Character\\Character_foleys\\Fireflies\\Play_Fireflies_idle",
@@ -260,6 +265,12 @@
       "Id": "1077533591",
       "Name": "Stop_CrowsDeathBlend",
       "ObjectPath": "\\Events\\Default Work Unit\\Enemies\\Crows\\Stop_CrowsDeathBlend",
+      "MaxAttenuation": "0.000000"
+     },
+     {
+      "Id": "1536998723",
+      "Name": "Stop_End_theme_v1",
+      "ObjectPath": "\\Events\\Default Work Unit\\Soundscapes\\End\\Stop_End_theme_v1",
       "MaxAttenuation": "0.000000"
      },
      {
@@ -3596,6 +3607,12 @@
       "Language": "SFX",
       "ShortName": "Door_open.wav",
       "Path": "SFX\\Door_open_1C9C67B2.wem"
+     },
+     {
+      "Id": "1045628876",
+      "Language": "SFX",
+      "ShortName": "End theme v1 (menu theme v2 TOTG) (Preview 2).wav",
+      "Path": "SFX\\End theme v1 (menu theme v2 TOTG) (Preview 2)_DA6750A3.wem"
      },
      {
       "Id": "1046988004",

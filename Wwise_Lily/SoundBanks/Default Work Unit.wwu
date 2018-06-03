@@ -5,6 +5,7 @@
 			<ChildrenList>
 				<SoundBank Name="Lily_Soundbank" ID="{EC89A286-CC53-4695-A5F3-E07646EFB375}">
 					<ObjectInclusionList>
+						<ObjectRef Name="Play_End_theme_v1" ID="{B7C9843D-587A-4027-8D81-DAD7E9FD09F3}" WorkUnitID="{18029C21-36BA-447B-9F35-854E0B36B1B5}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Lightzone_Expand" ID="{87261BDF-76F9-404C-A1B3-8A52325350AF}" WorkUnitID="{84EA8792-12FE-4E5E-950A-F7C12BDA81C4}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Marelle_Rumbling" ID="{569031BE-CCA7-40F0-9835-6DC572BADFB5}" WorkUnitID="{EDF099EF-7CA4-4D68-9584-78359919806C}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Stop_Soundscape_S1" ID="{93EADFED-F27B-4156-B047-03AC2D5EF0EF}" WorkUnitID="{18029C21-36BA-447B-9F35-854E0B36B1B5}" Filter="7" Origin="Manual"/>
@@ -35,6 +36,7 @@
 						<ObjectRef Name="Voiceline_S1_Cabane" ID="{F6969128-BB42-4673-921F-82E09E8F1048}" WorkUnitID="{0206CCDB-C58E-43B4-BE9A-B372D21E3FC7}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_AMB_Lake" ID="{6C10A59F-7F3F-4680-8093-02D825074345}" WorkUnitID="{EDF099EF-7CA4-4D68-9584-78359919806C}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Restart_StopAll" ID="{275D9B7B-5AA8-46CB-9190-65B3784FB0F0}" WorkUnitID="{4613B13D-0451-42D0-BD7A-5533B5617ED0}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Stop_End_theme_v1" ID="{3CE786FE-5019-46CF-BAEC-2A1574FFE3B2}" WorkUnitID="{18029C21-36BA-447B-9F35-854E0B36B1B5}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Stop_Hallucinations_S1" ID="{C40835D5-93AE-46DA-AD4B-4E6FA08C6543}" WorkUnitID="{55D3C94C-8131-48D1-B711-B6E327AFFD0E}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Stop_AAM_Music" ID="{5E49B5D7-DEE0-46EC-AF4D-BA5244D1BC76}" WorkUnitID="{18029C21-36BA-447B-9F35-854E0B36B1B5}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Hallucinations_O1" ID="{68B70C5D-B329-46EF-82CC-896956FDD980}" WorkUnitID="{55D3C94C-8131-48D1-B711-B6E327AFFD0E}" Filter="7" Origin="Manual"/>

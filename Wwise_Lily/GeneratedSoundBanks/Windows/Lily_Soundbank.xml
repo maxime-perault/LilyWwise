@@ -37,6 +37,7 @@
 				<Event Id="2292458263" Name="Play_Door_close" ObjectPath="\Events\Default Work Unit\Character\Cabane_foleys\Play_Door_close" MaxAttenuation="5000.000000"/>
 				<Event Id="1660008929" Name="Play_Door_open" ObjectPath="\Events\Default Work Unit\Character\Cabane_foleys\Play_Door_open" MaxAttenuation="5000.000000"/>
 				<Event Id="1889209142" Name="Play_Eboulement" ObjectPath="\Events\Default Work Unit\Ambiances\Grotte\Play_Eboulement" MaxAttenuation="4000.000000"/>
+				<Event Id="1271008325" Name="Play_End_theme_v1" ObjectPath="\Events\Default Work Unit\Soundscapes\End\Play_End_theme_v1"/>
 				<Event Id="1973086714" Name="Play_Fireflies_idle" ObjectPath="\Events\Default Work Unit\Character\Character_foleys\Fireflies\Play_Fireflies_idle" MaxAttenuation="1000.000000"/>
 				<Event Id="3038914928" Name="Play_Fireflies_idle_bocal" ObjectPath="\Events\Default Work Unit\Character\Character_foleys\Fireflies\Play_Fireflies_idle_bocal"/>
 				<Event Id="838160022" Name="Play_GrotteProgression" ObjectPath="\Events\Default Work Unit\Soundscapes\Arbre aux masques\Play_GrotteProgression"/>
@@ -56,6 +57,7 @@
 				<Event Id="2695565483" Name="Stop_AAM_Music" ObjectPath="\Events\Default Work Unit\Soundscapes\Arbre aux masques\Stop_AAM_Music" MaxAttenuation="0.000000"/>
 				<Event Id="3070002642" Name="Stop_Crows_Whispers" ObjectPath="\Events\Default Work Unit\Enemies\Crows\Stop_Crows_Whispers" MaxAttenuation="0.000000"/>
 				<Event Id="1077533591" Name="Stop_CrowsDeathBlend" ObjectPath="\Events\Default Work Unit\Enemies\Crows\Stop_CrowsDeathBlend" MaxAttenuation="0.000000"/>
+				<Event Id="1536998723" Name="Stop_End_theme_v1" ObjectPath="\Events\Default Work Unit\Soundscapes\End\Stop_End_theme_v1" MaxAttenuation="0.000000"/>
 				<Event Id="306205860" Name="Stop_Fireflies_idle" ObjectPath="\Events\Default Work Unit\Character\Character_foleys\Fireflies\Stop_Fireflies_idle" MaxAttenuation="0.000000"/>
 				<Event Id="3620721142" Name="Stop_Hallucinations_Grotte" ObjectPath="\Events\Default Work Unit\Hallucinations\Grotte\Stop_Hallucinations_Grotte" MaxAttenuation="0.000000"/>
 				<Event Id="244099117" Name="Stop_Hallucinations_Marelle" ObjectPath="\Events\Default Work Unit\Hallucinations\Marelle\Stop_Hallucinations_Marelle" MaxAttenuation="0.000000"/>
@@ -2208,6 +2210,10 @@
 				<File Id="1045286107" Language="SFX">
 					<ShortName>Door_open.wav</ShortName>
 					<Path>SFX\Door_open_1C9C67B2.wem</Path>
+				</File>
+				<File Id="1045628876" Language="SFX">
+					<ShortName>End theme v1 (menu theme v2 TOTG) (Preview 2).wav</ShortName>
+					<Path>SFX\End theme v1 (menu theme v2 TOTG) (Preview 2)_DA6750A3.wem</Path>
 				</File>
 				<File Id="1046988004" Language="SFX">
 					<ShortName>Leaves_7.wav</ShortName>

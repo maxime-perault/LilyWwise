@@ -280,6 +280,40 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="End" ID="{B309B8E3-A170-499A-8DD7-E52F7DF35A72}" ShortID="585047768">
+					<ChildrenList>
+						<Event Name="Play_End_theme_v1" ID="{B7C9843D-587A-4027-8D81-DAD7E9FD09F3}">
+							<ChildrenList>
+								<Action Name="" ID="{4D108BF5-3E38-4A80-9C8F-E0EE6105EF8E}" ShortID="62147534">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="End theme v1" ID="{5E141949-7387-4533-9D79-68C368E68DCA}" WorkUnitID="{70C4634E-397D-4AD0-AEA2-DE40622061AE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_End_theme_v1" ID="{3CE786FE-5019-46CF-BAEC-2A1574FFE3B2}">
+							<ChildrenList>
+								<Action Name="" ID="{F5719FCE-E0A1-48AD-9779-1819F2EC9183}" ShortID="611478173">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="End theme v1" ID="{5E141949-7387-4533-9D79-68C368E68DCA}" WorkUnitID="{70C4634E-397D-4AD0-AEA2-DE40622061AE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

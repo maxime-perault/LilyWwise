@@ -3420,6 +3420,41 @@
 								</RandomSequenceContainer>
 							</ChildrenList>
 						</ActorMixer>
+						<ActorMixer Name="End" ID="{F8B70B72-C527-4D69-8E1F-2489EC61FBCA}" ShortID="228816335">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="End theme v1" ID="{5E141949-7387-4533-9D79-68C368E68DCA}" ShortID="313835529">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5952C1F3-1D7A-48A0-A341-59943FFF2E9A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B53002A-92EA-4F61-BF0A-1EF59F579B00}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="End theme v1 (menu theme v2 TOTG) (Preview 2)" ID="{A5387244-D2AD-4A30-BCA7-FB24E69FB89A}" ShortID="1045628876">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="9.4273756377551"/>
+												<Property Name="TrimBegin" Type="Real64" Value="17.7773369169096"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>End theme v1 (menu theme v2 TOTG) (Preview 2).wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="End theme v1 (menu theme v2 TOTG) (Preview 2)" ID="{A5387244-D2AD-4A30-BCA7-FB24E69FB89A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</ActorMixer>
 					</ChildrenList>
 				</ActorMixer>
 			</ChildrenList>
